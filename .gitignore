@@ -19,3 +19,5 @@ wheels/
 # Generated experiment artifacts; keep the directory guide
 /output/*
 !/output/README.md
+/outputs/*
+!/outputs/README.md
