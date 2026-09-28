@@ -17,5 +17,5 @@ wheels/
 /data/processed/
 
 # Generated experiment artifacts; keep the directory guide
-/outputs/*
-!/outputs/README.md
+/output/*
+!/output/README.md
