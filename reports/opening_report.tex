@@ -1,0 +1,288 @@
+% !TeX program = xelatex
+% Overleaf: Menu -> Compiler -> XeLaTeX
+\documentclass[UTF8,zihao=-4,scheme=chinese]{ctexart}
+
+\usepackage[a4paper,top=2.6cm,bottom=2.5cm,left=2.8cm,right=2.8cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs,tabularx,array,multirow}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+
+\definecolor{linkblue}{RGB}{25,75,135}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkblue,
+  citecolor=linkblue,
+  urlcolor=linkblue,
+  pdftitle={小样本细粒度图像分类的跨数据集泛化研究开题报告},
+  pdfauthor={待填写}
+}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.15em}
+\setstretch{1.38}
+\setlist{nosep,leftmargin=2.5em}
+\renewcommand{\arraystretch}{1.25}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{小样本细粒度图像分类的跨数据集泛化研究开题报告}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+
+\newcommand{\blankline}{\underline{\hspace{4.8cm}}}
+\newcommand{\E}{\mathbb{E}}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{2.0cm}
+  {\zihao{1}\bfseries 模式识别课程开题报告\par}
+  \vspace{1.8cm}
+  {\zihao{2}\bfseries 小样本细粒度图像分类的\par}
+  \vspace{0.35cm}
+  {\zihao{2}\bfseries 跨数据集泛化研究\par}
+  \vspace{2.2cm}
+  \renewcommand{\arraystretch}{1.8}
+  \begin{tabular}{>{\bfseries}r l}
+    课题编号： & A03 \\
+    学生姓名： & \blankline \\
+    学\hspace{2em}号： & \blankline \\
+    专业班级： & \blankline \\
+    指导教师： & \blankline \\
+    完成日期： & \today
+  \end{tabular}
+  \vfill
+  {\zihao{-3}云南民族大学\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{题目}
+
+\textbf{小样本细粒度图像分类的跨数据集泛化研究。}
+
+本课题面向鸟类图像中的小样本细粒度识别问题，研究模型在训练类别、测试类别以及数据来源均发生变化时的泛化能力。训练阶段以 CUB-200-2011 为主要数据集，在类别互不相交的前提下构造 5-way 1-shot 和 5-way 5-shot episode；测试阶段一方面使用 CUB 内部未见类别评价“跨类别泛化”，另一方面使用 NABirds 中与训练物种不重叠的类别评价真正的“跨数据集泛化”。研究将复现原型网络与匹配网络，围绕特征骨干、预训练方式和距离度量开展对照实验，分析细粒度外观差异、背景变化和数据域偏移共同作用下的性能损失。
+
+\section{研究目标}
+
+本课题的总体目标是建立一套可复现、可比较的小样本细粒度跨数据集评价流程，并在相同 episode 协议下探索提升原型网络跨域识别能力的有效方案。具体目标如下。
+
+\begin{enumerate}[label=\arabic*.]
+  \item \textbf{建立严格的数据协议。} 对 CUB-200-2011 的 200 个鸟类类别进行训练、验证和测试划分，保证三个集合类别互斥；进一步依据物种名称而不是类别编号核对 CUB 与 NABirds 的重叠类别，构造无物种泄漏的跨数据集测试子集。support 与 query 图像在每个 episode 内互斥，测试集不参与模型选择。
+  \item \textbf{实现可靠基线。} 在统一数据增强、episode 数、优化器和评估次数下复现原型网络与匹配网络，报告 CUB 内跨类别测试和 CUB 到 NABirds 跨数据集测试的 1-shot/5-shot 准确率、标准差和置信区间。
+  \item \textbf{研究特征表示与度量方式。} 以 ResNet-18 为主要骨干，对比随机初始化、ImageNet 监督预训练和自监督对比学习预训练；在同一嵌入上对比平方欧氏距离、余弦距离和带正则化的马氏距离，考察特征质量与度量选择对泛化差距的贡献。
+  \item \textbf{形成可验证的改进方法。} 计划采用“自监督初始化 + episode 级特征标准化/协方差收缩 + 可学习温度”的组合方法，使跨数据集 5-way 测试准确率相对基础原型网络提高至少 5 个百分点。该数值是研究目标而非预设结论，最终是否达到将由多随机种子实验决定。
+  \item \textbf{解释模型失效原因。} 从姿态、尺度、光照、局部遮挡、背景依赖、类间高相似和类内差异等因素分析错误样本，并通过消融实验回答：跨数据集泛化瓶颈主要来自特征提取能力不足，还是来自嵌入空间的对齐与距离度量不适配。
+\end{enumerate}
+
+\section{研究内容}
+
+\subsection{问题定义与评价场景}
+
+设一个 $N$-way $K$-shot 分类任务由支持集 $S$ 与查询集 $Q$ 构成，其中 $N=5$，每类在支持集中含 $K\in\{1,5\}$ 张有标签图像。训练过程按 episode 采样，使训练目标与测试时“从极少标注样本识别新类别”的形式一致。设特征提取网络为 $f_{\theta}$，类别 $k$ 的支持样本集合为 $S_k$，原型网络的类别原型为
+\begin{equation}
+  \bm{c}_k=\frac{1}{|S_k|}\sum_{(\bm{x}_i,y_i)\in S_k}f_{\theta}(\bm{x}_i),
+\end{equation}
+查询图像 $\bm{x}$ 属于类别 $k$ 的概率为
+\begin{equation}
+  p_{\theta}(y=k\mid\bm{x})=
+  \frac{\exp[-d(f_{\theta}(\bm{x}),\bm{c}_k)/\tau]}
+  {\sum_{j=1}^{N}\exp[-d(f_{\theta}(\bm{x}),\bm{c}_j)/\tau]},
+\end{equation}
+其中 $d(\cdot,\cdot)$ 为距离函数，$\tau$ 为固定或可学习温度。模型通过最小化 query 集交叉熵进行训练。匹配网络则不先求类别均值，而是利用 query 与全部 support 表示之间的注意力权重进行标签加权，用于检验“单原型假设”在细粒度类别中的适用程度\cite{vinyals2016matching,snell2017prototypical}。
+
+本研究设置两个不能混淆的评价场景。场景一是 CUB 内部跨类别：训练集和测试集来自同一数据集，但物种互不相交，主要测量模型对新类别的适应能力。场景二是 CUB $\rightarrow$ NABirds：训练与测试不仅类别不相交，采集来源、图像风格、背景分布和标签体系也发生改变，属于跨数据集泛化。报告中将分别给出两个场景的结果，并定义泛化差距
+\begin{equation}
+  \Delta_{\mathrm{gen}}=\mathrm{Acc}_{\mathrm{CUB\ novel}}-
+  \mathrm{Acc}_{\mathrm{CUB\rightarrow NABirds}},
+\end{equation}
+避免用同域未见类别结果代替跨域结果。
+
+从方法发展看，孪生式对比损失通过拉近同类、推远异类样本建立可迁移嵌入，是后续度量学习方法的重要基础\cite{hadsell2006dimensionality}；MAML 则从“学习一个可快速适应的初始化”出发代表优化式元学习路线\cite{finn2017maml}。已有统一基准研究指出，公平的数据增强、骨干网络和训练协议会显著改变不同少样本算法的相对排名\cite{chen2019closer}，相关综述也将数据、模型和算法层面的先验知识视为少样本学习的主要信息来源\cite{wang2020generalizing}。因此，本课题不追求堆叠复杂模块，而是依据模式分类中“表示与距离共同决定决策边界”的基本观点\cite{mah2000pattern}，以严格控制变量的方式定位跨数据集性能下降的来源。
+
+\subsection{数据划分与 episode 构造}
+
+CUB-200-2011 含 200 个鸟类类别、11788 张图像，并提供边界框、部位和属性标注\cite{wah2011cub}。本项目现有划分清单采用 100/50/50 个类别作为训练/验证/测试集合；开题后的第一项工作是通过脚本验证类别数、图像路径、集合交集和每类样本量，并把随机种子与清单版本固化。NABirds 含 48562 张图像和 555 个类别，具有更细的层级标签以及边界框、部位等标注\cite{vanhorn2015nabirds}。跨数据集实验首先规范化物种名称，结合属名、种名与层级标签生成候选映射，再人工复核同物异名、亚种与父子类别关系；任何可能与 CUB 训练物种重叠的 NABirds 类别均从测试候选中排除。
+
+每个 episode 从候选类别中无放回采样 5 类，再对每类采样 $K$ 张 support 和固定数量的 query。初步计划每类取 15 张 query；若某类样本不足，则预先过滤或在配置中统一降低 query 数，不能在类别间采用不同规则。训练、验证和测试的随机数生成器相互独立。所有方法共享同一批测试 episode，从而降低由于任务抽样差异造成的方差。边界框只用于可选消融，不作为默认输入，以免跨数据集标注条件不同造成不公平比较。
+
+\subsection{基线、改进方法与消融因素}
+
+基线模型包括原型网络和匹配网络。骨干统一以 ResNet-18 为主，并保留一个较浅卷积网络作为容量对照。ResNet 的残差连接有利于优化更深的视觉表示\cite{he2016resnet}。预训练对比分为三组：随机初始化、ImageNet 监督预训练、自监督对比学习预训练。SimCLR 表明数据增强组合、非线性投影头和对比目标会显著影响表征质量\cite{chen2020simclr}，因此本研究将使用公开可追溯的预训练权重，并记录其数据来源；考虑到 CUB 图像可能与 ImageNet/Flickr 来源存在重叠，报告中会专门声明潜在预训练数据泄漏风险，不把预训练结果与完全从零训练简单等同。
+
+距离度量设置为：平方欧氏距离 $d_E(\bm{u},\bm{v})=\|\bm{u}-\bm{v}\|_2^2$；归一化余弦距离 $d_C=1-\frac{\bm{u}^{\mathsf T}\bm{v}}{\|\bm{u}\|_2\|\bm{v}\|_2}$；以及马氏距离
+\begin{equation}
+  d_M(\bm{u},\bm{v})=(\bm{u}-\bm{v})^{\mathsf T}
+  \widehat{\bm{\Sigma}}^{-1}(\bm{u}-\bm{v}).
+\end{equation}
+由于 1-shot 条件下无法稳定估计类内协方差，$\widehat{\bm{\Sigma}}$ 不直接按单类估计，而由 episode 内所有支持特征的共享协方差与单位阵进行收缩组合；同时限制最小特征值或使用对角近似，防止矩阵奇异。改进模型还将在 episode 内对特征进行中心化和尺度归一化，以减轻源域与目标域特征均值、方差变化带来的影响。上述设计参数仅用 CUB 验证类别选择，NABirds 测试标签不得用于调参。
+
+计划开展的消融包括：骨干类型、预训练方式、距离度量、是否特征标准化、是否协方差收缩、温度是否可学习、训练 episode 数和 shot 数。为控制变量，每次只改变一个主因素，并设置“原型网络 + ResNet-18 + ImageNet 预训练 + 欧氏距离”为主基线。跨域小样本研究表明，源域与目标域差异增大时，复杂元学习方法不一定优于简单迁移学习，这说明应同时检验表示迁移与 episode 学习的作用\cite{guo2020broader}。
+
+\subsection{误差分析与研究产出}
+
+对各模型共同出错、仅基线出错以及仅改进模型出错的 query 图像进行分层抽样，记录姿态偏转、目标尺度、遮挡、光照、背景干扰、雌雄/幼成差异和相似物种混淆等标签。结合混淆矩阵、嵌入可视化和类间/类内距离分布，判断模型是否依赖背景、是否出现目标域特征整体偏移，以及单原型是否无法覆盖多模态类内分布。最终产出包括可复现的数据清单、训练与评估代码、配置文件、原始指标、消融表格、错误案例图和课程报告。
+
+\section{关键技术}
+
+\begin{enumerate}[label=\arabic*.]
+  \item \textbf{episode 式小样本学习。} 将训练、验证和测试统一表示为 5-way 任务，分别支持 1-shot 与 5-shot，确保训练目标与测试形式一致。
+  \item \textbf{深度度量学习。} 通过原型网络的类别中心或匹配网络的注意力邻居完成非参数分类，重点比较欧氏、余弦和正则化马氏距离对细粒度特征结构的适配性。
+  \item \textbf{迁移学习与自监督表征。} 采用 ResNet-18 提取视觉特征，比较监督与对比学习预训练，以较少标签获得更稳定的局部纹理、形状和部位表征。
+  \item \textbf{跨数据集类别对齐。} 根据可读物种名称及层级信息建立 CUB 与 NABirds 的映射和排除表，处理别名、亚种和粒度不一致，防止测试物种泄漏。
+  \item \textbf{稳健协方差估计。} 在支持样本极少时使用共享协方差、对角近似和 shrinkage 正则化构造马氏度量，避免直接求逆导致数值不稳定。
+  \item \textbf{统计评价。} 在至少 3 个独立随机种子上训练，每个检查点使用固定的大量测试 episode，报告均值、标准差和 95\% 置信区间。episode 准确率为 $a_1,\ldots,a_T$ 时，基础区间估计为
+  \begin{equation}
+    \bar a\pm1.96\frac{s}{\sqrt{T}},\qquad
+    s^2=\frac{1}{T-1}\sum_{t=1}^{T}(a_t-\bar a)^2.
+  \end{equation}
+  同时将“训练种子间波动”和“同一模型的 episode 抽样波动”分开说明；比较方法时优先在共享 episode 上计算配对差值，并视分布情况采用配对 bootstrap 置信区间。
+\end{enumerate}
+
+\section{技术路线}
+
+本课题按照“协议先行、基线复现、逐项改进、统计验证、错误归因”的路线推进：
+
+\begin{enumerate}[label=\textbf{阶段\arabic*：}]
+  \item \textbf{资料调研与协议固化。} 阅读小样本学习、细粒度识别、迁移学习和跨域泛化文献；检查 CUB 与 NABirds 的许可、目录结构与标注；生成带哈希或版本号的类别清单，编写划分泄漏、support/query 互斥和采样可重复性的单元测试。
+  \item \textbf{统一数据管线。} 实现图像解码、训练增强、验证预处理和 episode 采样器。训练增强包括随机裁剪、水平翻转和适度颜色扰动，验证/测试使用确定性缩放与中心裁剪。所有方法共享输入分辨率和归一化参数。
+  \item \textbf{复现两类基线。} 先在少量 episode 上执行过拟合检查，确认损失可下降和标签映射正确；再完整训练原型网络、匹配网络，记录最佳验证检查点与资源消耗。
+  \item \textbf{开展表示与度量实验。} 固定主基线后，依次替换骨干初始化和距离函数；加入 episode 级特征标准化、共享协方差收缩及温度校准，所有超参数只依据验证集确定。
+  \item \textbf{双场景评估。} 在 CUB 未见类和 NABirds 非重叠物种上复用固定测试 episode，分别报告 1-shot/5-shot 结果及 $\Delta_{\mathrm{gen}}$，不得用目标测试集反向选择模型。
+  \item \textbf{消融与解释。} 对关键组件进行逐项移除，分析准确率、置信区间、嵌入分布与错误类型，验证至少 5 个百分点的目标是否达到，并讨论未达到时的原因和方法边界。
+\end{enumerate}
+
+\begin{table}[htbp]
+  \centering
+  \caption{主要对照实验矩阵}
+  \label{tab:matrix}
+  \small
+  \begin{tabularx}{\textwidth}{p{2.3cm}p{2.7cm}p{3.2cm}X}
+    \toprule
+    因素 & 设置 & 主要控制变量 & 目的 \\
+    \midrule
+    方法 & ProtoNet、MatchingNet & 骨干、增强、episode & 建立可比较基线 \\
+    预训练 & 随机、监督、自监督 & ResNet-18、距离 & 分离表征初始化贡献 \\
+    距离 & 欧氏、余弦、马氏 & 相同嵌入与温度 & 检验度量适配性 \\
+    标准化 & 无、episode 标准化 & 主基线其余设置 & 缓解域级均值与尺度偏移 \\
+    任务 & 1-shot、5-shot & 相同类别与 query 规则 & 分析标注量敏感性 \\
+    场景 & CUB 内、CUB 到 NABirds & 相同评估代码 & 测量真实跨数据集损失 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{数据来源}
+
+\begin{table}[htbp]
+  \centering
+  \caption{计划使用的数据与用途}
+  \label{tab:data}
+  \small
+  \begin{tabularx}{\textwidth}{p{2.4cm}p{2.2cm}p{2.3cm}X}
+    \toprule
+    数据集 & 规模 & 计划用途 & 说明 \\
+    \midrule
+    CUB-200-2011 & 200 类，11788 图 & 训练、验证、同域未见类测试 & 官方提供图像、类别、边界框、部位与属性标注；默认实验只使用图像和类别标签\cite{wah2011cub} \\
+    NABirds & 555 类，48562 图 & 跨数据集测试 & 使用公开数据，依据物种名称与层级标签排除训练物种重叠；仅用于最终评价\cite{vanhorn2015nabirds} \\
+    ImageNet 预训练权重 & 公开模型权重 & 监督预训练对照 & 记录框架版本和权重标识；讨论与 CUB 潜在图像来源重叠的限制 \\
+    自监督预训练权重 & 公开可追溯权重 & 自监督初始化对照 & 优先选用明确说明训练数据和算法配置的 ResNet 权重 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+数据只用于课程学习与非商业研究，遵守原数据集许可，不把大规模原始图像提交到代码仓库。仓库保存下载说明、校验信息、相对路径清单和处理脚本。数据质量方面，将检查损坏文件、重复图像、空类别和类别层级冲突。NABirds 论文指出高质量细粒度数据仍可能包含标注误差，而专家整理的测试集对于可信评价十分重要\cite{vanhorn2015nabirds}；因此误差分析中会把可能的标签噪声与模型错误区分开来。
+
+\section{实验分析方案}
+
+\subsection{评价指标与记录方式}
+
+主指标为 5-way episode 平均分类准确率，分别报告 1-shot 与 5-shot。辅助指标包括宏平均 F1、负对数似然、期望校准误差、CUB 内与跨数据集准确率差 $\Delta_{\mathrm{gen}}$，以及每类/每错误因素的准确率。主结论以准确率及其 95\% 置信区间为依据，辅助指标用于解释而不替代主指标。所有实验记录配置、代码版本、数据清单版本、设备、随机种子、训练 episode 数、最佳验证轮次和测试 episode ID。
+
+每个核心设置至少运行 3 个随机种子；条件允许时增加到 5 个。每个种子先在固定验证 episode 上选择检查点，再在固定测试 episode 上一次性评价。为保证公平，基线与改进模型使用相同测试任务。若资源有限，将优先保证主基线、完整改进模型和关键消融的多种子结果，而不是铺开大量无法重复的组合。
+
+\subsection{结果表与显著性判断}
+
+最终结果至少包含四张表：一是原型网络与匹配网络基线；二是预训练方式对比；三是三种距离度量及标准化/收缩消融；四是 CUB 内和 CUB 到 NABirds 的泛化差距。每张表同时给出 1-shot、5-shot、均值、区间和种子数。对于“提升至少 5 个百分点”的目标，采用绝对百分点计算，例如从 40\% 提升到 45\% 记为 5 个百分点，而不是 12.5\% 的相对提升。只有当多种子均值达到目标且配对差值置信区间支持稳定改进时，才宣称达到目标。
+
+\subsection{错误分析与有效性威胁}
+
+错误分析先自动导出 query 图像、真实标签、预测标签、置信度、最近原型和对应支持图像，再人工标注错误因素。对高置信度错误重点检查标签噪声、物种名称映射和背景捷径；对低置信度错误检查类间边界与支持样本代表性。使用 UMAP 或 t-SNE 仅作辅助可视化，不以二维投影替代定量证据。
+
+内部有效性威胁包括数据泄漏、不同方法使用不同 episode、测试集调参、预训练权重来源不明和随机波动；将通过互斥断言、共享 episode、验证集选模和完整日志控制。外部有效性方面，本研究主要限于鸟类自然图像，结论不能直接推广到医学或遥感图像；CUB 与 NABirds 同属鸟类数据，跨域幅度也小于不同成像模态。构念有效性方面，单一准确率不能完全代表泛化能力，因此同时报告泛化差距、校准与错误类型。若 5 个百分点目标未达成，也将如实报告，并从表征、度量、域偏移强度和样本数量解释原因。
+
+\section{预期结论与进度安排}
+
+\subsection{预期结论}
+
+本课题预期得到以下可检验结论，而非提前确定的实验事实：其一，CUB 内未见类别准确率预计高于 CUB 到 NABirds 的准确率，说明类别迁移之外还存在数据域偏移；其二，预训练特征预计比从零训练在小样本设置中更稳定，自监督与监督预训练的优劣可能随目标域偏移和数据增强而变化；其三，欧氏距离可能在原型网络中形成较好的基线，但当目标域各维尺度或相关性变化明显时，经过正则化的马氏距离和 episode 标准化可能更有优势；其四，1-shot 更受支持样本偶然性影响，5-shot 原型估计更稳定；其五，跨域错误可能集中在背景改变、姿态遮挡和高度相似物种上。
+
+最终将基于消融结果回答核心问题：如果替换预训练方式带来的增益显著大于替换距离方式，瓶颈主要在可迁移特征；如果固定特征后，标准化与马氏度量显著缩小 $\Delta_{\mathrm{gen}}$，则说明特征对齐和度量方式是重要限制；若两者结合才稳定提升，则认为跨数据集泛化由表征质量与度量失配共同决定。
+
+\subsection{进度安排}
+
+\begin{table}[htbp]
+  \centering
+  \caption{研究进度安排}
+  \label{tab:schedule}
+  \small
+  \begin{tabularx}{\textwidth}{p{2.2cm}p{3.0cm}X}
+    \toprule
+    时间 & 阶段 & 主要任务与里程碑 \\
+    \midrule
+    第 1--2 周 & 调研与协议 & 阅读文献，核对课程要求，固定 CUB 划分和跨数据集排除规则 \\
+    第 3--4 周 & 数据管线 & 完成完整性检查、episode 采样、数据增强和自动化测试；提交开题报告 \\
+    第 5--6 周 & 基线复现 & 完成 ProtoNet、MatchingNet 和 ResNet-18 骨干，得到可复现基线 \\
+    第 7--8 周 & 表征实验 & 比较随机、ImageNet 监督与自监督初始化，确定主基线 \\
+    第 9--10 周 & 度量改进 & 实现余弦/马氏距离、特征标准化、协方差收缩和温度校准 \\
+    第 11--12 周 & 完整评估 & 完成多随机种子 1-shot/5-shot、CUB 内与跨数据集测试 \\
+    第 13 周 & 分析与补实验 & 完成消融、置信区间、混淆矩阵及典型错误归因 \\
+    第 14 周 & 报告与答辩 & 整理代码、图表、结论和局限，完成课程报告与展示材料 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{参考文献}
+
+\begin{thebibliography}{99}
+  \bibitem{vinyals2016matching}
+  Vinyals O, Blundell C, Lillicrap T, et al. Matching Networks for One Shot Learning[C]//Advances in Neural Information Processing Systems. 2016, 29.
+
+  \bibitem{snell2017prototypical}
+  Snell J, Swersky K, Zemel R. Prototypical Networks for Few-shot Learning[C]//Advances in Neural Information Processing Systems. 2017, 30.
+
+  \bibitem{wah2011cub}
+  Wah C, Branson S, Welinder P, et al. The Caltech-UCSD Birds-200-2011 Dataset[R]. California Institute of Technology, CNS-TR-2011-001, 2011.
+
+  \bibitem{vanhorn2015nabirds}
+  Van Horn G, Branson S, Farrell R, et al. Building a Bird Recognition App and Large Scale Dataset with Citizen Scientists: The Fine Print in Fine-Grained Dataset Collection[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015: 595--604.
+
+  \bibitem{he2016resnet}
+  He K, Zhang X, Ren S, et al. Deep Residual Learning for Image Recognition[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016: 770--778.
+
+  \bibitem{chen2020simclr}
+  Chen T, Kornblith S, Norouzi M, et al. A Simple Framework for Contrastive Learning of Visual Representations[C]//Proceedings of the 37th International Conference on Machine Learning. 2020: 1597--1607.
+
+  \bibitem{guo2020broader}
+  Guo Y, Codella N C F, Karlinsky L, et al. A Broader Study of Cross-Domain Few-Shot Learning[C]//Computer Vision -- ECCV 2020. 2020: 124--141.
+
+  \bibitem{finn2017maml}
+  Finn C, Abbeel P, Levine S. Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks[C]//Proceedings of the 34th International Conference on Machine Learning. 2017: 1126--1135.
+
+  \bibitem{hadsell2006dimensionality}
+  Hadsell R, Chopra S, LeCun Y. Dimensionality Reduction by Learning an Invariant Mapping[C]//Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition. 2006: 1735--1742.
+
+  \bibitem{mah2000pattern}
+  Duda R O, Hart P E, Stork D G. Pattern Classification[M]. 2nd ed. New York: Wiley, 2000.
+
+  \bibitem{chen2019closer}
+  Chen W Y, Liu Y C, Kira Z, et al. A Closer Look at Few-shot Classification[C]//International Conference on Learning Representations. 2019.
+
+  \bibitem{wang2020generalizing}
+  Wang Y, Yao Q, Kwok J T, et al. Generalizing from a Few Examples: A Survey on Few-shot Learning[J]. ACM Computing Surveys, 2020, 53(3): 1--34.
+\end{thebibliography}
+
+\end{document}

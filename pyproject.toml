@@ -4,11 +4,20 @@ version = "0.1.0"
 description = "A03: Cross-dataset generalization for few-shot fine-grained image classification"
 readme = "README.md"
 authors = [
-    { name = "Caesar566", email = "2359789791qq.com" }
+    { name = "Caesar566", email = "2359789791@qq.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.11,<3.12"
 dependencies = [
+    "torch",
+    "torchvision",
     "kagglehub>=1.0.2",
+    "numpy<2.0.0",
+    "pandas",
+    "pillow",
+    "pyyaml",
+    "scikit-learn",
+    "scipy",
+    "tqdm",
 ]
 
 [project.scripts]
@@ -17,3 +26,13 @@ pattern-recognition-coursework = "pattern_recognition_coursework:main"
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
 build-backend = "uv_build"
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
