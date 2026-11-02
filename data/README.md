@@ -1,5 +1,5 @@
 # 数据与划分
 
-原始 CUB 数据暂保留在根目录 `cub2002011/`，避免影响已有下载。后续可将新增原始数据放在 `raw/`，处理结果放在 `processed/`；两者均不提交 Git。
+`raw/CUB_200_2011/` 是已有的 CUB 原始图像和官方元数据；`raw/nabirds/` 是 NABirds 官方压缩包经校验后的目标目录。`splits/` 保存版本化的 CUB 类别/图像清单及后续人工审核的 NABirds 清单。`cache/` 放工程内下载缓存。原始图像和缓存不提交 Git。
 
-`split` 文件统一放在 `splits/`，数据路径通过后续配置指定。
+目前 `raw/nabirds/` 尚不存在。NABirds 官方页面通过下载表单提供数据；取得官方压缩包后运行 `uv run python scripts/import_nabirds.py <压缩包路径>`，再按 `docs/nabirds_protocol.md` 审核物种重叠。不要用未经核实的第三方镜像替换官方数据。

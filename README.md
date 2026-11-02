@@ -1,99 +1,61 @@
-# A03：小样本细粒度图像分类的跨数据集泛化研究
+# A03 小样本细粒度鸟类分类的跨数据集泛化
 
-本项目用于模式识别课程 A03 课题。当前已完成项目目录整理，保留数据下载脚本，并为后续实现预留模块和说明文档；**模型、训练、评估与实验结果尚未实现**。
+工程以 [开题报告](docs/reference/A03_模式识别开题报告.pdf) 为研究协议。主线是 ResNet-18 + ProtoNet 全局原型、DN4 式局部描述子匹配及两者融合；Matching Networks、监督最近类中心、距离与预训练来源是对照。**5 个百分点是 NABirds 跨数据集测试的研究目标，当前没有正式实验结论。**
 
-## 课题目标
+## 已实现
 
-依据课程题目，在 CUB-200-2011 上以 **5-way 1-shot** 设置训练，在 NABirds 或 CUB 中与训练物种不相交的子集上测试，研究泛化损失。目标是在相同评估协议下，测试准确率相对基础原型网络提升至少 **5 个百分点**；这是研究目标，尚非已取得结果。
+- CUB-200-2011 的 100/50/50 类清单、官方元数据校验、可重复且 support/query 无交集的 episode 计划。
+- ResNet-18 全局原型、平方欧氏/余弦/收缩马氏距离、简化匹配注意力、带上下文编码的 Matching Networks、DN4 式局部匹配和全局局部融合；可选 support 统计量标准化、温度与线性适配器。
+- episodic、监督特征学习和监督后 episodic 微调三种训练路径。仅用固定验证任务选最佳检查点；测试任务保存为 JSON，能在独立评估命令中复用。
+- NABirds 的层级类别和物种审核工具。它先生成待人工复核清单，只有明确确认不重叠的物种才能生成目标域测试清单。评估记录准确率、NLL、macro-F1、ECE、局部任务槽位混淆矩阵和可选错误样本。
+- 至少 3 个训练种子的配对置信区间与 CUB→NABirds 泛化差距汇总。比较前核对测试 episode 计划、清单哈希和实验协议。
 
-主要研究内容：
+已完成一轮 CUB 未见类 3 种子基线与固定融合权重比较，协议、原始结果和限制见 [CUB 第一轮实验](reports/cub_study_v1.md)。该轮 1-shot 未见提升，5-shot 的小幅差异也不能排除零差异。
 
-- 复现原型网络（Prototypical Networks）与匹配网络（Matching Networks）。
-- 制定训练、验证、测试物种互不相交的数据划分协议。
-- 比较 ResNet-18、ImageNet 预训练与自监督预训练骨干。
-- 比较欧氏、余弦及马氏距离，分析骨干、度量和训练 episode 数的影响。
-- 汇总 1-shot/5-shot 准确率、至少 3 个随机种子的结果及置信区间，分析姿态、光照、局部遮挡等错误因素。
+第二轮 [CUB 验证集优化](reports/cub_optimization_v2.md) 扫描了 1-shot 融合权重，并分别训练了 5-shot ProtoNet 与固定权重融合模型。在当前短训练、冻结主干设置下，1-shot 验证集选择全局特征，5-shot 权重 0.5 的融合在三个种子上也未优于 ProtoNet。该轮没有新的测试结果；原先的 CUB 测试划分已被查看，后续复评需标为探索性。
 
-CUB 内不相交类别测试与 CUB → NABirds 跨数据集测试应分别报告，不能将前者直接称为跨数据集结果。最终结合实验回答：泛化瓶颈主要来自特征，还是特征的对齐与度量方式。
+[CUB 范围进展汇总](reports/cub_progress_2026-10-23.md) 集中列出匹配方式、距离、随机/监督/SimCLR 初始化、适配范围和第一轮错误审计的具体结果与未完成项。它区分验证结果、已查看的第一轮测试结果及仍需人工核验的错误因素。
 
-## 项目结构与文件作用
+[CUB 后续验证](reports/cub_followup_2026-10-23.md) 补齐可训练上下文 Matching Networks 的 1-shot/5-shot 三种子对照、监督最近类中心基线、较长训练预算及 8 张错误图像的人工观察。所有新增模型数字均为验证集结果；在当前配置下尚未看到相对全局余弦 ProtoNet 的稳定收益。
 
-下列目录中的 `README.md` 均用于说明模块职责、记录后续实现内容。`data/raw/`、`data/processed/` 和 `outputs/` 下的产物目录仅在本地预留，不纳入 Git；新环境按需创建。
+## 数据
 
-```text
-Pattern_Recognition_Coursework/
-├── README.md                         # 项目入口：目标、目录说明、进度与使用方式
-├── .gitignore                        # 忽略虚拟环境、数据、缓存及实验产物
-├── .python-version                   # 项目现有 Python 版本声明
-├── pyproject.toml                    # 项目元信息、依赖、构建与命令入口
-├── uv.lock                           # uv 依赖锁定文件
-├── docs/                             # 课题资料与实验协议
-│   ├── README.md                     # 资料说明及待补充文档
-│   ├── Topic_Selection.md             # 原有课程选题记录
-│   └── 模式识别题目.pdf                # 原始课程题目资料
-├── scripts/                          # 可执行辅助脚本
-│   ├── README.md                     # 下载脚本说明与后续入口规划
-│   └── dataset_get.py                # 通过 KaggleHub 下载 CUB 并打印路径
-├── configs/                          # 预留数据、模型和实验配置
-│   └── README.md                     # 配置参数约定
-├── cub2002011/                       # 已有本地数据目录，保留原位置，不提交
-├── data/                             # 新增数据与可复现划分
-│   ├── README.md                     # 数据路径与存储约定
-│   ├── raw/                          # 预留新增原始数据（不提交）
-│   ├── processed/                    # 预留处理后数据（不提交）
-│   └── splits/                       # 预留可提交的类别划分清单
-│       └── README.md                 # 物种不相交与划分记录要求
-├── src/
-│   └── pattern_recognition_coursework/
-│       ├── __init__.py               # 现有包与示例命令入口，尚非训练入口
-│       ├── data/                     # 数据读取、变换、support/query episode 采样
-│       ├── models/                   # 原型网络、匹配网络
-│       │   ├── backbones/            # ResNet-18 与预训练骨干适配
-│       │   └── metrics/              # 欧氏、余弦、马氏距离
-│       ├── engine/                   # 训练循环、验证、检查点与评估
-│       ├── analysis/                 # 指标统计、泛化差距、消融与错误归因
-│       └── utils/                    # 随机种子、配置、日志与通用工具
-├── notebooks/                        # 预留数据探索和可视化笔记本
-├── tests/                            # 预留划分、采样、模型和流程检查
-├── outputs/                          # 自动生成的实验产物（仅 README 提交）
-│   ├── README.md                     # 输出存储约定
-│   ├── checkpoints/                 # 模型权重
-│   ├── logs/                        # 训练和评估日志
-│   ├── metrics/                     # 原始实验指标
-│   └── figures/                     # 自动生成图表
-└── reports/                          # 可提交的报告、结果表与展示材料
-```
+Python 要求 3.11。CUB 解压后目录为 `data/raw/CUB_200_2011/`，该目录直接包含 `classes.txt`、`images.txt`、`image_class_labels.txt` 和 `images/`。版本化划分文件位于 `data/splits/`。NABirds 数据默认放在 `data/raw/nabirds/`，准备方法见 [NABirds 协议](docs/nabirds_protocol.md)。原始图像、下载缓存和实验权重不会纳入 Git。
 
-`src/` 内新增目录目前仅包含职责说明 `README.md`，实现时再添加 Python 模块。`notebooks/`、`tests/`、`reports/` 同样已预留各自的 `README.md`。
+下载和校验：
 
-## 当前使用方式
-
-项目沿用已有的 uv 配置与 Python 版本要求（`>=3.14`），目前仅声明 KaggleHub 依赖。后续引入深度学习框架时，需要核实 Python、框架与 CUDA 的兼容性，并同步更新依赖及锁文件。
-
-在项目根目录执行：
-
-```bash
+```powershell
 uv sync
-uv run python scripts/dataset_get.py
+uv run python scripts/validate_cub.py --check-images
+uv run python -m pytest -q
 ```
 
-下载脚本使用 `wenewone/cub2002011` 数据集，由 KaggleHub 管理下载及缓存位置，以脚本打印的路径为准。已有 `cub2002011/` 内容未移动，也未在本次整理中验证数据完整性。训练、评估入口与具体命令将在实现后补充。
+CUB 已存在，无需重复下载。`scripts/dataset_get.py` 仅在缺少 CUB 时从 KaggleHub 获取副本，并把缓存固定在工程内。NABirds 官方下载页面需要填写表单并确认使用条款；取得官方压缩包后运行 `uv run python scripts/import_nabirds.py <压缩包路径>`，程序会将其放入 `data/raw/nabirds/` 并校验。报告中的局部特征示意使用 224×224 输入，训练入口也以 224 为默认值。小显存设备可通过 `--image-size 84 --n-query 1` 做贯通检查；不同分辨率产生的成绩不得直接比较。
 
-## 实验约定（待落实）
+## 训练与复评
 
-1. 固定数据版本和类别划分，清单写入 `data/splits/`；跨数据集核对物种名称及重叠，不能仅比较类别编号。
-2. 明确训练、验证与测试的 way、shot、每类 query 数及 episode 数，保证 support/query 图像互斥。只使用验证集选择模型与超参数。
-3. 在相同测试类别与 episode 协议下比较基线和改进模型，记录至少 3 个随机种子及预训练权重来源。
-4. 分别报告 1-shot/5-shot 结果，写明置信区间的统计单位与计算方法；在协议可比时报告跨数据集准确率差。
-5. 将运行产物写入 `outputs/`，将需要提交的汇总结果、图表及结论整理到 `reports/`。
+```powershell
+uv run pattern-recognition-coursework train --method protonet --metric euclidean --k-shot 1 --seed 42
+uv run pattern-recognition-coursework train --method dn4 --k-shot 1 --seed 42
+uv run pattern-recognition-coursework train --method global_local --metric cosine --local-weight 0.5 --k-shot 1 --seed 42
+uv run pattern-recognition-coursework train --stage meta_baseline --method protonet --metric cosine --k-shot 1 --seed 42
+```
 
-## 后续内容预留
+训练输出保存在 `outputs/runs/<运行名>/`，包括 `best.pt`、`metrics.json` 和逐轮记录；共享验证/测试任务在 `outputs/episodes/`。本地自监督权重可用 `--backbone-weights <文件> --backbone-prefix <明确前缀> --weight-source <算法、训练数据和来源>` 加载，编码器张量必须完整匹配。ImageNet 监督权重使用 `--pretrained`，其缓存也写入工程目录。
 
-- [ ] 数据准备与完整性检查
-- [ ] 类别划分协议与 episode 采样
-- [ ] 原型网络与匹配网络基线
-- [ ] 骨干预训练与距离度量消融
-- [ ] 训练、评估命令及配置示例
-- [ ] 多随机种子结果与置信区间
-- [ ] 错误样本归因、研究结论与复现说明
-- [ ] 实验环境、参考文献和最终报告
+搜索融合权重等超参数时，在每个候选训练命令后加 `--skip-test`。所有候选以相同的随机种子和固定验证任务训练；将各运行的 `metrics.json` 传给 `pattern-recognition-coursework select --results <候选结果...> --output reports/fusion_selection.json`。该命令至少要求两个权重、每个权重三个相同种子，并拒绝读过测试集的结果。选定权重后，才使用对应 `best.pt` 进行独立测试。
+
+保存的检查点可使用 `evaluate --dataset cub --split val` 在验证类上复评另一种 shot。输出明确标为 `validation_only`；默认 `--split test`，不能把验证集复评写成测试结果。自监督对照所用权重可用 `scripts/convert_simclr_resnet18.py` 从已下载的 Lightning 检查点严格提取，来源和哈希见 `reports/records/simclr_weight_provenance.json`。
+
+使用保存的检查点独立复评，可将 1-shot 模型同时用于 5-shot 测试；报告时注明检查点依据哪种 shot 的验证集选出。以下路径由实际训练输出替换：
+
+```powershell
+uv run pattern-recognition-coursework evaluate --checkpoint outputs/runs/<运行名>/best.pt --dataset cub --k-shot 1 --export-errors
+uv run pattern-recognition-coursework evaluate --checkpoint outputs/runs/<运行名>/best.pt --dataset nabirds --data-root data/raw/nabirds --manifest data/splits/nabirds_test.json --review data/splits/nabirds_review.json --k-shot 1 --export-errors
+```
+
+对两组方法各运行至少 3 个相同随机种子后，将对应 JSON 传给 `pattern-recognition-coursework summarize --baseline <基线结果...> --candidate <候选结果...> --output reports/paired_summary.json`。用 `--mode gap` 时，`--baseline` 输入 CUB 结果、`--candidate` 输入同一检查点的 NABirds 结果。CUB 内未见类别成绩只说明跨类别泛化；5 个百分点目标只在 NABirds 场景判断。
+
+## 尚需数据与实验
+
+本地没有 NABirds 原始图像，也没有完成人工核查的非重叠物种表；因此跨数据集结果和最终 5 个百分点结论尚不能给出。CUB 范围已完成一份可追溯 SimCLR ResNet-18 权重的短训验证对照，但其训练配方与监督权重不同，不能将差异仅归因于预训练方式。CUB 第一轮实验使用了固定的 1-shot/5-shot 测试任务、3 个训练随机种子和可追溯的 ImageNet 权重；本轮进一步完成了 ProtoNet 800-episode 长预算对照，但尚未进行大预算的骨干解冻训练。预训练数据可能与 CUB 图像来源重合，报告时应列为潜在偏差。

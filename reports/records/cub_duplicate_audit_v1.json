@@ -1,0 +1,77 @@
+{
+  "scope": "exact byte-for-byte SHA256 only; perceptual or source-image overlap not audited",
+  "split_counts": {
+    "train": 5890,
+    "val": 2947,
+    "test": 2951
+  },
+  "unique_sha256_count": 11787,
+  "duplicate_sha256_groups": [
+    {
+      "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4",
+      "items": [
+        {
+          "split": "test",
+          "id": "3310",
+          "class": "058.Pigeon_Guillemot",
+          "path": "058.Pigeon_Guillemot/Pigeon_Guillemot_0018_40195.jpg"
+        },
+        {
+          "split": "test",
+          "id": "3340",
+          "class": "058.Pigeon_Guillemot",
+          "path": "058.Pigeon_Guillemot/Pigeon_Guillemot_0081_40339.jpg"
+        }
+      ]
+    }
+  ],
+  "cross_split_duplicate_sha256_groups": [],
+  "saved_test_plan_duplicate_cooccurrence": [
+    {
+      "plan": "outputs/cub_study_v1/episodes/cub_test_5way_1shot_1query_200ep_seed20042_96f24c38b0ea.json",
+      "shot": 1,
+      "seed": 20042,
+      "duplicate_cooccurrence": []
+    },
+    {
+      "plan": "outputs/cub_study_v1/episodes/cub_test_5way_1shot_1query_200ep_seed20043_96f24c38b0ea.json",
+      "shot": 1,
+      "seed": 20043,
+      "duplicate_cooccurrence": []
+    },
+    {
+      "plan": "outputs/cub_study_v1/episodes/cub_test_5way_1shot_1query_200ep_seed20044_96f24c38b0ea.json",
+      "shot": 1,
+      "seed": 20044,
+      "duplicate_cooccurrence": []
+    },
+    {
+      "plan": "outputs/cub_study_v1/episodes/cub_test_5way_5shot_1query_200ep_seed20042_96f24c38b0ea.json",
+      "shot": 5,
+      "seed": 20042,
+      "duplicate_cooccurrence": [
+        {
+          "episode_index_zero_based": 183,
+          "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4",
+          "positions": [
+            15,
+            16
+          ],
+          "support_query_overlap": false
+        }
+      ]
+    },
+    {
+      "plan": "outputs/cub_study_v1/episodes/cub_test_5way_5shot_1query_200ep_seed20043_96f24c38b0ea.json",
+      "shot": 5,
+      "seed": 20043,
+      "duplicate_cooccurrence": []
+    },
+    {
+      "plan": "outputs/cub_study_v1/episodes/cub_test_5way_5shot_1query_200ep_seed20044_96f24c38b0ea.json",
+      "shot": 5,
+      "seed": 20044,
+      "duplicate_cooccurrence": []
+    }
+  ]
+}

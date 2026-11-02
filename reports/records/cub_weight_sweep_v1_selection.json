@@ -1,0 +1,17 @@
+{
+  "selection_source": "fixed CUB validation episodes only",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "candidate_mean_validation_accuracy": {
+    "0.0": 0.7844444444444446,
+    "0.25": 0.7800000000000001,
+    "0.5": 0.7666666666666667,
+    "0.75": 0.7444444444444445,
+    "1.0": 0.68
+  },
+  "selected_local_weight": 0.0,
+  "selected_mean_validation_accuracy": 0.7844444444444446
+}

@@ -1,0 +1,9 @@
+﻿method,shot,seed,episode_id,query_image,true_class,predicted_class,confidence,bbox_area_fraction,size_quartile,pose,lighting,background,occlusion,label_issue,review_notes
+protonet,1,42,147,058.Pigeon_Guillemot/Pigeon_Guillemot_0073_40209.jpg,058.Pigeon_Guillemot,008.Rhinoceros_Auklet,0.31720221042633057,0.1732283464566929,1,游泳侧视,,水面为主要背景,未见明显遮挡,,鸟体占画面较小；仅凭图像无法核定物种标签
+protonet,1,42,195,025.Pelagic_Cormorant/Pelagic_Cormorant_0032_23570.jpg,025.Pelagic_Cormorant,023.Brandt_Cormorant,0.2963138520717621,0.3142982005141388,2,游泳侧视,,水面为主要背景,未见明显遮挡,,颈部和体羽高光明显；仅凭图像无法核定物种标签
+protonet,1,42,115,092.Nighthawk/Nighthawk_0067_795335.jpg,092.Nighthawk,072.Pomarine_Jaeger,0.32573744654655457,0.382,3,飞行仰视,,天空为主要背景,未见明显遮挡,,翼展姿态与地面静止图像不同；仅凭图像无法核定物种标签
+protonet,1,42,154,115.Brewer_Sparrow/Brewer_Sparrow_0031_796712.jpg,115.Brewer_Sparrow,130.Tree_Sparrow,0.29702603816986084,0.4669830508474576,4,停栖侧视,,枯草和枝条背景,枝条与鸟体局部重叠,,背景线条密集；仅凭图像无法核定物种标签
+protonet,5,42,160,058.Pigeon_Guillemot/Pigeon_Guillemot_0064_40044.jpg,058.Pigeon_Guillemot,072.Pomarine_Jaeger,0.3186720311641693,0.1610089552238806,1,飞行斜后视,,亮水面为主要背景,未见明显遮挡,,与同类游泳视角差异明显；仅凭图像无法核定物种标签
+protonet,5,42,145,109.American_Redstart/American_Redstart_0089_103187.jpg,109.American_Redstart,167.Hooded_Warbler,0.28945958614349365,0.21834527687296418,2,停栖侧视,,枝叶和斑驳光影背景,枝条与尾部局部重叠,,鸟体局部有强烈明暗变化；仅凭图像无法核定物种标签
+protonet,5,42,82,023.Brandt_Cormorant/Brandt_Cormorant_0001_23398.jpg,023.Brandt_Cormorant,025.Pelagic_Cormorant,0.2937849760055542,0.3251968503937008,3,飞行侧视,,天空为主要背景,未见明显遮挡,,深色鸟体细节较少；仅凭图像无法核定物种标签
+protonet,5,42,177,087.Mallard/Mallard_0013_77619.jpg,087.Mallard,002.Laysan_Albatross,0.293049156665802,0.570208,4,地面站立侧视,,草地为主要背景,未见明显遮挡,,鸟体清晰；本图未见足以解释误判的明显干扰

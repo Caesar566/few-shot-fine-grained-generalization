@@ -1,3 +1,3 @@
 # 验证与测试
 
-待实现：类别不相交校验、episode 采样约束、距离度量与模型输出检查，以及最小训练评估流程验证。目前尚无测试用例。
+测试覆盖 CUB 类别互斥、support/query 无重叠、固定任务计划防篡改、NABirds 人工审核门槛、全局/局部模型输出与梯度、马氏距离数值，以及配对统计。完整 CUB 数据校验请运行 `python scripts/validate_cub.py --check-images`。

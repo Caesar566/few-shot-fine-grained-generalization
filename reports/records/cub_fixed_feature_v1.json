@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "status": "validation_only_frozen_features",
+  "dataset": "CUB-200-2011 validation classes",
+  "val_manifest_sha256": "8f5b47df130fbec258dd39ed2452d29029768289b8b2b7ad910df6ac0a8e8e00",
+  "preprocessing": "imagenet-resize-center-v1; 224px",
+  "backbone": {
+    "architecture": "ResNet-18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "trainable_parameters": 0
+  },
+  "n_way": 5,
+  "n_query": 1,
+  "episodes_per_seed": 100,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "device": "cuda",
+  "torch_version": "2.5.1+cu121",
+  "methods": [
+    "prototype_cosine",
+    "prototype_euclidean",
+    "prototype_mahalanobis",
+    "prototype_cosine_standardized",
+    "matching_attention",
+    "dn4_local",
+    "global_local_half"
+  ],
+  "results": {
+    "1shot_seed42": {
+      "episode_plan": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\outputs\\cub_fixed_feature_v1\\episodes\\cub_val_5way_1shot_1query_100ep_seed10042_8f5b47df130f.json",
+      "episode_plan_hash": "ff45c4b87598810e94f341ca0264664d6755e13da0c3a720170adef9c99fff15",
+      "accuracy": {
+        "prototype_cosine": 0.7020000123977661,
+        "prototype_euclidean": 0.6280000132322311,
+        "prototype_mahalanobis": 0.6940000130236149,
+        "prototype_cosine_standardized": 0.6760000143945217,
+        "matching_attention": 0.7020000123977661,
+        "dn4_local": 0.6260000135004521,
+        "global_local_half": 0.6920000113546848
+      }
+    },
+    "1shot_seed43": {
+      "episode_plan": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\outputs\\cub_fixed_feature_v1\\episodes\\cub_val_5way_1shot_1query_100ep_seed10043_8f5b47df130f.json",
+      "episode_plan_hash": "321f62b14ac58b5fffe45cba8e1e87a036b097b67d722cd99fb02de9ef6ec126",
+      "accuracy": {
+        "prototype_cosine": 0.7300000113248825,
+        "prototype_euclidean": 0.6680000138282776,
+        "prototype_mahalanobis": 0.7120000120997428,
+        "prototype_cosine_standardized": 0.7080000133812427,
+        "matching_attention": 0.7300000113248825,
+        "dn4_local": 0.6780000127851963,
+        "global_local_half": 0.7220000116527081
+      }
+    },
+    "1shot_seed44": {
+      "episode_plan": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\outputs\\cub_fixed_feature_v1\\episodes\\cub_val_5way_1shot_1query_100ep_seed10044_8f5b47df130f.json",
+      "episode_plan_hash": "80b0f8e43f0add7c78e968fb85004a6becd28369563a1f7fe3f754fec90dde3f",
+      "accuracy": {
+        "prototype_cosine": 0.7360000103712082,
+        "prototype_euclidean": 0.6760000123083592,
+        "prototype_mahalanobis": 0.7280000108480453,
+        "prototype_cosine_standardized": 0.6940000107884408,
+        "matching_attention": 0.7360000103712082,
+        "dn4_local": 0.6700000132620335,
+        "global_local_half": 0.7260000114142895
+      }
+    },
+    "5shot_seed42": {
+      "episode_plan": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\outputs\\cub_fixed_feature_v1\\episodes\\cub_val_5way_5shot_1query_100ep_seed10042_8f5b47df130f.json",
+      "episode_plan_hash": "38789b11715580f5b2339e9e6cfca6b9e79fa3e2ee7755d0c60e3384f950c946",
+      "accuracy": {
+        "prototype_cosine": 0.9140000051259994,
+        "prototype_euclidean": 0.9040000057220459,
+        "prototype_mahalanobis": 0.9060000056028366,
+        "prototype_cosine_standardized": 0.9180000042915344,
+        "matching_attention": 0.8680000072717666,
+        "dn4_local": 0.8320000077784061,
+        "global_local_half": 0.8980000057816505
+      }
+    },
+    "5shot_seed43": {
+      "episode_plan": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\outputs\\cub_fixed_feature_v1\\episodes\\cub_val_5way_5shot_1query_100ep_seed10043_8f5b47df130f.json",
+      "episode_plan_hash": "1e58d0d4a7638cec5070026f2b3efdc0ac035de06382b4c2326a2fdc02dfc3e3",
+      "accuracy": {
+        "prototype_cosine": 0.9260000044107437,
+        "prototype_euclidean": 0.9280000042915344,
+        "prototype_mahalanobis": 0.9340000039339066,
+        "prototype_cosine_standardized": 0.9280000042915344,
+        "matching_attention": 0.8980000057816505,
+        "dn4_local": 0.8440000087022781,
+        "global_local_half": 0.910000005364418
+      }
+    },
+    "5shot_seed44": {
+      "episode_plan": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\outputs\\cub_fixed_feature_v1\\episodes\\cub_val_5way_5shot_1query_100ep_seed10044_8f5b47df130f.json",
+      "episode_plan_hash": "7a6c60b1543ff37ff6740d1e86f112bd1cf32b4247d0adfbb9a7795674cfd661",
+      "accuracy": {
+        "prototype_cosine": 0.9100000047683716,
+        "prototype_euclidean": 0.906000004708767,
+        "prototype_mahalanobis": 0.9120000049471855,
+        "prototype_cosine_standardized": 0.9240000039339066,
+        "matching_attention": 0.8820000064373016,
+        "dn4_local": 0.842000008225441,
+        "global_local_half": 0.8980000054836274
+      }
+    }
+  }
+}

@@ -27,7 +27,7 @@ def find_cub_root():
 
 
 def make_cub_splits(
-        output_dir: str = "splits",
+        output_dir: str = "data/splits",
         train_num: int = 100,
         val_num: int = 50,
         test_num: int = 50,
@@ -66,7 +66,7 @@ def make_cub_splits(
                 class_name = rel_path.split("/")[0]
                 image_dict.setdefault(class_name, []).append((img_id, rel_path))
 
-    # 输出到规范目录 splits/
+    # 输出到规范目录 data/splits/
     out_path = project_root / output_dir
     out_path.mkdir(parents=True, exist_ok=True)
 

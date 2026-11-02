@@ -19,6 +19,7 @@ def get_cub_transforms(image_size: int = 224, is_train: bool = True):
         return transforms.Compose([
             transforms.RandomResizedCrop(image_size, scale=(0.2, 1.0)),
             transforms.RandomHorizontalFlip(),
+            transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.15),
             transforms.ToTensor(),
             normalize,
         ])
@@ -48,15 +49,32 @@ class CUBFewShotDataset(Dataset):
             raise FileNotFoundError(f"划分清单文件不存在: {split_file}")
 
         with open(split_file, "r", encoding="utf-8") as f:
-            raw_lines = [line.strip().split(" ") for line in f if line.strip()]
+            raw_lines = [line.strip().split(maxsplit=2) for line in f if line.strip()]
+        if not raw_lines or any(len(parts) != 3 for parts in raw_lines):
+            raise ValueError(f"图像清单为空或格式错误: {split_file}")
 
         # 类别名称与索引映射
         self.classes = sorted(list(set(parts[1] for parts in raw_lines)))
         self.class_to_idx = {cname: i for i, cname in enumerate(self.classes)}
 
+        seen_ids = set()
+        seen_paths = set()
+        image_root = (self.data_root / "images").resolve()
         for parts in raw_lines:
             img_id, cname, rel_path = parts[0], parts[1], parts[2]
-            img_path = self.data_root / "images" / rel_path
+            if img_id in seen_ids:
+                raise ValueError(f"图像 ID 重复: {img_id}")
+            seen_ids.add(img_id)
+            if Path(rel_path).is_absolute() or ".." in Path(rel_path).parts:
+                raise ValueError(f"不安全的相对路径: {rel_path}")
+            if rel_path.split("/")[0] != cname:
+                raise ValueError(f"类别名称与图像路径不一致: {rel_path}")
+            img_path = (image_root / rel_path).resolve()
+            if not img_path.is_relative_to(image_root):
+                raise ValueError(f"图像路径越过数据目录: {rel_path}")
+            if img_path in seen_paths:
+                raise ValueError(f"图像路径重复: {rel_path}")
+            seen_paths.add(img_path)
 
             label = self.class_to_idx[cname]
             idx = len(self.samples)
@@ -71,7 +89,8 @@ class CUBFewShotDataset(Dataset):
 
     def __getitem__(self, idx: int) -> Tuple[torch.Tensor, int]:
         img_path, label = self.samples[idx]
-        image = Image.open(img_path).convert("RGB")
+        with Image.open(img_path) as source:
+            image = source.convert("RGB")
         if self.transform:
             image = self.transform(image)
         return image, label
@@ -92,14 +111,21 @@ class FewShotBatchSampler(Sampler):
             episodes_per_epoch: int,
             n_way: int,
             k_shot: int,
-            n_query: int
+            n_query: int,
+            seed: int | None = None,
     ):
         self.dataset = dataset
         self.episodes_per_epoch = episodes_per_epoch
         self.n_way = n_way
         self.k_shot = k_shot
         self.n_query = n_query
+        self.seed = seed
         self.classes = list(self.dataset.class_to_indices.keys())
+
+        if min(episodes_per_epoch, n_way, k_shot, n_query) <= 0:
+            raise ValueError("episode 数、way、shot 和 query 数必须为正整数")
+        if n_way > len(self.classes):
+            raise ValueError(f"需要 {n_way} 类，但清单中只有 {len(self.classes)} 类")
 
         # 校验：每个类别的样本数必须大于等于 k_shot + n_query
         for cls, indices in self.dataset.class_to_indices.items():
@@ -112,8 +138,9 @@ class FewShotBatchSampler(Sampler):
         return self.episodes_per_epoch
 
     def __iter__(self):
+        rng = random.Random(self.seed) if self.seed is not None else random
         for _ in range(self.episodes_per_epoch):
-            selected_classes = random.sample(self.classes, self.n_way)
+            selected_classes = rng.sample(self.classes, self.n_way)
 
             support_indices = []
             query_indices = []
@@ -121,7 +148,7 @@ class FewShotBatchSampler(Sampler):
             for cls in selected_classes:
                 indices = self.dataset.class_to_indices[cls]
                 # 无放回抽样 k_shot + n_query 个样本，从数学上保证互不重复
-                sampled = random.sample(indices, self.k_shot + self.n_query)
+                sampled = rng.sample(indices, self.k_shot + self.n_query)
                 support_indices.extend(sampled[:self.k_shot])
                 query_indices.extend(sampled[self.k_shot:])
 

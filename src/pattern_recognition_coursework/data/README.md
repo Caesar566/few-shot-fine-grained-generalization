@@ -1,3 +1,3 @@
 # 数据加载与 episode 采样
 
-待实现：CUB/NABirds 元数据读取、图像变换、类别划分校验、N-way K-shot support/query 采样。避免同一 episode 中 support 与 query 图像重叠。
+`cub_dataset.py` 读取 CUB 清单并采样 support/query 无重叠任务；`episodes.py` 保存和复用完整任务索引。`nabirds.py` 解析 NABirds 类别层级、生成待人工审核清单，并只装载经物种审核的目标域图像。

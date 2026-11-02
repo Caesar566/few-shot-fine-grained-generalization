@@ -1,0 +1,12 @@
+{
+  "source": "https://huggingface.co/DM-Diaz/SimCLR-ResNet18-ImageNet1K",
+  "checkpoint_filename": "checkpoint_100-resnet18-simclr-imagenet1k.ckpt",
+  "source_sha256": "4a50dfd4f78f83b8eba1a7c358cd0a476a9da1cf5579b7cf01a2051597ca217a",
+  "source_epoch_zero_based": 99,
+  "source_global_step": 4003600,
+  "extraction": "backbone.0/1/4/5/6/7 mapped strictly to torchvision conv1/bn1/layer1-4; projection head omitted",
+  "encoder_tensors": 120,
+  "output": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\data\\cache\\weights\\simclr_resnet18_backbone.pt",
+  "output_sha256": "55809b2470015f80315305bc5789672df92faf0eaa10bc5fda1e9887ca170ddb",
+  "load_policy": "torch.load(weights_only=True), strict architecture keys/shapes/dtypes"
+}

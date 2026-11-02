@@ -1,0 +1,122 @@
+{
+  "comparison": "candidate minus baseline",
+  "scenario": "cub",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "confidence_unit": "paired training seed; two-sided 95% Student t interval",
+  "baseline_model_config": {
+    "method": "protonet",
+    "pretrained": true,
+    "metric": "cosine",
+    "episode_standardization": false,
+    "shrinkage": 0.5,
+    "temperature": 1.0,
+    "learnable_temperature": false,
+    "backbone_weights": null,
+    "backbone_prefix": "",
+    "local_k": 3,
+    "local_weight": 0.5,
+    "fce_steps": 5,
+    "adapter": true
+  },
+  "candidate_model_config": {
+    "method": "global_local",
+    "pretrained": true,
+    "metric": "cosine",
+    "episode_standardization": false,
+    "shrinkage": 0.5,
+    "temperature": 1.0,
+    "learnable_temperature": false,
+    "backbone_weights": null,
+    "backbone_prefix": "",
+    "local_k": 3,
+    "local_weight": 0.5,
+    "fce_steps": 5,
+    "adapter": true
+  },
+  "baseline_training_config": {
+    "stage": "episodic",
+    "seed": 42,
+    "n_way": 5,
+    "k_shot": 1,
+    "n_query": 1,
+    "image_size": 224,
+    "train_episodes_per_epoch": 30,
+    "eval_episodes": 30,
+    "epochs": 3,
+    "supervised_epochs": 0,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "trainable_scope": "adapter",
+    "split_hashes": {
+      "train": "8ae8741fb9bc7930e2642ed2e33674f79d19b9e89428f7be7bfc07840ce71f5b",
+      "val": "8f5b47df130fbec258dd39ed2452d29029768289b8b2b7ad910df6ac0a8e8e00",
+      "test": "96f24c38b0eae9b06e459ba68567cb9d337f64e86a19d1bb70c02033c45173be"
+    },
+    "weight_source": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "train_classes_sha256": "9cb4766d6947dd2498de5a8a1111e14d834f9342eb31a5843cc1576ef9ab08e4",
+    "backbone_load_info": {
+      "source": "torchvision",
+      "weights": "ResNet18_Weights.IMAGENET1K_V1",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    }
+  },
+  "candidate_training_config": {
+    "stage": "episodic",
+    "seed": 42,
+    "n_way": 5,
+    "k_shot": 1,
+    "n_query": 1,
+    "image_size": 224,
+    "train_episodes_per_epoch": 30,
+    "eval_episodes": 30,
+    "epochs": 3,
+    "supervised_epochs": 0,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "trainable_scope": "adapter",
+    "split_hashes": {
+      "train": "8ae8741fb9bc7930e2642ed2e33674f79d19b9e89428f7be7bfc07840ce71f5b",
+      "val": "8f5b47df130fbec258dd39ed2452d29029768289b8b2b7ad910df6ac0a8e8e00",
+      "test": "96f24c38b0eae9b06e459ba68567cb9d337f64e86a19d1bb70c02033c45173be"
+    },
+    "weight_source": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "train_classes_sha256": "9cb4766d6947dd2498de5a8a1111e14d834f9342eb31a5843cc1576ef9ab08e4",
+    "backbone_load_info": {
+      "source": "torchvision",
+      "weights": "ResNet18_Weights.IMAGENET1K_V1",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    }
+  },
+  "baseline": {
+    "mean_pp": 91.2,
+    "seed_std_pp": 0.6999999999999977,
+    "ci95_pp": [
+      89.46110360177478,
+      92.93889639822522
+    ]
+  },
+  "candidate": {
+    "mean_pp": 91.76666666666667,
+    "seed_std_pp": 0.37859388972002117,
+    "ci95_pp": [
+      90.82618730777492,
+      92.70714602555842
+    ]
+  },
+  "paired_improvement": {
+    "mean_pp": 0.5666666666666629,
+    "seed_std_pp": 0.32145502536642684,
+    "ci95_pp": [
+      -0.231871884477737,
+      1.3652052178110627
+    ]
+  },
+  "meets_5pp_goal": null,
+  "ci_lower_at_least_5pp": null
+}

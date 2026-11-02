@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "source": "saved CUB study v1 test predictions; no new inference",
+  "test_manifest_sha256": "96f24c38b0eae9b06e459ba68567cb9d337f64e86a19d1bb70c02033c45173be",
+  "bbox_source_sha256": "c19d9f096c15564793408e5ba054b8d715a6805819d98f037c977f369ef4abd3",
+  "size_metric": "official bbox width*height / original image width*height; capped at 1",
+  "quartile_boundaries": [
+    0.2094915254237288,
+    0.317016,
+    0.45328150134048256
+  ],
+  "interpretation": "Descriptive association only; repeated queries and episodes are not independent. Pose, lighting, background, occlusion, and label issues require manual review.",
+  "results": {
+    "global_local_1shot_seed44": {
+      "evaluation_sha256": "a468fdc688a1aa488a5b8964ba13493bc0579470c7671a26066b7e2cdbe57e92",
+      "predictions_sha256": "688acc5dd080d0e410025bc4515c2e727ef1ea884c8a4eed0c654e5e288db1b6",
+      "accuracy": 0.805,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.7542372881355932,
+          "correct": 178,
+          "query_decisions": 236,
+          "unique_query_images": 198
+        },
+        "2": {
+          "accuracy": 0.8206106870229007,
+          "correct": 215,
+          "query_decisions": 262,
+          "unique_query_images": 217
+        },
+        "3": {
+          "accuracy": 0.819327731092437,
+          "correct": 195,
+          "query_decisions": 238,
+          "unique_query_images": 195
+        },
+        "4": {
+          "accuracy": 0.821969696969697,
+          "correct": 217,
+          "query_decisions": 264,
+          "unique_query_images": 225
+        }
+      }
+    },
+    "global_local_5shot_seed44": {
+      "evaluation_sha256": "11e445c210b4672521395308c40a3a8d3100687c7c46afba8af133285bd09893",
+      "predictions_sha256": "7a36d2f7aa17c7259c2b356c091d56b95723c1ebff7285079e508877260868e9",
+      "accuracy": 0.915,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.9140271493212669,
+          "correct": 202,
+          "query_decisions": 221,
+          "unique_query_images": 188
+        },
+        "2": {
+          "accuracy": 0.8884462151394422,
+          "correct": 223,
+          "query_decisions": 251,
+          "unique_query_images": 207
+        },
+        "3": {
+          "accuracy": 0.9210526315789473,
+          "correct": 245,
+          "query_decisions": 266,
+          "unique_query_images": 225
+        },
+        "4": {
+          "accuracy": 0.9351145038167938,
+          "correct": 245,
+          "query_decisions": 262,
+          "unique_query_images": 212
+        }
+      }
+    },
+    "global_local_1shot_seed43": {
+      "evaluation_sha256": "d7c8fe8b4aa27f798b645326bc996fda5a9c58b4902a097311f061003212f56c",
+      "predictions_sha256": "5d76124ad25562c4efcc7dcf4c0d95ea833bc521f1148c4068fb69ec46a9b346",
+      "accuracy": 0.794,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.8016877637130801,
+          "correct": 190,
+          "query_decisions": 237,
+          "unique_query_images": 211
+        },
+        "2": {
+          "accuracy": 0.7976653696498055,
+          "correct": 205,
+          "query_decisions": 257,
+          "unique_query_images": 217
+        },
+        "3": {
+          "accuracy": 0.7915057915057915,
+          "correct": 205,
+          "query_decisions": 259,
+          "unique_query_images": 213
+        },
+        "4": {
+          "accuracy": 0.7854251012145749,
+          "correct": 194,
+          "query_decisions": 247,
+          "unique_query_images": 214
+        }
+      }
+    },
+    "global_local_5shot_seed43": {
+      "evaluation_sha256": "82fa8dd133e5fd0f3f0ba8817240c644036c422c1affabdf528b95fdbbbfc6eb",
+      "predictions_sha256": "7868a14969de646c94d9857f66456abe3c51cb93275dd4d583cc9d8dd15bcf3b",
+      "accuracy": 0.922,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.9106382978723404,
+          "correct": 214,
+          "query_decisions": 235,
+          "unique_query_images": 205
+        },
+        "2": {
+          "accuracy": 0.9146341463414634,
+          "correct": 225,
+          "query_decisions": 246,
+          "unique_query_images": 208
+        },
+        "3": {
+          "accuracy": 0.926923076923077,
+          "correct": 241,
+          "query_decisions": 260,
+          "unique_query_images": 221
+        },
+        "4": {
+          "accuracy": 0.9343629343629344,
+          "correct": 242,
+          "query_decisions": 259,
+          "unique_query_images": 215
+        }
+      }
+    },
+    "protonet_1shot_seed43": {
+      "evaluation_sha256": "e8a9a46e2b11071e31bfbcf00fcd9a1f9fe7ce3665238dd4786167c4c871832b",
+      "predictions_sha256": "18c0bc00087f67983d4ab9b1b3df168ceeedefa86bc49644224cc23e9d2ae391",
+      "accuracy": 0.798,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.7974683544303798,
+          "correct": 189,
+          "query_decisions": 237,
+          "unique_query_images": 211
+        },
+        "2": {
+          "accuracy": 0.8171206225680934,
+          "correct": 210,
+          "query_decisions": 257,
+          "unique_query_images": 217
+        },
+        "3": {
+          "accuracy": 0.803088803088803,
+          "correct": 208,
+          "query_decisions": 259,
+          "unique_query_images": 213
+        },
+        "4": {
+          "accuracy": 0.7732793522267206,
+          "correct": 191,
+          "query_decisions": 247,
+          "unique_query_images": 214
+        }
+      }
+    },
+    "protonet_5shot_seed43": {
+      "evaluation_sha256": "1afbe5078d4757e99c9d19090861aedba00232b70ab3d462117e99dbf6e66495",
+      "predictions_sha256": "9d7b7de8a3f75277e7edcedaf6560020a8877a3bd8d8759752271eac3fb62c7c",
+      "accuracy": 0.92,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.9106382978723404,
+          "correct": 214,
+          "query_decisions": 235,
+          "unique_query_images": 205
+        },
+        "2": {
+          "accuracy": 0.8943089430894309,
+          "correct": 220,
+          "query_decisions": 246,
+          "unique_query_images": 208
+        },
+        "3": {
+          "accuracy": 0.9230769230769231,
+          "correct": 240,
+          "query_decisions": 260,
+          "unique_query_images": 221
+        },
+        "4": {
+          "accuracy": 0.9498069498069498,
+          "correct": 246,
+          "query_decisions": 259,
+          "unique_query_images": 215
+        }
+      }
+    },
+    "protonet_1shot_seed42": {
+      "evaluation_sha256": "7e41f58dfebbc0decaf078656ff82499ecc9d012eeedc9fe2bf6b9ab97e27f14",
+      "predictions_sha256": "d5d0570231885c24a7fde6213c0cae067b35933439dc99ea67592646cbeb62cc",
+      "accuracy": 0.8,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.7423076923076923,
+          "correct": 193,
+          "query_decisions": 260,
+          "unique_query_images": 221
+        },
+        "2": {
+          "accuracy": 0.8067226890756303,
+          "correct": 192,
+          "query_decisions": 238,
+          "unique_query_images": 208
+        },
+        "3": {
+          "accuracy": 0.8145161290322581,
+          "correct": 202,
+          "query_decisions": 248,
+          "unique_query_images": 210
+        },
+        "4": {
+          "accuracy": 0.8385826771653543,
+          "correct": 213,
+          "query_decisions": 254,
+          "unique_query_images": 217
+        }
+      }
+    },
+    "protonet_5shot_seed42": {
+      "evaluation_sha256": "fd6137111b2ec6904209068675dc9347823b39be986273d543a773bbf40c5ebd",
+      "predictions_sha256": "35a2bf4abe9cc7907c6bb78a741a12ac1de9cc12df00c54b1ecb24221fd9d0f7",
+      "accuracy": 0.909,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.8949416342412452,
+          "correct": 230,
+          "query_decisions": 257,
+          "unique_query_images": 221
+        },
+        "2": {
+          "accuracy": 0.905982905982906,
+          "correct": 212,
+          "query_decisions": 234,
+          "unique_query_images": 196
+        },
+        "3": {
+          "accuracy": 0.9153846153846154,
+          "correct": 238,
+          "query_decisions": 260,
+          "unique_query_images": 219
+        },
+        "4": {
+          "accuracy": 0.9196787148594378,
+          "correct": 229,
+          "query_decisions": 249,
+          "unique_query_images": 210
+        }
+      }
+    },
+    "protonet_1shot_seed44": {
+      "evaluation_sha256": "c73b4c9aee674fe8214e9fc27bf880c472cd0553fd8cc373b53e615d3ae5dd78",
+      "predictions_sha256": "214735c5f8d10785414656434cf26048e685bfc68830a408d382541a98401507",
+      "accuracy": 0.822,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.788135593220339,
+          "correct": 186,
+          "query_decisions": 236,
+          "unique_query_images": 198
+        },
+        "2": {
+          "accuracy": 0.8282442748091603,
+          "correct": 217,
+          "query_decisions": 262,
+          "unique_query_images": 217
+        },
+        "3": {
+          "accuracy": 0.8361344537815126,
+          "correct": 199,
+          "query_decisions": 238,
+          "unique_query_images": 195
+        },
+        "4": {
+          "accuracy": 0.8333333333333334,
+          "correct": 220,
+          "query_decisions": 264,
+          "unique_query_images": 225
+        }
+      }
+    },
+    "protonet_5shot_seed44": {
+      "evaluation_sha256": "fe16f4494a73786e8f9c385b09162ae306802bad38edbfd959eedc3bb4a05471",
+      "predictions_sha256": "3ac28159c6cb9496908e2c6f75d0e45ca2ba1b57094fd4f11b74b95315eb8658",
+      "accuracy": 0.907,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.9004524886877828,
+          "correct": 199,
+          "query_decisions": 221,
+          "unique_query_images": 188
+        },
+        "2": {
+          "accuracy": 0.8844621513944223,
+          "correct": 222,
+          "query_decisions": 251,
+          "unique_query_images": 207
+        },
+        "3": {
+          "accuracy": 0.924812030075188,
+          "correct": 246,
+          "query_decisions": 266,
+          "unique_query_images": 225
+        },
+        "4": {
+          "accuracy": 0.916030534351145,
+          "correct": 240,
+          "query_decisions": 262,
+          "unique_query_images": 212
+        }
+      }
+    },
+    "global_local_1shot_seed42": {
+      "evaluation_sha256": "59c8abcaed1768bdb7c657112789c558f0ad55c1104ae03bcd666072678f1065",
+      "predictions_sha256": "55f06279c48b7ba7725ae5ccd98b78ece33c3c09e575d36aff3c47ef7ac1e767",
+      "accuracy": 0.784,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.7307692307692307,
+          "correct": 190,
+          "query_decisions": 260,
+          "unique_query_images": 221
+        },
+        "2": {
+          "accuracy": 0.7815126050420168,
+          "correct": 186,
+          "query_decisions": 238,
+          "unique_query_images": 208
+        },
+        "3": {
+          "accuracy": 0.8064516129032258,
+          "correct": 200,
+          "query_decisions": 248,
+          "unique_query_images": 210
+        },
+        "4": {
+          "accuracy": 0.8188976377952756,
+          "correct": 208,
+          "query_decisions": 254,
+          "unique_query_images": 217
+        }
+      }
+    },
+    "global_local_5shot_seed42": {
+      "evaluation_sha256": "8279213f6e1d8b9b3da698913dce3d204483d8ce493c22ff583827c329974796",
+      "predictions_sha256": "bbb13f45bc41c4b6a8883bb920d75c41ea85594668f0fe148302c3e12418ab3e",
+      "accuracy": 0.916,
+      "query_decisions": 1000,
+      "by_size_quartile": {
+        "1": {
+          "accuracy": 0.8910505836575876,
+          "correct": 229,
+          "query_decisions": 257,
+          "unique_query_images": 221
+        },
+        "2": {
+          "accuracy": 0.9102564102564102,
+          "correct": 213,
+          "query_decisions": 234,
+          "unique_query_images": 196
+        },
+        "3": {
+          "accuracy": 0.9307692307692308,
+          "correct": 242,
+          "query_decisions": 260,
+          "unique_query_images": 219
+        },
+        "4": {
+          "accuracy": 0.9317269076305221,
+          "correct": 232,
+          "query_decisions": 249,
+          "unique_query_images": 210
+        }
+      }
+    }
+  }
+}

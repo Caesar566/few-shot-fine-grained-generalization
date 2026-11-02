@@ -14,7 +14,7 @@ def project_root():
 
 def test_classes_disjoint(project_root):
     """验证：类别划分校验（train/val/test 严格无交集）"""
-    splits_dir = project_root / "splits"
+    splits_dir = project_root / "data" / "splits"
     def get_classes(split_name):
         with open(splits_dir / f"{split_name}_classes.txt", "r", encoding="utf-8") as f:
             return set(line.strip().split(" ")[0] for line in f if line.strip())
@@ -35,7 +35,7 @@ def test_classes_disjoint(project_root):
 def test_sampler_support_query_disjoint(project_root):
     """验证：N-way K-shot 采样中，support 与 query 图像严格不重叠"""
     data_root = project_root / "data" / "raw" / "CUB_200_2011"
-    split_file = project_root / "splits" / "train_images.txt"
+    split_file = project_root / "data" / "splits" / "train_images.txt"
 
     dataset = CUBFewShotDataset(
         data_root=str(data_root),
