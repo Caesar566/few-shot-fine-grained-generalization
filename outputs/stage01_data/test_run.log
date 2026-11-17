@@ -1,0 +1,38 @@
+..................FF......                                               [100%]
+=================================== FAILURES ===================================
+______________ test_support_query_content_disjointness_acceptance ______________
+
+    def test_support_query_content_disjointness_acceptance():
+        """Expected to FAIL until the actual data/sampler defect is repaired."""
+        repro=json.loads((OUT/'evidence/content_episode_reproduction.json').read_text())
+>       assert repro['status']!='FAIL', (
+            f"Known real-data content collision: seed=42, episode_zero_based={repro['episode_zero_based']}, "
+            f"support indices={repro['duplicate_support']}, query indices={repro['duplicate_query']}. "
+            'Distinct indices alone do not guarantee distinct image content.'
+        )
+E       AssertionError: Known real-data content collision: seed=42, episode_zero_based=200, support indices=[957], query indices=[927]. Distinct indices alone do not guarantee distinct image content.
+E       assert 'FAIL' != 'FAIL'
+
+output/stage01_data/test_data_checks.py:148: AssertionError
+________________ test_formal_nabirds_species_dataset_acceptance ________________
+
+    def test_formal_nabirds_species_dataset_acceptance():
+        """Expected to FAIL until an actual human-reviewed manifest is supplied."""
+        review=ROOT/'data/splits/nabirds_review.json'
+        manifest=ROOT/'data/splits/nabirds_test.json'
+>       assert review.exists() and manifest.exists(), (
+            'BLOCKED: formal NABirds review/manifest absent; raw visual-category loading '
+            'is not a substitute for approved non-overlapping species evaluation.'
+        )
+E       AssertionError: BLOCKED: formal NABirds review/manifest absent; raw visual-category loading is not a substitute for approved non-overlapping species evaluation.
+E       assert (False)
+E        +  where False = exists()
+E        +    where exists = PosixPath('/home/caesar/Projects/few-shot-fine-grained-generalization/data/splits/nabirds_review.json').exists
+
+output/stage01_data/test_data_checks.py:159: AssertionError
+=========================== short test summary info ============================
+FAILED output/stage01_data/test_data_checks.py::test_support_query_content_disjointness_acceptance
+FAILED output/stage01_data/test_data_checks.py::test_formal_nabirds_species_dataset_acceptance
+2 failed, 24 passed in 12.66s
+
+Recorded original exit code: 1 counts: {'passed': 24, 'failure': 2, 'error': 0, 'skipped': 0}

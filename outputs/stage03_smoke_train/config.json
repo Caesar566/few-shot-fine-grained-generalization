@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "initialization": "Random",
+  "method": "protonet",
+  "metric": "euclidean",
+  "loss": "project run_episodes -> F.cross_entropy",
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "scheduler": null,
+  "trainable_scope": "full",
+  "image_size": 224,
+  "n_way": 5,
+  "k_shot": 1,
+  "n_query": 5,
+  "single_batch_steps": 1,
+  "smoke_max_steps": 3,
+  "overfit_max_steps": 60,
+  "frozen_scope_probe_steps": 1,
+  "total_max_optimizer_steps": 65,
+  "device": "cpu",
+  "validation_every_steps": 10,
+  "overfit_criteria": {
+    "fixed_train_eval_accuracy_at_least": 0.95,
+    "relative_eval_loss_drop_at_least": 0.3
+  },
+  "not_generalization_claim": true
+}

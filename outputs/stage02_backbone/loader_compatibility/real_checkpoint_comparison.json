@@ -1,0 +1,91 @@
+{
+  "official_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "source_file_unchanged": true,
+  "encoder_state_entries_compared": 120,
+  "all_state_entries_exactly_equal": true,
+  "initialized_buffers": [
+    "bn1.num_batches_tracked",
+    "layer1.0.bn1.num_batches_tracked",
+    "layer1.0.bn2.num_batches_tracked",
+    "layer1.1.bn1.num_batches_tracked",
+    "layer1.1.bn2.num_batches_tracked",
+    "layer2.0.bn1.num_batches_tracked",
+    "layer2.0.bn2.num_batches_tracked",
+    "layer2.0.downsample.1.num_batches_tracked",
+    "layer2.1.bn1.num_batches_tracked",
+    "layer2.1.bn2.num_batches_tracked",
+    "layer3.0.bn1.num_batches_tracked",
+    "layer3.0.bn2.num_batches_tracked",
+    "layer3.0.downsample.1.num_batches_tracked",
+    "layer3.1.bn1.num_batches_tracked",
+    "layer3.1.bn2.num_batches_tracked",
+    "layer4.0.bn1.num_batches_tracked",
+    "layer4.0.bn2.num_batches_tracked",
+    "layer4.0.downsample.1.num_batches_tracked",
+    "layer4.1.bn1.num_batches_tracked",
+    "layer4.1.bn2.num_batches_tracked"
+  ],
+  "load_info": {
+    "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "container": null,
+    "prefix": "",
+    "loaded_keys": 100,
+    "initialized_buffers": [
+      "bn1.num_batches_tracked",
+      "layer1.0.bn1.num_batches_tracked",
+      "layer1.0.bn2.num_batches_tracked",
+      "layer1.1.bn1.num_batches_tracked",
+      "layer1.1.bn2.num_batches_tracked",
+      "layer2.0.bn1.num_batches_tracked",
+      "layer2.0.bn2.num_batches_tracked",
+      "layer2.0.downsample.1.num_batches_tracked",
+      "layer2.1.bn1.num_batches_tracked",
+      "layer2.1.bn2.num_batches_tracked",
+      "layer3.0.bn1.num_batches_tracked",
+      "layer3.0.bn2.num_batches_tracked",
+      "layer3.0.downsample.1.num_batches_tracked",
+      "layer3.1.bn1.num_batches_tracked",
+      "layer3.1.bn2.num_batches_tracked",
+      "layer4.0.bn1.num_batches_tracked",
+      "layer4.0.bn2.num_batches_tracked",
+      "layer4.0.downsample.1.num_batches_tracked",
+      "layer4.1.bn1.num_batches_tracked",
+      "layer4.1.bn2.num_batches_tracked"
+    ],
+    "ignored_keys": [
+      "fc.bias",
+      "fc.weight"
+    ]
+  },
+  "warnings": [
+    "兼容历史 BatchNorm checkpoint，将以下缺失 num_batches_tracked 缓冲区初始化为 0: bn1.num_batches_tracked, layer1.0.bn1.num_batches_tracked, layer1.0.bn2.num_batches_tracked, layer1.1.bn1.num_batches_tracked, layer1.1.bn2.num_batches_tracked, layer2.0.bn1.num_batches_tracked, layer2.0.bn2.num_batches_tracked, layer2.0.downsample.1.num_batches_tracked, layer2.1.bn1.num_batches_tracked, layer2.1.bn2.num_batches_tracked, layer3.0.bn1.num_batches_tracked, layer3.0.bn2.num_batches_tracked, layer3.0.downsample.1.num_batches_tracked, layer3.1.bn1.num_batches_tracked, layer3.1.bn2.num_batches_tracked, layer4.0.bn1.num_batches_tracked, layer4.0.bn2.num_batches_tracked, layer4.0.downsample.1.num_batches_tracked, layer4.1.bn1.num_batches_tracked, layer4.1.bn2.num_batches_tracked",
+    "显式加载 backbone，排除 0 个前缀外张量和 2 个分类头张量；完整名单见 backbone_load_info['ignored_keys']"
+  ],
+  "images": [
+    "cub2002011/versions/7/CUB_200_2011/images/049.Boat_tailed_Grackle/Boat_Tailed_Grackle_0123_33695.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0105_4842.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/076.Dark_eyed_Junco/Dark_Eyed_Junco_0131_66423.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/069.Rufous_Hummingbird/Rufous_Hummingbird_0065_58497.jpg"
+  ],
+  "input_shape": [
+    4,
+    3,
+    224,
+    224
+  ],
+  "global_shape": [
+    4,
+    512
+  ],
+  "spatial_shape": [
+    4,
+    512,
+    7,
+    7
+  ],
+  "global_max_abs_difference": 0.0,
+  "spatial_max_abs_difference": 0.0,
+  "training_executed": false,
+  "downloads_performed": false
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "sampler_and_plan",
+    "status": "passed",
+    "details": {
+      "episodes_checked": 120,
+      "way": 5,
+      "shots": [
+        1,
+        5
+      ],
+      "query_per_class": 5,
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "scope": "unchanged extracted sampler/plan functions, not torch Dataset/DataLoader execution"
+    }
+  },
+  {
+    "name": "nabirds_metadata_and_paths",
+    "status": "passed",
+    "details": {
+      "metadata_classes": 1011,
+      "image_bearing_classes": 555,
+      "indexed_images": 48562,
+      "missing_images": [],
+      "pending_review_rows": 555,
+      "candidate_overlap_rows": 72,
+      "metadata_sha256": {
+        "classes.txt": "b47d130d03ecfaf82d61b430beb77107486370cfb50b4fe6500829c3eb3a5db2",
+        "images.txt": "6de34affac41ca0158acf57b9f10cf5ac67209636cc70f4c9af31e954ecb95da",
+        "image_class_labels.txt": "720d7b9cb75e83abd7f5b5c6bb1f9537bd311477814d5adbcad1f6844abe57d9",
+        "hierarchy.txt": "0f81be45476b60bc0b081947aa301ceed96d76dd854193ccc953257dd533b9df"
+      },
+      "scope": "unchanged extracted stdlib metadata helpers; no real Dataset or human approval"
+    }
+  },
+  {
+    "name": "sample_image_decode",
+    "status": "passed",
+    "details": {
+      "decoded": 40,
+      "paths": [
+        "cub2002011/versions/7/CUB_200_2011/images/178.Swainson_Warbler/Swainson_Warbler_0056_794871.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0036_26682.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/008.Rhinoceros_Auklet/Rhinoceros_Auklet_0001_797538.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0049_795022.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/069.Rufous_Hummingbird/Rufous_Hummingbird_0128_60398.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/063.Ivory_Gull/Ivory_Gull_0059_49662.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/040.Olive_sided_Flycatcher/Olive_Sided_Flycatcher_0075_30712.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/030.Fish_Crow/Fish_Crow_0070_25504.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/189.Red_bellied_Woodpecker/Red_Bellied_Woodpecker_0125_180780.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0008_156551.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/026.Bronzed_Cowbird/Bronzed_Cowbird_0026_796229.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/165.Chestnut_sided_Warbler/Chestnut_Sided_Warbler_0069_163921.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/119.Field_Sparrow/Field_Sparrow_0118_113416.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0010_6386.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0079_4527.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/028.Brown_Creeper/Brown_Creeper_0104_24698.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/062.Herring_Gull/Herring_Gull_0075_48935.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/066.Western_Gull/Western_Gull_0036_54329.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/141.Artic_Tern/Artic_Tern_0052_143244.jpg",
+        "cub2002011/versions/7/CUB_200_2011/images/168.Kentucky_Warbler/Kentucky_Warbler_0008_165369.jpg",
+        "nabirds/images/0373/dcdd972a67a6411bbdfff5d91dfac0fb.jpg",
+        "nabirds/images/0640/267839ef792f453da6a6b2d9c5e760e7.jpg",
+        "nabirds/images/0898/08c72dacf8ad407a9ce68c9a5d679c3a.jpg",
+        "nabirds/images/0530/5f24567751e840bdbada74a44f0598ca.jpg",
+        "nabirds/images/0323/54c5b0fa69b14e4b8eca83c946a901bd.jpg",
+        "nabirds/images/0965/4d5e3328cfc84c92b319c63b44d6debf.jpg",
+        "nabirds/images/0878/306a095813774f26a61574f0a6104826.jpg",
+        "nabirds/images/0370/fe6b38cdb5fc4eaa96bf0b4590967247.jpg",
+        "nabirds/images/0763/236be2c3ffd34941ad4efbf7653cc028.jpg",
+        "nabirds/images/0850/e9da9be33d404fb7a0008c664ac1b1cf.jpg",
+        "nabirds/images/0910/ffdde72c10764e339f2ebd4b8b3ea75c.jpg",
+        "nabirds/images/0665/bc1738fd8d124f2eb80b14f3f4819bc2.jpg",
+        "nabirds/images/0885/1e66fe6115d542b186aadbfd13613f5c.jpg",
+        "nabirds/images/0965/cb6c5f127b0242f5b2086ecda6191ae6.jpg",
+        "nabirds/images/0315/90e1bb94025647bcb64f9b6341c8e638.jpg",
+        "nabirds/images/0338/0b507df331bf48d1b88d90e43508acf9.jpg",
+        "nabirds/images/0785/0a94d110865d46ea8111e4c58e1538fd.jpg",
+        "nabirds/images/0328/20a9f6bc16f943778df426f0c9982afb.jpg",
+        "nabirds/images/0808/4bdf0d392dfb44028bb9f96aaf90b3cc.jpg",
+        "nabirds/images/0858/5092c4eef655420b9994573ad55cd694.jpg"
+      ],
+      "scope": "Pillow only, not torchvision transforms; remaining files not decoded"
+    }
+  },
+  {
+    "name": "cub_exact_duplicates",
+    "status": "passed",
+    "details": {
+      "indexed_images": 11788,
+      "unique_sha256": 11787,
+      "duplicate_groups": [
+        {
+          "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4",
+          "items": [
+            {
+              "split": "test",
+              "id": "3310",
+              "class": "058.Pigeon_Guillemot",
+              "path": "058.Pigeon_Guillemot/Pigeon_Guillemot_0018_40195.jpg"
+            },
+            {
+              "split": "test",
+              "id": "3340",
+              "class": "058.Pigeon_Guillemot",
+              "path": "058.Pigeon_Guillemot/Pigeon_Guillemot_0081_40339.jpg"
+            }
+          ]
+        }
+      ],
+      "cross_split_duplicate_groups": [],
+      "scope": "CUB exact bytes only; no NABirds/cross-dataset/pretraining near-duplicate audit"
+    }
+  },
+  {
+    "name": "fusion_selection_guards",
+    "status": "passed",
+    "details": "valid synthetic selection and rejection of explicit CUB test record; stdlib helper execution only"
+  },
+  {
+    "name": "checkpoint_identity_gap_reproducer",
+    "status": "passed",
+    "details": {
+      "bug_reproduced": true,
+      "different_checkpoint_hashes_accepted": true,
+      "accepted_seeds": [
+        42,
+        43,
+        44
+      ],
+      "scope": "unchanged _paired implementation; synthetic records; not a real domain-gap experiment"
+    }
+  },
+  {
+    "name": "historical_summary_arithmetic",
+    "status": "passed",
+    "details": {
+      "summary_arithmetic_consistent": true,
+      "scope": "JSON cross-consistency and n=3 t-interval arithmetic only; no checkpoint or predictions available"
+    }
+  }
+]

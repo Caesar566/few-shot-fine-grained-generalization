@@ -1,0 +1,22 @@
+{
+  "epochs": 50,
+  "batch_size": 128,
+  "lr": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.0001,
+  "min_lr": 0.0,
+  "image_size": 224,
+  "seed": 42,
+  "workers": 4,
+  "amp": true,
+  "grad_clip": 5.0,
+  "device": "cuda",
+  "n_way": 5,
+  "k_shot": 1,
+  "n_query": 5,
+  "val_episodes": 100,
+  "data_root": "cub2002011/versions/7/CUB_200_2011",
+  "splits_dir": "data/splits/cub_clean_v1",
+  "weights": "outputs/stage02_backbone/weights_verification/simclr_resnet18_backbone.pt",
+  "deterministic": true
+}

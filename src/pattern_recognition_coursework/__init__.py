@@ -5,9 +5,13 @@ def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Few-shot fine-grained experiments")
-    parser.add_argument("command", choices=["train", "evaluate", "summarize", "select"])
+    parser.add_argument("command", choices=["train", "evaluate", "summarize", "select", "supervised-train", "export-backbone"])
     args, remaining = parser.parse_known_args()
-    if args.command == "train":
+    if args.command == "supervised-train":
+        from pattern_recognition_coursework.engine.supervised import main as run
+    elif args.command == "export-backbone":
+        from pattern_recognition_coursework.engine.supervised import export_main as run
+    elif args.command == "train":
         from pattern_recognition_coursework.engine.experiment import main as run
     elif args.command == "evaluate":
         from pattern_recognition_coursework.engine.evaluate import main as run

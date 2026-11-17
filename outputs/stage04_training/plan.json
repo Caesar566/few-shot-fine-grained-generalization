@@ -1,0 +1,37 @@
+{
+  "status": "PENDING_USER_APPROVAL",
+  "configs": [
+    "configs/random_seed42.json",
+    "configs/random_seed43.json",
+    "configs/random_seed44.json",
+    "configs/imagenet_seed42.json",
+    "configs/imagenet_seed43.json",
+    "configs/imagenet_seed44.json",
+    "configs/simclr_seed42.json",
+    "configs/simclr_seed43.json",
+    "configs/simclr_seed44.json"
+  ],
+  "run_order_suggested": [
+    "random_seed42",
+    "imagenet_seed42",
+    "simclr_seed42",
+    "remaining seeds only after separate approval"
+  ],
+  "parallel_training_allowed": false,
+  "max_steps_per_experiment": 1000,
+  "number_proposed_experiments": 9,
+  "max_total_training_steps_if_all_approved": 9000,
+  "training_experiments_executed": 0,
+  "cpu_stage03_median_step_seconds": 2.292102387000341,
+  "estimated_cpu_training_only_minutes_per_experiment": 38.20170645000568,
+  "estimate_excludes_validation_io_and_checkpointing": true,
+  "cuda_available": true,
+  "cuda_execution_context": "GPU visible outside sandbox; prior sandbox check remains historical evidence",
+  "gpu_device": "NVIDIA GeForce MX450",
+  "gpu_total_gib_rounded": 1.66,
+  "gpu_training_memory_validated": true,
+  "gpu_memory_validation_scope": "Random seed42 only: 2 steps, 224 RGB, 5way1shot5query, full FP32 Adam; no formal run",
+  "gpu_memory_probe_result": "gpu_memory_probe/result.json",
+  "gpu_peak_allocated_mib": 904.859375,
+  "gpu_peak_reserved_mib": 1022.0
+}

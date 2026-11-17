@@ -1,0 +1,634 @@
+{
+  "train": [
+    {
+      "sample_index": 4782,
+      "image_id": "9486",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/162.Canada_Warbler/Canada_Warbler_0104_162345.jpg",
+      "dataset_label": 81,
+      "class_name": "162.Canada_Warbler",
+      "role": "support",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 856,
+      "image_id": "1862",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0104_26814.jpg",
+      "dataset_label": 14,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "role": "support",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 180,
+      "image_id": "285",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/006.Least_Auklet/Least_Auklet_0058_1931.jpg",
+      "dataset_label": 3,
+      "class_name": "006.Least_Auklet",
+      "role": "support",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 5569,
+      "image_id": "11050",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/188.Pileated_Woodpecker/Pileated_Woodpecker_0079_180388.jpg",
+      "dataset_label": 94,
+      "class_name": "188.Pileated_Woodpecker",
+      "role": "support",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 2098,
+      "image_id": "4241",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/073.Blue_Jay/Blue_Jay_0099_64435.jpg",
+      "dataset_label": 35,
+      "class_name": "073.Blue_Jay",
+      "role": "support",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 4781,
+      "image_id": "9485",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/162.Canada_Warbler/Canada_Warbler_0009_162343.jpg",
+      "dataset_label": 81,
+      "class_name": "162.Canada_Warbler",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 4775,
+      "image_id": "9479",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/162.Canada_Warbler/Canada_Warbler_0006_103959.jpg",
+      "dataset_label": 81,
+      "class_name": "162.Canada_Warbler",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 4814,
+      "image_id": "9518",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/162.Canada_Warbler/Canada_Warbler_0002_162426.jpg",
+      "dataset_label": 81,
+      "class_name": "162.Canada_Warbler",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 4773,
+      "image_id": "9477",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/162.Canada_Warbler/Canada_Warbler_0021_162325.jpg",
+      "dataset_label": 81,
+      "class_name": "162.Canada_Warbler",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 4810,
+      "image_id": "9514",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/162.Canada_Warbler/Canada_Warbler_0008_162416.jpg",
+      "dataset_label": 81,
+      "class_name": "162.Canada_Warbler",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 866,
+      "image_id": "1872",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0032_26616.jpg",
+      "dataset_label": 14,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 843,
+      "image_id": "1849",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0084_26761.jpg",
+      "dataset_label": 14,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 814,
+      "image_id": "1820",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0082_26655.jpg",
+      "dataset_label": 14,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 846,
+      "image_id": "1852",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0004_26790.jpg",
+      "dataset_label": 14,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 836,
+      "image_id": "1842",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0081_26429.jpg",
+      "dataset_label": 14,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 179,
+      "image_id": "284",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/006.Least_Auklet/Least_Auklet_0050_1924.jpg",
+      "dataset_label": 3,
+      "class_name": "006.Least_Auklet",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 183,
+      "image_id": "288",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/006.Least_Auklet/Least_Auklet_0040_795100.jpg",
+      "dataset_label": 3,
+      "class_name": "006.Least_Auklet",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 191,
+      "image_id": "296",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/006.Least_Auklet/Least_Auklet_0018_795077.jpg",
+      "dataset_label": 3,
+      "class_name": "006.Least_Auklet",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 192,
+      "image_id": "297",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/006.Least_Auklet/Least_Auklet_0020_795080.jpg",
+      "dataset_label": 3,
+      "class_name": "006.Least_Auklet",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 210,
+      "image_id": "315",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/006.Least_Auklet/Least_Auklet_0005_795119.jpg",
+      "dataset_label": 3,
+      "class_name": "006.Least_Auklet",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 5532,
+      "image_id": "11013",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/188.Pileated_Woodpecker/Pileated_Woodpecker_0125_179971.jpg",
+      "dataset_label": 94,
+      "class_name": "188.Pileated_Woodpecker",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 5566,
+      "image_id": "11047",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/188.Pileated_Woodpecker/Pileated_Woodpecker_0057_180612.jpg",
+      "dataset_label": 94,
+      "class_name": "188.Pileated_Woodpecker",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 5543,
+      "image_id": "11024",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/188.Pileated_Woodpecker/Pileated_Woodpecker_0011_180519.jpg",
+      "dataset_label": 94,
+      "class_name": "188.Pileated_Woodpecker",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 5576,
+      "image_id": "11057",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/188.Pileated_Woodpecker/Pileated_Woodpecker_0124_180168.jpg",
+      "dataset_label": 94,
+      "class_name": "188.Pileated_Woodpecker",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 5572,
+      "image_id": "11053",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/188.Pileated_Woodpecker/Pileated_Woodpecker_0050_180398.jpg",
+      "dataset_label": 94,
+      "class_name": "188.Pileated_Woodpecker",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 2088,
+      "image_id": "4231",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/073.Blue_Jay/Blue_Jay_0031_62913.jpg",
+      "dataset_label": 35,
+      "class_name": "073.Blue_Jay",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 2080,
+      "image_id": "4223",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/073.Blue_Jay/Blue_Jay_0051_63339.jpg",
+      "dataset_label": 35,
+      "class_name": "073.Blue_Jay",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 2068,
+      "image_id": "4211",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/073.Blue_Jay/Blue_Jay_0102_61494.jpg",
+      "dataset_label": 35,
+      "class_name": "073.Blue_Jay",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 2082,
+      "image_id": "4225",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/073.Blue_Jay/Blue_Jay_0020_63604.jpg",
+      "dataset_label": 35,
+      "class_name": "073.Blue_Jay",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 2091,
+      "image_id": "4234",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/073.Blue_Jay/Blue_Jay_0027_63133.jpg",
+      "dataset_label": 35,
+      "class_name": "073.Blue_Jay",
+      "role": "query",
+      "episode_label": 4
+    }
+  ],
+  "validation": [
+    {
+      "sample_index": 2365,
+      "image_id": "8949",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0070_794758.jpg",
+      "dataset_label": 40,
+      "class_name": "153.Philadelphia_Vireo",
+      "role": "support",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 432,
+      "image_id": "1809",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0033_26359.jpg",
+      "dataset_label": 7,
+      "class_name": "032.Mangrove_Cuckoo",
+      "role": "support",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 45,
+      "image_id": "485",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0059_4612.jpg",
+      "dataset_label": 1,
+      "class_name": "010.Red_winged_Blackbird",
+      "role": "support",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 2768,
+      "image_id": "10783",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/184.Louisiana_Waterthrush/Louisiana_Waterthrush_0023_795269.jpg",
+      "dataset_label": 47,
+      "class_name": "184.Louisiana_Waterthrush",
+      "role": "support",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 1009,
+      "image_id": "4528",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0023_795035.jpg",
+      "dataset_label": 17,
+      "class_name": "078.Gray_Kingbird",
+      "role": "support",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 2364,
+      "image_id": "8948",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0085_794757.jpg",
+      "dataset_label": 40,
+      "class_name": "153.Philadelphia_Vireo",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 2358,
+      "image_id": "8942",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0057_156525.jpg",
+      "dataset_label": 40,
+      "class_name": "153.Philadelphia_Vireo",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 2397,
+      "image_id": "8981",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0005_156599.jpg",
+      "dataset_label": 40,
+      "class_name": "153.Philadelphia_Vireo",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 2356,
+      "image_id": "8940",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0028_156510.jpg",
+      "dataset_label": 40,
+      "class_name": "153.Philadelphia_Vireo",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 2393,
+      "image_id": "8977",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/153.Philadelphia_Vireo/Philadelphia_Vireo_0046_794798.jpg",
+      "dataset_label": 40,
+      "class_name": "153.Philadelphia_Vireo",
+      "role": "query",
+      "episode_label": 0
+    },
+    {
+      "sample_index": 419,
+      "image_id": "1796",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0001_794601.jpg",
+      "dataset_label": 7,
+      "class_name": "032.Mangrove_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 390,
+      "image_id": "1767",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0020_794629.jpg",
+      "dataset_label": 7,
+      "class_name": "032.Mangrove_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 422,
+      "image_id": "1799",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0047_794604.jpg",
+      "dataset_label": 7,
+      "class_name": "032.Mangrove_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 412,
+      "image_id": "1789",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0028_26358.jpg",
+      "dataset_label": 7,
+      "class_name": "032.Mangrove_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 387,
+      "image_id": "1764",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0041_26370.jpg",
+      "dataset_label": 7,
+      "class_name": "032.Mangrove_Cuckoo",
+      "role": "query",
+      "episode_label": 1
+    },
+    {
+      "sample_index": 49,
+      "image_id": "489",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0079_4527.jpg",
+      "dataset_label": 1,
+      "class_name": "010.Red_winged_Blackbird",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 57,
+      "image_id": "497",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0093_5948.jpg",
+      "dataset_label": 1,
+      "class_name": "010.Red_winged_Blackbird",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 58,
+      "image_id": "498",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0064_4936.jpg",
+      "dataset_label": 1,
+      "class_name": "010.Red_winged_Blackbird",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 76,
+      "image_id": "516",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0071_3988.jpg",
+      "dataset_label": 1,
+      "class_name": "010.Red_winged_Blackbird",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 82,
+      "image_id": "522",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0045_4526.jpg",
+      "dataset_label": 1,
+      "class_name": "010.Red_winged_Blackbird",
+      "role": "query",
+      "episode_label": 2
+    },
+    {
+      "sample_index": 2802,
+      "image_id": "10817",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/184.Louisiana_Waterthrush/Louisiana_Waterthrush_0020_795265.jpg",
+      "dataset_label": 47,
+      "class_name": "184.Louisiana_Waterthrush",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 2779,
+      "image_id": "10794",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/184.Louisiana_Waterthrush/Louisiana_Waterthrush_0042_177551.jpg",
+      "dataset_label": 47,
+      "class_name": "184.Louisiana_Waterthrush",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 2812,
+      "image_id": "10827",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/184.Louisiana_Waterthrush/Louisiana_Waterthrush_0088_795284.jpg",
+      "dataset_label": 47,
+      "class_name": "184.Louisiana_Waterthrush",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 2808,
+      "image_id": "10823",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/184.Louisiana_Waterthrush/Louisiana_Waterthrush_0041_795279.jpg",
+      "dataset_label": 47,
+      "class_name": "184.Louisiana_Waterthrush",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 2811,
+      "image_id": "10826",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/184.Louisiana_Waterthrush/Louisiana_Waterthrush_0081_795283.jpg",
+      "dataset_label": 47,
+      "class_name": "184.Louisiana_Waterthrush",
+      "role": "query",
+      "episode_label": 3
+    },
+    {
+      "sample_index": 1001,
+      "image_id": "4520",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0063_70287.jpg",
+      "dataset_label": 17,
+      "class_name": "078.Gray_Kingbird",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 989,
+      "image_id": "4508",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0009_795023.jpg",
+      "dataset_label": 17,
+      "class_name": "078.Gray_Kingbird",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 1003,
+      "image_id": "4522",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0055_70290.jpg",
+      "dataset_label": 17,
+      "class_name": "078.Gray_Kingbird",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 1012,
+      "image_id": "4531",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0037_70050.jpg",
+      "dataset_label": 17,
+      "class_name": "078.Gray_Kingbird",
+      "role": "query",
+      "episode_label": 4
+    },
+    {
+      "sample_index": 992,
+      "image_id": "4511",
+      "path": "cub2002011/versions/7/CUB_200_2011/images/078.Gray_Kingbird/Gray_Kingbird_0045_70256.jpg",
+      "dataset_label": 17,
+      "class_name": "078.Gray_Kingbird",
+      "role": "query",
+      "episode_label": 4
+    }
+  ],
+  "train_plan": {
+    "schema": "few-shot-episodes-v1",
+    "dataset_fingerprint": "3f343833ab86a4d6ce43e6fe111a24506711492a0ad1b9654bbd30d97a925de1",
+    "n_way": 5,
+    "k_shot": 1,
+    "n_query": 5,
+    "episodes": 1,
+    "batches": [
+      [
+        4782,
+        856,
+        180,
+        5569,
+        2098,
+        4781,
+        4775,
+        4814,
+        4773,
+        4810,
+        866,
+        843,
+        814,
+        846,
+        836,
+        179,
+        183,
+        191,
+        192,
+        210,
+        5532,
+        5566,
+        5543,
+        5576,
+        5572,
+        2088,
+        2080,
+        2068,
+        2082,
+        2091
+      ]
+    ],
+    "seed": 42
+  },
+  "val_plan": {
+    "schema": "few-shot-episodes-v1",
+    "dataset_fingerprint": "be4c454115744b7c943bbfdb4341d6e88dcac8c69414d35245e513480c1a9ea7",
+    "n_way": 5,
+    "k_shot": 1,
+    "n_query": 5,
+    "episodes": 1,
+    "batches": [
+      [
+        2365,
+        432,
+        45,
+        2768,
+        1009,
+        2364,
+        2358,
+        2397,
+        2356,
+        2393,
+        419,
+        390,
+        422,
+        412,
+        387,
+        49,
+        57,
+        58,
+        76,
+        82,
+        2802,
+        2779,
+        2812,
+        2808,
+        2811,
+        1001,
+        989,
+        1003,
+        1012,
+        992
+      ]
+    ],
+    "seed": 42
+  },
+  "train_preprocess": "deterministic existing eval transform for overfit diagnosis",
+  "smoke_preprocess": "Compose(\n    RandomResizedCrop(size=(224, 224), scale=(0.2, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)\n    RandomHorizontalFlip(p=0.5)\n    ColorJitter(brightness=(0.85, 1.15), contrast=(0.85, 1.15), saturation=(0.85, 1.15), hue=None)\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)"
+}

@@ -1,0 +1,556 @@
+﻿dataset,original_class_id,local_label,class_name,images,label_unit
+nabirds_raw,295,0,Common Eider (Adult male),53,raw_visual_category
+nabirds_raw,296,1,Long-tailed Duck (Winter male),64,raw_visual_category
+nabirds_raw,297,2,Ruddy Duck (Breeding male),87,raw_visual_category
+nabirds_raw,298,3,Swainson's Hawk (Dark morph ),67,raw_visual_category
+nabirds_raw,299,4,Red-tailed Hawk (Light morph adult),120,raw_visual_category
+nabirds_raw,313,5,Snow Goose (White morph),47,raw_visual_category
+nabirds_raw,314,6,Wood Duck (Breeding male),120,raw_visual_category
+nabirds_raw,315,7,Gadwall (Breeding male),116,raw_visual_category
+nabirds_raw,316,8,American Wigeon (Breeding male),96,raw_visual_category
+nabirds_raw,317,9,Mallard (Breeding male),120,raw_visual_category
+nabirds_raw,318,10,Blue-winged Teal  (Male),83,raw_visual_category
+nabirds_raw,319,11,Cinnamon Teal (Male),106,raw_visual_category
+nabirds_raw,320,12,Northern Shoveler (Breeding male),120,raw_visual_category
+nabirds_raw,321,13,Northern Pintail (Breeding male),87,raw_visual_category
+nabirds_raw,322,14,Green-winged Teal (Male),97,raw_visual_category
+nabirds_raw,323,15,Canvasback (Breeding male),89,raw_visual_category
+nabirds_raw,324,16,Redhead (Breeding male),66,raw_visual_category
+nabirds_raw,325,17,Ring-necked Duck (Breeding male),82,raw_visual_category
+nabirds_raw,326,18,Greater Scaup (Breeding male),72,raw_visual_category
+nabirds_raw,327,19,Lesser Scaup (Breeding male),85,raw_visual_category
+nabirds_raw,328,20,Harlequin Duck (Male),92,raw_visual_category
+nabirds_raw,329,21,Surf Scoter (Male),70,raw_visual_category
+nabirds_raw,330,22,White-winged Scoter (Male),44,raw_visual_category
+nabirds_raw,331,23,Black Scoter (Male),41,raw_visual_category
+nabirds_raw,332,24,Bufflehead (Breeding male),106,raw_visual_category
+nabirds_raw,333,25,Common Goldeneye (Breeding male),105,raw_visual_category
+nabirds_raw,334,26,Barrow's Goldeneye (Breeding male),45,raw_visual_category
+nabirds_raw,335,27,Hooded Merganser (Breeding male),106,raw_visual_category
+nabirds_raw,336,28,Common Merganser (Breeding male),63,raw_visual_category
+nabirds_raw,337,29,Red-breasted Merganser (Breeding male),77,raw_visual_category
+nabirds_raw,338,30,California Quail (Male),116,raw_visual_category
+nabirds_raw,339,31,Gambel's Quail (Male),71,raw_visual_category
+nabirds_raw,340,32,Ring-necked Pheasant (Male),93,raw_visual_category
+nabirds_raw,341,33,Red-throated Loon (Breeding),23,raw_visual_category
+nabirds_raw,342,34,Pacific Loon (Breeding),31,raw_visual_category
+nabirds_raw,343,35,Common Loon (Breeding),94,raw_visual_category
+nabirds_raw,344,36,Horned Grebe (Breeding),76,raw_visual_category
+nabirds_raw,345,37,Red-necked Grebe (Breeding),54,raw_visual_category
+nabirds_raw,346,38,Eared Grebe (Breeding),73,raw_visual_category
+nabirds_raw,347,39,"Northern Gannet (Adult, Subadult)",106,raw_visual_category
+nabirds_raw,348,40,Double-crested Cormorant (Immature),109,raw_visual_category
+nabirds_raw,349,41,Great Cormorant (Adult),75,raw_visual_category
+nabirds_raw,350,42,Little Blue Heron (Adult),120,raw_visual_category
+nabirds_raw,351,43,Reddish Egret (Dark morph),110,raw_visual_category
+nabirds_raw,352,44,Black-crowned Night-Heron (Adult),120,raw_visual_category
+nabirds_raw,353,45,Yellow-crowned Night-Heron (Adult),98,raw_visual_category
+nabirds_raw,354,46,White Ibis (Adult),118,raw_visual_category
+nabirds_raw,355,47,"Bald Eagle (Adult, subadult)",120,raw_visual_category
+nabirds_raw,356,48,Northern Harrier (Adult male),95,raw_visual_category
+nabirds_raw,357,49,Sharp-shinned Hawk (Adult ),118,raw_visual_category
+nabirds_raw,358,50,Cooper's Hawk (Adult),117,raw_visual_category
+nabirds_raw,359,51,Red-shouldered Hawk (Adult ),70,raw_visual_category
+nabirds_raw,360,52,Broad-winged Hawk (Adult),58,raw_visual_category
+nabirds_raw,361,53,Rough-legged Hawk (Dark morph),50,raw_visual_category
+nabirds_raw,362,54,Golden Eagle (Adult),81,raw_visual_category
+nabirds_raw,363,55,American Kestrel (Adult male),120,raw_visual_category
+nabirds_raw,364,56,Peregrine Falcon (Adult),77,raw_visual_category
+nabirds_raw,365,57,Purple Gallinule (Adult),74,raw_visual_category
+nabirds_raw,366,58,Common Gallinule (Adult),101,raw_visual_category
+nabirds_raw,367,59,Black-bellied Plover (Breeding),82,raw_visual_category
+nabirds_raw,368,60,Spotted Sandpiper (Breeding),108,raw_visual_category
+nabirds_raw,369,61,Sanderling (Breeding),31,raw_visual_category
+nabirds_raw,370,62,Dunlin (Breeding),76,raw_visual_category
+nabirds_raw,371,63,Wilson's Phalarope (Breeding),90,raw_visual_category
+nabirds_raw,372,64,Broad-billed Hummingbird (Adult Male),89,raw_visual_category
+nabirds_raw,373,65,Ruby-throated Hummingbird (Adult Male),100,raw_visual_category
+nabirds_raw,374,66,Black-chinned Hummingbird (Adult Male),101,raw_visual_category
+nabirds_raw,375,67,Anna's Hummingbird (Adult Male),113,raw_visual_category
+nabirds_raw,376,68,Costa's Hummingbird (Adult Male),74,raw_visual_category
+nabirds_raw,377,69,Calliope Hummingbird (Adult Male),78,raw_visual_category
+nabirds_raw,378,70,Broad-tailed Hummingbird (Adult Male),81,raw_visual_category
+nabirds_raw,379,71,Rufous Hummingbird (Adult Male),93,raw_visual_category
+nabirds_raw,380,72,Allen's Hummingbird (Adult Male),107,raw_visual_category
+nabirds_raw,381,73,Red-headed Woodpecker (Adult),119,raw_visual_category
+nabirds_raw,382,74,Northern Flicker (Yellow-shafted),119,raw_visual_category
+nabirds_raw,392,75,Black Guillemot (Breeding),45,raw_visual_category
+nabirds_raw,393,76,Pigeon Guillemot (Breeding),81,raw_visual_category
+nabirds_raw,394,77,Black-legged Kittiwake (Adult),53,raw_visual_category
+nabirds_raw,395,78,Laughing Gull (Breeding),119,raw_visual_category
+nabirds_raw,396,79,Heermann's Gull (Adult),87,raw_visual_category
+nabirds_raw,397,80,Ring-billed Gull (Adult),120,raw_visual_category
+nabirds_raw,398,81,Western Gull (Adult),70,raw_visual_category
+nabirds_raw,399,82,California Gull (Adult),76,raw_visual_category
+nabirds_raw,400,83,Herring Gull (Adult),117,raw_visual_category
+nabirds_raw,401,84,Glaucous-winged Gull (Adult),78,raw_visual_category
+nabirds_raw,402,85,Great Black-backed Gull (Adult),84,raw_visual_category
+nabirds_raw,446,86,Bonaparte's Gull,118,raw_visual_category
+nabirds_raw,447,87,Mew Gull,55,raw_visual_category
+nabirds_raw,448,88,Caspian Tern,93,raw_visual_category
+nabirds_raw,449,89,Black Tern,63,raw_visual_category
+nabirds_raw,450,90,Common Tern,120,raw_visual_category
+nabirds_raw,451,91,Forster's Tern,120,raw_visual_category
+nabirds_raw,452,92,Royal Tern,76,raw_visual_category
+nabirds_raw,453,93,Black Skimmer,92,raw_visual_category
+nabirds_raw,454,94,Greater White-fronted Goose,71,raw_visual_category
+nabirds_raw,455,95,Brant,52,raw_visual_category
+nabirds_raw,456,96,Cackling Goose,31,raw_visual_category
+nabirds_raw,457,97,Canada Goose,61,raw_visual_category
+nabirds_raw,458,98,Mute Swan,117,raw_visual_category
+nabirds_raw,459,99,Trumpeter Swan,80,raw_visual_category
+nabirds_raw,460,100,Tundra Swan,55,raw_visual_category
+nabirds_raw,461,101,American Black Duck,65,raw_visual_category
+nabirds_raw,462,102,Mottled Duck,60,raw_visual_category
+nabirds_raw,463,103,Common Eider (Female/juvenile),41,raw_visual_category
+nabirds_raw,464,104,Long-tailed Duck (Summer male),28,raw_visual_category
+nabirds_raw,465,105,Ruddy Duck (Winter male),48,raw_visual_category
+nabirds_raw,466,106,Scaled Quail,39,raw_visual_category
+nabirds_raw,467,107,Northern Bobwhite,59,raw_visual_category
+nabirds_raw,468,108,Ruffed Grouse,75,raw_visual_category
+nabirds_raw,469,109,Wild Turkey,120,raw_visual_category
+nabirds_raw,470,110,Pied-billed Grebe,116,raw_visual_category
+nabirds_raw,471,111,Western Grebe,75,raw_visual_category
+nabirds_raw,472,112,Clark's Grebe,82,raw_visual_category
+nabirds_raw,473,113,Wood Stork,104,raw_visual_category
+nabirds_raw,474,114,Brandt's Cormorant,66,raw_visual_category
+nabirds_raw,475,115,Neotropic Cormorant,65,raw_visual_category
+nabirds_raw,476,116,Pelagic Cormorant,62,raw_visual_category
+nabirds_raw,477,117,Anhinga,120,raw_visual_category
+nabirds_raw,478,118,American White Pelican,64,raw_visual_category
+nabirds_raw,479,119,Brown Pelican,65,raw_visual_category
+nabirds_raw,480,120,Great Blue Heron,102,raw_visual_category
+nabirds_raw,481,121,Great Egret,111,raw_visual_category
+nabirds_raw,482,122,Snowy Egret,104,raw_visual_category
+nabirds_raw,483,123,Tricolored Heron,120,raw_visual_category
+nabirds_raw,484,124,Cattle Egret,108,raw_visual_category
+nabirds_raw,485,125,Green Heron,120,raw_visual_category
+nabirds_raw,486,126,Glossy Ibis,98,raw_visual_category
+nabirds_raw,487,127,White-faced Ibis,66,raw_visual_category
+nabirds_raw,488,128,Roseate Spoonbill,60,raw_visual_category
+nabirds_raw,489,129,Black Vulture,97,raw_visual_category
+nabirds_raw,490,130,Turkey Vulture,108,raw_visual_category
+nabirds_raw,491,131,Osprey,106,raw_visual_category
+nabirds_raw,492,132,Swallow-tailed Kite,53,raw_visual_category
+nabirds_raw,493,133,White-tailed Kite,72,raw_visual_category
+nabirds_raw,494,134,Mississippi Kite,80,raw_visual_category
+nabirds_raw,495,135,Harris's Hawk,95,raw_visual_category
+nabirds_raw,496,136,Swainson's Hawk (Light morph ),77,raw_visual_category
+nabirds_raw,497,137,Red-tailed Hawk (Dark morph),58,raw_visual_category
+nabirds_raw,498,138,Crested Caracara,112,raw_visual_category
+nabirds_raw,499,139,Merlin,118,raw_visual_category
+nabirds_raw,500,140,Prairie Falcon,86,raw_visual_category
+nabirds_raw,501,141,American Coot,120,raw_visual_category
+nabirds_raw,502,142,Sandhill Crane,50,raw_visual_category
+nabirds_raw,503,143,Semipalmated Plover,111,raw_visual_category
+nabirds_raw,504,144,Killdeer,120,raw_visual_category
+nabirds_raw,505,145,American Oystercatcher,80,raw_visual_category
+nabirds_raw,506,146,Black Oystercatcher,65,raw_visual_category
+nabirds_raw,507,147,Black-necked Stilt,74,raw_visual_category
+nabirds_raw,508,148,American Avocet,102,raw_visual_category
+nabirds_raw,509,149,Solitary Sandpiper,116,raw_visual_category
+nabirds_raw,510,150,Greater Yellowlegs,113,raw_visual_category
+nabirds_raw,511,151,Willet,120,raw_visual_category
+nabirds_raw,512,152,Lesser Yellowlegs,120,raw_visual_category
+nabirds_raw,513,153,Whimbrel,101,raw_visual_category
+nabirds_raw,514,154,Long-billed Curlew,96,raw_visual_category
+nabirds_raw,515,155,Marbled Godwit,116,raw_visual_category
+nabirds_raw,516,156,Ruddy Turnstone,108,raw_visual_category
+nabirds_raw,517,157,Black Turnstone,86,raw_visual_category
+nabirds_raw,518,158,Surfbird,63,raw_visual_category
+nabirds_raw,519,159,Semipalmated Sandpiper,105,raw_visual_category
+nabirds_raw,520,160,Western Sandpiper,92,raw_visual_category
+nabirds_raw,521,161,Least Sandpiper,120,raw_visual_category
+nabirds_raw,522,162,Short-billed Dowitcher,120,raw_visual_category
+nabirds_raw,523,163,Wilson's Snipe,110,raw_visual_category
+nabirds_raw,524,164,American Woodcock,54,raw_visual_category
+nabirds_raw,525,165,Rock Pigeon,105,raw_visual_category
+nabirds_raw,526,166,Band-tailed Pigeon,75,raw_visual_category
+nabirds_raw,527,167,Eurasian Collared-Dove,117,raw_visual_category
+nabirds_raw,528,168,White-winged Dove,117,raw_visual_category
+nabirds_raw,529,169,Mourning Dove,120,raw_visual_category
+nabirds_raw,530,170,Inca Dove,103,raw_visual_category
+nabirds_raw,531,171,Common Ground-Dove,75,raw_visual_category
+nabirds_raw,532,172,Monk Parakeet,46,raw_visual_category
+nabirds_raw,533,173,Yellow-billed Cuckoo,94,raw_visual_category
+nabirds_raw,534,174,Black-billed Cuckoo,71,raw_visual_category
+nabirds_raw,535,175,Greater Roadrunner,65,raw_visual_category
+nabirds_raw,536,176,Barn Owl,109,raw_visual_category
+nabirds_raw,537,177,Western Screech-Owl,74,raw_visual_category
+nabirds_raw,538,178,Eastern Screech-Owl,94,raw_visual_category
+nabirds_raw,539,179,Great Horned Owl,103,raw_visual_category
+nabirds_raw,540,180,Snowy Owl,72,raw_visual_category
+nabirds_raw,541,181,Northern Pygmy-Owl,103,raw_visual_category
+nabirds_raw,542,182,Burrowing Owl,99,raw_visual_category
+nabirds_raw,543,183,Barred Owl,120,raw_visual_category
+nabirds_raw,544,184,Northern Saw-whet Owl,98,raw_visual_category
+nabirds_raw,545,185,Common Nighthawk,86,raw_visual_category
+nabirds_raw,546,186,Chimney Swift,57,raw_visual_category
+nabirds_raw,547,187,Vaux's Swift,53,raw_visual_category
+nabirds_raw,548,188,White-throated Swift,66,raw_visual_category
+nabirds_raw,549,189,Belted Kingfisher,109,raw_visual_category
+nabirds_raw,550,190,Acorn Woodpecker,99,raw_visual_category
+nabirds_raw,551,191,Gila Woodpecker,97,raw_visual_category
+nabirds_raw,552,192,Golden-fronted Woodpecker,77,raw_visual_category
+nabirds_raw,553,193,Red-bellied Woodpecker,120,raw_visual_category
+nabirds_raw,554,194,Yellow-bellied Sapsucker,119,raw_visual_category
+nabirds_raw,555,195,Red-naped Sapsucker,98,raw_visual_category
+nabirds_raw,556,196,Red-breasted Sapsucker,85,raw_visual_category
+nabirds_raw,557,197,Ladder-backed Woodpecker,99,raw_visual_category
+nabirds_raw,558,198,Nuttall's Woodpecker,92,raw_visual_category
+nabirds_raw,559,199,Downy Woodpecker,120,raw_visual_category
+nabirds_raw,560,200,Hairy Woodpecker,118,raw_visual_category
+nabirds_raw,561,201,Pileated Woodpecker,119,raw_visual_category
+nabirds_raw,599,202,"Black Guillemot (Nonbreeding, juvenile)",33,raw_visual_category
+nabirds_raw,600,203,"Pigeon Guillemot (Nonbreeding, juvenile)",37,raw_visual_category
+nabirds_raw,601,204,Black-legged Kittiwake (Immature),54,raw_visual_category
+nabirds_raw,602,205,Laughing Gull (Nonbreeding/Immature),86,raw_visual_category
+nabirds_raw,603,206,Heermann's Gull (Immature),47,raw_visual_category
+nabirds_raw,604,207,Ring-billed Gull (Immature),80,raw_visual_category
+nabirds_raw,605,208,Western Gull (Immature),54,raw_visual_category
+nabirds_raw,606,209,California Gull (Immature),54,raw_visual_category
+nabirds_raw,607,210,Herring Gull (Immature),101,raw_visual_category
+nabirds_raw,608,211,Glaucous-winged Gull (Immature),49,raw_visual_category
+nabirds_raw,609,212,Great Black-backed Gull (Immature),63,raw_visual_category
+nabirds_raw,610,213,Black-bellied Whistling-Duck,51,raw_visual_category
+nabirds_raw,611,214,Snow Goose (Blue morph),49,raw_visual_category
+nabirds_raw,612,215,Ross's Goose,46,raw_visual_category
+nabirds_raw,613,216,Wood Duck (Female/Eclipse male),96,raw_visual_category
+nabirds_raw,614,217,Gadwall (Female/Eclipse male),39,raw_visual_category
+nabirds_raw,615,218,American Wigeon (Female/Eclipse male),41,raw_visual_category
+nabirds_raw,616,219,Mallard (Female/Eclipse male),118,raw_visual_category
+nabirds_raw,617,220,Blue-winged Teal  (Female/juvenile),33,raw_visual_category
+nabirds_raw,618,221,Cinnamon Teal (Female/juvenile),32,raw_visual_category
+nabirds_raw,619,222,Northern Shoveler (Female/Eclipse male),79,raw_visual_category
+nabirds_raw,620,223,Northern Pintail (Female/Eclipse male),47,raw_visual_category
+nabirds_raw,621,224,Green-winged Teal  (Female/juvenile),47,raw_visual_category
+nabirds_raw,622,225,Canvasback (Female/Eclipse male),41,raw_visual_category
+nabirds_raw,623,226,Redhead (Female/Eclipse male),34,raw_visual_category
+nabirds_raw,624,227,Ring-necked Duck (Female/Eclipse male),50,raw_visual_category
+nabirds_raw,625,228,Greater Scaup (Female/Eclipse male),39,raw_visual_category
+nabirds_raw,626,229,Lesser Scaup (Female/Eclipse male),62,raw_visual_category
+nabirds_raw,627,230,Harlequin Duck (Female/juvenile),27,raw_visual_category
+nabirds_raw,628,231,Surf Scoter (Female/immature),44,raw_visual_category
+nabirds_raw,629,232,White-winged Scoter (Female/juvenile),48,raw_visual_category
+nabirds_raw,630,233,Black Scoter (Female/juvenile),40,raw_visual_category
+nabirds_raw,631,234,Bufflehead (Female/immature male),65,raw_visual_category
+nabirds_raw,632,235,Common Goldeneye (Female/Eclipse male),58,raw_visual_category
+nabirds_raw,633,236,Barrow's Goldeneye (Female/Eclipse male),32,raw_visual_category
+nabirds_raw,634,237,Hooded Merganser (Female/immature male),66,raw_visual_category
+nabirds_raw,635,238,Common Merganser (Female/immature male),87,raw_visual_category
+nabirds_raw,636,239,Red-breasted Merganser (Female/immature male),78,raw_visual_category
+nabirds_raw,637,240,California Quail (Female/juvenile),51,raw_visual_category
+nabirds_raw,638,241,Gambel's Quail (Female/juvenile),36,raw_visual_category
+nabirds_raw,639,242,Ring-necked Pheasant (Female/juvenile),32,raw_visual_category
+nabirds_raw,640,243,Red-throated Loon (Nonbreeding/juvenile),94,raw_visual_category
+nabirds_raw,641,244,Pacific Loon (Nonbreeding/juvenile),54,raw_visual_category
+nabirds_raw,642,245,Common Loon (Nonbreeding/juvenile),120,raw_visual_category
+nabirds_raw,643,246,Horned Grebe (Nonbreeding/juvenile),120,raw_visual_category
+nabirds_raw,644,247,Red-necked Grebe (Nonbreeding/juvenile),62,raw_visual_category
+nabirds_raw,645,248,Eared Grebe (Nonbreeding/juvenile),64,raw_visual_category
+nabirds_raw,646,249,Northern Gannet (Immature/Juvenile),39,raw_visual_category
+nabirds_raw,647,250,Double-crested Cormorant (Adult),101,raw_visual_category
+nabirds_raw,648,251,Great Cormorant (Immature),42,raw_visual_category
+nabirds_raw,649,252,Little Blue Heron (Immature),87,raw_visual_category
+nabirds_raw,650,253,Reddish Egret (White morph),46,raw_visual_category
+nabirds_raw,651,254,Black-crowned Night-Heron (Immature),99,raw_visual_category
+nabirds_raw,652,255,Yellow-crowned Night-Heron (Immature),82,raw_visual_category
+nabirds_raw,653,256,White Ibis (Immature),63,raw_visual_category
+nabirds_raw,654,257,"Bald Eagle (Immature, juvenile)",103,raw_visual_category
+nabirds_raw,655,258,"Northern Harrier (Female, immature)",120,raw_visual_category
+nabirds_raw,656,259,Sharp-shinned Hawk (Immature),109,raw_visual_category
+nabirds_raw,657,260,Cooper's Hawk (Immature),120,raw_visual_category
+nabirds_raw,658,261,Red-shouldered Hawk (Immature),81,raw_visual_category
+nabirds_raw,659,262,Broad-winged Hawk (Immature),47,raw_visual_category
+nabirds_raw,660,263,Rough-legged Hawk (Light morph),86,raw_visual_category
+nabirds_raw,661,264,Golden Eagle (Immature),56,raw_visual_category
+nabirds_raw,662,265,"American Kestrel (Female, immature)",110,raw_visual_category
+nabirds_raw,663,266,Peregrine Falcon (Immature),53,raw_visual_category
+nabirds_raw,664,267,Purple Gallinule (Immature),21,raw_visual_category
+nabirds_raw,665,268,Common Gallinule (Immature),31,raw_visual_category
+nabirds_raw,666,269,Black-bellied Plover (Nonbreeding/juvenile),83,raw_visual_category
+nabirds_raw,667,270,Spotted Sandpiper (Nonbreeding/juvenile),98,raw_visual_category
+nabirds_raw,668,271,Sanderling (Nonbreeding/juvenile),95,raw_visual_category
+nabirds_raw,669,272,Dunlin (Nonbreeding/juvenile),118,raw_visual_category
+nabirds_raw,670,273,"Wilson's Phalarope (Nonbreeding, juvenile)",59,raw_visual_category
+nabirds_raw,671,274,"Broad-billed Hummingbird (Female, immature)",42,raw_visual_category
+nabirds_raw,672,275,"Ruby-throated Hummingbird (Female, immature)",120,raw_visual_category
+nabirds_raw,673,276,"Black-chinned Hummingbird (Female, immature)",119,raw_visual_category
+nabirds_raw,674,277,"Anna's Hummingbird (Female, immature)",109,raw_visual_category
+nabirds_raw,675,278,"Costa's Hummingbird (Female, immature)",42,raw_visual_category
+nabirds_raw,676,279,"Calliope Hummingbird (Female, immature)",108,raw_visual_category
+nabirds_raw,677,280,"Broad-tailed Hummingbird (Female, immature)",56,raw_visual_category
+nabirds_raw,678,281,"Rufous Hummingbird (Female, immature)",70,raw_visual_category
+nabirds_raw,679,282,"Allen's Hummingbird (Female, immature)",70,raw_visual_category
+nabirds_raw,680,283,Red-headed Woodpecker (Immature),72,raw_visual_category
+nabirds_raw,681,284,Northern Flicker (Red-shafted),119,raw_visual_category
+nabirds_raw,696,285,Common Eider (Immature/Eclipse male),45,raw_visual_category
+nabirds_raw,697,286,Long-tailed Duck (Female/juvenile),44,raw_visual_category
+nabirds_raw,698,287,Ruddy Duck (Female/juvenile),76,raw_visual_category
+nabirds_raw,699,288,Swainson's Hawk (Immature),44,raw_visual_category
+nabirds_raw,700,289,Red-tailed Hawk (Light morph immature),120,raw_visual_category
+nabirds_raw,746,290,Dark-eyed Junco (Slate-colored),120,raw_visual_category
+nabirds_raw,747,291,Yellow-rumped Warbler (Breeding Myrtle),116,raw_visual_category
+nabirds_raw,748,292,European Starling (Breeding Adult),116,raw_visual_category
+nabirds_raw,749,293,Fox Sparrow (Red),111,raw_visual_category
+nabirds_raw,750,294,Summer Tanager (Adult Male),91,raw_visual_category
+nabirds_raw,751,295,Orchard Oriole (Adult Male),88,raw_visual_category
+nabirds_raw,752,296,Purple Martin (Adult male),70,raw_visual_category
+nabirds_raw,753,297,American Robin (Adult),119,raw_visual_category
+nabirds_raw,754,298,Phainopepla (Female/juvenile),35,raw_visual_category
+nabirds_raw,755,299,Snow Bunting (Breeding adult),24,raw_visual_category
+nabirds_raw,756,300,Common Yellowthroat (Adult Male),120,raw_visual_category
+nabirds_raw,757,301,American Redstart (Adult Male),103,raw_visual_category
+nabirds_raw,758,302,Magnolia Warbler (Breeding male),99,raw_visual_category
+nabirds_raw,759,303,Bay-breasted Warbler (Breeding male),48,raw_visual_category
+nabirds_raw,760,304,Chestnut-sided Warbler (Breeding male),116,raw_visual_category
+nabirds_raw,761,305,Blackpoll Warbler (Breeding male),90,raw_visual_category
+nabirds_raw,762,306,Black-throated Blue Warbler (Adult Male),119,raw_visual_category
+nabirds_raw,763,307,Lark Bunting (Breeding male),30,raw_visual_category
+nabirds_raw,764,308,White-throated Sparrow (White-striped),119,raw_visual_category
+nabirds_raw,765,309,Harris's Sparrow (Adult),64,raw_visual_category
+nabirds_raw,766,310,White-crowned Sparrow (Adult),120,raw_visual_category
+nabirds_raw,767,311,Golden-crowned Sparrow (Adult),88,raw_visual_category
+nabirds_raw,768,312,Dark-eyed Junco (Oregon),98,raw_visual_category
+nabirds_raw,769,313,Chipping Sparrow (Breeding),120,raw_visual_category
+nabirds_raw,770,314,Scarlet Tanager (Breeding Male),97,raw_visual_category
+nabirds_raw,771,315,Western Tanager (Breeding Male),94,raw_visual_category
+nabirds_raw,772,316,Northern Cardinal (Adult Male),120,raw_visual_category
+nabirds_raw,773,317,Rose-breasted Grosbeak (Adult Male),120,raw_visual_category
+nabirds_raw,774,318,Black-headed Grosbeak (Adult Male),109,raw_visual_category
+nabirds_raw,775,319,Blue Grosbeak (Adult Male),111,raw_visual_category
+nabirds_raw,776,320,Lazuli Bunting (Adult Male),102,raw_visual_category
+nabirds_raw,777,321,Indigo Bunting (Adult Male),120,raw_visual_category
+nabirds_raw,778,322,Painted Bunting (Adult Male),119,raw_visual_category
+nabirds_raw,779,323,Bobolink (Breeding male),115,raw_visual_category
+nabirds_raw,780,324,Red-winged Blackbird (Male),119,raw_visual_category
+nabirds_raw,781,325,Yellow-headed Blackbird (Adult Male),91,raw_visual_category
+nabirds_raw,782,326,Brewer's Blackbird (Female/Juvenile),66,raw_visual_category
+nabirds_raw,783,327,Brown-headed Cowbird (Male),120,raw_visual_category
+nabirds_raw,784,328,Hooded Oriole (Adult male),93,raw_visual_category
+nabirds_raw,785,329,Bullock's Oriole (Adult male),98,raw_visual_category
+nabirds_raw,786,330,Baltimore Oriole (Adult male),109,raw_visual_category
+nabirds_raw,787,331,Pine Grosbeak (Adult Male),57,raw_visual_category
+nabirds_raw,788,332,Purple Finch (Adult Male),103,raw_visual_category
+nabirds_raw,789,333,Cassin's Finch (Adult Male),80,raw_visual_category
+nabirds_raw,790,334,House Finch (Adult Male),120,raw_visual_category
+nabirds_raw,791,335,Red Crossbill (Adult Male),65,raw_visual_category
+nabirds_raw,792,336,White-winged Crossbill (Adult Male),53,raw_visual_category
+nabirds_raw,793,337,Lesser Goldfinch (Adult Male),119,raw_visual_category
+nabirds_raw,794,338,American Goldfinch (Breeding Male),120,raw_visual_category
+nabirds_raw,795,339,Evening Grosbeak (Adult Male),107,raw_visual_category
+nabirds_raw,796,340,House Sparrow (Male),119,raw_visual_category
+nabirds_raw,797,341,Vermilion Flycatcher (Adult male),113,raw_visual_category
+nabirds_raw,798,342,Yellow-rumped Warbler (Winter/juvenile Myrtle),113,raw_visual_category
+nabirds_raw,799,343,Northwestern Crow,36,raw_visual_category
+nabirds_raw,800,344,Fish Crow,61,raw_visual_category
+nabirds_raw,801,345,Chihuahuan Raven,49,raw_visual_category
+nabirds_raw,802,346,Common Raven,116,raw_visual_category
+nabirds_raw,803,347,Horned Lark,113,raw_visual_category
+nabirds_raw,804,348,Tree Swallow,116,raw_visual_category
+nabirds_raw,805,349,Violet-green Swallow,75,raw_visual_category
+nabirds_raw,806,350,Northern Rough-winged Swallow,77,raw_visual_category
+nabirds_raw,807,351,Bank Swallow,35,raw_visual_category
+nabirds_raw,808,352,Cliff Swallow,74,raw_visual_category
+nabirds_raw,809,353,Cave Swallow,62,raw_visual_category
+nabirds_raw,810,354,Barn Swallow,106,raw_visual_category
+nabirds_raw,811,355,Carolina Chickadee,118,raw_visual_category
+nabirds_raw,812,356,Black-capped Chickadee,96,raw_visual_category
+nabirds_raw,813,357,Mountain Chickadee,109,raw_visual_category
+nabirds_raw,814,358,Chestnut-backed Chickadee,114,raw_visual_category
+nabirds_raw,815,359,Boreal Chickadee,48,raw_visual_category
+nabirds_raw,816,360,Bridled Titmouse,59,raw_visual_category
+nabirds_raw,817,361,Oak Titmouse,82,raw_visual_category
+nabirds_raw,818,362,Juniper Titmouse,47,raw_visual_category
+nabirds_raw,819,363,Tufted Titmouse,120,raw_visual_category
+nabirds_raw,820,364,Black-crested Titmouse,70,raw_visual_category
+nabirds_raw,821,365,Verdin,83,raw_visual_category
+nabirds_raw,822,366,Bushtit,120,raw_visual_category
+nabirds_raw,823,367,Red-breasted Nuthatch,120,raw_visual_category
+nabirds_raw,824,368,White-breasted Nuthatch,120,raw_visual_category
+nabirds_raw,825,369,Pygmy Nuthatch,80,raw_visual_category
+nabirds_raw,826,370,Brown-headed Nuthatch,72,raw_visual_category
+nabirds_raw,827,371,Brown Creeper,117,raw_visual_category
+nabirds_raw,828,372,Cactus Wren,86,raw_visual_category
+nabirds_raw,829,373,Canyon Wren,64,raw_visual_category
+nabirds_raw,830,374,Carolina Wren,120,raw_visual_category
+nabirds_raw,831,375,Bewick's Wren,118,raw_visual_category
+nabirds_raw,832,376,House Wren,114,raw_visual_category
+nabirds_raw,833,377,Pacific Wren,37,raw_visual_category
+nabirds_raw,834,378,Winter Wren,104,raw_visual_category
+nabirds_raw,835,379,Marsh Wren,120,raw_visual_category
+nabirds_raw,836,380,Blue-gray Gnatcatcher,120,raw_visual_category
+nabirds_raw,837,381,Black-tailed Gnatcatcher,54,raw_visual_category
+nabirds_raw,838,382,American Dipper,82,raw_visual_category
+nabirds_raw,839,383,Golden-crowned Kinglet,74,raw_visual_category
+nabirds_raw,840,384,Ruby-crowned Kinglet,120,raw_visual_category
+nabirds_raw,841,385,Wrentit,64,raw_visual_category
+nabirds_raw,842,386,Eastern Bluebird,120,raw_visual_category
+nabirds_raw,843,387,Western Bluebird,106,raw_visual_category
+nabirds_raw,844,388,Mountain Bluebird,101,raw_visual_category
+nabirds_raw,845,389,Townsend's Solitaire,89,raw_visual_category
+nabirds_raw,846,390,Veery,87,raw_visual_category
+nabirds_raw,847,391,Swainson's Thrush,107,raw_visual_category
+nabirds_raw,848,392,Hermit Thrush,120,raw_visual_category
+nabirds_raw,849,393,Wood Thrush,93,raw_visual_category
+nabirds_raw,850,394,Varied Thrush,116,raw_visual_category
+nabirds_raw,851,395,Gray Catbird,120,raw_visual_category
+nabirds_raw,852,396,Northern Mockingbird,120,raw_visual_category
+nabirds_raw,853,397,Brown Thrasher,111,raw_visual_category
+nabirds_raw,854,398,Curve-billed Thrasher,78,raw_visual_category
+nabirds_raw,855,399,California Thrasher,75,raw_visual_category
+nabirds_raw,856,400,European Starling (Nonbreeding Adult),120,raw_visual_category
+nabirds_raw,857,401,American Pipit,118,raw_visual_category
+nabirds_raw,858,402,Bohemian Waxwing,79,raw_visual_category
+nabirds_raw,859,403,Cedar Waxwing,97,raw_visual_category
+nabirds_raw,860,404,Ovenbird,103,raw_visual_category
+nabirds_raw,861,405,Louisiana Waterthrush,86,raw_visual_category
+nabirds_raw,862,406,Northern Waterthrush,111,raw_visual_category
+nabirds_raw,863,407,Blue-winged Warbler,74,raw_visual_category
+nabirds_raw,864,408,Black-and-white Warbler,120,raw_visual_category
+nabirds_raw,865,409,Prothonotary Warbler,103,raw_visual_category
+nabirds_raw,866,410,Tennessee Warbler,116,raw_visual_category
+nabirds_raw,867,411,Orange-crowned Warbler,114,raw_visual_category
+nabirds_raw,868,412,Nashville Warbler,119,raw_visual_category
+nabirds_raw,869,413,MacGillivray's Warbler,66,raw_visual_category
+nabirds_raw,870,414,Mourning Warbler,77,raw_visual_category
+nabirds_raw,871,415,Hooded Warbler,109,raw_visual_category
+nabirds_raw,872,416,Cape May Warbler,103,raw_visual_category
+nabirds_raw,873,417,Northern Parula,120,raw_visual_category
+nabirds_raw,874,418,Blackburnian Warbler,111,raw_visual_category
+nabirds_raw,875,419,Yellow Warbler,120,raw_visual_category
+nabirds_raw,876,420,Palm Warbler,104,raw_visual_category
+nabirds_raw,877,421,Pine Warbler,108,raw_visual_category
+nabirds_raw,878,422,Yellow-throated Warbler,103,raw_visual_category
+nabirds_raw,879,423,Prairie Warbler,120,raw_visual_category
+nabirds_raw,880,424,Black-throated Gray Warbler,75,raw_visual_category
+nabirds_raw,881,425,Townsend's Warbler,120,raw_visual_category
+nabirds_raw,882,426,Hermit Warbler,66,raw_visual_category
+nabirds_raw,883,427,Black-throated Green Warbler,120,raw_visual_category
+nabirds_raw,884,428,Canada Warbler,118,raw_visual_category
+nabirds_raw,885,429,Wilson's Warbler,120,raw_visual_category
+nabirds_raw,886,430,Yellow-breasted Chat,115,raw_visual_category
+nabirds_raw,887,431,Green-tailed Towhee,62,raw_visual_category
+nabirds_raw,888,432,Spotted Towhee,120,raw_visual_category
+nabirds_raw,889,433,Eastern Towhee,110,raw_visual_category
+nabirds_raw,890,434,Rufous-crowned Sparrow,80,raw_visual_category
+nabirds_raw,891,435,Canyon Towhee,84,raw_visual_category
+nabirds_raw,892,436,California Towhee,92,raw_visual_category
+nabirds_raw,893,437,Abert's Towhee,64,raw_visual_category
+nabirds_raw,894,438,American Tree Sparrow,110,raw_visual_category
+nabirds_raw,895,439,Clay-colored Sparrow,109,raw_visual_category
+nabirds_raw,896,440,Brewer's Sparrow,78,raw_visual_category
+nabirds_raw,897,441,Field Sparrow,103,raw_visual_category
+nabirds_raw,898,442,Vesper Sparrow,115,raw_visual_category
+nabirds_raw,899,443,Lark Sparrow,112,raw_visual_category
+nabirds_raw,900,444,Savannah Sparrow,120,raw_visual_category
+nabirds_raw,901,445,Fox Sparrow (Sooty),79,raw_visual_category
+nabirds_raw,902,446,Song Sparrow,120,raw_visual_category
+nabirds_raw,903,447,Lincoln's Sparrow,116,raw_visual_category
+nabirds_raw,904,448,Swamp Sparrow,113,raw_visual_category
+nabirds_raw,905,449,Dark-eyed Junco (Pink-sided),59,raw_visual_category
+nabirds_raw,906,450,Summer Tanager (Female),61,raw_visual_category
+nabirds_raw,907,451,Pyrrhuloxia,90,raw_visual_category
+nabirds_raw,908,452,Dickcissel,116,raw_visual_category
+nabirds_raw,909,453,Eastern Meadowlark,76,raw_visual_category
+nabirds_raw,910,454,Western Meadowlark,120,raw_visual_category
+nabirds_raw,911,455,Rusty Blackbird,90,raw_visual_category
+nabirds_raw,912,456,Common Grackle,118,raw_visual_category
+nabirds_raw,913,457,Boat-tailed Grackle,114,raw_visual_category
+nabirds_raw,914,458,Great-tailed Grackle,120,raw_visual_category
+nabirds_raw,915,459,Bronzed Cowbird,71,raw_visual_category
+nabirds_raw,916,460,Orchard Oriole (Immature Male),49,raw_visual_category
+nabirds_raw,917,461,Gray-crowned Rosy-Finch,64,raw_visual_category
+nabirds_raw,918,462,Black Rosy-Finch,59,raw_visual_category
+nabirds_raw,919,463,Brown-capped Rosy-Finch,50,raw_visual_category
+nabirds_raw,920,464,Common Redpoll,75,raw_visual_category
+nabirds_raw,921,465,Hoary Redpoll,60,raw_visual_category
+nabirds_raw,922,466,Pine Siskin,108,raw_visual_category
+nabirds_raw,923,467,Western Wood-Pewee,105,raw_visual_category
+nabirds_raw,924,468,Eastern Wood-Pewee,108,raw_visual_category
+nabirds_raw,925,469,Least Flycatcher,113,raw_visual_category
+nabirds_raw,926,470,Pacific-slope Flycatcher,119,raw_visual_category
+nabirds_raw,927,471,Cordilleran Flycatcher,70,raw_visual_category
+nabirds_raw,928,472,Black Phoebe,120,raw_visual_category
+nabirds_raw,929,473,Eastern Phoebe,120,raw_visual_category
+nabirds_raw,930,474,Say's Phoebe,118,raw_visual_category
+nabirds_raw,931,475,Ash-throated Flycatcher,82,raw_visual_category
+nabirds_raw,932,476,Great Crested Flycatcher,113,raw_visual_category
+nabirds_raw,933,477,Cassin's Kingbird,80,raw_visual_category
+nabirds_raw,934,478,Western Kingbird,109,raw_visual_category
+nabirds_raw,935,479,Eastern Kingbird,120,raw_visual_category
+nabirds_raw,936,480,Scissor-tailed Flycatcher,77,raw_visual_category
+nabirds_raw,937,481,Loggerhead Shrike,120,raw_visual_category
+nabirds_raw,938,482,Northern Shrike,120,raw_visual_category
+nabirds_raw,939,483,White-eyed Vireo,94,raw_visual_category
+nabirds_raw,940,484,Bell's Vireo,57,raw_visual_category
+nabirds_raw,941,485,Yellow-throated Vireo,69,raw_visual_category
+nabirds_raw,942,486,Plumbeous Vireo,75,raw_visual_category
+nabirds_raw,943,487,Cassin's Vireo,73,raw_visual_category
+nabirds_raw,944,488,Blue-headed Vireo,100,raw_visual_category
+nabirds_raw,945,489,Hutton's Vireo,85,raw_visual_category
+nabirds_raw,946,490,Warbling Vireo,112,raw_visual_category
+nabirds_raw,947,491,Red-eyed Vireo,120,raw_visual_category
+nabirds_raw,948,492,Gray Jay,96,raw_visual_category
+nabirds_raw,949,493,Steller's Jay,120,raw_visual_category
+nabirds_raw,950,494,Blue Jay,120,raw_visual_category
+nabirds_raw,951,495,Florida Scrub-Jay,55,raw_visual_category
+nabirds_raw,952,496,Western Scrub-Jay,120,raw_visual_category
+nabirds_raw,953,497,Mexican Jay,61,raw_visual_category
+nabirds_raw,954,498,Clark's Nutcracker,89,raw_visual_category
+nabirds_raw,955,499,Black-billed Magpie,98,raw_visual_category
+nabirds_raw,956,500,Yellow-billed Magpie,59,raw_visual_category
+nabirds_raw,957,501,American Crow,117,raw_visual_category
+nabirds_raw,958,502,Yellow-rumped Warbler (Breeding Audubon's),118,raw_visual_category
+nabirds_raw,959,503,Purple Martin (Female/juvenile),67,raw_visual_category
+nabirds_raw,960,504,American Robin (Juvenile),115,raw_visual_category
+nabirds_raw,961,505,Phainopepla (Male),71,raw_visual_category
+nabirds_raw,962,506,Snow Bunting (Nonbreeding),104,raw_visual_category
+nabirds_raw,963,507,Common Yellowthroat (Female/immature male),116,raw_visual_category
+nabirds_raw,964,508,American Redstart (Female/juvenile),119,raw_visual_category
+nabirds_raw,965,509,Magnolia Warbler (Female/immature male),105,raw_visual_category
+nabirds_raw,966,510,"Bay-breasted Warbler (Female, Nonbreeding male, Immature)",60,raw_visual_category
+nabirds_raw,967,511,Chestnut-sided Warbler (Female/immature male),78,raw_visual_category
+nabirds_raw,968,512,Blackpoll Warbler (Female/juvenile),112,raw_visual_category
+nabirds_raw,969,513,Black-throated Blue Warbler (Female/Immature male),72,raw_visual_category
+nabirds_raw,970,514,Lark Bunting (Female/Nonbreeding male),67,raw_visual_category
+nabirds_raw,971,515,White-throated Sparrow (Tan-striped/immature),83,raw_visual_category
+nabirds_raw,972,516,Harris's Sparrow (Immature),67,raw_visual_category
+nabirds_raw,973,517,White-crowned Sparrow (Immature),119,raw_visual_category
+nabirds_raw,974,518,Golden-crowned Sparrow (Immature),113,raw_visual_category
+nabirds_raw,975,519,Dark-eyed Junco (White-winged),13,raw_visual_category
+nabirds_raw,976,520,Chipping Sparrow (Immature/nonbreeding adult),98,raw_visual_category
+nabirds_raw,977,521,Scarlet Tanager (Female/Nonbreeding Male),66,raw_visual_category
+nabirds_raw,978,522,Western Tanager (Female/Nonbreeding Male),65,raw_visual_category
+nabirds_raw,979,523,Northern Cardinal (Female/Juvenile),120,raw_visual_category
+nabirds_raw,980,524,Rose-breasted Grosbeak (Female/immature male),101,raw_visual_category
+nabirds_raw,981,525,Black-headed Grosbeak (Female/immature male),89,raw_visual_category
+nabirds_raw,982,526,Blue Grosbeak (Female/juvenile),81,raw_visual_category
+nabirds_raw,983,527,Lazuli Bunting (Female/juvenile),44,raw_visual_category
+nabirds_raw,984,528,Indigo Bunting (Female/juvenile),88,raw_visual_category
+nabirds_raw,985,529,Painted Bunting (Female/juvenile),87,raw_visual_category
+nabirds_raw,986,530,Bobolink (Female/juvenile/nonbreeding male),69,raw_visual_category
+nabirds_raw,987,531,Red-winged Blackbird (Female/juvenile),120,raw_visual_category
+nabirds_raw,988,532,Yellow-headed Blackbird (Female/Immature Male),72,raw_visual_category
+nabirds_raw,989,533,Brewer's Blackbird (Male),120,raw_visual_category
+nabirds_raw,990,534,Brown-headed Cowbird (Female/Juvenile),103,raw_visual_category
+nabirds_raw,991,535,Hooded Oriole (Female/Immature male),69,raw_visual_category
+nabirds_raw,992,536,Bullock's Oriole (Female/Immature male),64,raw_visual_category
+nabirds_raw,993,537,Baltimore Oriole (Female/Immature male),98,raw_visual_category
+nabirds_raw,994,538,Pine Grosbeak (Female/juvenile),76,raw_visual_category
+nabirds_raw,995,539,Purple Finch (Female/immature),91,raw_visual_category
+nabirds_raw,996,540,Cassin's Finch (Female/immature),55,raw_visual_category
+nabirds_raw,997,541,House Finch (Female/immature),112,raw_visual_category
+nabirds_raw,998,542,Red Crossbill (Female/juvenile),67,raw_visual_category
+nabirds_raw,999,543,White-winged Crossbill (Female/juvenile),58,raw_visual_category
+nabirds_raw,1000,544,Lesser Goldfinch (Female/juvenile),73,raw_visual_category
+nabirds_raw,1001,545,American Goldfinch (Female/Nonbreeding Male),120,raw_visual_category
+nabirds_raw,1002,546,Evening Grosbeak (Female/Juvenile),93,raw_visual_category
+nabirds_raw,1003,547,House Sparrow (Female/Juvenile),117,raw_visual_category
+nabirds_raw,1004,548,"Vermilion Flycatcher (Female, immature)",76,raw_visual_category
+nabirds_raw,1005,549,European Starling (Juvenile),72,raw_visual_category
+nabirds_raw,1006,550,Fox Sparrow (Thick-billed/Slate-colored),25,raw_visual_category
+nabirds_raw,1007,551,Summer Tanager (Immature Male),37,raw_visual_category
+nabirds_raw,1008,552,Orchard Oriole (Female/Juvenile),55,raw_visual_category
+nabirds_raw,1009,553,Yellow-rumped Warbler (Winter/juvenile Audubon's),88,raw_visual_category
+nabirds_raw,1010,554,Dark-eyed Junco (Red-backed/Gray-headed),72,raw_visual_category

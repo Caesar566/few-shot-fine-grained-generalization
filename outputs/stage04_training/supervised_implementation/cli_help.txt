@@ -1,0 +1,44 @@
+usage: supervised.py [-h] --run-dir RUN_DIR [--resume RESUME]
+                     [--epochs EPOCHS] [--batch-size BATCH_SIZE]
+                     [--image-size IMAGE_SIZE] [--seed SEED]
+                     [--workers WORKERS] [--n-way N_WAY] [--k-shot K_SHOT]
+                     [--n-query N_QUERY] [--val-episodes VAL_EPISODES]
+                     [--lr LR] [--momentum MOMENTUM]
+                     [--weight-decay WEIGHT_DECAY] [--min-lr MIN_LR]
+                     [--grad-clip GRAD_CLIP] [--data-root DATA_ROOT]
+                     [--splits-dir SPLITS_DIR] [--weights WEIGHTS]
+                     [--amp | --no-amp] [--deterministic | --no-deterministic]
+                     [--device {auto,cpu,cuda}] [--random-init]
+
+Supervised CUB base-class training, with existing unseen-class few-shot
+validation. Classification-head Train Accuracy and episodic Val Accuracy are
+distinct tasks. No CUB test or NABirds image is used. Resume is supported at
+epoch boundaries.
+
+options:
+  -h, --help            show this help message and exit
+  --run-dir RUN_DIR     New directory, including for resumed runs; never
+                        overwrite old experiments
+  --resume RESUME
+  --epochs EPOCHS
+  --batch-size BATCH_SIZE
+  --image-size IMAGE_SIZE
+  --seed SEED
+  --workers WORKERS
+  --n-way N_WAY
+  --k-shot K_SHOT
+  --n-query N_QUERY
+  --val-episodes VAL_EPISODES
+  --lr LR
+  --momentum MOMENTUM
+  --weight-decay WEIGHT_DECAY
+  --min-lr MIN_LR
+  --grad-clip GRAD_CLIP
+  --data-root DATA_ROOT
+  --splits-dir SPLITS_DIR
+  --weights WEIGHTS
+  --amp, --no-amp
+  --deterministic, --no-deterministic
+  --device {auto,cpu,cuda}
+  --random-init         Explicit diagnostic alternative to default local
+                        ImageNet initialization

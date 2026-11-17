@@ -1,0 +1,24 @@
+{
+  "gpu": "NVIDIA GeForce MX450",
+  "amp_enabled": true,
+  "init_scale": 128,
+  "input_resolution": 224,
+  "batch_size": 2,
+  "batches": 2,
+  "metrics": {
+    "loss": 4.046875,
+    "accuracy": 0.0,
+    "grad_norm": 21.062556266784668,
+    "amp_skipped_steps": 0,
+    "samples": 4,
+    "seconds": 0.6039413530015736,
+    "gpu_memory_mb": 196.49755859375,
+    "gpu_peak_memory_mb": 219.703125
+  },
+  "grad_clip": 1.0,
+  "parameter_updated": true,
+  "amp_state_restore_equal": true,
+  "sgd_momentum_restore_equal": true,
+  "training_images_used": 4,
+  "full_training": false
+}

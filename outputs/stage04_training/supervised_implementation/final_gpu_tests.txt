@@ -1,0 +1,12 @@
+.                                                                        [100%]
+=============================== warnings summary ===============================
+tests/test_supervised_training.py::test_cuda_amp_and_clipping_two_small_batches
+  /home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/models/backbones/resnet.py:122: UserWarning: 兼容历史 BatchNorm checkpoint，将以下缺失 num_batches_tracked 缓冲区初始化为 0: bn1.num_batches_tracked, layer1.0.bn1.num_batches_tracked, layer1.0.bn2.num_batches_tracked, layer1.1.bn1.num_batches_tracked, layer1.1.bn2.num_batches_tracked, layer2.0.bn1.num_batches_tracked, layer2.0.bn2.num_batches_tracked, layer2.0.downsample.1.num_batches_tracked, layer2.1.bn1.num_batches_tracked, layer2.1.bn2.num_batches_tracked, layer3.0.bn1.num_batches_tracked, layer3.0.bn2.num_batches_tracked, layer3.0.downsample.1.num_batches_tracked, layer3.1.bn1.num_batches_tracked, layer3.1.bn2.num_batches_tracked, layer4.0.bn1.num_batches_tracked, layer4.0.bn2.num_batches_tracked, layer4.0.downsample.1.num_batches_tracked, layer4.1.bn1.num_batches_tracked, layer4.1.bn2.num_batches_tracked
+    backbone.backbone_load_info = load_backbone_weights(
+
+tests/test_supervised_training.py::test_cuda_amp_and_clipping_two_small_batches
+  /home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/models/backbones/resnet.py:122: UserWarning: 显式加载 backbone，排除 0 个前缀外张量和 2 个分类头张量；完整名单见 backbone_load_info['ignored_keys']
+    backbone.backbone_load_info = load_backbone_weights(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1 passed, 2 warnings in 5.79s

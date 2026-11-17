@@ -6,6 +6,8 @@ import torch
 from torch.utils.data import Dataset, Sampler
 import torchvision.transforms as transforms
 
+from pattern_recognition_coursework.data.cub_dedup import validate_clean_index
+
 
 def get_cub_transforms(image_size: int = 224, is_train: bool = True):
     """
@@ -37,9 +39,16 @@ class CUBFewShotDataset(Dataset):
     CUB-200-2011 元数据读取与图像加载
     """
 
-    def __init__(self, data_root: str, split_file: str, transform=None):
+    def __init__(self, data_root: str, split_file: str, transform=None, *, require_clean_index: bool = False):
         self.data_root = Path(data_root)
         self.transform = transform
+        self.split_file = Path(split_file)
+        # Opt-in via the existing --splits-dir CLI. Never redirect raw indexes:
+        # doing so would silently change historical checkpoint/episode identity.
+        self.clean_index_metadata = validate_clean_index(
+            self.data_root, self.split_file, required=require_clean_index
+        )
+        self.index_kind = "clean" if self.clean_index_metadata is not None else "original"
 
         self.samples: List[Tuple[Path, int]] = []  # (图片物理路径, 内部数字标签)
         self.class_to_indices: Dict[int, List[int]] = {}  # 类别标签 -> 样本索引列表

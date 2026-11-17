@@ -1,0 +1,11 @@
+Original image preservation: 4000 11796
+Original image preservation: 8000 11796
+{
+  "total_episodes_checked": 18000,
+  "physical_images_rehashed": 11796,
+  "original_image_paths_and_hashes_unchanged": true,
+  "original_six_split_files_unchanged": true,
+  "pytest_counts": {
+    "passed": 28
+  }
+}

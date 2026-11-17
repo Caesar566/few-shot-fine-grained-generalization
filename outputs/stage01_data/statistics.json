@@ -1,0 +1,89 @@
+{
+  "datasets": {
+    "cub_train": {
+      "samples": 5890,
+      "classes": 100,
+      "original_id_min": 1,
+      "original_id_max": 197,
+      "min_per_class": 41,
+      "max_per_class": 60,
+      "label_min": 0,
+      "label_max": 99,
+      "label_unit": "CUB_species"
+    },
+    "cub_val": {
+      "samples": 2947,
+      "classes": 50,
+      "original_id_min": 5,
+      "original_id_max": 200,
+      "min_per_class": 44,
+      "max_per_class": 60,
+      "label_min": 0,
+      "label_max": 49,
+      "label_unit": "CUB_species"
+    },
+    "cub_test": {
+      "samples": 2951,
+      "classes": 50,
+      "original_id_min": 2,
+      "original_id_max": 198,
+      "min_per_class": 48,
+      "max_per_class": 60,
+      "label_min": 0,
+      "label_max": 49,
+      "label_unit": "CUB_species"
+    },
+    "nabirds_raw": {
+      "samples": 48562,
+      "classes": 555,
+      "original_id_min": 295,
+      "original_id_max": 1010,
+      "min_per_class": 13,
+      "max_per_class": 120,
+      "label_min": 0,
+      "label_max": 554,
+      "label_unit": "raw_visual_category"
+    }
+  },
+  "official_cub_validation": {
+    "train": {
+      "classes": 100,
+      "images": 5890,
+      "min_images_per_class": 41
+    },
+    "val": {
+      "classes": 50,
+      "images": 2947,
+      "min_images_per_class": 44
+    },
+    "test": {
+      "classes": 50,
+      "images": 2951,
+      "min_images_per_class": 48
+    }
+  },
+  "split_intersections": {
+    "train_val": {
+      "class_names": 0,
+      "image_ids": 0,
+      "paths": 0
+    },
+    "train_test": {
+      "class_names": 0,
+      "image_ids": 0,
+      "paths": 0
+    },
+    "val_test": {
+      "class_names": 0,
+      "image_ids": 0,
+      "paths": 0
+    }
+  },
+  "seed42_split_matches": {
+    "train": true,
+    "val": true,
+    "test": true
+  },
+  "nabirds_official_test_status": "BLOCKED: no human-reviewed manifest/review",
+  "nabirds_hierarchy_nodes": 1011
+}

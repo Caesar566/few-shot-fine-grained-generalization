@@ -1,0 +1,47 @@
+[
+  {
+    "check": "CUB真实Dataset与DataLoader",
+    "status": "PASS",
+    "detail": "train/val/test均实例化；所选图片及训练episode完成实际CPU数据加载"
+  },
+  {
+    "check": "NABirds原图Dataset与DataLoader",
+    "status": "PASS",
+    "detail": "48562图、555视觉类原始诊断加载；不能作为已审核物种test"
+  },
+  {
+    "check": "正式NABirds物种测试集",
+    "status": "BLOCKED",
+    "detail": "data/splits/nabirds_review.json与nabirds_test.json不存在"
+  },
+  {
+    "check": "CUB划分和映射",
+    "status": "PASS",
+    "detail": "官方验证、类别/ID/路径互斥；seed42重现={'train': True, 'val': True, 'test': True}"
+  },
+  {
+    "check": "support/query索引及顺序",
+    "status": "PASS",
+    "detail": "两shot、四组数据、160个任务通过，NABirds只作原始诊断"
+  },
+  {
+    "check": "support/query内容互斥",
+    "status": "FAIL",
+    "detail": "distinct indices with identical content across support/query"
+  },
+  {
+    "check": "测试预处理确定性",
+    "status": "PASS",
+    "detail": "eval无随机增强，12张样本重复执行逐元素相等"
+  },
+  {
+    "check": "12图原始及三次增强展示",
+    "status": "PASS",
+    "detail": "保留原始字节副本、反归一化PNG、逐图对照和总览"
+  },
+  {
+    "check": "跨数据集物种无重叠",
+    "status": "BLOCKED",
+    "detail": "发现350条名称/祖先匹配候选；未完成同义名/物种人工审核"
+  }
+]

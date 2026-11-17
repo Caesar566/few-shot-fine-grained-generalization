@@ -1,0 +1,9 @@
+Random PASS {'shape': [4, 512], 'dtype': 'torch.float32', 'finite': True, 'min': 0.0, 'max': 4.2392401695251465, 'mean': 0.7536091208457947, 'std': 0.7641700506210327}
+Traceback (most recent call last):
+  File "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage02_backbone/weights_verification/verify_weights.py", line 84, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage02_backbone/weights_verification/verify_weights.py", line 62, in main
+    assert all(k in expected for k in model.state_dict())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

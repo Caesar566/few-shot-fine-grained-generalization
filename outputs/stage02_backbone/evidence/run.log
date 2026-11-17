@@ -1,0 +1,7 @@
+synthetic_local_loader_roundtrip_NOT_pretrained PASS
+reject_missing_encoder_key PASS
+reject_unexpected_key PASS
+reject_wrong_shape PASS
+explicit_classifier_head_exclusion_synthetic PASS
+simclr_key_translation_SYNTHETIC_ONLY PASS
+FINISHED 9 checks; [('Random', 'VERIFIED'), ('ImageNet Supervised', 'BLOCKED_MISSING_WEIGHTS'), ('SimCLR', 'BLOCKED_MISSING_WEIGHTS')]

@@ -1,0 +1,10 @@
+experiment,initialization,seed,status,best_epoch,val_loss,val_accuracy,best_checkpoint,last_checkpoint
+imagenet_seed42,ImageNet,42,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+imagenet_seed43,ImageNet,43,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+imagenet_seed44,ImageNet,44,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+random_seed42,Random,42,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+random_seed43,Random,43,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+random_seed44,Random,44,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+simclr_seed42,SimCLR,42,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+simclr_seed43,SimCLR,43,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,
+simclr_seed44,SimCLR,44,NOT_RUN_PENDING_APPROVAL_AND_GPU_MEMORY_CHECK,,,,,

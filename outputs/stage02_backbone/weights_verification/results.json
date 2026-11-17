@@ -1,0 +1,280 @@
+{
+  "python": "3.11.18 (main, Oct 26 2026, 14:05:07) [Clang 23.1.3 ]",
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "device": "CPU",
+  "training": false,
+  "downloads": false,
+  "input": {
+    "shape": [
+      4,
+      3,
+      224,
+      224
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "min": -2.1179039478302,
+    "max": 2.640000104904175,
+    "mean": -0.08618801087141037,
+    "std": 1.010528802871704
+  },
+  "images": [
+    "cub2002011/versions/7/CUB_200_2011/images/049.Boat_tailed_Grackle/Boat_Tailed_Grackle_0123_33695.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0105_4842.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/076.Dark_eyed_Junco/Dark_Eyed_Junco_0131_66423.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/069.Rufous_Hummingbird/Rufous_Hummingbird_0065_58497.jpg"
+  ],
+  "source_hashes": {
+    "ImageNet": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "SimCLR": "4a50dfd4f78f83b8eba1a7c358cd0a476a9da1cf5579b7cf01a2051597ca217a"
+  },
+  "SimCLR_checkpoint": {
+    "epoch": 99,
+    "global_step": 4003600,
+    "encoder_state_entries": 120,
+    "non_encoder_tensors": {
+      "projection_head.layers.0.weight": {
+        "shape": [
+          512,
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.1.weight": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.1.bias": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.1.running_mean": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.1.running_var": {
+        "shape": [
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.1.num_batches_tracked": {
+        "shape": [],
+        "dtype": "torch.int64"
+      },
+      "projection_head.layers.3.weight": {
+        "shape": [
+          128,
+          512
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.4.weight": {
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.4.bias": {
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.4.running_mean": {
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.4.running_var": {
+        "shape": [
+          128
+        ],
+        "dtype": "torch.float32"
+      },
+      "projection_head.layers.4.num_batches_tracked": {
+        "shape": [],
+        "dtype": "torch.int64"
+      }
+    },
+    "original_top_level_keys": [
+      "epoch",
+      "global_step",
+      "pytorch-lightning_version",
+      "state_dict",
+      "loops",
+      "callbacks",
+      "optimizer_states",
+      "lr_schedulers",
+      "MixedPrecision"
+    ],
+    "export_path": "outputs/stage02_backbone/weights_verification/simclr_resnet18_backbone.pt",
+    "export_sha256": "3874cdaee3dd3e7c02e53ca4ccee6c76e74c7700aeab189d58b80b20b31b48a9",
+    "historical_export_sha256": "55809b2470015f80315305bc5789672df92faf0eaa10bc5fda1e9887ca170ddb",
+    "note": "torch.save serialization digest may differ from historical export; exact tensors checked against source"
+  },
+  "initializations": {
+    "Random": {
+      "status": "PASS",
+      "parameters": 11176512,
+      "trainable_parameters": 11176512,
+      "load_info": null,
+      "missing_encoder_keys": [],
+      "unexpected_encoder_keys": [],
+      "state_fingerprint": "a3364aa06b988253360292963acabbd753f0eda9199aec3725c7a2fe8daeb955",
+      "global_features": {
+        "shape": [
+          4,
+          512
+        ],
+        "dtype": "torch.float32",
+        "finite": true,
+        "min": 0.0,
+        "max": 4.2392401695251465,
+        "mean": 0.7536091208457947,
+        "std": 0.7641700506210327
+      },
+      "spatial_features": {
+        "shape": [
+          4,
+          512,
+          7,
+          7
+        ],
+        "dtype": "torch.float32",
+        "finite": true,
+        "min": 0.0,
+        "max": 9.86975383758545,
+        "mean": 0.7536091804504395,
+        "std": 1.0470753908157349
+      },
+      "different_images_max_abs_diff": 1.1353304386138916,
+      "eval_state_unchanged": true,
+      "compatibility_initialized_buffers": []
+    },
+    "ImageNet": {
+      "status": "PASS",
+      "parameters": 11176512,
+      "trainable_parameters": 11176512,
+      "load_info": {
+        "source": "torchvision",
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+        "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+      },
+      "missing_encoder_keys": [],
+      "unexpected_encoder_keys": [],
+      "state_fingerprint": "c6fc025cae67cee295fa18eff0998f3ae5f0e7a7d662ca38ab7be77ad49665c9",
+      "global_features": {
+        "shape": [
+          4,
+          512
+        ],
+        "dtype": "torch.float32",
+        "finite": true,
+        "min": 0.0,
+        "max": 6.473474025726318,
+        "mean": 0.9261598587036133,
+        "std": 0.8927534222602844
+      },
+      "spatial_features": {
+        "shape": [
+          4,
+          512,
+          7,
+          7
+        ],
+        "dtype": "torch.float32",
+        "finite": true,
+        "min": 0.0,
+        "max": 18.999217987060547,
+        "mean": 0.9261599183082581,
+        "std": 1.5722039937973022
+      },
+      "different_images_max_abs_diff": 4.32073974609375,
+      "eval_state_unchanged": true,
+      "compatibility_initialized_buffers": [
+        "bn1.num_batches_tracked",
+        "layer1.0.bn1.num_batches_tracked",
+        "layer1.0.bn2.num_batches_tracked",
+        "layer1.1.bn1.num_batches_tracked",
+        "layer1.1.bn2.num_batches_tracked",
+        "layer2.0.bn1.num_batches_tracked",
+        "layer2.0.bn2.num_batches_tracked",
+        "layer2.0.downsample.1.num_batches_tracked",
+        "layer2.1.bn1.num_batches_tracked",
+        "layer2.1.bn2.num_batches_tracked",
+        "layer3.0.bn1.num_batches_tracked",
+        "layer3.0.bn2.num_batches_tracked",
+        "layer3.0.downsample.1.num_batches_tracked",
+        "layer3.1.bn1.num_batches_tracked",
+        "layer3.1.bn2.num_batches_tracked",
+        "layer4.0.bn1.num_batches_tracked",
+        "layer4.0.bn2.num_batches_tracked",
+        "layer4.0.downsample.1.num_batches_tracked",
+        "layer4.1.bn1.num_batches_tracked",
+        "layer4.1.bn2.num_batches_tracked"
+      ]
+    },
+    "SimCLR": {
+      "status": "PASS",
+      "parameters": 11176512,
+      "trainable_parameters": 11176512,
+      "load_info": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage02_backbone/weights_verification/simclr_resnet18_backbone.pt",
+        "sha256": "3874cdaee3dd3e7c02e53ca4ccee6c76e74c7700aeab189d58b80b20b31b48a9",
+        "container": null,
+        "prefix": "",
+        "loaded_keys": 120,
+        "ignored_keys": []
+      },
+      "missing_encoder_keys": [],
+      "unexpected_encoder_keys": [],
+      "state_fingerprint": "5d3eba33ecfe32095d8c4d27c970cbfad4c4c3108f1f655968e921cf2ea99cb4",
+      "global_features": {
+        "shape": [
+          4,
+          512
+        ],
+        "dtype": "torch.float32",
+        "finite": true,
+        "min": 0.0,
+        "max": 6.053098201751709,
+        "mean": 0.6659290194511414,
+        "std": 0.7157947421073914
+      },
+      "spatial_features": {
+        "shape": [
+          4,
+          512,
+          7,
+          7
+        ],
+        "dtype": "torch.float32",
+        "finite": true,
+        "min": 0.0,
+        "max": 13.137980461120605,
+        "mean": 0.6659290790557861,
+        "std": 1.1594815254211426
+      },
+      "different_images_max_abs_diff": 4.358077526092529,
+      "eval_state_unchanged": true,
+      "compatibility_initialized_buffers": []
+    }
+  },
+  "ImageNet_direct_local_loader_error": "backbone 权重不完整或不兼容: missing=['bn1.num_batches_tracked', 'layer1.0.bn1.num_batches_tracked', 'layer1.0.bn2.num_batches_tracked', 'layer1.1.bn1.num_batches_tracked', 'layer1.1.bn2.num_batches_tracked', 'layer2.0.bn1.num_batches_tracked', 'layer2.0.bn2.num_batches_tracked', 'layer2.0.downsample.1.num_batches_tracked', 'layer2.1.bn1.num_batches_tracked', 'layer2.1.bn2.num_batches_tracked', 'layer3.0.bn1.num_batches_tracked', 'layer3.0.bn2.num_batches_tracked', 'layer3.0.downsample.1.num_batches_tracked', 'layer3.1.bn1.num_batches_tracked', 'layer3.1.bn2.num_batches_tracked', 'layer4.0.bn1.num_batches_tracked', 'layer4.0.bn2.num_batches_tracked', 'layer4.0.downsample.1.num_batches_tracked', 'layer4.1.bn1.num_batches_tracked', 'layer4.1.bn2.num_batches_tracked'], unexpected=[], shape_mismatch=[]",
+  "pairwise_max_abs_feature_difference": {
+    "Random_vs_ImageNet": 6.293060302734375,
+    "Random_vs_SimCLR": 5.397861957550049,
+    "ImageNet_vs_SimCLR": 6.073197364807129
+  },
+  "supplied_weight_files_unchanged": true
+}

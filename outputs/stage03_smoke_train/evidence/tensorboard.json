@@ -1,0 +1,39 @@
+{
+  "tags": {
+    "images": [
+      "input/original_and_preprocessed"
+    ],
+    "audio": [],
+    "histograms": [],
+    "scalars": [
+      "train/loss",
+      "train/accuracy",
+      "train/lr",
+      "train/grad_norm",
+      "train/param_update_norm",
+      "val/loss",
+      "val/accuracy",
+      "overfit/fixed_train_eval_loss",
+      "overfit/fixed_train_eval_accuracy"
+    ],
+    "distributions": [],
+    "tensors": [
+      "input/classes/text_summary"
+    ],
+    "graph": false,
+    "meta_graph": false,
+    "run_metadata": []
+  },
+  "scalar_counts": {
+    "train/loss": 11,
+    "train/accuracy": 11,
+    "train/lr": 11,
+    "train/grad_norm": 8,
+    "train/param_update_norm": 8,
+    "val/loss": 6,
+    "val/accuracy": 6,
+    "overfit/fixed_train_eval_loss": 6,
+    "overfit/fixed_train_eval_accuracy": 6
+  },
+  "gpu_memory": "not recorded: CPU execution"
+}

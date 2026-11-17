@@ -1,0 +1,25 @@
+{
+  "indexed_images": 11788,
+  "unique_sha256": 11787,
+  "duplicate_groups": [
+    {
+      "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4",
+      "items": [
+        {
+          "split": "test",
+          "id": "3310",
+          "class": "058.Pigeon_Guillemot",
+          "path": "058.Pigeon_Guillemot/Pigeon_Guillemot_0018_40195.jpg"
+        },
+        {
+          "split": "test",
+          "id": "3340",
+          "class": "058.Pigeon_Guillemot",
+          "path": "058.Pigeon_Guillemot/Pigeon_Guillemot_0081_40339.jpg"
+        }
+      ]
+    }
+  ],
+  "cross_split_duplicate_groups": [],
+  "scope": "CUB exact bytes only; no NABirds/cross-dataset/pretraining near-duplicate audit"
+}

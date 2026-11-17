@@ -1,0 +1,1692 @@
+[
+  {
+    "phase": "single",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.009699376299977303,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.03846297973263448,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.0724763189646786,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.14487040775588209,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.2895375637239745,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "smoke",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.007259475998580456,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.02976453007516006,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.0553282772156879,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.10835490703939496,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.2219038595902406,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "smoke",
+    "step": 2,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.006621817592531443,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.02609350744905163,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.04826026533909797,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.09441993798509377,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.20262143563823615,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "smoke",
+    "step": 3,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.00567273236811161,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.02201505742208175,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.038991696446136925,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07804741701066534,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.17767206591363277,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "frozen_probe",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0,
+        "frozen": true
+      },
+      "layer1": {
+        "update_l2": 0.0,
+        "frozen": true
+      },
+      "layer2": {
+        "update_l2": 0.0,
+        "frozen": true
+      },
+      "layer3": {
+        "update_l2": 0.0,
+        "frozen": true
+      },
+      "layer4": {
+        "update_l2": 0.2738072286424753,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.009699376299977303,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.03846297973263448,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.0724763189646786,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.14487040775588209,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.2895375637239745,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 2,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.00740526057779789,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.03216578297115261,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.061729685645138414,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.12431860714498531,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.2509805578695372,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 3,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0063030533492565155,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.02737304156318822,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.05249926256183112,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.10805933260913457,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.23580757266217456,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 4,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.005827654618769884,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.02434285689937391,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.04728423602238857,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.09725910620143823,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.2135554827105773,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 5,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.005877215880900621,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.024066464144432295,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.04677246892167694,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.09481924410450715,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.20535575452544555,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 6,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0055396417155861855,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.02315582391637446,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.044767495439681664,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.09080758219130582,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.2003010955391179,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 7,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.005057730711996555,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.021763889362925122,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.04220350175876665,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.08682383128093957,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.19520993002644077,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 8,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004574791993945837,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01993698202205814,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.039301952318611874,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.08250837173433505,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1883334042828683,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 9,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0043000769801437855,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018475020492863002,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03662526163007567,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07810470560783427,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1805327497366806,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 10,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004433488007634878,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01854290294094161,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03613353345949474,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07699321833593531,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.17580811967564672,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 11,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004553249571472406,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018789990612446947,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.036397948085133636,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07746428875394094,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.17362057539910059,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 12,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004464798141270876,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018376744552912938,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.035989121683488036,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.0768042387130866,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1711026107956331,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 13,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004397569224238396,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018137943839746127,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03600441228388295,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.0768598033190073,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16972617946584392,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 14,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004296367522329092,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018047316347441476,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03617356611617209,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07732600495293755,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16961421276873156,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 15,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.004165474325418472,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018171494872789917,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03644187033674453,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07762017929742206,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16945540325818156,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 16,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.003979021683335304,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01843795965068273,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03711224710916492,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07842075077064921,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16935146322428096,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 17,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0036936081014573574,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.018200546844414994,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03698033875739553,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07806701047816564,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16860638146296572,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 18,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0036288080736994743,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.017453389308768885,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03557657019554252,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.0756823409840295,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16671124713902763,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 19,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0037228527944535017,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.017090518703994504,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03454531420879935,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07387111876589096,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16490962563530084,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 20,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0036049834452569485,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.016771309616067636,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03373218186244843,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07255108202453735,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1630769648502848,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 21,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.003363528521731496,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.016463831876200177,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.033103401269177136,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.07130865656648303,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.16044969335671988,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 22,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.003109906567260623,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01607761338574311,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.03240849451360747,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.06993849131695618,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1569057391739807,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 23,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0029360658954828978,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.015345106655185691,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.031275833034339805,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.06818361492142742,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.15319426722033885,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 24,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0027762302197515965,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.014247746457001173,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.029445031943022257,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.06567021160220837,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.14960623757837777,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 25,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.00269837724044919,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.013372383388359667,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02777285395449278,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.06308056509180032,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1460408348943905,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 26,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002684905892238021,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.012967663607117961,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02676271033309051,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.060944971797945856,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.14243729145821438,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 27,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0026010635774582624,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01252500072155296,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02577499469214903,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.058801324395449654,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.13873051641736361,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 28,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0024197427555918694,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01192104543920245,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.024723852180256797,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.056691268375003843,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.13502788618391093,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 29,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0022478983737528324,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.011415784616749716,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.023999661029367507,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05501201041879273,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.13155501476888973,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 30,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002123247366398573,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.011042767087974718,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.023454943350613204,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05360650276413273,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.12823834256681335,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 31,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0020847634878009558,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01079391579495286,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.023022431898453256,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.052393209333124864,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.12501898521373547,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 32,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0021725748665630817,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01093413149028648,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02315709225126633,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05174080909403779,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.12192227796748462,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 33,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002407768741250038,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01193230224388824,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02445711634809337,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05210026787420805,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11905169219528017,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 34,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002849732991307974,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.013794770655087484,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.026853660337697823,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05351615461393295,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11652077706857138,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 35,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0034590396098792553,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.01641059447637458,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.030741542576208977,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05764442443882296,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11530055686574164,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 36,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.003384962910786271,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.014748182490229252,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02780086220419794,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.055601243618489435,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11181317493096969,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 37,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0032460573129355907,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.014236035901752903,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.027982861312408305,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.056978920299488534,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1143397400592988,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 38,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0031732821371406317,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.013925408904549567,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.026926323325698342,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05361558532875713,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11415338411325222,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 39,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0027945791371166706,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.011590824448948068,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.024800339160520945,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.052497735735555,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11587242834460262,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 40,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0029459011275321245,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.011178882273090104,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02353520272536941,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05156299656883022,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11683373358052498,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 41,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002792016137391329,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.011010542084005426,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02286614363292108,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.05055540467961437,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11646840015066316,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 42,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0022456396836787462,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.009423333989997751,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.021206187418637678,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.049543332812279746,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11589779803139623,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 43,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0022658498492091894,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.009621700680556835,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.02066181646720029,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.04853796251854468,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11512478907336142,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 44,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0022665865253657103,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.009291379226757221,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.01975386290382416,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.04733034869044729,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11489668119191337,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 45,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002268279902637005,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.008914422009570865,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.01939651310118256,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.04675802494459014,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.11477110238003499,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 46,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.002134474227204919,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.008241738578211278,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.01851017304152304,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.045018764547390226,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1129229068604757,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 47,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0019007177324965596,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.007544906920683269,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.01738063653505202,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.042667685727456856,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.10970447911094972,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 48,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0017000295920297503,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.007272377048172929,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.01676429514284312,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.04092538652736398,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.1061550733386589,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 49,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0015146852238103747,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.006963185990874155,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.016060031157798946,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.039197087474976605,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.10233607139332637,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 50,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.001306659891270101,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.00631707880073685,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.014874326377334888,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.037019731619048944,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.09826295670525333,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 51,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.001151436474174261,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.0057048358749853855,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.013791546268741857,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.035061004605928967,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.09423642377102424,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 52,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.001105957548134029,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.005476663252138156,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.0132287481966897,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.033693042832921065,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.09032048536203896,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 53,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0011002063984051347,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.005430317609734182,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.012817812609082444,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.03238734087599147,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.08636549169284691,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 54,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.001047159661538899,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.005208459202663863,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.012088965728474559,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.030657957412926647,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.08234921644069705,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 55,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0009396591340191662,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.004764235655647102,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.011058491032834034,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.02863440285734402,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.07842405848031943,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 56,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0008208199869841337,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.004282987825481537,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.010070290205300873,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.026768839345692474,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.07472846223998124,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 57,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.000750650477129966,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.0039749615605737245,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.009437992784412708,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.0253833653340889,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.07126399001388882,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 58,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0007312747184187174,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.00385425730021263,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.009136122242269605,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.024393635138517923,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.06791800131858108,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 59,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0007207578746601939,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.0037654935137671117,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.008886739535175317,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.02346925834897183,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.064596241669735,
+        "frozen": false
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 60,
+    "layers": {
+      "conv1": {
+        "update_l2": 0.0006910624215379357,
+        "frozen": false
+      },
+      "layer1": {
+        "update_l2": 0.0035899506191290815,
+        "frozen": false
+      },
+      "layer2": {
+        "update_l2": 0.008481536174673645,
+        "frozen": false
+      },
+      "layer3": {
+        "update_l2": 0.022380151169278443,
+        "frozen": false
+      },
+      "layer4": {
+        "update_l2": 0.061296222947509874,
+        "frozen": false
+      }
+    }
+  }
+]

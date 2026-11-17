@@ -1,0 +1,120 @@
+{
+  "counts": {
+    "passed": 28
+  },
+  "test_cases": [
+    {
+      "name": "test_same_class_dedup_preserves_sources_and_labels",
+      "status": "passed"
+    },
+    {
+      "name": "test_cross_class_or_split_is_retained_and_blocked[target0]",
+      "status": "passed"
+    },
+    {
+      "name": "test_cross_class_or_split_is_retained_and_blocked[target1]",
+      "status": "passed"
+    },
+    {
+      "name": "test_numeric_id_keeper_is_independent_of_inventory_order",
+      "status": "passed"
+    },
+    {
+      "name": "test_unindexed_image_is_audited_but_never_added",
+      "status": "passed"
+    },
+    {
+      "name": "test_clean_indexes_are_deterministic",
+      "status": "passed"
+    },
+    {
+      "name": "test_changed_derived_index_is_rejected[train_images.txt]",
+      "status": "passed"
+    },
+    {
+      "name": "test_changed_derived_index_is_rejected[test_classes.txt]",
+      "status": "passed"
+    },
+    {
+      "name": "test_changed_derived_index_is_rejected[image_hashes.csv]",
+      "status": "passed"
+    },
+    {
+      "name": "test_changed_source_metadata_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_explicit_requirement_rejects_raw_indexes",
+      "status": "passed"
+    },
+    {
+      "name": "test_publishing_marker_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "test_refuse_overwrite_or_raw_destinations",
+      "status": "passed"
+    },
+    {
+      "name": "test_removed_duplicate_changes_plan_identity",
+      "status": "passed"
+    },
+    {
+      "name": "test_real_clean_cub_episode_content_disjoint_and_repeatable[1]",
+      "status": "passed"
+    },
+    {
+      "name": "test_real_clean_cub_episode_content_disjoint_and_repeatable[5]",
+      "status": "passed"
+    },
+    {
+      "name": "test_classes_disjoint",
+      "status": "passed"
+    },
+    {
+      "name": "test_sampler_support_query_disjoint",
+      "status": "passed"
+    },
+    {
+      "name": "test_saved_episode_plan_rejects_tampering",
+      "status": "passed"
+    },
+    {
+      "name": "test_nabirds_requires_explicit_species_review",
+      "status": "passed"
+    },
+    {
+      "name": "test_nabirds_rejects_partial_visual_subclasses",
+      "status": "passed"
+    },
+    {
+      "name": "test_import_places_dataset_under_project_and_refuses_overwrite",
+      "status": "passed"
+    },
+    {
+      "name": "test_import_rejects_escape_and_incomplete_dataset",
+      "status": "passed"
+    },
+    {
+      "name": "test_tar_gz_import_and_missing_indexed_image",
+      "status": "passed"
+    },
+    {
+      "name": "test_tar_gz_rejects_links",
+      "status": "passed"
+    },
+    {
+      "name": "test_import_rejects_extracted_feature_directory",
+      "status": "passed"
+    },
+    {
+      "name": "test_episode_sampling_is_reproducible_and_disjoint",
+      "status": "passed"
+    },
+    {
+      "name": "test_sampler_rejects_impossible_episode",
+      "status": "passed"
+    }
+  ],
+  "original_exit_code": 0
+}

@@ -1,0 +1,4 @@
+Random PASS {'shape': [4, 512], 'dtype': 'torch.float32', 'finite': True, 'min': 0.0, 'max': 4.2392401695251465, 'mean': 0.7536091208457947, 'std': 0.7641700506210327}
+ImageNet PASS {'shape': [4, 512], 'dtype': 'torch.float32', 'finite': True, 'min': 0.0, 'max': 6.473474025726318, 'mean': 0.9261598587036133, 'std': 0.8927534222602844}
+SimCLR PASS {'shape': [4, 512], 'dtype': 'torch.float32', 'finite': True, 'min': 0.0, 'max': 6.053098201751709, 'mean': 0.6659290194511414, 'std': 0.7157947421073914}
+All three initializations verified; source files unchanged; no training/downloads.

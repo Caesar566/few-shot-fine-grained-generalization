@@ -1,0 +1,74 @@
+{
+  "datasets": {
+    "train": {
+      "images": 5890,
+      "classes": 100
+    },
+    "val": {
+      "images": 2947,
+      "classes": 50
+    }
+  },
+  "classes_disjoint": true,
+  "clean_marker": {
+    "schema": "cub-exact-dedup-v1",
+    "state": "complete",
+    "ready_for_training_and_evaluation": true,
+    "policy": "same-class same-split: minimum numeric official image_id then POSIX path; conflicts retained for human review",
+    "source_splits_path": "/home/caesar/Projects/few-shot-fine-grained-generalization/data/splits",
+    "data_root_at_audit": "/home/caesar/Projects/few-shot-fine-grained-generalization/cub2002011/versions/7/CUB_200_2011",
+    "source_split_sha256": {
+      "train_classes.txt": "63ac05032bfbf9a2cbad5bbc9201a0a4e9588ee145b02040386f685d5adf3428",
+      "train_images.txt": "5ad86e18271fc0649a985b615019250ca01ebff5fd7040b381450697cc809c65",
+      "val_classes.txt": "ae5653da8de68a4a4535028f4ff3cb156f29d3fa758e219785e29d9260e14547",
+      "val_images.txt": "f5c70c3101b707685afbd2c7828cb293141996a8fe4a1d86d73e2c596cf8a3ac",
+      "test_classes.txt": "6fd8995c028f119a0f63ddce38e20512ef2cba246f9156921c7e8d7d2f000c45",
+      "test_images.txt": "0d5cdbb2d4c9be54e4ce50ef66390f2f6bfe1b55cccdf618a4c10aa1baf943b9"
+    },
+    "source_metadata_sha256": {
+      "classes.txt": "66a884364a73edde6c71eeb7fd5d8bb791e80979b64759bd6a5d5d209bdc02ba",
+      "images.txt": "e1cfc5ed1f4bd1b838040784b6f75c44f7a25d9b31707a3adab49ec694618c1f",
+      "image_class_labels.txt": "e9df8c96d897994a245746fe2c98914b9b31f5342bddc6e8b06bdfbf45e49b02"
+    },
+    "output_sha256": {
+      "image_hashes.csv": "2b8a9d4f6ab401272d50d09bbb681314ebdfc331fca5ff5565ff22cfc420bcaa",
+      "test_classes.txt": "6fd8995c028f119a0f63ddce38e20512ef2cba246f9156921c7e8d7d2f000c45",
+      "test_images.txt": "89beb6068a9a6990f87701473289f7a12db8ebb6e370687f65116a2de5f04b60",
+      "train_classes.txt": "63ac05032bfbf9a2cbad5bbc9201a0a4e9588ee145b02040386f685d5adf3428",
+      "train_images.txt": "5ad86e18271fc0649a985b615019250ca01ebff5fd7040b381450697cc809c65",
+      "val_classes.txt": "ae5653da8de68a4a4535028f4ff3cb156f29d3fa758e219785e29d9260e14547",
+      "val_images.txt": "f5c70c3101b707685afbd2c7828cb293141996a8fe4a1d86d73e2c596cf8a3ac"
+    },
+    "excluded_image_ids": [
+      "3340"
+    ],
+    "unresolved_review_group_ids": [],
+    "split_statistics": {
+      "train": {
+        "original_images": 5890,
+        "clean_images": 5890,
+        "excluded_images": 0,
+        "classes": 100,
+        "min_images_per_class_before": 41,
+        "min_images_per_class_after": 41
+      },
+      "val": {
+        "original_images": 2947,
+        "clean_images": 2947,
+        "excluded_images": 0,
+        "classes": 50,
+        "min_images_per_class_before": 44,
+        "min_images_per_class_after": 44
+      },
+      "test": {
+        "original_images": 2951,
+        "clean_images": 2950,
+        "excluded_images": 1,
+        "classes": 50,
+        "min_images_per_class_before": 48,
+        "min_images_per_class_after": 48
+      }
+    }
+  },
+  "test_or_nabirds_images_read": false
+}

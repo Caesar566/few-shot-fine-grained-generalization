@@ -1,0 +1,19 @@
+{
+  "source": "output/",
+  "destination": "outputs/",
+  "moved_regular_files": 717,
+  "all_moved_file_bytes_verified_before_reference_updates": true,
+  "existing_backbone_files_preserved_before_reference_updates": true,
+  "updated_reference_files": [
+    "outputs/stage02_backbone/check_backbone.py",
+    "outputs/stage01_data/check_data.py",
+    "outputs/stage01_data/run_tests.py",
+    "outputs/stage01_data/cub_dedup/verify_clean_data.py",
+    "outputs/stage02_backbone/report.md",
+    "outputs/stage01_data/report.md",
+    "docs/research_audit/01_project_structure.md",
+    "docs/research_audit/04_results_verification.md",
+    "scripts/audit_clean_cub.py"
+  ],
+  "historical_json_and_logs_preserved": true
+}

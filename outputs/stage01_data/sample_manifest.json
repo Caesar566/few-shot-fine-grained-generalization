@@ -1,0 +1,1358 @@
+[
+  {
+    "number": 1,
+    "dataset": "cub_train",
+    "sample_index": 1723,
+    "label": 29,
+    "class_name": "062.Herring_Gull",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/062.Herring_Gull/Herring_Gull_0145_46220.jpg",
+    "original_size": [
+      500,
+      375
+    ],
+    "original_copy": "samples/01_cub_train_1723/original.jpg",
+    "original_sha256": "4ac2b30fe3c0ef08ffbd374a030bc968e560f77804d06dc3b0d90310567c4a09",
+    "copy_sha256": "4ac2b30fe3c0ef08ffbd374a030bc968e560f77804d06dc3b0d90310567c4a09",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261216,
+        "file": "samples/01_cub_train_1723/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261217,
+        "file": "samples/01_cub_train_1723/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261218,
+        "file": "samples/01_cub_train_1723/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7925336360931396,
+          "max": 2.552854299545288,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.07450979948043823,
+          "max": 0.9803922176361084,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -1.8952821493148804,
+      "max": 2.640000104904175,
+      "finite": true
+    },
+    "eval_file": "samples/01_cub_train_1723/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/01_cub_train_1723.png"
+  },
+  {
+    "number": 2,
+    "dataset": "cub_train",
+    "sample_index": 1752,
+    "label": 29,
+    "class_name": "062.Herring_Gull",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/062.Herring_Gull/Herring_Gull_0139_47006.jpg",
+    "original_size": [
+      500,
+      375
+    ],
+    "original_copy": "samples/02_cub_train_1752/original.jpg",
+    "original_sha256": "b253be3d940f800b7e5e69de012d18dca9f13aebc80c84c3539eecaf6863e57e",
+    "copy_sha256": "b253be3d940f800b7e5e69de012d18dca9f13aebc80c84c3539eecaf6863e57e",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261316,
+        "file": "samples/02_cub_train_1752/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.552787184715271,
+          "max": 2.1868410110473633,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.1294117569923401,
+          "max": 0.9098039269447327,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261317,
+        "file": "samples/02_cub_train_1752/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.998030662536621,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.027450978755950928,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261318,
+        "file": "samples/02_cub_train_1752/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.878157377243042,
+          "max": 2.3262743949890137,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.054901957511901855,
+          "max": 0.9333333373069763,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -1.809658408164978,
+      "max": 2.6225709915161133,
+      "finite": true
+    },
+    "eval_file": "samples/02_cub_train_1752/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/02_cub_train_1752.png"
+  },
+  {
+    "number": 3,
+    "dataset": "cub_train",
+    "sample_index": 5205,
+    "label": 88,
+    "class_name": "176.Prairie_Warbler",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/176.Prairie_Warbler/Prairie_Warbler_0002_172622.jpg",
+    "original_size": [
+      500,
+      328
+    ],
+    "original_copy": "samples/03_cub_train_5205/original.jpg",
+    "original_sha256": "8e9ce2aba270ce9f2be2430328985688447d2b0dc758c852f79f6fe0cd4cb934",
+    "copy_sha256": "8e9ce2aba270ce9f2be2430328985688447d2b0dc758c852f79f6fe0cd4cb934",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261416,
+        "file": "samples/03_cub_train_5205/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.8610327243804932,
+          "max": 2.047407627105713,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.047058820724487305,
+          "max": 0.8666666746139526,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261417,
+        "file": "samples/03_cub_train_5205/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.9295316934585571,
+          "max": 2.1868410110473633,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.023529410362243652,
+          "max": 0.8980392217636108,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261418,
+        "file": "samples/03_cub_train_5205/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.998030662536621,
+          "max": 2.082265853881836,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.011764705181121826,
+          "max": 0.8745098114013672,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.0007002353668213,
+      "max": 2.640000104904175,
+      "finite": true
+    },
+    "eval_file": "samples/03_cub_train_5205/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/03_cub_train_5205.png"
+  },
+  {
+    "number": 4,
+    "dataset": "cub_train",
+    "sample_index": 3313,
+    "label": 56,
+    "class_name": "114.Black_throated_Sparrow",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/114.Black_throated_Sparrow/Black_Throated_Sparrow_0026_107198.jpg",
+    "original_size": [
+      300,
+      274
+    ],
+    "original_copy": "samples/04_cub_train_3313/original.jpg",
+    "original_sha256": "02240e58c03097a1a652b98f37d78f15573fa568fd0ae8ce23b8d64c9c6d0202",
+    "copy_sha256": "02240e58c03097a1a652b98f37d78f15573fa568fd0ae8ce23b8d64c9c6d0202",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261516,
+        "file": "samples/04_cub_train_3313/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.8610327243804932,
+          "max": 2.483137607574463,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.04313725233078003,
+          "max": 0.9647059440612793,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261517,
+        "file": "samples/04_cub_train_3313/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.015155553817749,
+          "max": 2.047407627105713,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 0.8823529481887817,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261518,
+        "file": "samples/04_cub_train_3313/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7582842111587524,
+          "max": 2.3262743949890137,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.07843136787414551,
+          "max": 0.929411768913269,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.0665297508239746,
+      "max": 2.6225709915161133,
+      "finite": true
+    },
+    "eval_file": "samples/04_cub_train_3313/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/04_cub_train_3313.png"
+  },
+  {
+    "number": 5,
+    "dataset": "cub_val",
+    "sample_index": 596,
+    "label": 10,
+    "class_name": "049.Boat_tailed_Grackle",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/049.Boat_tailed_Grackle/Boat_Tailed_Grackle_0123_33695.jpg",
+    "original_size": [
+      500,
+      333
+    ],
+    "original_copy": "samples/05_cub_val_596/original.jpg",
+    "original_sha256": "17aedb43d41f9104e336df202c8cc05e35fe21272907156a380f4e7187c076fc",
+    "copy_sha256": "17aedb43d41f9104e336df202c8cc05e35fe21272907156a380f4e7187c076fc",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261616,
+        "file": "samples/05_cub_val_596/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261617,
+        "file": "samples/05_cub_val_596/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.2216994762420654,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 0.9058823585510254,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261618,
+        "file": "samples/05_cub_val_596/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.878157377243042,
+          "max": 2.3262743949890137,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.054901957511901855,
+          "max": 0.929411768913269,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.1179039478302,
+      "max": 2.517995834350586,
+      "finite": true
+    },
+    "eval_file": "samples/05_cub_val_596/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/05_cub_val_596.png"
+  },
+  {
+    "number": 6,
+    "dataset": "cub_val",
+    "sample_index": 99,
+    "label": 1,
+    "class_name": "010.Red_winged_Blackbird",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0105_4842.jpg",
+    "original_size": [
+      500,
+      406
+    ],
+    "original_copy": "samples/06_cub_val_99/original.jpg",
+    "original_sha256": "4ebb027f05782caae23ede4542b65b947f0be6183bc3c1fc75ea7cc6d091bede",
+    "copy_sha256": "4ebb027f05782caae23ede4542b65b947f0be6183bc3c1fc75ea7cc6d091bede",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261716,
+        "file": "samples/06_cub_val_99/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.032280206680298,
+          "max": 2.047407627105713,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.019607841968536377,
+          "max": 0.8666666746139526,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261717,
+        "file": "samples/06_cub_val_99/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.032280206680298,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.019607841968536377,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261718,
+        "file": "samples/06_cub_val_99/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.9124069213867188,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.047058820724487305,
+          "max": 1.0,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.1179039478302,
+      "max": 2.6225709915161133,
+      "finite": true
+    },
+    "eval_file": "samples/06_cub_val_99/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/06_cub_val_99.png"
+  },
+  {
+    "number": 7,
+    "dataset": "cub_val",
+    "sample_index": 959,
+    "label": 16,
+    "class_name": "076.Dark_eyed_Junco",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/076.Dark_eyed_Junco/Dark_Eyed_Junco_0131_66423.jpg",
+    "original_size": [
+      500,
+      375
+    ],
+    "original_copy": "samples/07_cub_val_959/original.jpg",
+    "original_sha256": "3bb2709fd68b692f056c2166fce5784cb711d57904dbb4e515e4d481e20b2c03",
+    "copy_sha256": "3bb2709fd68b692f056c2166fce5784cb711d57904dbb4e515e4d481e20b2c03",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261816,
+        "file": "samples/07_cub_val_959/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7582842111587524,
+          "max": 2.6225709915161133,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.08235293626785278,
+          "max": 0.9960784912109375,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261817,
+        "file": "samples/07_cub_val_959/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.4842880964279175,
+          "max": 2.204270362854004,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.1450980305671692,
+          "max": 0.9058823585510254,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261818,
+        "file": "samples/07_cub_val_959/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7069098949432373,
+          "max": 2.1694118976593018,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.09411764144897461,
+          "max": 0.8941176533699036,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -1.552787184715271,
+      "max": 2.640000104904175,
+      "finite": true
+    },
+    "eval_file": "samples/07_cub_val_959/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/07_cub_val_959.png"
+  },
+  {
+    "number": 8,
+    "dataset": "cub_val",
+    "sample_index": 828,
+    "label": 14,
+    "class_name": "069.Rufous_Hummingbird",
+    "path": "cub2002011/versions/7/CUB_200_2011/images/069.Rufous_Hummingbird/Rufous_Hummingbird_0065_58497.jpg",
+    "original_size": [
+      500,
+      333
+    ],
+    "original_copy": "samples/08_cub_val_828/original.jpg",
+    "original_sha256": "69e5c8976b15e2d3c8f1300a86c48813701588c7382c1f3d935fe66e8baa956f",
+    "copy_sha256": "69e5c8976b15e2d3c8f1300a86c48813701588c7382c1f3d935fe66e8baa956f",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20261916,
+        "file": "samples/08_cub_val_828/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20261917,
+        "file": "samples/08_cub_val_828/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20261918,
+        "file": "samples/08_cub_val_828/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.6051416397094727,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 0.9921568632125854,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.1179039478302,
+      "max": 2.640000104904175,
+      "finite": true
+    },
+    "eval_file": "samples/08_cub_val_828/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/08_cub_val_828.png"
+  },
+  {
+    "number": 9,
+    "dataset": "nabirds_raw",
+    "sample_index": 43000,
+    "label": 120,
+    "class_name": "Great Blue Heron",
+    "path": "nabirds/images/0480/e259f772624446cc8a040d1f2fbce885.jpg",
+    "original_size": [
+      819,
+      1024
+    ],
+    "original_copy": "samples/09_nabirds_raw_43000/original.jpg",
+    "original_sha256": "8052594d0075b003100431444039f94e9ae6f28c2974c39a81194443036077b4",
+    "copy_sha256": "8052594d0075b003100431444039f94e9ae6f28c2974c39a81194443036077b4",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20262016,
+        "file": "samples/09_nabirds_raw_43000/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.395991325378418,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 0.9450980424880981,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20262017,
+        "file": "samples/09_nabirds_raw_43000/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.9466564655303955,
+          "max": 2.117124319076538,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.039215683937072754,
+          "max": 0.8823529481887817,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20262018,
+        "file": "samples/09_nabirds_raw_43000/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7069098949432373,
+          "max": 2.640000104904175,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.09411764144897461,
+          "max": 1.0,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.1179039478302,
+      "max": 2.640000104904175,
+      "finite": true
+    },
+    "eval_file": "samples/09_nabirds_raw_43000/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/09_nabirds_raw_43000.png"
+  },
+  {
+    "number": 10,
+    "dataset": "nabirds_raw",
+    "sample_index": 13353,
+    "label": 109,
+    "class_name": "Wild Turkey",
+    "path": "nabirds/images/0469/46efdba618b040109f78d9437d2938e6.jpg",
+    "original_size": [
+      1024,
+      768
+    ],
+    "original_copy": "samples/10_nabirds_raw_13353/original.jpg",
+    "original_sha256": "200f752ce20175703255010fa5dc39ae0b108151935b0dfe3f03d05e7927aa86",
+    "copy_sha256": "200f752ce20175703255010fa5dc39ae0b108151935b0dfe3f03d05e7927aa86",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20262116,
+        "file": "samples/10_nabirds_raw_13353/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7069098949432373,
+          "max": 1.7162529230117798,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.08627450466156006,
+          "max": 0.8392156958580017,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20262117,
+        "file": "samples/10_nabirds_raw_13353/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.1179039478302,
+          "max": 2.5702831745147705,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 1.0,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20262118,
+        "file": "samples/10_nabirds_raw_13353/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7925336360931396,
+          "max": 1.8731156587600708,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.06666666269302368,
+          "max": 0.8823529481887817,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -1.9124069213867188,
+      "max": 2.3088455200195312,
+      "finite": true
+    },
+    "eval_file": "samples/10_nabirds_raw_13353/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/10_nabirds_raw_13353.png"
+  },
+  {
+    "number": 11,
+    "dataset": "nabirds_raw",
+    "sample_index": 22471,
+    "label": 448,
+    "class_name": "Swamp Sparrow",
+    "path": "nabirds/images/0904/7649d722580f44788383404129e4a61d.jpg",
+    "original_size": [
+      1024,
+      684
+    ],
+    "original_copy": "samples/11_nabirds_raw_22471/original.jpg",
+    "original_sha256": "6d7d898492eb4e807cc1cff428d0fd42bbe7f30e231051f95f3c5b5bea8c70a7",
+    "copy_sha256": "6d7d898492eb4e807cc1cff428d0fd42bbe7f30e231051f95f3c5b5bea8c70a7",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20262216,
+        "file": "samples/11_nabirds_raw_22471/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.9809060096740723,
+          "max": 1.8556864261627197,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0313725471496582,
+          "max": 0.8235294222831726,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20262217,
+        "file": "samples/11_nabirds_raw_22471/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.998030662536621,
+          "max": 2.5354249477386475,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.027450978755950928,
+          "max": 0.9764705896377563,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20262218,
+        "file": "samples/11_nabirds_raw_22471/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.7754088640213013,
+          "max": 2.3437039852142334,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.07058823108673096,
+          "max": 0.9333333969116211,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.0665297508239746,
+      "max": 2.640000104904175,
+      "finite": true
+    },
+    "eval_file": "samples/11_nabirds_raw_22471/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/11_nabirds_raw_22471.png"
+  },
+  {
+    "number": 12,
+    "dataset": "nabirds_raw",
+    "sample_index": 4878,
+    "label": 11,
+    "class_name": "Cinnamon Teal (Male)",
+    "path": "nabirds/images/0319/19e3437a32a54f0789879a26732ebc85.jpg",
+    "original_size": [
+      1024,
+      670
+    ],
+    "original_copy": "samples/12_nabirds_raw_4878/original.jpg",
+    "original_sha256": "f5c974a22cb7956acfc860f3f6a23eeeee629ddb8ed9f8a2cc8770e18e537895",
+    "copy_sha256": "f5c974a22cb7956acfc860f3f6a23eeeee629ddb8ed9f8a2cc8770e18e537895",
+    "train_views": [
+      {
+        "view": 1,
+        "seed": 20262316,
+        "file": "samples/12_nabirds_raw_4878/train_aug_1_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -2.0494048595428467,
+          "max": 1.158518671989441,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.0,
+          "max": 0.6980392336845398,
+          "finite": true
+        }
+      },
+      {
+        "view": 2,
+        "seed": 20262317,
+        "file": "samples/12_nabirds_raw_4878/train_aug_2_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.6855741739273071,
+          "max": 1.315381407737732,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.05882352590560913,
+          "max": 0.7019608020782471,
+          "finite": true
+        }
+      },
+      {
+        "view": 3,
+        "seed": 20262318,
+        "file": "samples/12_nabirds_raw_4878/train_aug_3_denorm.png",
+        "tensor": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": -1.9295316934585571,
+          "max": 1.5768193006515503,
+          "finite": true
+        },
+        "denormalized": {
+          "shape": [
+            3,
+            224,
+            224
+          ],
+          "dtype": "torch.float32",
+          "min": 0.027450978755950928,
+          "max": 0.800000011920929,
+          "finite": true
+        }
+      }
+    ],
+    "eval_tensor": {
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "dtype": "torch.float32",
+      "min": -2.015155553817749,
+      "max": 1.6639653444290161,
+      "finite": true
+    },
+    "eval_file": "samples/12_nabirds_raw_4878/eval_preprocess_denorm.png",
+    "train_views_distinct": true,
+    "eval_repeat_equal": true,
+    "board": "visualizations/12_nabirds_raw_4878.png"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "files_hashed": 60350,
+  "unique_contents": 60349,
+  "duplicate_groups": [
+    {
+      "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4",
+      "items": [
+        {
+          "dataset": "cub_test",
+          "sample_index": 927,
+          "label": 16,
+          "class_name": "058.Pigeon_Guillemot",
+          "path": "cub2002011/versions/7/CUB_200_2011/images/058.Pigeon_Guillemot/Pigeon_Guillemot_0018_40195.jpg",
+          "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4"
+        },
+        {
+          "dataset": "cub_test",
+          "sample_index": 957,
+          "label": 16,
+          "class_name": "058.Pigeon_Guillemot",
+          "path": "cub2002011/versions/7/CUB_200_2011/images/058.Pigeon_Guillemot/Pigeon_Guillemot_0081_40339.jpg",
+          "sha256": "96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4"
+        }
+      ]
+    }
+  ],
+  "cross_cub_split_duplicate_groups": [],
+  "cub_nabirds_exact_duplicate_groups": [],
+  "scope": "all indexed images, exact SHA256 bytes; no perceptual duplicate or ImageNet overlap check"
+}

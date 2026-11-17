@@ -18,8 +18,9 @@ def load_backbone_weights(
 
     A raw dictionary, or one under exactly one of ``state_dict``/``model``, is
     accepted. An explicit prefix selects an encoder from a larger model. Every
-    encoder tensor must match exactly; only a complete, well-shaped classifier
-    pair may be discarded. All intentional exclusions are reported and warned.
+    encoder tensor must match exactly. Only missing counters registered on real
+    BatchNorm modules are initialized to zero for legacy torchvision weights;
+    a complete, well-shaped classifier pair may be discarded. Both are logged.
     """
     if not isinstance(prefix, str) or (prefix and not prefix.endswith(".")):
         raise ValueError("backbone_prefix 必须为空或以点结束，例如 encoder. 或 backbone.")
@@ -52,18 +53,39 @@ def load_backbone_weights(
             del selected[key]
 
     expected = backbone.state_dict()
-    missing = sorted(expected.keys() - selected.keys())
+    bn_counters = {
+        f"{name}.num_batches_tracked" if name else "num_batches_tracked"
+        for name, module in backbone.named_modules()
+        if isinstance(module, nn.modules.batchnorm._BatchNorm)
+        and module.num_batches_tracked is not None
+    }
+    initialized_buffers = sorted((expected.keys() - selected.keys()) & bn_counters)
+    missing = sorted(expected.keys() - selected.keys() - set(initialized_buffers))
     unexpected = sorted(selected.keys() - expected.keys())
     mismatched = [
         key for key in expected.keys() & selected.keys()
         if expected[key].shape != selected[key].shape
     ]
-    if missing or unexpected or mismatched:
+    dtype_mismatched = [
+        key for key in expected.keys() & selected.keys()
+        if expected[key].dtype != selected[key].dtype
+    ]
+    if missing or unexpected or mismatched or dtype_mismatched:
         raise ValueError(
             f"backbone 权重不完整或不兼容: missing={missing}, "
-            f"unexpected={unexpected}, shape_mismatch={sorted(mismatched)}"
+            f"unexpected={unexpected}, shape_mismatch={sorted(mismatched)}, "
+            f"dtype_mismatch={sorted(dtype_mismatched)}"
         )
+    for key in initialized_buffers:
+        selected[key] = torch.zeros_like(expected[key])
     backbone.load_state_dict(selected, strict=True)
+    if initialized_buffers:
+        warnings.warn(
+            "兼容历史 BatchNorm checkpoint，将以下缺失 num_batches_tracked 缓冲区初始化为 0: "
+            + ", ".join(initialized_buffers),
+            UserWarning,
+            stacklevel=2,
+        )
     ignored = outside + ignored_head
     if ignored:
         warnings.warn(
@@ -78,7 +100,8 @@ def load_backbone_weights(
             digest.update(block)
     return {
         "path": str(path), "sha256": digest.hexdigest(), "container": container,
-        "prefix": prefix, "loaded_keys": len(selected), "ignored_keys": ignored,
+        "prefix": prefix, "loaded_keys": len(selected) - len(initialized_buffers),
+        "initialized_buffers": initialized_buffers, "ignored_keys": ignored,
     }
 
 
@@ -115,3 +138,20 @@ def spatial_features(backbone: nn.Module, images: torch.Tensor) -> torch.Tensor:
     for layer in (backbone.layer1, backbone.layer2, backbone.layer3, backbone.layer4):
         features = layer(features)
     return features
+
+
+class SupervisedResNet18(nn.Module):
+    """Existing 512-d encoder with a retained CUB base-class training head."""
+
+    def __init__(self, num_classes: int, backbone_weights=None):
+        super().__init__()
+        if num_classes < 2:
+            raise ValueError("监督分类至少需要两个类别")
+        self.backbone = make_backbone(backbone_weights=backbone_weights)
+        self.classifier = nn.Linear(512, num_classes)
+
+    def forward_features(self, images: torch.Tensor) -> torch.Tensor:
+        return self.backbone(images)
+
+    def forward(self, images: torch.Tensor) -> torch.Tensor:
+        return self.classifier(self.forward_features(images))

@@ -1,0 +1,50 @@
+{
+  "cub_train_1shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "CUB metadata/indices"
+  },
+  "cub_train_5shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "CUB metadata/indices"
+  },
+  "cub_val_1shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "CUB metadata/indices"
+  },
+  "cub_val_5shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "CUB metadata/indices"
+  },
+  "cub_test_1shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "CUB metadata/indices"
+  },
+  "cub_test_5shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "CUB metadata/indices"
+  },
+  "nabirds_raw_1shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "NABirds raw task is diagnostic, not approved species evaluation"
+  },
+  "nabirds_raw_5shot": {
+    "episodes": 20,
+    "index_order_and_disjoint": true,
+    "reproducible": true,
+    "note": "NABirds raw task is diagnostic, not approved species evaluation"
+  }
+}

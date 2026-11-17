@@ -1,0 +1,8 @@
+{
+  "source": "/root/autodl-tmp/test/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_simclr_seed42_bs128/checkpoints/best.pth",
+  "source_sha256": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37",
+  "output_sha256": "d9565868eb011d59f9d53a8425cfd7478d93115fc43d9f1919cccaad6ae60d02",
+  "epoch": 45,
+  "classifier_removed": true,
+  "validation_kind": "unseen-class episodic cosine prototypes"
+}

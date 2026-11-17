@@ -1,0 +1,20 @@
+[
+  {
+    "split": "train",
+    "historical_sha256": "8ae8741fb9bc7930e2642ed2e33674f79d19b9e89428f7be7bfc07840ce71f5b",
+    "current_sha256": "5ad86e18271fc0649a985b615019250ca01ebff5fd7040b381450697cc809c65",
+    "CRLF_reconstruction_matches_historical": true
+  },
+  {
+    "split": "val",
+    "historical_sha256": "8f5b47df130fbec258dd39ed2452d29029768289b8b2b7ad910df6ac0a8e8e00",
+    "current_sha256": "f5c70c3101b707685afbd2c7828cb293141996a8fe4a1d86d73e2c596cf8a3ac",
+    "CRLF_reconstruction_matches_historical": true
+  },
+  {
+    "split": "test",
+    "historical_sha256": "96f24c38b0eae9b06e459ba68567cb9d337f64e86a19d1bb70c02033c45173be",
+    "current_sha256": "0d5cdbb2d4c9be54e4ce50ef66390f2f6bfe1b55cccdf618a4c10aa1baf943b9",
+    "CRLF_reconstruction_matches_historical": true
+  }
+]

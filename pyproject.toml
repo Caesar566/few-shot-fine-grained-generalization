@@ -18,6 +18,7 @@ dependencies = [
     "scikit-learn",
     "scipy",
     "tqdm",
+    "tensorboard>=2.21.0",
 ]
 
 [project.scripts]

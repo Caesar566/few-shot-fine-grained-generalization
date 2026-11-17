@@ -1,0 +1,28 @@
+{
+  "Random": {
+    "pretraining_data": null,
+    "algorithm": "torchvision random initialization, weights=None",
+    "weights": null,
+    "sha256": null,
+    "compatibility": "verified Stage03 Random full-backbone episodic smoke"
+  },
+  "ImageNet": {
+    "pretraining_data": "ImageNet-1K",
+    "algorithm": "torchvision IMAGENET1K_V1 supervised",
+    "weights": "resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "compatibility": "strict local loader with 20 BN counters zero-initialized, exact native state/output equality verified"
+  },
+  "SimCLR": {
+    "pretraining_data": "ImageNet-1K / derived set per recorded external model card, exact upstream recipe not independently audited",
+    "algorithm": "DM-Diaz SimCLR ResNet-18",
+    "weights": "outputs/stage02_backbone/weights_verification/simclr_resnet18_backbone.pt",
+    "sha256": "3874cdaee3dd3e7c02e53ca4ccee6c76e74c7700aeab189d58b80b20b31b48a9",
+    "source_checkpoint": "checkpoint_100-resnet18-simclr-imagenet1k.ckpt",
+    "source_sha256": "4a50dfd4f78f83b8eba1a7c358cd0a476a9da1cf5579b7cf01a2051597ca217a",
+    "url": "https://huggingface.co/DM-Diaz/SimCLR-ResNet18-ImageNet1K",
+    "compatibility": "120 encoder entries extracted, projection head excluded, exact source tensors verified",
+    "upstream_recipe_difference": "historical report states 100 epochs, batch32; source checkpoint has no hyper_parameters field; supervised vs SSL comparison is between specific weights, not isolated pretraining algorithms"
+  }
+}

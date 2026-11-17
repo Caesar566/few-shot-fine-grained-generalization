@@ -1,0 +1,183 @@
+{
+  "command": [
+    "/home/caesar/Projects/few-shot-fine-grained-generalization/.venv/bin/python",
+    "-B",
+    "-m",
+    "pytest",
+    "output/stage01_data/test_data_checks.py",
+    "tests/test_data_pipeline.py",
+    "tests/test_episode_plan_and_nabirds.py",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "-o",
+    "addopts=",
+    "--basetemp=output/stage01_data/evidence/pytest_tmp",
+    "--junitxml=output/stage01_data/evidence/junit.xml"
+  ],
+  "returncode": 1,
+  "counts": {
+    "passed": 24,
+    "failure": 2,
+    "error": 0,
+    "skipped": 0
+  },
+  "test_cases": [
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_counts_and_label_namespace[cub_train-5890-100]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_counts_and_label_namespace[cub_val-2947-50]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_counts_and_label_namespace[cub_test-2951-50]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_counts_and_label_namespace[nabirds_raw-48562-555]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_actual_image_loading_and_tensor_shape[cub_train]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_actual_image_loading_and_tensor_shape[cub_val]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_actual_image_loading_and_tensor_shape[cub_test]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_actual_image_loading_and_tensor_shape[nabirds_raw]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_same_visualized_batch_actual_dataloader[cub_train]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_same_visualized_batch_actual_dataloader[cub_val]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_same_visualized_batch_actual_dataloader[nabirds_raw]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_cub_split_id_name_path_disjointness_and_seed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_episode_index_order_reproducibility_and_labels[1]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_episode_index_order_reproducibility_and_labels[5]",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_transform_order_and_actual_parameters",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_eval_deterministic_under_changed_seed",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_augmentation_sizes_diversity_and_denormalization",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_no_cross_split_or_cross_domain_exact_content_duplicates",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_support_query_content_disjointness_acceptance",
+      "status": "failure",
+      "detail": "def test_support_query_content_disjointness_acceptance():\n        \"\"\"Expected to FAIL until the actual data/sampler defect is repaired.\"\"\"\n        repro=json.loads((OUT/'evidence/content_episode_reproduction.json').read_text())\n>       assert repro['status']!='FAIL', (\n            f\"Known real-data content collision: seed=42, episode_zero_based={repro['episode_zero_based']}, \"\n            f\"support indices={repro['duplicate_support']}, query indices={repro['duplicate_query']}. \"\n            'Distinct indices alone do not guarantee distinct image content.'\n        )\nE       AssertionError: Known real-data content collision: seed=42, episode_zero_based=200, support indices=[957], query indices=[927]. Distinct indices alone do not guarantee distinct image content.\nE       assert 'FAIL' != 'FAIL'\n\noutput/stage01_data/test_data_checks.py:148: AssertionError"
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_formal_nabirds_species_dataset_acceptance",
+      "status": "failure",
+      "detail": "def test_formal_nabirds_species_dataset_acceptance():\n        \"\"\"Expected to FAIL until an actual human-reviewed manifest is supplied.\"\"\"\n        review=ROOT/'data/splits/nabirds_review.json'\n        manifest=ROOT/'data/splits/nabirds_test.json'\n>       assert review.exists() and manifest.exists(), (\n            'BLOCKED: formal NABirds review/manifest absent; raw visual-category loading '\n            'is not a substitute for approved non-overlapping species evaluation.'\n        )\nE       AssertionError: BLOCKED: formal NABirds review/manifest absent; raw visual-category loading is not a substitute for approved non-overlapping species evaluation.\nE       assert (False)\nE        +  where False = exists()\nE        +    where exists = PosixPath('/home/caesar/Projects/few-shot-fine-grained-generalization/data/splits/nabirds_review.json').exists\n\noutput/stage01_data/test_data_checks.py:159: AssertionError"
+    },
+    {
+      "class": "output.stage01_data.test_data_checks",
+      "name": "test_source_and_split_files_unchanged",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "tests.test_data_pipeline",
+      "name": "test_classes_disjoint",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "tests.test_data_pipeline",
+      "name": "test_sampler_support_query_disjoint",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "tests.test_episode_plan_and_nabirds",
+      "name": "test_saved_episode_plan_rejects_tampering",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "tests.test_episode_plan_and_nabirds",
+      "name": "test_nabirds_requires_explicit_species_review",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "class": "tests.test_episode_plan_and_nabirds",
+      "name": "test_nabirds_rejects_partial_visual_subclasses",
+      "status": "passed",
+      "detail": ""
+    }
+  ]
+}

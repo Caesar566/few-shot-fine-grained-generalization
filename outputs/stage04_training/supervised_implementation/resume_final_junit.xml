@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="7.660" timestamp="2026-11-16T21:00:05.338847+08:00" hostname="archlinux"><testcase classname="tests.test_supervised_training" name="test_supervised_full_cycle_and_epoch_boundary_resume" time="3.447" /></testsuite></testsuites>

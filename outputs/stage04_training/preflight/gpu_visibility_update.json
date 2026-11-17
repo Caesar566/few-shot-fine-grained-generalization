@@ -1,0 +1,16 @@
+{
+  "command": "uv run python cuda_test.py",
+  "execution_context": "outside sandbox (explicit tool approval)",
+  "exit_code": 0,
+  "torch": "2.5.1+cu121",
+  "cuda_build": "12.1",
+  "cuda_available": true,
+  "device_count": 1,
+  "device_name": "NVIDIA GeForce MX450",
+  "device_index": 0,
+  "total_memory_gib_rounded": 1.66,
+  "memory_measurement": "get_device_properties(0).total_memory, not current free memory",
+  "training_executed": false,
+  "gpu_training_memory_validated": false,
+  "cuda_test_sha256": "092c0e41b093269e48c11667fe377111b9f61b8be22e66870b3b0952d0d4788d"
+}

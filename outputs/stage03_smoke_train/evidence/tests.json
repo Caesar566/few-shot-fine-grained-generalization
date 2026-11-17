@@ -1,0 +1,52 @@
+[
+  {
+    "check": "真实CUB单批前向",
+    "status": "PASS",
+    "evidence": "single_batch.json"
+  },
+  {
+    "check": "loss/输出/梯度有限",
+    "status": "PASS",
+    "evidence": "single_batch.json,gradients.json"
+  },
+  {
+    "check": "关键层有效梯度",
+    "status": "PASS",
+    "evidence": "gradients.json"
+  },
+  {
+    "check": "参数更新与冻结",
+    "status": "PASS",
+    "evidence": "parameter_updates.json"
+  },
+  {
+    "check": "固定训练样本过拟合",
+    "status": "PASS",
+    "evidence": "overfit.json"
+  },
+  {
+    "check": "逐step真实日志",
+    "status": "PASS",
+    "evidence": "../logs/train.csv"
+  },
+  {
+    "check": "TensorBoard可读取",
+    "status": "PASS",
+    "evidence": "tensorboard.json"
+  },
+  {
+    "check": "CSV及SVG曲线",
+    "status": "PASS",
+    "evidence": "../figures"
+  },
+  {
+    "check": "checkpoint预测与optimizer恢复",
+    "status": "PASS",
+    "evidence": "checkpoint_test.json"
+  },
+  {
+    "check": "无测试数据训练/原文件保全/步数上限",
+    "status": "PASS",
+    "evidence": "input_samples.json"
+  }
+]

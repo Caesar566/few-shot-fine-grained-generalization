@@ -1,0 +1,8 @@
+{
+  "configs": 9,
+  "common_downstream_fields_equal": true,
+  "distinct_initialization_seed_pairs": 9,
+  "training_runs_started": 0,
+  "python_syntax_passed": true,
+  "gpu_execution_test": "BLOCKED CUDA unavailable"
+}

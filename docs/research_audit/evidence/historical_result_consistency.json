@@ -1,0 +1,171 @@
+{
+  "1": {
+    "baseline": {
+      "mean_pp": 80.66666666666667,
+      "ci95_pp": [
+        77.35862587140224,
+        83.9747074619311
+      ]
+    },
+    "candidate": {
+      "mean_pp": 79.43333333333334,
+      "ci95_pp": [
+        76.8240031532672,
+        82.04266351339948
+      ]
+    },
+    "paired_improvement": {
+      "mean_pp": -1.2333333333333296,
+      "ci95_pp": [
+        -3.0304028059633152,
+        0.563736139296656
+      ]
+    }
+  },
+  "5": {
+    "baseline": {
+      "mean_pp": 91.2,
+      "ci95_pp": [
+        89.46110360177478,
+        92.93889639822522
+      ]
+    },
+    "candidate": {
+      "mean_pp": 91.76666666666667,
+      "ci95_pp": [
+        90.82618730777493,
+        92.7071460255584
+      ]
+    },
+    "paired_improvement": {
+      "mean_pp": 0.5666666666666677,
+      "ci95_pp": [
+        -0.23187188447773988,
+        1.3652052178110752
+      ]
+    }
+  },
+  "current_source_fingerprint": "da42043e0122f3f06c815b801ab9966d6418045bee7dde1b43a739d2a02ec5dd",
+  "error_review": {
+    "rows": 1708,
+    "annotated_rows": 0
+  },
+  "records": {
+    "cub_duplicate_audit_v1.json": {
+      "sha256": "59e611ac81f8212c92f14db2389363a5cf6e5bcf6cf2819f3ae4ed67d5633d5c",
+      "top_level_keys": [
+        "scope",
+        "split_counts",
+        "unique_sha256_count",
+        "duplicate_sha256_groups",
+        "cross_split_duplicate_sha256_groups",
+        "saved_test_plan_duplicate_cooccurrence"
+      ]
+    },
+    "cub_error_audit_v1.json": {
+      "sha256": "06c74027bedb9a7cb5b54aeeb39970f165ebe35bd2c3a36299275c4bfe621979",
+      "top_level_keys": [
+        "schema_version",
+        "source",
+        "test_manifest_sha256",
+        "bbox_source_sha256",
+        "size_metric",
+        "quartile_boundaries",
+        "interpretation",
+        "results"
+      ]
+    },
+    "cub_fixed_feature_v1.json": {
+      "sha256": "f51a8d3da1243740e27cc3a06cc1ca532de7734ad1601b7392c47b51c4c98b7c",
+      "top_level_keys": [
+        "schema_version",
+        "status",
+        "dataset",
+        "val_manifest_sha256",
+        "preprocessing",
+        "backbone",
+        "n_way",
+        "n_query",
+        "episodes_per_seed",
+        "seeds",
+        "device",
+        "torch_version",
+        "methods",
+        "results"
+      ]
+    },
+    "cub_study_v1_1shot_summary.json": {
+      "sha256": "738fd63a273209cd9cf64e271ad86791e437035bec268d6bffd1cc5c02ebc43f",
+      "top_level_keys": [
+        "comparison",
+        "scenario",
+        "seeds",
+        "confidence_unit",
+        "baseline_model_config",
+        "candidate_model_config",
+        "baseline_training_config",
+        "candidate_training_config",
+        "baseline",
+        "candidate",
+        "paired_improvement",
+        "meets_5pp_goal",
+        "ci_lower_at_least_5pp"
+      ],
+      "historical_source_fingerprint": null,
+      "split_hashes_match": {
+        "train": false,
+        "val": false,
+        "test": false
+      }
+    },
+    "cub_study_v1_5shot_summary.json": {
+      "sha256": "da685756bb3122264ac7bc1e0ac4d6c0b2ce9da3d2406aba8d19a41e6c247d17",
+      "top_level_keys": [
+        "comparison",
+        "scenario",
+        "seeds",
+        "confidence_unit",
+        "baseline_model_config",
+        "candidate_model_config",
+        "baseline_training_config",
+        "candidate_training_config",
+        "baseline",
+        "candidate",
+        "paired_improvement",
+        "meets_5pp_goal",
+        "ci_lower_at_least_5pp"
+      ],
+      "historical_source_fingerprint": null,
+      "split_hashes_match": {
+        "train": false,
+        "val": false,
+        "test": false
+      }
+    },
+    "cub_weight_sweep_v1_selection.json": {
+      "sha256": "db6920c9fb15c4844d17a240a4ba490c8b917c13525db08e73f03a03db82d663",
+      "top_level_keys": [
+        "selection_source",
+        "seeds",
+        "candidate_mean_validation_accuracy",
+        "selected_local_weight",
+        "selected_mean_validation_accuracy"
+      ]
+    },
+    "simclr_weight_provenance.json": {
+      "sha256": "9ad874dacfa9edc0460623a8b9900864a72cf7dc8d6de1161adbec6ff2646b55",
+      "top_level_keys": [
+        "source",
+        "checkpoint_filename",
+        "source_sha256",
+        "source_epoch_zero_based",
+        "source_global_step",
+        "extraction",
+        "encoder_tensors",
+        "output",
+        "output_sha256",
+        "load_policy"
+      ]
+    }
+  }
+}

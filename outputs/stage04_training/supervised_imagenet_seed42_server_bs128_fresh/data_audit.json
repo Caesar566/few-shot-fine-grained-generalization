@@ -1,0 +1,9 @@
+{
+  "train_images": 5890,
+  "train_classes": 100,
+  "val_images": 2947,
+  "val_classes": 50,
+  "class_id_path_content_overlap": false,
+  "train_val_image_bytes_rehashed": true,
+  "test_or_nabirds_images_read": false
+}

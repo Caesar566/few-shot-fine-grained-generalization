@@ -1,0 +1,82 @@
+{
+  "Random": {
+    "status": "VERIFIED",
+    "weight_source": null,
+    "seed": 42,
+    "load_info": null,
+    "parameters": 11176512,
+    "trainable_parameters": 11176512,
+    "state_dict_entries": 120,
+    "fingerprint": "a3364aa06b988253360292963acabbd753f0eda9199aec3725c7a2fe8daeb955",
+    "spatial": {
+      "shape": [
+        4,
+        512,
+        7,
+        7
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": 0.0,
+      "max": 9.86975383758545,
+      "mean": 0.7536091804504395,
+      "std": 1.0470753908157349,
+      "nonzero_fraction": 0.6170579791069031
+    },
+    "global": {
+      "shape": [
+        4,
+        512
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": 0.0,
+      "max": 4.2392401695251465,
+      "mean": 0.7536091208457947,
+      "std": 0.7641700506210327,
+      "nonzero_fraction": 0.98876953125
+    },
+    "different_image_max_abs_difference": 1.1353304386138916,
+    "eval_preserves_state": true
+  },
+  "ImageNet Supervised": {
+    "status": "BLOCKED_MISSING_WEIGHTS",
+    "source": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "expected_enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "searched_paths": [
+      "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/torch/checkpoints/resnet18-f37072fd.pth",
+      "/home/caesar/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth"
+    ],
+    "missing_keys": null,
+    "unexpected_keys": null,
+    "parameters": 11176512,
+    "trainable_parameters": 11176512,
+    "feature_stats": null,
+    "note": "architecture parameter counts only; no pretrained instance claimed"
+  },
+  "SimCLR": {
+    "status": "BLOCKED_MISSING_WEIGHTS",
+    "recorded_source": {
+      "source": "https://huggingface.co/DM-Diaz/SimCLR-ResNet18-ImageNet1K",
+      "checkpoint_filename": "checkpoint_100-resnet18-simclr-imagenet1k.ckpt",
+      "source_sha256": "4a50dfd4f78f83b8eba1a7c358cd0a476a9da1cf5579b7cf01a2051597ca217a",
+      "source_epoch_zero_based": 99,
+      "source_global_step": 4003600,
+      "extraction": "backbone.0/1/4/5/6/7 mapped strictly to torchvision conv1/bn1/layer1-4; projection head omitted",
+      "encoder_tensors": 120,
+      "output": "D:\\YMU\\class\\project\\few-shot-fine-grained-generalization\\data\\cache\\weights\\simclr_resnet18_backbone.pt",
+      "output_sha256": "55809b2470015f80315305bc5789672df92faf0eaa10bc5fda1e9887ca170ddb",
+      "load_policy": "torch.load(weights_only=True), strict architecture keys/shapes/dtypes"
+    },
+    "searched_paths": [
+      "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/weights/checkpoint_100-resnet18-simclr-imagenet1k.ckpt",
+      "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/weights/simclr_resnet18_backbone.pt"
+    ],
+    "parameters": 11176512,
+    "trainable_parameters": 11176512,
+    "feature_stats": null,
+    "missing_keys": null,
+    "unexpected_keys": null,
+    "note": "counts describe the common architecture only; provenance claims not externally verified"
+  }
+}

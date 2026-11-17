@@ -1,0 +1,2017 @@
+[
+  {
+    "phase": "single",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.053314208984375,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.4363963346215622,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.3332601175841343,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.26860379831925807,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.22394906128018102,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "smoke",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.584707260131836,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.8398815646362795,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.6408888671577221,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.4593843853187758,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.301844277043261,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "smoke",
+    "step": 2,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.6935582160949707,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.880238736872269,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.6313512017000104,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.4593721591811542,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.32837229266962753,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "smoke",
+    "step": 3,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 5.150171279907227,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 1.6297049473421061,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 1.4745070823874438,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 1.1227531579343308,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.6023216222758524,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "frozen_probe",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.0,
+        "trainable_tensors": 0,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.0,
+        "trainable_tensors": 0,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.0,
+        "trainable_tensors": 0,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.0,
+        "trainable_tensors": 0,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.4221121607445934,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 1,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.053314208984375,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.4363963346215622,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.3332601175841343,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.26860379831925807,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.22394906128018102,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 2,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.5416783094406128,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.5830929500779705,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.45651621210513005,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.38513162319807737,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.39794907213634756,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 3,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.2708762884140015,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.5024812433758196,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.396759425292599,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3327867333006485,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.31749120407685266,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 4,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.417128801345825,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.7822961609843584,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.6773304010918177,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.49116286868238723,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.29870527476693487,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 5,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.5661225318908691,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.685009693772005,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.5320319204449799,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.37615174871618345,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.25079331802150256,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 6,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.7454453706741333,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6407671735862286,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.4741289458761825,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.34262764383040234,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2337558550977828,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 7,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.7007417678833008,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6136905152916741,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.4754807289922404,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.32740558497343136,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2108313982168046,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 8,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.6950315237045288,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6052172082821003,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.4036953103198724,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.2501764813999696,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.17413734848386492,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 9,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.2662670612335205,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.7900686421572692,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.47761579446154495,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3057322668209531,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.20016275208746293,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 10,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.199608564376831,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.8117214324814052,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.5166581982921987,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3517632925016857,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2308568404123326,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 11,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.4565421342849731,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.5674855382557615,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.3840810250785896,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.2751905406881337,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2130310718909151,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 12,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.7080365419387817,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.5288407922869657,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.38867031993775714,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.28404371174131854,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2031115692838641,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 13,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.0828332901000977,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6322396254449799,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.43526936608356176,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3191908828925638,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.21285310529055224,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 14,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.6960902214050293,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6340200784299505,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.4377434576256531,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.30126148548558396,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.20779783219884243,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 15,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.5844076871871948,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6914018201124487,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.5016223652708617,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3334659755242728,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.20870051556324137,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 16,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.4893182516098022,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6281018367532415,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.47465161596356364,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3221658416219016,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2030066704018965,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 17,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.718182921409607,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.5283789527675185,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.35794152931149104,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.24910066252952034,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.18477416271528993,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 18,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.3209116458892822,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6698419739656299,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.42746264022792607,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.29607617310648,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.18651592526767574,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 19,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.771230936050415,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6097805702487558,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.41425954477510685,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.30198337109345114,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.1828073596964614,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 20,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.0653609037399292,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.46271515644317757,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.37047896494994903,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.2639468731378812,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.16610413496061618,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 21,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.0252673625946045,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.43734361632903435,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.36148930692274955,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.24319764287450432,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.14721764631529657,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 22,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.26400625705719,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.3999204783702121,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.31983441781687844,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.21377450200017914,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.13279627994139584,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 23,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.1002174615859985,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.31872755702291544,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.2344395038221862,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.16155309043732374,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.12215093800805137,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 24,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.9984825253486633,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.3638610547918922,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.2452882458310803,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.15801581329159736,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.11717700194272289,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 25,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.0641123056411743,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.45041083615232114,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.29687098308433113,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.18025669813494014,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.1152949118955754,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 26,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.9447581768035889,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.3947647640617253,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.24483554740457142,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.15151697991975596,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.10850518101489001,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 27,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.680449903011322,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.2599306112306909,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.17167492720910152,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.11642610694696738,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.10055370315477857,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 28,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.6430925130844116,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.2411205507354512,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.192833554902989,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.12891828854632323,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.09707505424799832,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 29,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.6593808531761169,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.2517435549512609,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.19551772346966925,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.1285444444279931,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.09240904083351197,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 30,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.6179786324501038,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.23124797067958522,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.16571498626762632,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.11109677979417311,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.08558233306040466,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 31,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.7352391481399536,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.2630058365438037,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.1845850140523244,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.11418714050586419,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.08168861582168245,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 32,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.8753462433815002,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.3562165363441765,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.25334300385998654,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.13924608372554134,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.08099956471022664,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 33,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.9983648061752319,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.4617359157774771,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.31646578526729985,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.16148986241181446,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.08044388179794146,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 34,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.667053461074829,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6508757201036668,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.42283604405151937,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.22038318133300303,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.08631941027486904,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 35,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.564234972000122,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 1.0204469201689474,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.7024492677562846,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.395149782184668,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.1341209669709541,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 36,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 5.478499412536621,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 2.57869413984512,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 1.5997357698842665,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.7744409522012166,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.2242858360637458,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 37,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 3.9266085624694824,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 1.8685761025128238,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 1.0619059729379772,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.5104702968423273,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.1724580388482856,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 38,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 4.004563331604004,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 2.131750983840499,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 1.3073251561012533,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.5776215759791191,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.15414510432939252,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 39,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 2.8170745372772217,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 1.181862863500513,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.6905769594007218,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3413105034219892,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.11940085446436614,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 40,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 5.5867228507995605,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 2.4011035672038235,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 1.3969145283684712,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.544186070667867,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.1457267068640938,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 41,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.6444426774978638,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.7070973840429254,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.44743970483120227,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.23248033694028183,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.09657440697157511,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 42,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 5.083517074584961,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 1.850336560360122,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 1.0410827467747419,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.44499696269096467,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.1153618074702438,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 43,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 3.1367268562316895,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 1.072461373315864,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.5749995353818617,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.2714398937633175,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.0970437730735502,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 44,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.754563808441162,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.757808282957301,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.5515970825884584,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.3046573270079886,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.11359655945215243,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 45,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.5767704248428345,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.6835480329770175,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.471605358127496,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.24329742970048676,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.09481696347812209,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 46,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 1.1182221174240112,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.4785017228488203,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.30723198917567995,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.15908896714001988,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.06871455697757019,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 47,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.9399098753929138,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.49844544747966474,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.3485506050853318,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.18570563105252771,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.0663921294999889,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 48,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.969444751739502,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.49656388099498006,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.354160180001298,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.18386029705644868,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.06378081296825604,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 49,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.6894264817237854,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.28729347194510957,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.20924701399273957,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.10984771424088896,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.04967470716087526,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 50,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.5491798520088196,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.21869542487042354,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.16371059077258143,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.0938744914527285,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.04201067787825604,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 51,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.6238308548927307,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.3134172491841475,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.22353635412792763,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.12657138264948,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.041755444663468734,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 52,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.5982677340507507,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.3270526781868581,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.22695712115105376,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.12463575057798759,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.039105280716729494,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 53,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.4346054494380951,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.23706789714013426,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.15927264120544174,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.08488972758960843,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.03260533369326315,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 54,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.2390623241662979,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.12141657364735631,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.08057970918331797,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.045251068413545065,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.02785173295549927,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 55,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.22419928014278412,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.09392323677534095,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.0771292502644979,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.049803016020276175,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.02701547017956196,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 56,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.3245314359664917,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.14743606349949023,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.11616739633041905,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.07029255960408724,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.02749787846855909,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 57,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.3596743941307068,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.17381943885146522,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.13210246706401974,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.077534065197229,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.026780493940026268,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 58,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.30175909399986267,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.15435362828531565,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.11599368271897463,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.06769835612833641,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.024098280077022572,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 59,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.1993625909090042,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.10621933040084622,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.08015783301392564,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.04754820236920567,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.020673418099929158,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  },
+  {
+    "phase": "overfit",
+    "step": 60,
+    "layers": {
+      "conv1": {
+        "gradient_norm": 0.12373905628919601,
+        "trainable_tensors": 1,
+        "finite": true
+      },
+      "layer1": {
+        "gradient_norm": 0.05857918972178762,
+        "trainable_tensors": 12,
+        "finite": true
+      },
+      "layer2": {
+        "gradient_norm": 0.04533216905674905,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer3": {
+        "gradient_norm": 0.028275536406193295,
+        "trainable_tensors": 15,
+        "finite": true
+      },
+      "layer4": {
+        "gradient_norm": 0.01796948076534114,
+        "trainable_tensors": 15,
+        "finite": true
+      }
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "random_never_loads_pretraining",
+    "status": "PASS",
+    "detail": "weights=None; torch.load and URL loaders forbidden"
+  },
+  {
+    "name": "random_seed_reproducibility",
+    "status": "PASS"
+  },
+  {
+    "name": "224_shapes_finite_nonconstant_and_gap_equivalence",
+    "status": "PASS",
+    "detail": {
+      "conv1": [
+        4,
+        64,
+        112,
+        112
+      ],
+      "bn1": [
+        4,
+        64,
+        112,
+        112
+      ],
+      "relu": [
+        4,
+        64,
+        112,
+        112
+      ],
+      "maxpool": [
+        4,
+        64,
+        56,
+        56
+      ],
+      "layer1": [
+        4,
+        64,
+        56,
+        56
+      ],
+      "layer2": [
+        4,
+        128,
+        28,
+        28
+      ],
+      "layer3": [
+        4,
+        256,
+        14,
+        14
+      ],
+      "layer4": [
+        4,
+        512,
+        7,
+        7
+      ],
+      "avgpool": [
+        4,
+        512,
+        1,
+        1
+      ],
+      "fc": [
+        4,
+        512
+      ]
+    }
+  },
+  {
+    "name": "synthetic_local_loader_roundtrip_NOT_pretrained",
+    "status": "PASS",
+    "detail": {
+      "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage02_backbone/evidence/synthetic_random_encoder.pt",
+      "sha256": "4b30b0cefc53a0b8468e5bfdbe31a401efd3081092de66e3df049bf6d44c7a39",
+      "container": null,
+      "prefix": "",
+      "loaded_keys": 120,
+      "ignored_keys": []
+    }
+  },
+  {
+    "name": "reject_missing_encoder_key",
+    "status": "PASS",
+    "detail": "rejected as required"
+  },
+  {
+    "name": "reject_unexpected_key",
+    "status": "PASS",
+    "detail": "rejected as required"
+  },
+  {
+    "name": "reject_wrong_shape",
+    "status": "PASS",
+    "detail": "rejected as required"
+  },
+  {
+    "name": "explicit_classifier_head_exclusion_synthetic",
+    "status": "PASS",
+    "detail": {
+      "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage02_backbone/evidence/synthetic_random_encoder.pt",
+      "sha256": "4b30b0cefc53a0b8468e5bfdbe31a401efd3081092de66e3df049bf6d44c7a39",
+      "container": null,
+      "prefix": "",
+      "loaded_keys": 120,
+      "ignored_keys": [
+        "fc.bias",
+        "fc.weight"
+      ]
+    }
+  },
+  {
+    "name": "simclr_key_translation_SYNTHETIC_ONLY",
+    "status": "PASS",
+    "detail": "120 encoder entries round-trip; synthetic projection ignored; incomplete encoder rejected"
+  }
+]

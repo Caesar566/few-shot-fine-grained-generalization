@@ -1,0 +1,9 @@
+{
+  "model_logits_exact_match": true,
+  "max_abs_difference": 0.0,
+  "optimizer_state_exact_match": true,
+  "scheduler": "not used by original loop or this run",
+  "saved_step": 60,
+  "rng_and_plan_saved": true,
+  "exact_training_continuation_claimed": false
+}

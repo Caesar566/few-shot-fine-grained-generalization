@@ -1,0 +1,8 @@
+{
+  "source": "/root/autodl-tmp/test/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_imagenet_seed42_server_bs128_fresh/checkpoints/best.pth",
+  "source_sha256": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4",
+  "output_sha256": "8e90b893b01ed95e928cec6241d665c4870e95d1063db9aa6c936c14595a54ab",
+  "epoch": 17,
+  "classifier_removed": true,
+  "validation_kind": "unseen-class episodic cosine prototypes"
+}

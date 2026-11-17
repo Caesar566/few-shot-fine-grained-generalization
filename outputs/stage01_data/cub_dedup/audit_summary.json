@@ -1,0 +1,48 @@
+{
+  "schema": "cub-exact-dedup-v1",
+  "physical_images_scanned": 11796,
+  "official_indexed_images": 11788,
+  "unindexed_images": 8,
+  "unique_disk_image_contents": 11795,
+  "duplicate_groups": 1,
+  "redundant_disk_images": 1,
+  "affected_classes": [
+    "058.Pigeon_Guillemot"
+  ],
+  "cross_class_groups": 0,
+  "cross_split_groups": 0,
+  "review_required_groups": 0,
+  "excluded_official_index_images": 1,
+  "clean_index_images": 11787,
+  "clean_index_unique_contents": 11787,
+  "ready_for_training_and_evaluation": true,
+  "split_statistics": {
+    "train": {
+      "original_images": 5890,
+      "clean_images": 5890,
+      "excluded_images": 0,
+      "classes": 100,
+      "min_images_per_class_before": 41,
+      "min_images_per_class_after": 41
+    },
+    "val": {
+      "original_images": 2947,
+      "clean_images": 2947,
+      "excluded_images": 0,
+      "classes": 50,
+      "min_images_per_class_before": 44,
+      "min_images_per_class_after": 44
+    },
+    "test": {
+      "original_images": 2951,
+      "clean_images": 2950,
+      "excluded_images": 1,
+      "classes": 50,
+      "min_images_per_class_before": 48,
+      "min_images_per_class_after": 48
+    }
+  },
+  "clean_splits_dir": "/home/caesar/Projects/few-shot-fine-grained-generalization/data/splits/cub_clean_v1",
+  "skipped_non_image_files": [],
+  "original_images_modified_moved_or_deleted": false
+}

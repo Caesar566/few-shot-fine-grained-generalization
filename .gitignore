@@ -12,17 +12,42 @@ wheels/
 # Virtual environments
 .venv/
 
+# Machine-local tools and server transfer snapshots / archives
+/.agents/
+/.codex/
+/.aws/
+/server_transfer/
+
 # Local datasets; versioned split manifests live in data/splits/
 /cub2002011/
 /data/raw/
 /data/processed/
 /data/cache/
 /data/NABirds/
+/nabirds/
+/nabirds.tar.gz
 
-# Generated experiment artifacts; keep the directory guide
-/outputs/*
-!/outputs/README.md
+# Experiment outputs are versioned under outputs/; legacy output/ is ignored
+/output/
 
-# Local IDE and virtual environment
+# Keep reports, statistics, curves and provenance; store model binaries separately
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+events.out.tfevents.*
+/outputs/**/logs/tensorboard/
+/outputs/**/local_torch_cache/
+
+# Generated test fixtures and temporary checkpoints (including nested audit runs)
+pytest_tmp/
+/outputs/**/*_tmp/
+*.tmp
+*.before_no_git_fix
+
+# Local IDE
 .idea/
-.venv/
+
+# report files
+reports/

@@ -1,0 +1,5 @@
+{
+  "error": "KeyboardInterrupt()",
+  "last_completed_epoch": 16,
+  "note": "No automatic OOM retry or batch-size change. Resume last.pth into a new directory."
+}

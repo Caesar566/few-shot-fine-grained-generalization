@@ -1,0 +1,192 @@
+{
+  "dataset_root": "/home/caesar/Projects/few-shot-fine-grained-generalization/cub2002011/versions/7/CUB_200_2011",
+  "class_count": 200,
+  "indexed_image_count": 11788,
+  "disk_jpg_count": 11796,
+  "train_count": 5994,
+  "test_count": 5794,
+  "class_count_min": 41,
+  "class_count_max": 60,
+  "class_count_mean": 58.94,
+  "extra_jpg_not_in_index": [
+    "009.Brewer_Blackbird/Brewer_Blackbird_0028_2682_rgb.jpg",
+    "025.Pelagic_Cormorant/Pelagic_Cormorant_0022_23802_rgb.jpg",
+    "063.Ivory_Gull/Ivory_Gull_0040_49180_rgb.jpg",
+    "063.Ivory_Gull/Ivory_Gull_0085_49456_rgb.jpg",
+    "066.Western_Gull/Western_Gull_0002_54825_rgb.jpg",
+    "087.Mallard/Mallard_0130_76836_rgb.jpg",
+    "093.Clark_Nutcracker/Clark_Nutcracker_0020_85099_rgb.jpg",
+    "108.White_necked_Raven/White_Necked_Raven_0070_102645_rgb.jpg"
+  ],
+  "issues": [],
+  "samples": [
+    {
+      "image_id": 10477,
+      "class_id": 178,
+      "class_name": "178.Swainson_Warbler",
+      "image_path": "178.Swainson_Warbler/Swainson_Warbler_0056_794871.jpg",
+      "preview_path": "previews/sample_01_image_10477.png",
+      "train_or_test": "test",
+      "image_size": [
+        357,
+        500
+      ],
+      "bounding_box": [
+        118.0,
+        133.0,
+        192.0,
+        272.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 13,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 1825,
+      "class_id": 33,
+      "class_name": "033.Yellow_billed_Cuckoo",
+      "image_path": "033.Yellow_billed_Cuckoo/Yellow_Billed_Cuckoo_0036_26682.jpg",
+      "preview_path": "previews/sample_02_image_1825.png",
+      "train_or_test": "train",
+      "image_size": [
+        357,
+        500
+      ],
+      "bounding_box": [
+        166.0,
+        227.0,
+        126.0,
+        104.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 11,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 410,
+      "class_id": 8,
+      "class_name": "008.Rhinoceros_Auklet",
+      "image_path": "008.Rhinoceros_Auklet/Rhinoceros_Auklet_0001_797538.jpg",
+      "preview_path": "previews/sample_03_image_410.png",
+      "train_or_test": "test",
+      "image_size": [
+        250,
+        202
+      ],
+      "bounding_box": [
+        72.0,
+        35.0,
+        133.0,
+        105.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 8,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 4507,
+      "class_id": 78,
+      "class_name": "078.Gray_Kingbird",
+      "image_path": "078.Gray_Kingbird/Gray_Kingbird_0049_795022.jpg",
+      "preview_path": "previews/sample_04_image_4507.png",
+      "train_or_test": "test",
+      "image_size": [
+        372,
+        290
+      ],
+      "bounding_box": [
+        32.0,
+        102.0,
+        247.0,
+        149.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 13,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 4013,
+      "class_id": 69,
+      "class_name": "069.Rufous_Hummingbird",
+      "image_path": "069.Rufous_Hummingbird/Rufous_Hummingbird_0128_60398.jpg",
+      "preview_path": "previews/sample_05_image_4013.png",
+      "train_or_test": "test",
+      "image_size": [
+        500,
+        375
+      ],
+      "bounding_box": [
+        135.0,
+        42.0,
+        227.0,
+        287.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 12,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 3658,
+      "class_id": 63,
+      "class_name": "063.Ivory_Gull",
+      "image_path": "063.Ivory_Gull/Ivory_Gull_0059_49662.jpg",
+      "preview_path": "previews/sample_06_image_3658.png",
+      "train_or_test": "train",
+      "image_size": [
+        500,
+        333
+      ],
+      "bounding_box": [
+        203.0,
+        155.0,
+        153.0,
+        107.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 12,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 2287,
+      "class_id": 40,
+      "class_name": "040.Olive_sided_Flycatcher",
+      "image_path": "040.Olive_sided_Flycatcher/Olive_Sided_Flycatcher_0075_30712.jpg",
+      "preview_path": "previews/sample_07_image_2287.png",
+      "train_or_test": "test",
+      "image_size": [
+        388,
+        500
+      ],
+      "bounding_box": [
+        134.0,
+        118.0,
+        140.0,
+        240.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 10,
+      "visible_parts_out_of_bounds": 0
+    },
+    {
+      "image_id": 1680,
+      "class_id": 30,
+      "class_name": "030.Fish_Crow",
+      "image_path": "030.Fish_Crow/Fish_Crow_0070_25504.jpg",
+      "preview_path": "previews/sample_08_image_1680.png",
+      "train_or_test": "train",
+      "image_size": [
+        500,
+        388
+      ],
+      "bounding_box": [
+        54.0,
+        113.0,
+        345.0,
+        252.0
+      ],
+      "bounding_box_in_bounds": true,
+      "visible_parts": 13,
+      "visible_parts_out_of_bounds": 0
+    }
+  ]
+}

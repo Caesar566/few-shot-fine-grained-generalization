@@ -1,0 +1,16 @@
+{
+  "original_source_and_split_files_checked": 49,
+  "changed_files": [],
+  "random_samples": 12,
+  "train_augmented_views": 36,
+  "eval_views": 12,
+  "markdown_links_exist": true,
+  "tests": {
+    "passed": 24,
+    "failure": 2,
+    "error": 0,
+    "skipped": 0
+  },
+  "test_exit_code": 1,
+  "stage": "01 only; no training or source changes"
+}

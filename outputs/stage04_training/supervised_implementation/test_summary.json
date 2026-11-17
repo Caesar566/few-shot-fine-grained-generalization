@@ -1,0 +1,20 @@
+{
+  "final_cpu_junit.xml": {
+    "tests": 17,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  },
+  "final_gpu_junit.xml": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "resume_final_junit.xml": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

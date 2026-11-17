@@ -1,0 +1,36 @@
+{
+  "indices": [
+    596,
+    99,
+    959,
+    828
+  ],
+  "images": [
+    "cub2002011/versions/7/CUB_200_2011/images/049.Boat_tailed_Grackle/Boat_Tailed_Grackle_0123_33695.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/010.Red_winged_Blackbird/Red_Winged_Blackbird_0105_4842.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/076.Dark_eyed_Junco/Dark_Eyed_Junco_0131_66423.jpg",
+    "cub2002011/versions/7/CUB_200_2011/images/069.Rufous_Hummingbird/Rufous_Hummingbird_0065_58497.jpg"
+  ],
+  "labels": [
+    10,
+    1,
+    16,
+    14
+  ],
+  "tensor": {
+    "shape": [
+      4,
+      3,
+      224,
+      224
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "min": -2.1179039478302,
+    "max": 2.640000104904175,
+    "mean": -0.08618801087141037,
+    "std": 1.010528802871704,
+    "nonzero_fraction": 1.0
+  },
+  "preprocessing": "Compose(\n    Resize(size=257, interpolation=bilinear, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)"
+}

@@ -1,0 +1,89 @@
+{
+  "image_size": 224,
+  "train_order": [
+    {
+      "position": 1,
+      "name": "RandomResizedCrop",
+      "repr": "RandomResizedCrop(size=(224, 224), scale=(0.2, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear, antialias=True)"
+    },
+    {
+      "position": 2,
+      "name": "RandomHorizontalFlip",
+      "repr": "RandomHorizontalFlip(p=0.5)"
+    },
+    {
+      "position": 3,
+      "name": "ColorJitter",
+      "repr": "ColorJitter(brightness=(0.85, 1.15), contrast=(0.85, 1.15), saturation=(0.85, 1.15), hue=None)"
+    },
+    {
+      "position": 4,
+      "name": "ToTensor",
+      "repr": "ToTensor()"
+    },
+    {
+      "position": 5,
+      "name": "Normalize",
+      "repr": "Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])"
+    }
+  ],
+  "eval_order": [
+    {
+      "position": 1,
+      "name": "Resize",
+      "repr": "Resize(size=257, interpolation=bilinear, max_size=None, antialias=True)"
+    },
+    {
+      "position": 2,
+      "name": "CenterCrop",
+      "repr": "CenterCrop(size=(224, 224))"
+    },
+    {
+      "position": 3,
+      "name": "ToTensor",
+      "repr": "ToTensor()"
+    },
+    {
+      "position": 4,
+      "name": "Normalize",
+      "repr": "Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])"
+    }
+  ],
+  "rrc_scale": [
+    0.2,
+    1.0
+  ],
+  "rrc_ratio": [
+    0.75,
+    1.3333333333333333
+  ],
+  "rrc_interpolation": "InterpolationMode.BILINEAR",
+  "rrc_antialias": true,
+  "flip_p": 0.5,
+  "jitter_brightness": [
+    0.85,
+    1.15
+  ],
+  "jitter_contrast": [
+    0.85,
+    1.15
+  ],
+  "jitter_saturation": [
+    0.85,
+    1.15
+  ],
+  "jitter_hue": null,
+  "resize_size": 257,
+  "resize_interpolation": "InterpolationMode.BILINEAR",
+  "resize_antialias": true,
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ]
+}
