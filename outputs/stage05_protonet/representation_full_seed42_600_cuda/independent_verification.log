@@ -1,0 +1,356 @@
+{
+  "status": "PASS",
+  "independent_process": true,
+  "verification_device": "cuda",
+  "configurations": [
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "representation": "global",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "representation": "local",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "representation": "fusion",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "representation": "global",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "representation": "local",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "representation": "fusion",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "representation": "global",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "representation": "local",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "representation": "fusion",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "representation": "global",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "representation": "local",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "representation": "fusion",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "representation": "global",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "representation": "local",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "representation": "fusion",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "representation": "global",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "representation": "local",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "representation": "fusion",
+      "episodes": 600,
+      "predictions": 15000,
+      "ids_mapping_predictions_probabilities_statistics_valid": true
+    }
+  ],
+  "method_evaluations_verified": 10800,
+  "query_predictions_verified": 270000,
+  "all_fusion_calibration_replayed": true,
+  "paired_comparisons_verified": 18,
+  "exact_global_baseline_accuracy_reused": true,
+  "raw_formula_cuda_probes": [
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "episode_id": 0,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "episode_id": 299,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "episode_id": 599,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "episode_id": 0,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "episode_id": 299,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "episode_id": 599,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "episode_id": 0,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "episode_id": 299,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "episode_id": 599,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "episode_id": 0,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "episode_id": 299,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "episode_id": 599,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "episode_id": 0,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "episode_id": 299,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "episode_id": 599,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "episode_id": 0,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "episode_id": 299,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "episode_id": 599,
+      "device": "cuda",
+      "max_abs_differences": {
+        "global": 0.0,
+        "local": 0.0,
+        "fusion": 0.0
+      }
+    }
+  ]
+}

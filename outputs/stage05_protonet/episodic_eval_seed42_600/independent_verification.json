@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "independent_process": true,
+  "configurations": [
+    {
+      "initialization": "imagenet",
+      "shot": 1,
+      "episodes": 600,
+      "queries": 15000,
+      "all_logits_bitwise_equal": true,
+      "all_probabilities_bitwise_equal": true,
+      "all_labels_ids_class_names_predictions_match": true,
+      "mean_std_and_student_t_ci_recomputed": true
+    },
+    {
+      "initialization": "imagenet",
+      "shot": 5,
+      "episodes": 600,
+      "queries": 15000,
+      "all_logits_bitwise_equal": true,
+      "all_probabilities_bitwise_equal": true,
+      "all_labels_ids_class_names_predictions_match": true,
+      "mean_std_and_student_t_ci_recomputed": true
+    },
+    {
+      "initialization": "random",
+      "shot": 1,
+      "episodes": 600,
+      "queries": 15000,
+      "all_logits_bitwise_equal": true,
+      "all_probabilities_bitwise_equal": true,
+      "all_labels_ids_class_names_predictions_match": true,
+      "mean_std_and_student_t_ci_recomputed": true
+    },
+    {
+      "initialization": "random",
+      "shot": 5,
+      "episodes": 600,
+      "queries": 15000,
+      "all_logits_bitwise_equal": true,
+      "all_probabilities_bitwise_equal": true,
+      "all_labels_ids_class_names_predictions_match": true,
+      "mean_std_and_student_t_ci_recomputed": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 1,
+      "episodes": 600,
+      "queries": 15000,
+      "all_logits_bitwise_equal": true,
+      "all_probabilities_bitwise_equal": true,
+      "all_labels_ids_class_names_predictions_match": true,
+      "mean_std_and_student_t_ci_recomputed": true
+    },
+    {
+      "initialization": "simclr",
+      "shot": 5,
+      "episodes": 600,
+      "queries": 15000,
+      "all_logits_bitwise_equal": true,
+      "all_probabilities_bitwise_equal": true,
+      "all_labels_ids_class_names_predictions_match": true,
+      "mean_std_and_student_t_ci_recomputed": true
+    }
+  ],
+  "total_query_predictions": 90000,
+  "automated_tests": 26,
+  "svg_xml_valid": true
+}

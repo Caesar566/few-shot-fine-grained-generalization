@@ -1,0 +1,96 @@
+Requested=cuda; ACTUAL device=cuda (NVIDIA GeForce MX450); FP32, no AMP/TF32; feature batch=8 query chunk=4
+Validated all 2947 actual Val image hashes, 50 unseen classes
+imagenet checkpoint=c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4; extracting/caching only 2946 needed images
+Reusing 150 verified Local rows from 245b1c289eddcb48319f941ae64dcd501d31bd84d38ac0506908b4806a27d1f3.pt
+Layer4 extraction on cuda: 8/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 200/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 400/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 600/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 800/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1000/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1200/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1400/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1600/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1800/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2000/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2200/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2400/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2600/2796 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2796/2796 new images, reused=150, batch=8
+imagenet 1-shot 100/600 episodes scored on cuda
+imagenet 1-shot 200/600 episodes scored on cuda
+imagenet 1-shot 300/600 episodes scored on cuda
+imagenet 1-shot 400/600 episodes scored on cuda
+imagenet 1-shot 500/600 episodes scored on cuda
+imagenet 1-shot 600/600 episodes scored on cuda
+imagenet 1-shot: Global=0.8575 Local=0.8024 Fusion=0.8439
+imagenet 5-shot 100/600 episodes scored on cuda
+imagenet 5-shot 200/600 episodes scored on cuda
+imagenet 5-shot 300/600 episodes scored on cuda
+imagenet 5-shot 400/600 episodes scored on cuda
+imagenet 5-shot 500/600 episodes scored on cuda
+imagenet 5-shot 600/600 episodes scored on cuda
+imagenet 5-shot: Global=0.9468 Local=0.9084 Fusion=0.9390
+random checkpoint=0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f; extracting/caching only 2946 needed images
+Layer4 extraction on cuda: 8/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 200/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 400/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 600/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 800/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1000/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1200/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1400/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1600/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1800/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2000/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2200/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2400/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2600/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2800/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2946/2946 new images, reused=0, batch=8
+random 1-shot 100/600 episodes scored on cuda
+random 1-shot 200/600 episodes scored on cuda
+random 1-shot 300/600 episodes scored on cuda
+random 1-shot 400/600 episodes scored on cuda
+random 1-shot 500/600 episodes scored on cuda
+random 1-shot 600/600 episodes scored on cuda
+random 1-shot: Global=0.6249 Local=0.6107 Fusion=0.6255
+random 5-shot 100/600 episodes scored on cuda
+random 5-shot 200/600 episodes scored on cuda
+random 5-shot 300/600 episodes scored on cuda
+random 5-shot 400/600 episodes scored on cuda
+random 5-shot 500/600 episodes scored on cuda
+random 5-shot 600/600 episodes scored on cuda
+random 5-shot: Global=0.7736 Local=0.7310 Fusion=0.7680
+simclr checkpoint=bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37; extracting/caching only 2946 needed images
+Layer4 extraction on cuda: 8/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 200/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 400/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 600/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 800/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1000/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1200/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1400/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1600/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1800/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2000/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2200/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2400/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2600/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2800/2946 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2946/2946 new images, reused=0, batch=8
+simclr 1-shot 100/600 episodes scored on cuda
+simclr 1-shot 200/600 episodes scored on cuda
+simclr 1-shot 300/600 episodes scored on cuda
+simclr 1-shot 400/600 episodes scored on cuda
+simclr 1-shot 500/600 episodes scored on cuda
+simclr 1-shot 600/600 episodes scored on cuda
+simclr 1-shot: Global=0.7191 Local=0.6925 Fusion=0.7138
+simclr 5-shot 100/600 episodes scored on cuda
+simclr 5-shot 200/600 episodes scored on cuda
+simclr 5-shot 300/600 episodes scored on cuda
+simclr 5-shot 400/600 episodes scored on cuda
+simclr 5-shot 500/600 episodes scored on cuda
+simclr 5-shot 600/600 episodes scored on cuda
+simclr 5-shot: Global=0.8623 Local=0.8200 Fusion=0.8539
+PASS: full validation on cuda (NVIDIA GeForce MX450). Report /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/representation_full_seed42_600_cuda/report.md

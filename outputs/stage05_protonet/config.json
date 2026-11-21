@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "n_way": 5,
+  "k_shots": [
+    1,
+    5
+  ],
+  "n_query_per_class": 5,
+  "repeats": 3,
+  "split": "CUB clean Val",
+  "image_size": 224,
+  "device": "cpu",
+  "dtype": "float32",
+  "metric": "euclidean",
+  "logits": "-sum_squared_distance / 512",
+  "temperature": 1,
+  "feature_standardization": false,
+  "feature_l2_normalization": false,
+  "adapter": false,
+  "training": false,
+  "optimizer": null
+}

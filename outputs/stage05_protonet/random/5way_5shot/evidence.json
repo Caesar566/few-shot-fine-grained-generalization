@@ -1,0 +1,226 @@
+{
+  "k_shot": 5,
+  "n_way": 5,
+  "n_query": 5,
+  "classes": [
+    "153.Philadelphia_Vireo",
+    "032.Mangrove_Cuckoo",
+    "010.Red_winged_Blackbird",
+    "184.Louisiana_Waterthrush",
+    "078.Gray_Kingbird"
+  ],
+  "plan_sha256": "5d77071cfa5d0fe83afa70cf08a1634940dd55391923dc5af59d44793c49ac89",
+  "images": {
+    "shape": [
+      50,
+      3,
+      224,
+      224
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": -2.1179039478302,
+    "maximum": 2.640000104904175,
+    "mean": -0.004937710706144571,
+    "std": 1.1661012172698975,
+    "mean_l2_norm": 441.4022216796875
+  },
+  "support": {
+    "shape": [
+      25,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.0,
+    "maximum": 5.975974082946777,
+    "mean": 0.9082930684089661,
+    "std": 0.7451011538505554,
+    "mean_l2_norm": 26.22490692138672
+  },
+  "query": {
+    "shape": [
+      25,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.0,
+    "maximum": 5.483837604522705,
+    "mean": 0.872199296951294,
+    "std": 0.7349482178688049,
+    "mean_l2_norm": 25.684309005737305
+  },
+  "prototypes": {
+    "shape": [
+      5,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.03553929179906845,
+    "maximum": 3.6637260913848877,
+    "mean": 0.9082930684089661,
+    "std": 0.5446062088012695,
+    "mean_l2_norm": 23.81886100769043
+  },
+  "logits": {
+    "shape": [
+      25,
+      5
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": -1.4477622509002686,
+    "maximum": -0.18658295273780823,
+    "mean": -0.7732298970222473,
+    "std": 0.2770313024520874,
+    "mean_l2_norm": 1.81595778465271
+  },
+  "squared_distance": {
+    "shape": [
+      25,
+      5
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 95.53047180175781,
+    "maximum": 741.2542724609375,
+    "mean": 395.8937072753906,
+    "std": 141.84002685546875,
+    "mean_l2_norm": 929.7703857421875
+  },
+  "probabilities": {
+    "shape": [
+      25,
+      5
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.11825897544622421,
+    "maximum": 0.3540695011615753,
+    "mean": 0.20000000298023224,
+    "std": 0.05317966639995575,
+    "mean_l2_norm": 0.462645560503006
+  },
+  "original_dataset_labels": [
+    40,
+    40,
+    40,
+    40,
+    40,
+    7,
+    7,
+    7,
+    7,
+    7,
+    1,
+    1,
+    1,
+    1,
+    1,
+    47,
+    47,
+    47,
+    47,
+    47,
+    17,
+    17,
+    17,
+    17,
+    17,
+    40,
+    40,
+    40,
+    40,
+    40,
+    7,
+    7,
+    7,
+    7,
+    7,
+    1,
+    1,
+    1,
+    1,
+    1,
+    47,
+    47,
+    47,
+    47,
+    47,
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "episode_query_labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "accuracy": 0.8399999737739563,
+  "loss": 1.321699619293213,
+  "independent_reference_loss": 1.321699857711792,
+  "unscaled_negative_distance_loss": 29.646711349487305,
+  "repeats": [
+    {
+      "repetition": 1,
+      "indices_equal": true,
+      "inputs_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "predictions_equal": true,
+      "max_logit_abs_diff": 0.0
+    },
+    {
+      "repetition": 2,
+      "indices_equal": true,
+      "inputs_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "predictions_equal": true,
+      "max_logit_abs_diff": 0.0
+    },
+    {
+      "repetition": 3,
+      "indices_equal": true,
+      "inputs_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "predictions_equal": true,
+      "max_logit_abs_diff": 0.0
+    }
+  ],
+  "engine_loss": 1.3216998291450575,
+  "separate_encoding_max_abs_diff": 0.0,
+  "checks": {
+    "support_query_ids_paths_and_bytes_disjoint": true,
+    "counts_and_local_labels": true,
+    "means_distances_logits_softmax_ce": true,
+    "one_shared_frozen_encoder": true,
+    "backbone_parameters_and_bn_buffers_unchanged": true,
+    "engine_agrees": true,
+    "repeated_sampling_transform_and_predictions_identical": true
+  }
+}

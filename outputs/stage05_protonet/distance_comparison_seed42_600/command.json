@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/engine/distance_comparison.py",
+    "--baseline-dir",
+    "outputs/stage05_protonet/episodic_eval_seed42_600",
+    "--baseline-cache-dir",
+    "data/cache/stage05_features",
+    "--output-dir",
+    "outputs/stage05_protonet/distance_comparison_seed42_600",
+    "--device",
+    "cpu",
+    "--batch-size",
+    "64",
+    "--workers",
+    "0",
+    "--threads",
+    "4"
+  ]
+}

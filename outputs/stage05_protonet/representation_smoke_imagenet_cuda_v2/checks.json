@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "mode": "smoke",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce MX450",
+  "method_signature": {
+    "local_k": 3,
+    "calibration": "per-query population zscore across five class scores",
+    "calibration_eps": 1e-06,
+    "fusion_weight": 0.5,
+    "global_metric": "cosine",
+    "raw_global_prototype_mean": true,
+    "fp32": true,
+    "implementation_sha256": {
+      "src/pattern_recognition_coursework/models/metrics/representation.py": "66e858533e52f78f9faebd905f4171af6e3b142dae68e283ce97fd6c77f783e2",
+      "src/pattern_recognition_coursework/models/metrics/local.py": "111adf01c1373807c7970587a015fbc225b1a56bb86a7966074ed5716c9a7ef8",
+      "src/pattern_recognition_coursework/models/metrics/episode.py": "549193a1a7896ddd3fec02ec7a8a43e3bf481de8cf7dce9c1ba8ea84986ca435"
+    }
+  },
+  "checkpoint_sha256": {
+    "imagenet": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4"
+  },
+  "episodes_per_shot": 3,
+  "old_results_unchanged": true,
+  "weights_unchanged": true,
+  "same_episode_ids_and_mapping": true,
+  "local_shape": [
+    512,
+    7,
+    7
+  ],
+  "global_shape": [
+    512
+  ],
+  "score_device": "cuda",
+  "cpu_reference": {
+    "imagenet": {
+      "1": {
+        "feature_max_abs_diff": 0.00011372566223144531,
+        "feature_mean_abs_diff": 3.3055250696634175e-06,
+        "feature_tolerance": {
+          "rtol": 0.0002,
+          "atol": 0.0002
+        },
+        "score_max_abs_diff": {
+          "global_scores": 2.980232238769531e-07,
+          "local_scores": 8.642673492431641e-07,
+          "fusion_scores": 8.046627044677734e-06
+        },
+        "predictions_equal": true
+      },
+      "1shot_global_reference_max_abs": 4.172325134277344e-07,
+      "5": {
+        "feature_max_abs_diff": 0.00011372566223144531,
+        "feature_mean_abs_diff": 3.2767641187092522e-06,
+        "feature_tolerance": {
+          "rtol": 0.0002,
+          "atol": 0.0002
+        },
+        "score_max_abs_diff": {
+          "global_scores": 3.5762786865234375e-07,
+          "local_scores": 4.76837158203125e-07,
+          "fusion_scores": 6.556510925292969e-06
+        },
+        "predictions_equal": true
+      },
+      "5shot_global_reference_max_abs": 3.5762786865234375e-07
+    }
+  },
+  "training": false,
+  "seconds": 4.652574013000049,
+  "cuda_regression_tests_passed": 17,
+  "saved_prediction_replay_episodes": 6,
+  "saved_shapes_calibration_predictions_and_probabilities_verified": true
+}

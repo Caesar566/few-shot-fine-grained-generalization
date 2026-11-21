@@ -1,0 +1,19 @@
+{
+  "val": {
+    "images": 2947,
+    "classes": 50,
+    "dataset_fingerprint": "be4c454115744b7c943bbfdb4341d6e88dcac8c69414d35245e513480c1a9ea7",
+    "ordered_content_sha256": "b2bb77d766c8680ee9a9ec2c604c4d6c8827d607d3f04a1e66bdc8e0f36ce02e",
+    "val_manifest_sha256": "f5c70c3101b707685afbd2c7828cb293141996a8fe4a1d86d73e2c596cf8a3ac",
+    "train_val_class_id_path_content_disjoint": true,
+    "all_actual_val_bytes_match_clean_index": true
+  },
+  "train": {
+    "images": 5890,
+    "classes": 100,
+    "dataset_fingerprint": "3f343833ab86a4d6ce43e6fe111a24506711492a0ad1b9654bbd30d97a925de1",
+    "ordered_content_sha256": "36c4ca4f2cbf872611077c9d7a60c0349c1c058de69ef52a22a93e263c584dac",
+    "manifest_sha256": "5ad86e18271fc0649a985b615019250ca01ebff5fd7040b381450697cc809c65",
+    "all_actual_train_bytes_verified": true
+  }
+}

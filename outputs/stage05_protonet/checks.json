@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "real_episodes": 6,
+  "shots": [
+    1,
+    5
+  ],
+  "queries_per_class": 5,
+  "toy_cases": 2,
+  "repeats_per_episode": 3,
+  "package_source_unchanged": true,
+  "checkpoint_files_unchanged": true,
+  "train_val_classes_ids_paths_content_disjoint": true,
+  "actual_episode_bytes_match_clean_manifest": true,
+  "training_performed": false,
+  "seconds": 50.63234935700166,
+  "independent_process_replay": "PASS",
+  "independent_process_episodes": 6,
+  "repeated_full_forward_passes": 18,
+  "automated_tests_passed": 11,
+  "same_episode_members_across_initializations": true,
+  "original_audit_source_snapshot_hash_verified": true,
+  "replay_source_hash_verified": true
+}

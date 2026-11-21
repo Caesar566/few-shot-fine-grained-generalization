@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/engine/representation_comparison.py",
+    "--mode",
+    "smoke",
+    "--output-dir",
+    "outputs/stage05_protonet/representation_smoke_imagenet_cuda",
+    "--device",
+    "cuda",
+    "--batch-size",
+    "8",
+    "--query-chunk",
+    "4",
+    "--smoke-episodes",
+    "3",
+    "--workers",
+    "0"
+  ]
+}

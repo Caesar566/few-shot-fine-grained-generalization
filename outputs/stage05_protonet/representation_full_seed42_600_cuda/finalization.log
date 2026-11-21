@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce MX450",
+  "method_signature": {
+    "local_k": 3,
+    "calibration": "per-query population zscore across five class scores",
+    "calibration_eps": 1e-06,
+    "fusion_weight": 0.5,
+    "global_metric": "cosine",
+    "raw_global_prototype_mean": true,
+    "fp32": true,
+    "implementation_sha256": {
+      "src/pattern_recognition_coursework/models/metrics/representation.py": "66e858533e52f78f9faebd905f4171af6e3b142dae68e283ce97fd6c77f783e2",
+      "src/pattern_recognition_coursework/models/metrics/local.py": "111adf01c1373807c7970587a015fbc225b1a56bb86a7966074ed5716c9a7ef8",
+      "src/pattern_recognition_coursework/models/metrics/episode.py": "549193a1a7896ddd3fec02ec7a8a43e3bf481de8cf7dce9c1ba8ea84986ca435"
+    }
+  },
+  "checkpoint_sha256": {
+    "imagenet": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4",
+    "random": "0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f",
+    "simclr": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37"
+  },
+  "episodes_per_shot": 600,
+  "old_results_unchanged": true,
+  "weights_unchanged": true,
+  "same_episode_ids_and_mapping": true,
+  "local_shape": [
+    512,
+    7,
+    7
+  ],
+  "global_shape": [
+    512
+  ],
+  "score_device": "cuda",
+  "cpu_reference": {
+    "imagenet": {
+      "1shot_global_reference_max_abs": 5.960464477539062e-07,
+      "5shot_global_reference_max_abs": 6.556510925292969e-07
+    },
+    "random": {
+      "1shot_global_reference_max_abs": 6.556510925292969e-07,
+      "5shot_global_reference_max_abs": 5.960464477539062e-07
+    },
+    "simclr": {
+      "1shot_global_reference_max_abs": 6.556510925292969e-07,
+      "5shot_global_reference_max_abs": 7.152557373046875e-07
+    }
+  },
+  "training": false,
+  "seconds": 116.76645345199904,
+  "total_method_evaluations": 10800,
+  "reused_global_evaluations": 3600,
+  "new_local_fusion_evaluations": 7200,
+  "data_and_plan_validation_seconds": 0.9366482669993275,
+  "independent_prediction_and_statistics_verification": "PASS",
+  "independent_cuda_formula_probes": 18,
+  "cuda_regression_tests_passed": 19,
+  "old_input_directories_hash_reverified": true,
+  "all_checkpoints_sha256_reverified": true,
+  "oom_count": 0,
+  "cpu_fallback": false
+}
+Complete report: /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/representation_full_seed42_600_cuda/report.md

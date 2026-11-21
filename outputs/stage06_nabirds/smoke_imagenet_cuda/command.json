@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/engine/nabirds_transfer.py",
+    "--allow-automatic-screening",
+    "--device",
+    "cuda",
+    "--batch-size",
+    "8",
+    "--query-chunk",
+    "4",
+    "--mode",
+    "smoke",
+    "--output-dir",
+    "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage06_nabirds/smoke_imagenet_cuda",
+    "--workers",
+    "0"
+  ]
+}

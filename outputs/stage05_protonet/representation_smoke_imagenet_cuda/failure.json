@@ -1,0 +1,13 @@
+{
+  "status": "FAILED",
+  "phase": "CPU-CUDA Layer4 activation tolerance",
+  "mismatched_elements": 20,
+  "elements": 752640,
+  "largest_reported_mismatched_absolute_difference": 0.00010915100574493408,
+  "original_tolerance": {
+    "rtol": 0.0001,
+    "atol": 5e-05
+  },
+  "backbone_training_performed": false,
+  "note": "Original attempt preserved. Next attempt uses explicitly recorded FP32 cross-device tolerances and still requires matching predictions."
+}

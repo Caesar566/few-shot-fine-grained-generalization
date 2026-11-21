@@ -1,0 +1,314 @@
+{
+  "imagenet": {
+    "global": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.7774666666666666,
+        "sample_std": 0.11920261880276771,
+        "standard_error": 0.004866426534504545,
+        "ci95": [
+          0.7679093346584301,
+          0.7870239986749031
+        ],
+        "ci95_half_width": 0.009557332008236488,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.32,
+        "maximum": 1.0
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.9100666666666666,
+        "sample_std": 0.07176288787166868,
+        "standard_error": 0.0029297076292358628,
+        "ci95": [
+          0.9043129193736292,
+          0.9158204139597039
+        ],
+        "ci95_half_width": 0.005753747293037328,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.64,
+        "maximum": 1.0
+      }
+    },
+    "local": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.7253333333333333,
+        "sample_std": 0.12148588500719822,
+        "standard_error": 0.004959640486967812,
+        "ci95": [
+          0.7155929354378026,
+          0.735073731228864
+        ],
+        "ci95_half_width": 0.00974039789553075,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.4,
+        "maximum": 1.0
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.8720000000000001,
+        "sample_std": 0.08039966943179079,
+        "standard_error": 0.0032823027599388297,
+        "ci95": [
+          0.8655537797589542,
+          0.878446220241046
+        ],
+        "ci95_half_width": 0.00644622024104596,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.6,
+        "maximum": 1.0
+      }
+    },
+    "fusion": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.7666666666666666,
+        "sample_std": 0.11897540698817645,
+        "standard_error": 0.004857150651016538,
+        "ci95": [
+          0.7571275518651497,
+          0.7762057814681835
+        ],
+        "ci95_half_width": 0.009539114801516932,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.4,
+        "maximum": 1.0
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.9044,
+        "sample_std": 0.07136615827953259,
+        "standard_error": 0.0029135112114592643,
+        "ci95": [
+          0.8986780613741515,
+          0.9101219386258484
+        ],
+        "ci95_half_width": 0.005721938625848476,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.6,
+        "maximum": 1.0
+      }
+    }
+  },
+  "random": {
+    "global": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.5368,
+        "sample_std": 0.13528832748093106,
+        "standard_error": 0.0055231228413805365,
+        "ci95": [
+          0.5259529609369266,
+          0.5476470390630735
+        ],
+        "ci95_half_width": 0.010847039063073513,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.16,
+        "maximum": 0.92
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.6950666666666666,
+        "sample_std": 0.11709190013553944,
+        "standard_error": 0.004780256805749935,
+        "ci95": [
+          0.6856785661676141,
+          0.7044547671657191
+        ],
+        "ci95_half_width": 0.009388100499052442,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.36,
+        "maximum": 0.96
+      }
+    },
+    "local": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.5212666666666667,
+        "sample_std": 0.13071166022619163,
+        "standard_error": 0.005336281183103605,
+        "ci95": [
+          0.5107865719617296,
+          0.5317467613716037
+        ],
+        "ci95_half_width": 0.010480094704937035,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.08,
+        "maximum": 0.92
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.6588666666666666,
+        "sample_std": 0.11586093020284277,
+        "standard_error": 0.004730002668686352,
+        "ci95": [
+          0.6495772618880362,
+          0.668156071445297
+        ],
+        "ci95_half_width": 0.009289404778630356,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.28,
+        "maximum": 0.96
+      }
+    },
+    "fusion": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.5365333333333333,
+        "sample_std": 0.13373277951228846,
+        "standard_error": 0.005459617861487249,
+        "ci95": [
+          0.5258110137482408,
+          0.5472556529184258
+        ],
+        "ci95_half_width": 0.010722319585092463,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.12,
+        "maximum": 0.96
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.6977333333333333,
+        "sample_std": 0.114918257464687,
+        "standard_error": 0.004691518215304453,
+        "ci95": [
+          0.6885195094137827,
+          0.7069471572528839
+        ],
+        "ci95_half_width": 0.009213823919550612,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.32,
+        "maximum": 0.96
+      }
+    }
+  },
+  "simclr": {
+    "global": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.6098,
+        "sample_std": 0.13731491413075966,
+        "standard_error": 0.005605857894907478,
+        "ci95": [
+          0.5987904748971867,
+          0.6208095251028133
+        ],
+        "ci95_half_width": 0.011009525102813287,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.2,
+        "maximum": 1.0
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.7790666666666666,
+        "sample_std": 0.10325808738256485,
+        "standard_error": 0.004215493765050028,
+        "ci95": [
+          0.770787722516257,
+          0.7873456108170761
+        ],
+        "ci95_half_width": 0.0082789441504095,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.44,
+        "maximum": 1.0
+      }
+    },
+    "local": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.5898,
+        "sample_std": 0.13361779894032116,
+        "standard_error": 0.005454923799293028,
+        "ci95": [
+          0.5790868992350293,
+          0.6005131007649707
+        ],
+        "ci95_half_width": 0.010713100764970679,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.2,
+        "maximum": 1.0
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.7477333333333332,
+        "sample_std": 0.10451667385675369,
+        "standard_error": 0.004266875342698882,
+        "ci95": [
+          0.7393534792455775,
+          0.756113187421089
+        ],
+        "ci95_half_width": 0.00837985408775577,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.48,
+        "maximum": 1.0
+      }
+    },
+    "fusion": {
+      "1": {
+        "episodes": 600,
+        "mean_accuracy": 0.6064666666666667,
+        "sample_std": 0.13642042776190128,
+        "standard_error": 0.005569340641814511,
+        "ci95": [
+          0.5955288589748456,
+          0.6174044743584878
+        ],
+        "ci95_half_width": 0.010937807691821113,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.2,
+        "maximum": 0.96
+      },
+      "5": {
+        "episodes": 600,
+        "mean_accuracy": 0.7804666666666666,
+        "sample_std": 0.10013571202920005,
+        "standard_error": 0.00408802332503026,
+        "ci95": [
+          0.7724380658241992,
+          0.7884952675091341
+        ],
+        "ci95_half_width": 0.008028600842467433,
+        "ci_method": "two-sided Student-t, df=n-1, sample std ddof=1",
+        "ci_unit": "episode; conditional on fixed checkpoint, CUB Val and sampling protocol",
+        "t_critical": 1.9639322489452784,
+        "minimum": 0.48,
+        "maximum": 1.0
+      }
+    }
+  }
+}

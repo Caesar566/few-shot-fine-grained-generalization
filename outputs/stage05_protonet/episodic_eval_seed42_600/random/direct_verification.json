@@ -1,0 +1,46 @@
+{
+  "1": {
+    "probes": [
+      {
+        "episode_id": 0,
+        "max_absolute_logit_difference": 0.0,
+        "predictions_equal": true
+      },
+      {
+        "episode_id": 1,
+        "max_absolute_logit_difference": 0.0,
+        "predictions_equal": true
+      },
+      {
+        "episode_id": 2,
+        "max_absolute_logit_difference": 0.0,
+        "predictions_equal": true
+      }
+    ],
+    "existing_run_episodes_agrees": true,
+    "engine_accuracy": 0.6133333333333334,
+    "engine_loss": 1.3639188321202573
+  },
+  "5": {
+    "probes": [
+      {
+        "episode_id": 0,
+        "max_absolute_logit_difference": 0.0,
+        "predictions_equal": true
+      },
+      {
+        "episode_id": 1,
+        "max_absolute_logit_difference": 0.0,
+        "predictions_equal": true
+      },
+      {
+        "episode_id": 2,
+        "max_absolute_logit_difference": 0.0,
+        "predictions_equal": true
+      }
+    ],
+    "existing_run_episodes_agrees": true,
+    "engine_accuracy": 0.6933333333333334,
+    "engine_loss": 1.3905819746453787
+  }
+}

@@ -1,0 +1,556 @@
+class_id,name,images,suggested_species_id,candidate_cub_train_overlap,ancestry
+295,Common Eider (Adult male),53,179,[],"Common Eider (Adult male) > Common Eider > Ducks, Geese, and Swans > Birds"
+296,Long-tailed Duck (Winter male),64,203,[],"Long-tailed Duck (Winter male) > Long-tailed Duck > Ducks, Geese, and Swans > Birds"
+297,Ruddy Duck (Breeding male),87,238,[],"Ruddy Duck (Breeding male) > Ruddy Duck > Ducks, Geese, and Swans > Birds"
+298,Swainson's Hawk (Dark morph ),67,202,[],"Swainson's Hawk (Dark morph ) > Swainson's Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+299,Red-tailed Hawk (Light morph adult),120,210,[],"Red-tailed Hawk (Light morph adult) > Red-tailed Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+313,Snow Goose (White morph),47,33,[],"Snow Goose (White morph) > Snow Goose > Ducks, Geese, and Swans > Birds"
+314,Wood Duck (Breeding male),120,81,[],"Wood Duck (Breeding male) > Wood Duck > Ducks, Geese, and Swans > Birds"
+315,Gadwall (Breeding male),116,87,"[{""class_id"": 46, ""name"": ""046.Gadwall"", ""matched_nabirds_class_id"": 315}, {""class_id"": 46, ""name"": ""046.Gadwall"", ""matched_nabirds_class_id"": 87}]","Gadwall (Breeding male) > Gadwall > Ducks, Geese, and Swans > Birds"
+316,American Wigeon (Breeding male),96,92,[],"American Wigeon (Breeding male) > American Wigeon > Ducks, Geese, and Swans > Birds"
+317,Mallard (Breeding male),120,102,[],"Mallard (Breeding male) > Mallard > Ducks, Geese, and Swans > Birds"
+318,Blue-winged Teal  (Male),83,116,[],"Blue-winged Teal  (Male) > Blue-winged Teal > Ducks, Geese, and Swans > Birds"
+319,Cinnamon Teal (Male),106,122,[],"Cinnamon Teal (Male) > Cinnamon Teal > Ducks, Geese, and Swans > Birds"
+320,Northern Shoveler (Breeding male),120,128,[],"Northern Shoveler (Breeding male) > Northern Shoveler > Ducks, Geese, and Swans > Birds"
+321,Northern Pintail (Breeding male),87,130,[],"Northern Pintail (Breeding male) > Northern Pintail > Ducks, Geese, and Swans > Birds"
+322,Green-winged Teal (Male),97,147,[],"Green-winged Teal (Male) > Green-winged Teal > Ducks, Geese, and Swans > Birds"
+323,Canvasback (Breeding male),89,153,[],"Canvasback (Breeding male) > Canvasback > Ducks, Geese, and Swans > Birds"
+324,Redhead (Breeding male),66,159,[],"Redhead (Breeding male) > Redhead > Ducks, Geese, and Swans > Birds"
+325,Ring-necked Duck (Breeding male),82,161,[],"Ring-necked Duck (Breeding male) > Ring-necked Duck > Ducks, Geese, and Swans > Birds"
+326,Greater Scaup (Breeding male),72,168,[],"Greater Scaup (Breeding male) > Greater Scaup > Ducks, Geese, and Swans > Birds"
+327,Lesser Scaup (Breeding male),85,174,[],"Lesser Scaup (Breeding male) > Lesser Scaup > Ducks, Geese, and Swans > Birds"
+328,Harlequin Duck (Male),92,181,[],"Harlequin Duck (Male) > Harlequin Duck > Ducks, Geese, and Swans > Birds"
+329,Surf Scoter (Male),70,187,[],"Surf Scoter (Male) > Surf Scoter > Ducks, Geese, and Swans > Birds"
+330,White-winged Scoter (Male),44,192,[],"White-winged Scoter (Male) > White-winged Scoter > Ducks, Geese, and Swans > Birds"
+331,Black Scoter (Male),41,201,[],"Black Scoter (Male) > Black Scoter > Ducks, Geese, and Swans > Birds"
+332,Bufflehead (Breeding male),106,209,[],"Bufflehead (Breeding male) > Bufflehead > Ducks, Geese, and Swans > Birds"
+333,Common Goldeneye (Breeding male),105,214,[],"Common Goldeneye (Breeding male) > Common Goldeneye > Ducks, Geese, and Swans > Birds"
+334,Barrow's Goldeneye (Breeding male),45,219,[],"Barrow's Goldeneye (Breeding male) > Barrow's Goldeneye > Ducks, Geese, and Swans > Birds"
+335,Hooded Merganser (Breeding male),106,225,[],"Hooded Merganser (Breeding male) > Hooded Merganser > Ducks, Geese, and Swans > Birds"
+336,Common Merganser (Breeding male),63,229,[],"Common Merganser (Breeding male) > Common Merganser > Ducks, Geese, and Swans > Birds"
+337,Red-breasted Merganser (Breeding male),77,235,[],"Red-breasted Merganser (Breeding male) > Red-breasted Merganser > Ducks, Geese, and Swans > Birds"
+338,California Quail (Male),116,73,[],"California Quail (Male) > California Quail > Grouse, Quail, and Allies > Birds"
+339,Gambel's Quail (Male),71,103,[],"Gambel's Quail (Male) > Gambel's Quail > Grouse, Quail, and Allies > Birds"
+340,Ring-necked Pheasant (Male),93,169,[],"Ring-necked Pheasant (Male) > Ring-necked Pheasant > Grouse, Quail, and Allies > Birds"
+341,Red-throated Loon (Breeding),23,74,[],Red-throated Loon (Breeding) > Red-throated Loon > Loons > Birds
+342,Pacific Loon (Breeding),31,132,"[{""class_id"": 86, ""name"": ""086.Pacific_Loon"", ""matched_nabirds_class_id"": 342}, {""class_id"": 86, ""name"": ""086.Pacific_Loon"", ""matched_nabirds_class_id"": 132}]",Pacific Loon (Breeding) > Pacific Loon > Loons > Birds
+343,Common Loon (Breeding),94,194,[],Common Loon (Breeding) > Common Loon > Loons > Birds
+344,Horned Grebe (Breeding),76,84,[],Horned Grebe (Breeding) > Horned Grebe > Grebes > Birds
+345,Red-necked Grebe (Breeding),54,118,[],Red-necked Grebe (Breeding) > Red-necked Grebe > Grebes > Birds
+346,Eared Grebe (Breeding),73,157,[],Eared Grebe (Breeding) > Eared Grebe > Grebes > Birds
+347,"Northern Gannet (Adult, Subadult)",106,44,[],"Northern Gannet (Adult, Subadult) > Northern Gannet > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+348,Double-crested Cormorant (Immature),109,134,[],"Double-crested Cormorant (Immature) > Double-crested Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+349,Great Cormorant (Adult),75,170,[],"Great Cormorant (Adult) > Great Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+350,Little Blue Heron (Adult),120,99,[],"Little Blue Heron (Adult) > Little Blue Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+351,Reddish Egret (Dark morph),110,127,[],"Reddish Egret (Dark morph) > Reddish Egret > Pelicans, Herons, Ibises, and Allies > Birds"
+352,Black-crowned Night-Heron (Adult),120,173,[],"Black-crowned Night-Heron (Adult) > Black-crowned Night-Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+353,Yellow-crowned Night-Heron (Adult),98,184,[],"Yellow-crowned Night-Heron (Adult) > Yellow-crowned Night-Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+354,White Ibis (Adult),118,198,[],"White Ibis (Adult) > White Ibis > Pelicans, Herons, Ibises, and Allies > Birds"
+355,"Bald Eagle (Adult, subadult)",120,108,[],"Bald Eagle (Adult, subadult) > Bald Eagle > Hawks, Kites, Eagles, and Allies > Birds"
+356,Northern Harrier (Adult male),95,120,[],"Northern Harrier (Adult male) > Northern Harrier > Hawks, Kites, Eagles, and Allies > Birds"
+357,Sharp-shinned Hawk (Adult ),118,135,[],"Sharp-shinned Hawk (Adult ) > Sharp-shinned Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+358,Cooper's Hawk (Adult),117,155,[],"Cooper's Hawk (Adult) > Cooper's Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+359,Red-shouldered Hawk (Adult ),70,175,[],"Red-shouldered Hawk (Adult ) > Red-shouldered Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+360,Broad-winged Hawk (Adult),58,186,[],"Broad-winged Hawk (Adult) > Broad-winged Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+361,Rough-legged Hawk (Dark morph),50,224,[],"Rough-legged Hawk (Dark morph) > Rough-legged Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+362,Golden Eagle (Adult),81,234,[],"Golden Eagle (Adult) > Golden Eagle > Hawks, Kites, Eagles, and Allies > Birds"
+363,American Kestrel (Adult male),120,94,[],American Kestrel (Adult male) > American Kestrel > Caracaras and Falcons > Birds
+364,Peregrine Falcon (Adult),77,176,[],Peregrine Falcon (Adult) > Peregrine Falcon > Caracaras and Falcons > Birds
+365,Purple Gallinule (Adult),74,61,[],Purple Gallinule (Adult) > Purple Gallinule > Cranes and Rails > Birds
+366,Common Gallinule (Adult),101,110,[],Common Gallinule (Adult) > Common Gallinule > Cranes and Rails > Birds
+367,Black-bellied Plover (Breeding),82,23,[],"Black-bellied Plover (Breeding) > Black-bellied Plover > Plovers, Sandpipers, and Allies > Birds"
+368,Spotted Sandpiper (Breeding),108,56,[],"Spotted Sandpiper (Breeding) > Spotted Sandpiper > Plovers, Sandpipers, and Allies > Birds"
+369,Sanderling (Breeding),31,114,[],"Sanderling (Breeding) > Sanderling > Plovers, Sandpipers, and Allies > Birds"
+370,Dunlin (Breeding),76,129,[],"Dunlin (Breeding) > Dunlin > Plovers, Sandpipers, and Allies > Birds"
+371,Wilson's Phalarope (Breeding),90,158,[],"Wilson's Phalarope (Breeding) > Wilson's Phalarope > Plovers, Sandpipers, and Allies > Birds"
+372,Broad-billed Hummingbird (Adult Male),89,90,[],Broad-billed Hummingbird (Adult Male) > Broad-billed Hummingbird > Swifts and Hummingbirds > Birds
+373,Ruby-throated Hummingbird (Adult Male),100,107,[],Ruby-throated Hummingbird (Adult Male) > Ruby-throated Hummingbird > Swifts and Hummingbirds > Birds
+374,Black-chinned Hummingbird (Adult Male),101,123,[],Black-chinned Hummingbird (Adult Male) > Black-chinned Hummingbird > Swifts and Hummingbirds > Birds
+375,Anna's Hummingbird (Adult Male),113,152,[],Anna's Hummingbird (Adult Male) > Anna's Hummingbird > Swifts and Hummingbirds > Birds
+376,Costa's Hummingbird (Adult Male),74,167,[],Costa's Hummingbird (Adult Male) > Costa's Hummingbird > Swifts and Hummingbirds > Birds
+377,Calliope Hummingbird (Adult Male),78,180,[],Calliope Hummingbird (Adult Male) > Calliope Hummingbird > Swifts and Hummingbirds > Birds
+378,Broad-tailed Hummingbird (Adult Male),81,200,[],Broad-tailed Hummingbird (Adult Male) > Broad-tailed Hummingbird > Swifts and Hummingbirds > Birds
+379,Rufous Hummingbird (Adult Male),93,213,[],Rufous Hummingbird (Adult Male) > Rufous Hummingbird > Swifts and Hummingbirds > Birds
+380,Allen's Hummingbird (Adult Male),107,228,[],Allen's Hummingbird (Adult Male) > Allen's Hummingbird > Swifts and Hummingbirds > Birds
+381,Red-headed Woodpecker (Adult),119,31,[],Red-headed Woodpecker (Adult) > Red-headed Woodpecker > Woodpeckers > Birds
+382,Northern Flicker (Yellow-shafted),119,216,[],Northern Flicker (Yellow-shafted) > Northern Flicker > Woodpeckers > Birds
+392,Black Guillemot (Breeding),45,144,[],Black Guillemot (Breeding) > Black Guillemot > Skuas and Alcids > Birds
+393,Pigeon Guillemot (Breeding),81,190,[],Pigeon Guillemot (Breeding) > Pigeon Guillemot > Skuas and Alcids > Birds
+394,Black-legged Kittiwake (Adult),53,145,[],"Black-legged Kittiwake (Adult) > Black-legged Kittiwake > Gulls, Terns, and Allies > Birds"
+395,Laughing Gull (Breeding),119,218,[],"Laughing Gull (Breeding) > Laughing Gull > Gulls, Terns, and Allies > Birds"
+396,Heermann's Gull (Adult),87,232,[],"Heermann's Gull (Adult) > Heermann's Gull > Gulls, Terns, and Allies > Birds"
+397,Ring-billed Gull (Adult),120,240,"[{""class_id"": 64, ""name"": ""064.Ring_billed_Gull"", ""matched_nabirds_class_id"": 397}, {""class_id"": 64, ""name"": ""064.Ring_billed_Gull"", ""matched_nabirds_class_id"": 240}]","Ring-billed Gull (Adult) > Ring-billed Gull > Gulls, Terns, and Allies > Birds"
+398,Western Gull (Adult),70,239,"[{""class_id"": 66, ""name"": ""066.Western_Gull"", ""matched_nabirds_class_id"": 398}, {""class_id"": 66, ""name"": ""066.Western_Gull"", ""matched_nabirds_class_id"": 239}]","Western Gull (Adult) > Western Gull > Gulls, Terns, and Allies > Birds"
+399,California Gull (Adult),76,241,[],"California Gull (Adult) > California Gull > Gulls, Terns, and Allies > Birds"
+400,Herring Gull (Adult),117,242,"[{""class_id"": 62, ""name"": ""062.Herring_Gull"", ""matched_nabirds_class_id"": 400}, {""class_id"": 62, ""name"": ""062.Herring_Gull"", ""matched_nabirds_class_id"": 242}]","Herring Gull (Adult) > Herring Gull > Gulls, Terns, and Allies > Birds"
+401,Glaucous-winged Gull (Adult),78,243,[],"Glaucous-winged Gull (Adult) > Glaucous-winged Gull > Gulls, Terns, and Allies > Birds"
+402,Great Black-backed Gull (Adult),84,244,[],"Great Black-backed Gull (Adult) > Great Black-backed Gull > Gulls, Terns, and Allies > Birds"
+446,Bonaparte's Gull,118,191,[],"Bonaparte's Gull > Bonaparte's Gull > Gulls, Terns, and Allies > Birds"
+447,Mew Gull,55,237,[],"Mew Gull > Mew Gull > Gulls, Terns, and Allies > Birds"
+448,Caspian Tern,93,245,"[{""class_id"": 143, ""name"": ""143.Caspian_Tern"", ""matched_nabirds_class_id"": 448}, {""class_id"": 143, ""name"": ""143.Caspian_Tern"", ""matched_nabirds_class_id"": 245}]","Caspian Tern > Caspian Tern > Gulls, Terns, and Allies > Birds"
+449,Black Tern,63,246,[],"Black Tern > Black Tern > Gulls, Terns, and Allies > Birds"
+450,Common Tern,120,247,[],"Common Tern > Common Tern > Gulls, Terns, and Allies > Birds"
+451,Forster's Tern,120,248,"[{""class_id"": 146, ""name"": ""146.Forsters_Tern"", ""matched_nabirds_class_id"": 451}, {""class_id"": 146, ""name"": ""146.Forsters_Tern"", ""matched_nabirds_class_id"": 248}]","Forster's Tern > Forster's Tern > Gulls, Terns, and Allies > Birds"
+452,Royal Tern,76,249,[],"Royal Tern > Royal Tern > Gulls, Terns, and Allies > Birds"
+453,Black Skimmer,92,250,[],"Black Skimmer > Black Skimmer > Gulls, Terns, and Allies > Birds"
+454,Greater White-fronted Goose,71,27,[],"Greater White-fronted Goose > Greater White-fronted Goose > Ducks, Geese, and Swans > Birds"
+455,Brant,52,42,[],"Brant > Brant > Ducks, Geese, and Swans > Birds"
+456,Cackling Goose,31,51,[],"Cackling Goose > Cackling Goose > Ducks, Geese, and Swans > Birds"
+457,Canada Goose,61,57,[],"Canada Goose > Canada Goose > Ducks, Geese, and Swans > Birds"
+458,Mute Swan,117,60,[],"Mute Swan > Mute Swan > Ducks, Geese, and Swans > Birds"
+459,Trumpeter Swan,80,67,[],"Trumpeter Swan > Trumpeter Swan > Ducks, Geese, and Swans > Birds"
+460,Tundra Swan,55,72,[],"Tundra Swan > Tundra Swan > Ducks, Geese, and Swans > Birds"
+461,American Black Duck,65,98,[],"American Black Duck > American Black Duck > Ducks, Geese, and Swans > Birds"
+462,Mottled Duck,60,109,[],"Mottled Duck > Mottled Duck > Ducks, Geese, and Swans > Birds"
+463,Common Eider (Female/juvenile),41,179,[],"Common Eider (Female/juvenile) > Common Eider > Ducks, Geese, and Swans > Birds"
+464,Long-tailed Duck (Summer male),28,203,[],"Long-tailed Duck (Summer male) > Long-tailed Duck > Ducks, Geese, and Swans > Birds"
+465,Ruddy Duck (Winter male),48,238,[],"Ruddy Duck (Winter male) > Ruddy Duck > Ducks, Geese, and Swans > Birds"
+466,Scaled Quail,39,43,[],"Scaled Quail > Scaled Quail > Grouse, Quail, and Allies > Birds"
+467,Northern Bobwhite,59,131,[],"Northern Bobwhite > Northern Bobwhite > Grouse, Quail, and Allies > Birds"
+468,Ruffed Grouse,75,193,[],"Ruffed Grouse > Ruffed Grouse > Grouse, Quail, and Allies > Birds"
+469,Wild Turkey,120,220,[],"Wild Turkey > Wild Turkey > Grouse, Quail, and Allies > Birds"
+470,Pied-billed Grebe,116,49,"[{""class_id"": 52, ""name"": ""052.Pied_billed_Grebe"", ""matched_nabirds_class_id"": 470}, {""class_id"": 52, ""name"": ""052.Pied_billed_Grebe"", ""matched_nabirds_class_id"": 49}]",Pied-billed Grebe > Pied-billed Grebe > Grebes > Birds
+471,Western Grebe,75,185,"[{""class_id"": 53, ""name"": ""053.Western_Grebe"", ""matched_nabirds_class_id"": 471}, {""class_id"": 53, ""name"": ""053.Western_Grebe"", ""matched_nabirds_class_id"": 185}]",Western Grebe > Western Grebe > Grebes > Birds
+472,Clark's Grebe,82,215,[],Clark's Grebe > Clark's Grebe > Grebes > Birds
+473,Wood Stork,104,133,[],Wood Stork > Wood Stork > Storks > Birds
+474,Brandt's Cormorant,66,75,[],"Brandt's Cormorant > Brandt's Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+475,Neotropic Cormorant,65,104,[],"Neotropic Cormorant > Neotropic Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+476,Pelagic Cormorant,62,195,[],"Pelagic Cormorant > Pelagic Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+477,Anhinga,120,221,[],"Anhinga > Anhinga > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+478,American White Pelican,64,29,[],"American White Pelican > American White Pelican > Pelicans, Herons, Ibises, and Allies > Birds"
+479,Brown Pelican,65,41,[],"Brown Pelican > Brown Pelican > Pelicans, Herons, Ibises, and Allies > Birds"
+480,Great Blue Heron,102,58,[],"Great Blue Heron > Great Blue Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+481,Great Egret,111,71,[],"Great Egret > Great Egret > Pelicans, Herons, Ibises, and Allies > Birds"
+482,Snowy Egret,104,85,[],"Snowy Egret > Snowy Egret > Pelicans, Herons, Ibises, and Allies > Birds"
+483,Tricolored Heron,120,115,[],"Tricolored Heron > Tricolored Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+484,Cattle Egret,108,148,[],"Cattle Egret > Cattle Egret > Pelicans, Herons, Ibises, and Allies > Birds"
+485,Green Heron,120,160,[],"Green Heron > Green Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+486,Glossy Ibis,98,208,[],"Glossy Ibis > Glossy Ibis > Pelicans, Herons, Ibises, and Allies > Birds"
+487,White-faced Ibis,66,223,[],"White-faced Ibis > White-faced Ibis > Pelicans, Herons, Ibises, and Allies > Birds"
+488,Roseate Spoonbill,60,233,[],"Roseate Spoonbill > Roseate Spoonbill > Pelicans, Herons, Ibises, and Allies > Birds"
+489,Black Vulture,97,28,[],"Black Vulture > Black Vulture > Hawks, Kites, Eagles, and Allies > Birds"
+490,Turkey Vulture,108,40,[],"Turkey Vulture > Turkey Vulture > Hawks, Kites, Eagles, and Allies > Birds"
+491,Osprey,106,53,[],"Osprey > Osprey > Hawks, Kites, Eagles, and Allies > Birds"
+492,Swallow-tailed Kite,53,66,[],"Swallow-tailed Kite > Swallow-tailed Kite > Hawks, Kites, Eagles, and Allies > Birds"
+493,White-tailed Kite,72,83,[],"White-tailed Kite > White-tailed Kite > Hawks, Kites, Eagles, and Allies > Birds"
+494,Mississippi Kite,80,93,[],"Mississippi Kite > Mississippi Kite > Hawks, Kites, Eagles, and Allies > Birds"
+495,Harris's Hawk,95,166,[],"Harris's Hawk > Harris's Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+496,Swainson's Hawk (Light morph ),77,202,[],"Swainson's Hawk (Light morph ) > Swainson's Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+497,Red-tailed Hawk (Dark morph),58,210,[],"Red-tailed Hawk (Dark morph) > Red-tailed Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+498,Crested Caracara,112,54,[],Crested Caracara > Crested Caracara > Caracaras and Falcons > Birds
+499,Merlin,118,136,[],Merlin > Merlin > Caracaras and Falcons > Birds
+500,Prairie Falcon,86,211,[],Prairie Falcon > Prairie Falcon > Caracaras and Falcons > Birds
+501,American Coot,120,162,[],American Coot > American Coot > Cranes and Rails > Birds
+502,Sandhill Crane,50,204,[],Sandhill Crane > Sandhill Crane > Cranes and Rails > Birds
+503,Semipalmated Plover,111,26,[],"Semipalmated Plover > Semipalmated Plover > Plovers, Sandpipers, and Allies > Birds"
+504,Killdeer,120,30,[],"Killdeer > Killdeer > Plovers, Sandpipers, and Allies > Birds"
+505,American Oystercatcher,80,35,[],"American Oystercatcher > American Oystercatcher > Plovers, Sandpipers, and Allies > Birds"
+506,Black Oystercatcher,65,39,[],"Black Oystercatcher > Black Oystercatcher > Plovers, Sandpipers, and Allies > Birds"
+507,Black-necked Stilt,74,46,[],"Black-necked Stilt > Black-necked Stilt > Plovers, Sandpipers, and Allies > Birds"
+508,American Avocet,102,50,[],"American Avocet > American Avocet > Plovers, Sandpipers, and Allies > Birds"
+509,Solitary Sandpiper,116,59,[],"Solitary Sandpiper > Solitary Sandpiper > Plovers, Sandpipers, and Allies > Birds"
+510,Greater Yellowlegs,113,65,[],"Greater Yellowlegs > Greater Yellowlegs > Plovers, Sandpipers, and Allies > Birds"
+511,Willet,120,70,[],"Willet > Willet > Plovers, Sandpipers, and Allies > Birds"
+512,Lesser Yellowlegs,120,78,[],"Lesser Yellowlegs > Lesser Yellowlegs > Plovers, Sandpipers, and Allies > Birds"
+513,Whimbrel,101,82,[],"Whimbrel > Whimbrel > Plovers, Sandpipers, and Allies > Birds"
+514,Long-billed Curlew,96,86,[],"Long-billed Curlew > Long-billed Curlew > Plovers, Sandpipers, and Allies > Birds"
+515,Marbled Godwit,116,91,[],"Marbled Godwit > Marbled Godwit > Plovers, Sandpipers, and Allies > Birds"
+516,Ruddy Turnstone,108,97,[],"Ruddy Turnstone > Ruddy Turnstone > Plovers, Sandpipers, and Allies > Birds"
+517,Black Turnstone,86,100,[],"Black Turnstone > Black Turnstone > Plovers, Sandpipers, and Allies > Birds"
+518,Surfbird,63,106,[],"Surfbird > Surfbird > Plovers, Sandpipers, and Allies > Birds"
+519,Semipalmated Sandpiper,105,117,[],"Semipalmated Sandpiper > Semipalmated Sandpiper > Plovers, Sandpipers, and Allies > Birds"
+520,Western Sandpiper,92,121,[],"Western Sandpiper > Western Sandpiper > Plovers, Sandpipers, and Allies > Birds"
+521,Least Sandpiper,120,126,[],"Least Sandpiper > Least Sandpiper > Plovers, Sandpipers, and Allies > Birds"
+522,Short-billed Dowitcher,120,146,[],"Short-billed Dowitcher > Short-billed Dowitcher > Plovers, Sandpipers, and Allies > Birds"
+523,Wilson's Snipe,110,149,[],"Wilson's Snipe > Wilson's Snipe > Plovers, Sandpipers, and Allies > Birds"
+524,American Woodcock,54,154,[],"American Woodcock > American Woodcock > Plovers, Sandpipers, and Allies > Birds"
+525,Rock Pigeon,105,45,[],Rock Pigeon > Rock Pigeon > Pigeons and Doves > Birds
+526,Band-tailed Pigeon,75,76,[],Band-tailed Pigeon > Band-tailed Pigeon > Pigeons and Doves > Birds
+527,Eurasian Collared-Dove,117,105,[],Eurasian Collared-Dove > Eurasian Collared-Dove > Pigeons and Doves > Birds
+528,White-winged Dove,117,137,[],White-winged Dove > White-winged Dove > Pigeons and Doves > Birds
+529,Mourning Dove,120,171,[],Mourning Dove > Mourning Dove > Pigeons and Doves > Birds
+530,Inca Dove,103,196,[],Inca Dove > Inca Dove > Pigeons and Doves > Birds
+531,Common Ground-Dove,75,222,[],Common Ground-Dove > Common Ground-Dove > Pigeons and Doves > Birds
+532,Monk Parakeet,46,138,[],Monk Parakeet > Monk Parakeet > Parrots > Birds
+533,Yellow-billed Cuckoo,94,77,"[{""class_id"": 33, ""name"": ""033.Yellow_billed_Cuckoo"", ""matched_nabirds_class_id"": 533}, {""class_id"": 33, ""name"": ""033.Yellow_billed_Cuckoo"", ""matched_nabirds_class_id"": 77}]",Yellow-billed Cuckoo > Yellow-billed Cuckoo > Cuckoos > Birds
+534,Black-billed Cuckoo,71,139,"[{""class_id"": 31, ""name"": ""031.Black_billed_Cuckoo"", ""matched_nabirds_class_id"": 534}, {""class_id"": 31, ""name"": ""031.Black_billed_Cuckoo"", ""matched_nabirds_class_id"": 139}]",Black-billed Cuckoo > Black-billed Cuckoo > Cuckoos > Birds
+535,Greater Roadrunner,65,197,[],Greater Roadrunner > Greater Roadrunner > Cuckoos > Birds
+536,Barn Owl,109,37,[],Barn Owl > Barn Owl > Owls > Birds
+537,Western Screech-Owl,74,62,[],Western Screech-Owl > Western Screech-Owl > Owls > Birds
+538,Eastern Screech-Owl,94,88,[],Eastern Screech-Owl > Eastern Screech-Owl > Owls > Birds
+539,Great Horned Owl,103,111,[],Great Horned Owl > Great Horned Owl > Owls > Birds
+540,Snowy Owl,72,140,[],Snowy Owl > Snowy Owl > Owls > Birds
+541,Northern Pygmy-Owl,103,163,[],Northern Pygmy-Owl > Northern Pygmy-Owl > Owls > Birds
+542,Burrowing Owl,99,182,[],Burrowing Owl > Burrowing Owl > Owls > Birds
+543,Barred Owl,120,205,[],Barred Owl > Barred Owl > Owls > Birds
+544,Northern Saw-whet Owl,98,226,[],Northern Saw-whet Owl > Northern Saw-whet Owl > Owls > Birds
+545,Common Nighthawk,86,141,[],Common Nighthawk > Common Nighthawk > Nightjars > Birds
+546,Chimney Swift,57,34,[],Chimney Swift > Chimney Swift > Swifts and Hummingbirds > Birds
+547,Vaux's Swift,53,52,[],Vaux's Swift > Vaux's Swift > Swifts and Hummingbirds > Birds
+548,White-throated Swift,66,68,[],White-throated Swift > White-throated Swift > Swifts and Hummingbirds > Birds
+549,Belted Kingfisher,109,142,"[{""class_id"": 79, ""name"": ""079.Belted_Kingfisher"", ""matched_nabirds_class_id"": 549}, {""class_id"": 79, ""name"": ""079.Belted_Kingfisher"", ""matched_nabirds_class_id"": 142}]",Belted Kingfisher > Belted Kingfisher > Kingfishers and Allies > Birds
+550,Acorn Woodpecker,99,47,[],Acorn Woodpecker > Acorn Woodpecker > Woodpeckers > Birds
+551,Gila Woodpecker,97,63,[],Gila Woodpecker > Gila Woodpecker > Woodpeckers > Birds
+552,Golden-fronted Woodpecker,77,79,[],Golden-fronted Woodpecker > Golden-fronted Woodpecker > Woodpeckers > Birds
+553,Red-bellied Woodpecker,120,95,[],Red-bellied Woodpecker > Red-bellied Woodpecker > Woodpeckers > Birds
+554,Yellow-bellied Sapsucker,119,112,[],Yellow-bellied Sapsucker > Yellow-bellied Sapsucker > Woodpeckers > Birds
+555,Red-naped Sapsucker,98,124,[],Red-naped Sapsucker > Red-naped Sapsucker > Woodpeckers > Birds
+556,Red-breasted Sapsucker,85,150,[],Red-breasted Sapsucker > Red-breasted Sapsucker > Woodpeckers > Birds
+557,Ladder-backed Woodpecker,99,164,[],Ladder-backed Woodpecker > Ladder-backed Woodpecker > Woodpeckers > Birds
+558,Nuttall's Woodpecker,92,177,[],Nuttall's Woodpecker > Nuttall's Woodpecker > Woodpeckers > Birds
+559,Downy Woodpecker,120,188,[],Downy Woodpecker > Downy Woodpecker > Woodpeckers > Birds
+560,Hairy Woodpecker,118,206,[],Hairy Woodpecker > Hairy Woodpecker > Woodpeckers > Birds
+561,Pileated Woodpecker,119,230,"[{""class_id"": 188, ""name"": ""188.Pileated_Woodpecker"", ""matched_nabirds_class_id"": 561}, {""class_id"": 188, ""name"": ""188.Pileated_Woodpecker"", ""matched_nabirds_class_id"": 230}]",Pileated Woodpecker > Pileated Woodpecker > Woodpeckers > Birds
+599,"Black Guillemot (Nonbreeding, juvenile)",33,144,[],"Black Guillemot (Nonbreeding, juvenile) > Black Guillemot > Skuas and Alcids > Birds"
+600,"Pigeon Guillemot (Nonbreeding, juvenile)",37,190,[],"Pigeon Guillemot (Nonbreeding, juvenile) > Pigeon Guillemot > Skuas and Alcids > Birds"
+601,Black-legged Kittiwake (Immature),54,145,[],"Black-legged Kittiwake (Immature) > Black-legged Kittiwake > Gulls, Terns, and Allies > Birds"
+602,Laughing Gull (Nonbreeding/Immature),86,218,[],"Laughing Gull (Nonbreeding/Immature) > Laughing Gull > Gulls, Terns, and Allies > Birds"
+603,Heermann's Gull (Immature),47,232,[],"Heermann's Gull (Immature) > Heermann's Gull > Gulls, Terns, and Allies > Birds"
+604,Ring-billed Gull (Immature),80,240,"[{""class_id"": 64, ""name"": ""064.Ring_billed_Gull"", ""matched_nabirds_class_id"": 604}, {""class_id"": 64, ""name"": ""064.Ring_billed_Gull"", ""matched_nabirds_class_id"": 240}]","Ring-billed Gull (Immature) > Ring-billed Gull > Gulls, Terns, and Allies > Birds"
+605,Western Gull (Immature),54,239,"[{""class_id"": 66, ""name"": ""066.Western_Gull"", ""matched_nabirds_class_id"": 605}, {""class_id"": 66, ""name"": ""066.Western_Gull"", ""matched_nabirds_class_id"": 239}]","Western Gull (Immature) > Western Gull > Gulls, Terns, and Allies > Birds"
+606,California Gull (Immature),54,241,[],"California Gull (Immature) > California Gull > Gulls, Terns, and Allies > Birds"
+607,Herring Gull (Immature),101,242,"[{""class_id"": 62, ""name"": ""062.Herring_Gull"", ""matched_nabirds_class_id"": 607}, {""class_id"": 62, ""name"": ""062.Herring_Gull"", ""matched_nabirds_class_id"": 242}]","Herring Gull (Immature) > Herring Gull > Gulls, Terns, and Allies > Birds"
+608,Glaucous-winged Gull (Immature),49,243,[],"Glaucous-winged Gull (Immature) > Glaucous-winged Gull > Gulls, Terns, and Allies > Birds"
+609,Great Black-backed Gull (Immature),63,244,[],"Great Black-backed Gull (Immature) > Great Black-backed Gull > Gulls, Terns, and Allies > Birds"
+610,Black-bellied Whistling-Duck,51,24,[],"Black-bellied Whistling-Duck > Black-bellied Whistling-Duck > Ducks, Geese, and Swans > Birds"
+611,Snow Goose (Blue morph),49,33,[],"Snow Goose (Blue morph) > Snow Goose > Ducks, Geese, and Swans > Birds"
+612,Ross's Goose,46,36,[],"Ross's Goose > Ross's Goose > Ducks, Geese, and Swans > Birds"
+613,Wood Duck (Female/Eclipse male),96,81,[],"Wood Duck (Female/Eclipse male) > Wood Duck > Ducks, Geese, and Swans > Birds"
+614,Gadwall (Female/Eclipse male),39,87,"[{""class_id"": 46, ""name"": ""046.Gadwall"", ""matched_nabirds_class_id"": 614}, {""class_id"": 46, ""name"": ""046.Gadwall"", ""matched_nabirds_class_id"": 87}]","Gadwall (Female/Eclipse male) > Gadwall > Ducks, Geese, and Swans > Birds"
+615,American Wigeon (Female/Eclipse male),41,92,[],"American Wigeon (Female/Eclipse male) > American Wigeon > Ducks, Geese, and Swans > Birds"
+616,Mallard (Female/Eclipse male),118,102,[],"Mallard (Female/Eclipse male) > Mallard > Ducks, Geese, and Swans > Birds"
+617,Blue-winged Teal  (Female/juvenile),33,116,[],"Blue-winged Teal  (Female/juvenile) > Blue-winged Teal > Ducks, Geese, and Swans > Birds"
+618,Cinnamon Teal (Female/juvenile),32,122,[],"Cinnamon Teal (Female/juvenile) > Cinnamon Teal > Ducks, Geese, and Swans > Birds"
+619,Northern Shoveler (Female/Eclipse male),79,128,[],"Northern Shoveler (Female/Eclipse male) > Northern Shoveler > Ducks, Geese, and Swans > Birds"
+620,Northern Pintail (Female/Eclipse male),47,130,[],"Northern Pintail (Female/Eclipse male) > Northern Pintail > Ducks, Geese, and Swans > Birds"
+621,Green-winged Teal  (Female/juvenile),47,147,[],"Green-winged Teal  (Female/juvenile) > Green-winged Teal > Ducks, Geese, and Swans > Birds"
+622,Canvasback (Female/Eclipse male),41,153,[],"Canvasback (Female/Eclipse male) > Canvasback > Ducks, Geese, and Swans > Birds"
+623,Redhead (Female/Eclipse male),34,159,[],"Redhead (Female/Eclipse male) > Redhead > Ducks, Geese, and Swans > Birds"
+624,Ring-necked Duck (Female/Eclipse male),50,161,[],"Ring-necked Duck (Female/Eclipse male) > Ring-necked Duck > Ducks, Geese, and Swans > Birds"
+625,Greater Scaup (Female/Eclipse male),39,168,[],"Greater Scaup (Female/Eclipse male) > Greater Scaup > Ducks, Geese, and Swans > Birds"
+626,Lesser Scaup (Female/Eclipse male),62,174,[],"Lesser Scaup (Female/Eclipse male) > Lesser Scaup > Ducks, Geese, and Swans > Birds"
+627,Harlequin Duck (Female/juvenile),27,181,[],"Harlequin Duck (Female/juvenile) > Harlequin Duck > Ducks, Geese, and Swans > Birds"
+628,Surf Scoter (Female/immature),44,187,[],"Surf Scoter (Female/immature) > Surf Scoter > Ducks, Geese, and Swans > Birds"
+629,White-winged Scoter (Female/juvenile),48,192,[],"White-winged Scoter (Female/juvenile) > White-winged Scoter > Ducks, Geese, and Swans > Birds"
+630,Black Scoter (Female/juvenile),40,201,[],"Black Scoter (Female/juvenile) > Black Scoter > Ducks, Geese, and Swans > Birds"
+631,Bufflehead (Female/immature male),65,209,[],"Bufflehead (Female/immature male) > Bufflehead > Ducks, Geese, and Swans > Birds"
+632,Common Goldeneye (Female/Eclipse male),58,214,[],"Common Goldeneye (Female/Eclipse male) > Common Goldeneye > Ducks, Geese, and Swans > Birds"
+633,Barrow's Goldeneye (Female/Eclipse male),32,219,[],"Barrow's Goldeneye (Female/Eclipse male) > Barrow's Goldeneye > Ducks, Geese, and Swans > Birds"
+634,Hooded Merganser (Female/immature male),66,225,[],"Hooded Merganser (Female/immature male) > Hooded Merganser > Ducks, Geese, and Swans > Birds"
+635,Common Merganser (Female/immature male),87,229,[],"Common Merganser (Female/immature male) > Common Merganser > Ducks, Geese, and Swans > Birds"
+636,Red-breasted Merganser (Female/immature male),78,235,[],"Red-breasted Merganser (Female/immature male) > Red-breasted Merganser > Ducks, Geese, and Swans > Birds"
+637,California Quail (Female/juvenile),51,73,[],"California Quail (Female/juvenile) > California Quail > Grouse, Quail, and Allies > Birds"
+638,Gambel's Quail (Female/juvenile),36,103,[],"Gambel's Quail (Female/juvenile) > Gambel's Quail > Grouse, Quail, and Allies > Birds"
+639,Ring-necked Pheasant (Female/juvenile),32,169,[],"Ring-necked Pheasant (Female/juvenile) > Ring-necked Pheasant > Grouse, Quail, and Allies > Birds"
+640,Red-throated Loon (Nonbreeding/juvenile),94,74,[],Red-throated Loon (Nonbreeding/juvenile) > Red-throated Loon > Loons > Birds
+641,Pacific Loon (Nonbreeding/juvenile),54,132,"[{""class_id"": 86, ""name"": ""086.Pacific_Loon"", ""matched_nabirds_class_id"": 641}, {""class_id"": 86, ""name"": ""086.Pacific_Loon"", ""matched_nabirds_class_id"": 132}]",Pacific Loon (Nonbreeding/juvenile) > Pacific Loon > Loons > Birds
+642,Common Loon (Nonbreeding/juvenile),120,194,[],Common Loon (Nonbreeding/juvenile) > Common Loon > Loons > Birds
+643,Horned Grebe (Nonbreeding/juvenile),120,84,[],Horned Grebe (Nonbreeding/juvenile) > Horned Grebe > Grebes > Birds
+644,Red-necked Grebe (Nonbreeding/juvenile),62,118,[],Red-necked Grebe (Nonbreeding/juvenile) > Red-necked Grebe > Grebes > Birds
+645,Eared Grebe (Nonbreeding/juvenile),64,157,[],Eared Grebe (Nonbreeding/juvenile) > Eared Grebe > Grebes > Birds
+646,Northern Gannet (Immature/Juvenile),39,44,[],"Northern Gannet (Immature/Juvenile) > Northern Gannet > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+647,Double-crested Cormorant (Adult),101,134,[],"Double-crested Cormorant (Adult) > Double-crested Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+648,Great Cormorant (Immature),42,170,[],"Great Cormorant (Immature) > Great Cormorant > Frigatebirds, Boobies, Cormorants, Darters, and Allies > Birds"
+649,Little Blue Heron (Immature),87,99,[],"Little Blue Heron (Immature) > Little Blue Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+650,Reddish Egret (White morph),46,127,[],"Reddish Egret (White morph) > Reddish Egret > Pelicans, Herons, Ibises, and Allies > Birds"
+651,Black-crowned Night-Heron (Immature),99,173,[],"Black-crowned Night-Heron (Immature) > Black-crowned Night-Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+652,Yellow-crowned Night-Heron (Immature),82,184,[],"Yellow-crowned Night-Heron (Immature) > Yellow-crowned Night-Heron > Pelicans, Herons, Ibises, and Allies > Birds"
+653,White Ibis (Immature),63,198,[],"White Ibis (Immature) > White Ibis > Pelicans, Herons, Ibises, and Allies > Birds"
+654,"Bald Eagle (Immature, juvenile)",103,108,[],"Bald Eagle (Immature, juvenile) > Bald Eagle > Hawks, Kites, Eagles, and Allies > Birds"
+655,"Northern Harrier (Female, immature)",120,120,[],"Northern Harrier (Female, immature) > Northern Harrier > Hawks, Kites, Eagles, and Allies > Birds"
+656,Sharp-shinned Hawk (Immature),109,135,[],"Sharp-shinned Hawk (Immature) > Sharp-shinned Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+657,Cooper's Hawk (Immature),120,155,[],"Cooper's Hawk (Immature) > Cooper's Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+658,Red-shouldered Hawk (Immature),81,175,[],"Red-shouldered Hawk (Immature) > Red-shouldered Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+659,Broad-winged Hawk (Immature),47,186,[],"Broad-winged Hawk (Immature) > Broad-winged Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+660,Rough-legged Hawk (Light morph),86,224,[],"Rough-legged Hawk (Light morph) > Rough-legged Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+661,Golden Eagle (Immature),56,234,[],"Golden Eagle (Immature) > Golden Eagle > Hawks, Kites, Eagles, and Allies > Birds"
+662,"American Kestrel (Female, immature)",110,94,[],"American Kestrel (Female, immature) > American Kestrel > Caracaras and Falcons > Birds"
+663,Peregrine Falcon (Immature),53,176,[],Peregrine Falcon (Immature) > Peregrine Falcon > Caracaras and Falcons > Birds
+664,Purple Gallinule (Immature),21,61,[],Purple Gallinule (Immature) > Purple Gallinule > Cranes and Rails > Birds
+665,Common Gallinule (Immature),31,110,[],Common Gallinule (Immature) > Common Gallinule > Cranes and Rails > Birds
+666,Black-bellied Plover (Nonbreeding/juvenile),83,23,[],"Black-bellied Plover (Nonbreeding/juvenile) > Black-bellied Plover > Plovers, Sandpipers, and Allies > Birds"
+667,Spotted Sandpiper (Nonbreeding/juvenile),98,56,[],"Spotted Sandpiper (Nonbreeding/juvenile) > Spotted Sandpiper > Plovers, Sandpipers, and Allies > Birds"
+668,Sanderling (Nonbreeding/juvenile),95,114,[],"Sanderling (Nonbreeding/juvenile) > Sanderling > Plovers, Sandpipers, and Allies > Birds"
+669,Dunlin (Nonbreeding/juvenile),118,129,[],"Dunlin (Nonbreeding/juvenile) > Dunlin > Plovers, Sandpipers, and Allies > Birds"
+670,"Wilson's Phalarope (Nonbreeding, juvenile)",59,158,[],"Wilson's Phalarope (Nonbreeding, juvenile) > Wilson's Phalarope > Plovers, Sandpipers, and Allies > Birds"
+671,"Broad-billed Hummingbird (Female, immature)",42,90,[],"Broad-billed Hummingbird (Female, immature) > Broad-billed Hummingbird > Swifts and Hummingbirds > Birds"
+672,"Ruby-throated Hummingbird (Female, immature)",120,107,[],"Ruby-throated Hummingbird (Female, immature) > Ruby-throated Hummingbird > Swifts and Hummingbirds > Birds"
+673,"Black-chinned Hummingbird (Female, immature)",119,123,[],"Black-chinned Hummingbird (Female, immature) > Black-chinned Hummingbird > Swifts and Hummingbirds > Birds"
+674,"Anna's Hummingbird (Female, immature)",109,152,[],"Anna's Hummingbird (Female, immature) > Anna's Hummingbird > Swifts and Hummingbirds > Birds"
+675,"Costa's Hummingbird (Female, immature)",42,167,[],"Costa's Hummingbird (Female, immature) > Costa's Hummingbird > Swifts and Hummingbirds > Birds"
+676,"Calliope Hummingbird (Female, immature)",108,180,[],"Calliope Hummingbird (Female, immature) > Calliope Hummingbird > Swifts and Hummingbirds > Birds"
+677,"Broad-tailed Hummingbird (Female, immature)",56,200,[],"Broad-tailed Hummingbird (Female, immature) > Broad-tailed Hummingbird > Swifts and Hummingbirds > Birds"
+678,"Rufous Hummingbird (Female, immature)",70,213,[],"Rufous Hummingbird (Female, immature) > Rufous Hummingbird > Swifts and Hummingbirds > Birds"
+679,"Allen's Hummingbird (Female, immature)",70,228,[],"Allen's Hummingbird (Female, immature) > Allen's Hummingbird > Swifts and Hummingbirds > Birds"
+680,Red-headed Woodpecker (Immature),72,31,[],Red-headed Woodpecker (Immature) > Red-headed Woodpecker > Woodpeckers > Birds
+681,Northern Flicker (Red-shafted),119,216,[],Northern Flicker (Red-shafted) > Northern Flicker > Woodpeckers > Birds
+696,Common Eider (Immature/Eclipse male),45,179,[],"Common Eider (Immature/Eclipse male) > Common Eider > Ducks, Geese, and Swans > Birds"
+697,Long-tailed Duck (Female/juvenile),44,203,[],"Long-tailed Duck (Female/juvenile) > Long-tailed Duck > Ducks, Geese, and Swans > Birds"
+698,Ruddy Duck (Female/juvenile),76,238,[],"Ruddy Duck (Female/juvenile) > Ruddy Duck > Ducks, Geese, and Swans > Birds"
+699,Swainson's Hawk (Immature),44,202,[],"Swainson's Hawk (Immature) > Swainson's Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+700,Red-tailed Hawk (Light morph immature),120,210,[],"Red-tailed Hawk (Light morph immature) > Red-tailed Hawk > Hawks, Kites, Eagles, and Allies > Birds"
+746,Dark-eyed Junco (Slate-colored),120,744,[],Dark-eyed Junco (Slate-colored) > Dark-eyed Junco > New World Sparrows and Allies > Perching Birds > Birds
+747,Yellow-rumped Warbler (Breeding Myrtle),116,691,[],Yellow-rumped Warbler (Breeding Myrtle) > Yellow-rumped Warbler > Wood-Warblers > Perching Birds > Birds
+748,European Starling (Breeding Adult),116,439,[],European Starling (Breeding Adult) > European Starling > Starlings and Allies > Perching Birds > Birds
+749,Fox Sparrow (Red),111,591,[],Fox Sparrow (Red) > Fox Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+750,Summer Tanager (Adult Male),91,259,[],"Summer Tanager (Adult Male) > Summer Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+751,Orchard Oriole (Adult Male),88,704,[],Orchard Oriole (Adult Male) > Orchard Oriole > Blackbirds and Allies > Perching Birds > Birds
+752,Purple Martin (Adult male),70,264,[],Purple Martin (Adult male) > Purple Martin > Swallows > Perching Birds > Birds
+753,American Robin (Adult),119,718,[],American Robin (Adult) > American Robin > Thrushes > Perching Birds > Birds
+754,Phainopepla (Female/juvenile),35,441,[],Phainopepla (Female/juvenile) > Phainopepla > Silky-Flycatchers > Perching Birds > Birds
+755,Snow Bunting (Breeding adult),24,442,[],Snow Bunting (Breeding adult) > Snow Bunting > Longspurs and Snow Buntings > Perching Birds > Birds
+756,Common Yellowthroat (Adult Male),120,391,[],Common Yellowthroat (Adult Male) > Common Yellowthroat > Wood-Warblers > Perching Birds > Birds
+757,American Redstart (Adult Male),103,412,[],American Redstart (Adult Male) > American Redstart > Wood-Warblers > Perching Birds > Birds
+758,Magnolia Warbler (Breeding male),99,430,[],Magnolia Warbler (Breeding male) > Magnolia Warbler > Wood-Warblers > Perching Birds > Birds
+759,Bay-breasted Warbler (Breeding male),48,443,[],Bay-breasted Warbler (Breeding male) > Bay-breasted Warbler > Wood-Warblers > Perching Birds > Birds
+760,Chestnut-sided Warbler (Breeding male),116,577,[],Chestnut-sided Warbler (Breeding male) > Chestnut-sided Warbler > Wood-Warblers > Perching Birds > Birds
+761,Blackpoll Warbler (Breeding male),90,582,[],Blackpoll Warbler (Breeding male) > Blackpoll Warbler > Wood-Warblers > Perching Birds > Birds
+762,Black-throated Blue Warbler (Adult Male),119,589,"[{""class_id"": 160, ""name"": ""160.Black_throated_Blue_Warbler"", ""matched_nabirds_class_id"": 762}, {""class_id"": 160, ""name"": ""160.Black_throated_Blue_Warbler"", ""matched_nabirds_class_id"": 589}]",Black-throated Blue Warbler (Adult Male) > Black-throated Blue Warbler > Wood-Warblers > Perching Birds > Birds
+763,Lark Bunting (Breeding male),30,576,[],Lark Bunting (Breeding male) > Lark Bunting > New World Sparrows and Allies > Perching Birds > Birds
+764,White-throated Sparrow (White-striped),119,714,[],White-throated Sparrow (White-striped) > White-throated Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+765,Harris's Sparrow (Adult),64,722,[],Harris's Sparrow (Adult) > Harris's Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+766,White-crowned Sparrow (Adult),120,729,[],White-crowned Sparrow (Adult) > White-crowned Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+767,Golden-crowned Sparrow (Adult),88,737,[],Golden-crowned Sparrow (Adult) > Golden-crowned Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+768,Dark-eyed Junco (Oregon),98,744,[],Dark-eyed Junco (Oregon) > Dark-eyed Junco > New World Sparrows and Allies > Perching Birds > Birds
+769,Chipping Sparrow (Breeding),120,403,"[{""class_id"": 116, ""name"": ""116.Chipping_Sparrow"", ""matched_nabirds_class_id"": 769}, {""class_id"": 116, ""name"": ""116.Chipping_Sparrow"", ""matched_nabirds_class_id"": 403}]",Chipping Sparrow (Breeding) > Chipping Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+770,Scarlet Tanager (Breeding Male),97,274,[],"Scarlet Tanager (Breeding Male) > Scarlet Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+771,Western Tanager (Breeding Male),94,291,[],"Western Tanager (Breeding Male) > Western Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+772,Northern Cardinal (Adult Male),120,310,[],"Northern Cardinal (Adult Male) > Northern Cardinal > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+773,Rose-breasted Grosbeak (Adult Male),120,427,[],"Rose-breasted Grosbeak (Adult Male) > Rose-breasted Grosbeak > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+774,Black-headed Grosbeak (Adult Male),109,568,[],"Black-headed Grosbeak (Adult Male) > Black-headed Grosbeak > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+775,Blue Grosbeak (Adult Male),111,584,[],"Blue Grosbeak (Adult Male) > Blue Grosbeak > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+776,Lazuli Bunting (Adult Male),102,687,"[{""class_id"": 15, ""name"": ""015.Lazuli_Bunting"", ""matched_nabirds_class_id"": 776}, {""class_id"": 15, ""name"": ""015.Lazuli_Bunting"", ""matched_nabirds_class_id"": 687}]","Lazuli Bunting (Adult Male) > Lazuli Bunting > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+777,Indigo Bunting (Adult Male),120,706,"[{""class_id"": 14, ""name"": ""014.Indigo_Bunting"", ""matched_nabirds_class_id"": 777}, {""class_id"": 14, ""name"": ""014.Indigo_Bunting"", ""matched_nabirds_class_id"": 706}]","Indigo Bunting (Adult Male) > Indigo Bunting > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+778,Painted Bunting (Adult Male),119,723,"[{""class_id"": 16, ""name"": ""016.Painted_Bunting"", ""matched_nabirds_class_id"": 778}, {""class_id"": 16, ""name"": ""016.Painted_Bunting"", ""matched_nabirds_class_id"": 723}]","Painted Bunting (Adult Male) > Painted Bunting > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+779,Bobolink (Breeding male),115,254,"[{""class_id"": 13, ""name"": ""013.Bobolink"", ""matched_nabirds_class_id"": 779}, {""class_id"": 13, ""name"": ""013.Bobolink"", ""matched_nabirds_class_id"": 254}]",Bobolink (Breeding male) > Bobolink > Blackbirds and Allies > Perching Birds > Birds
+780,Red-winged Blackbird (Male),119,268,[],Red-winged Blackbird (Male) > Red-winged Blackbird > Blackbirds and Allies > Perching Birds > Birds
+781,Yellow-headed Blackbird (Adult Male),91,306,[],Yellow-headed Blackbird (Adult Male) > Yellow-headed Blackbird > Blackbirds and Allies > Perching Birds > Birds
+782,Brewer's Blackbird (Female/Juvenile),66,416,[],Brewer's Blackbird (Female/Juvenile) > Brewer's Blackbird > Blackbirds and Allies > Perching Birds > Birds
+783,Brown-headed Cowbird (Male),120,690,[],Brown-headed Cowbird (Male) > Brown-headed Cowbird > Blackbirds and Allies > Perching Birds > Birds
+784,Hooded Oriole (Adult male),93,719,"[{""class_id"": 96, ""name"": ""096.Hooded_Oriole"", ""matched_nabirds_class_id"": 784}, {""class_id"": 96, ""name"": ""096.Hooded_Oriole"", ""matched_nabirds_class_id"": 719}]",Hooded Oriole (Adult male) > Hooded Oriole > Blackbirds and Allies > Perching Birds > Birds
+785,Bullock's Oriole (Adult male),98,728,[],Bullock's Oriole (Adult male) > Bullock's Oriole > Blackbirds and Allies > Perching Birds > Birds
+786,Baltimore Oriole (Adult male),109,742,[],Baltimore Oriole (Adult male) > Baltimore Oriole > Blackbirds and Allies > Perching Birds > Birds
+787,Pine Grosbeak (Adult Male),57,294,[],Pine Grosbeak (Adult Male) > Pine Grosbeak > Finches and Allies > Perching Birds > Birds
+788,Purple Finch (Adult Male),103,311,[],Purple Finch (Adult Male) > Purple Finch > Finches and Allies > Perching Birds > Birds
+789,Cassin's Finch (Adult Male),80,408,[],Cassin's Finch (Adult Male) > Cassin's Finch > Finches and Allies > Perching Birds > Birds
+790,House Finch (Adult Male),120,419,[],House Finch (Adult Male) > House Finch > Finches and Allies > Perching Birds > Birds
+791,Red Crossbill (Adult Male),65,444,[],Red Crossbill (Adult Male) > Red Crossbill > Finches and Allies > Perching Birds > Birds
+792,White-winged Crossbill (Adult Male),53,574,[],White-winged Crossbill (Adult Male) > White-winged Crossbill > Finches and Allies > Perching Birds > Birds
+793,Lesser Goldfinch (Adult Male),119,715,[],Lesser Goldfinch (Adult Male) > Lesser Goldfinch > Finches and Allies > Perching Birds > Birds
+794,American Goldfinch (Breeding Male),120,726,"[{""class_id"": 47, ""name"": ""047.American_Goldfinch"", ""matched_nabirds_class_id"": 794}, {""class_id"": 47, ""name"": ""047.American_Goldfinch"", ""matched_nabirds_class_id"": 726}]",American Goldfinch (Breeding Male) > American Goldfinch > Finches and Allies > Perching Birds > Birds
+795,Evening Grosbeak (Adult Male),107,740,"[{""class_id"": 55, ""name"": ""055.Evening_Grosbeak"", ""matched_nabirds_class_id"": 795}, {""class_id"": 55, ""name"": ""055.Evening_Grosbeak"", ""matched_nabirds_class_id"": 740}]",Evening Grosbeak (Adult Male) > Evening Grosbeak > Finches and Allies > Perching Birds > Birds
+796,House Sparrow (Male),119,445,[],House Sparrow (Male) > House Sparrow > Old World Sparrows > Perching Birds > Birds
+797,Vermilion Flycatcher (Adult male),113,575,[],Vermilion Flycatcher (Adult male) > Vermilion Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+798,Yellow-rumped Warbler (Winter/juvenile Myrtle),113,691,[],Yellow-rumped Warbler (Winter/juvenile Myrtle) > Yellow-rumped Warbler > Wood-Warblers > Perching Birds > Birds
+799,Northwestern Crow,36,695,[],"Northwestern Crow > Northwestern Crow > Jays, Magpies, and Crows > Perching Birds > Birds"
+800,Fish Crow,61,710,[],"Fish Crow > Fish Crow > Jays, Magpies, and Crows > Perching Birds > Birds"
+801,Chihuahuan Raven,49,725,[],"Chihuahuan Raven > Chihuahuan Raven > Jays, Magpies, and Crows > Perching Birds > Birds"
+802,Common Raven,116,739,"[{""class_id"": 107, ""name"": ""107.Common_Raven"", ""matched_nabirds_class_id"": 802}, {""class_id"": 107, ""name"": ""107.Common_Raven"", ""matched_nabirds_class_id"": 739}]","Common Raven > Common Raven > Jays, Magpies, and Crows > Perching Birds > Birds"
+803,Horned Lark,113,432,"[{""class_id"": 85, ""name"": ""085.Horned_Lark"", ""matched_nabirds_class_id"": 803}, {""class_id"": 85, ""name"": ""085.Horned_Lark"", ""matched_nabirds_class_id"": 432}]",Horned Lark > Horned Lark > Larks > Perching Birds > Birds
+804,Tree Swallow,116,287,[],Tree Swallow > Tree Swallow > Swallows > Perching Birds > Birds
+805,Violet-green Swallow,75,385,[],Violet-green Swallow > Violet-green Swallow > Swallows > Perching Birds > Birds
+806,Northern Rough-winged Swallow,77,421,[],Northern Rough-winged Swallow > Northern Rough-winged Swallow > Swallows > Perching Birds > Birds
+807,Bank Swallow,35,571,[],Bank Swallow > Bank Swallow > Swallows > Perching Birds > Birds
+808,Cliff Swallow,74,592,"[{""class_id"": 137, ""name"": ""137.Cliff_Swallow"", ""matched_nabirds_class_id"": 808}, {""class_id"": 137, ""name"": ""137.Cliff_Swallow"", ""matched_nabirds_class_id"": 592}]",Cliff Swallow > Cliff Swallow > Swallows > Perching Birds > Birds
+809,Cave Swallow,62,707,[],Cave Swallow > Cave Swallow > Swallows > Perching Birds > Birds
+810,Barn Swallow,106,730,"[{""class_id"": 136, ""name"": ""136.Barn_Swallow"", ""matched_nabirds_class_id"": 810}, {""class_id"": 136, ""name"": ""136.Barn_Swallow"", ""matched_nabirds_class_id"": 730}]",Barn Swallow > Barn Swallow > Swallows > Perching Birds > Birds
+811,Carolina Chickadee,118,261,[],Carolina Chickadee > Carolina Chickadee > Chickadees and Titmice > Perching Birds > Birds
+812,Black-capped Chickadee,96,278,[],Black-capped Chickadee > Black-capped Chickadee > Chickadees and Titmice > Perching Birds > Birds
+813,Mountain Chickadee,109,303,[],Mountain Chickadee > Mountain Chickadee > Chickadees and Titmice > Perching Birds > Birds
+814,Chestnut-backed Chickadee,114,406,[],Chestnut-backed Chickadee > Chestnut-backed Chickadee > Chickadees and Titmice > Perching Birds > Birds
+815,Boreal Chickadee,48,424,[],Boreal Chickadee > Boreal Chickadee > Chickadees and Titmice > Perching Birds > Birds
+816,Bridled Titmouse,59,569,[],Bridled Titmouse > Bridled Titmouse > Chickadees and Titmice > Perching Birds > Birds
+817,Oak Titmouse,82,587,[],Oak Titmouse > Oak Titmouse > Chickadees and Titmice > Perching Birds > Birds
+818,Juniper Titmouse,47,692,[],Juniper Titmouse > Juniper Titmouse > Chickadees and Titmice > Perching Birds > Birds
+819,Tufted Titmouse,120,717,[],Tufted Titmouse > Tufted Titmouse > Chickadees and Titmice > Perching Birds > Birds
+820,Black-crested Titmouse,70,734,[],Black-crested Titmouse > Black-crested Titmouse > Chickadees and Titmice > Perching Birds > Birds
+821,Verdin,83,80,[],Verdin > Verdin > Verdin > Perching Birds > Birds
+822,Bushtit,120,434,[],Bushtit > Bushtit > Bushtits > Perching Birds > Birds
+823,Red-breasted Nuthatch,120,284,[],Red-breasted Nuthatch > Red-breasted Nuthatch > Nuthatches > Perching Birds > Birds
+824,White-breasted Nuthatch,120,413,[],White-breasted Nuthatch > White-breasted Nuthatch > Nuthatches > Perching Birds > Birds
+825,Pygmy Nuthatch,80,579,[],Pygmy Nuthatch > Pygmy Nuthatch > Nuthatches > Perching Birds > Birds
+826,Brown-headed Nuthatch,72,711,[],Brown-headed Nuthatch > Brown-headed Nuthatch > Nuthatches > Perching Birds > Birds
+827,Brown Creeper,117,435,"[{""class_id"": 28, ""name"": ""028.Brown_Creeper"", ""matched_nabirds_class_id"": 827}, {""class_id"": 28, ""name"": ""028.Brown_Creeper"", ""matched_nabirds_class_id"": 435}]",Brown Creeper > Brown Creeper > Creepers > Perching Birds > Birds
+828,Cactus Wren,86,265,"[{""class_id"": 194, ""name"": ""194.Cactus_Wren"", ""matched_nabirds_class_id"": 828}, {""class_id"": 194, ""name"": ""194.Cactus_Wren"", ""matched_nabirds_class_id"": 265}]",Cactus Wren > Cactus Wren > Wrens > Perching Birds > Birds
+829,Canyon Wren,64,288,[],Canyon Wren > Canyon Wren > Wrens > Perching Birds > Birds
+830,Carolina Wren,120,386,"[{""class_id"": 195, ""name"": ""195.Carolina_Wren"", ""matched_nabirds_class_id"": 830}, {""class_id"": 195, ""name"": ""195.Carolina_Wren"", ""matched_nabirds_class_id"": 386}]",Carolina Wren > Carolina Wren > Wrens > Perching Birds > Birds
+831,Bewick's Wren,118,422,[],Bewick's Wren > Bewick's Wren > Wrens > Perching Birds > Birds
+832,House Wren,114,572,"[{""class_id"": 196, ""name"": ""196.House_Wren"", ""matched_nabirds_class_id"": 832}, {""class_id"": 196, ""name"": ""196.House_Wren"", ""matched_nabirds_class_id"": 572}]",House Wren > House Wren > Wrens > Perching Birds > Birds
+833,Pacific Wren,37,593,[],Pacific Wren > Pacific Wren > Wrens > Perching Birds > Birds
+834,Winter Wren,104,708,[],Winter Wren > Winter Wren > Wrens > Perching Birds > Birds
+835,Marsh Wren,120,731,"[{""class_id"": 197, ""name"": ""197.Marsh_Wren"", ""matched_nabirds_class_id"": 835}, {""class_id"": 197, ""name"": ""197.Marsh_Wren"", ""matched_nabirds_class_id"": 731}]",Marsh Wren > Marsh Wren > Wrens > Perching Birds > Birds
+836,Blue-gray Gnatcatcher,120,387,[],Blue-gray Gnatcatcher > Blue-gray Gnatcatcher > Gnatcatchers > Perching Birds > Birds
+837,Black-tailed Gnatcatcher,54,594,[],Black-tailed Gnatcatcher > Black-tailed Gnatcatcher > Gnatcatchers > Perching Birds > Birds
+838,American Dipper,82,436,[],American Dipper > American Dipper > Dippers > Perching Birds > Birds
+839,Golden-crowned Kinglet,74,388,[],Golden-crowned Kinglet > Golden-crowned Kinglet > Kinglets > Perching Birds > Birds
+840,Ruby-crowned Kinglet,120,595,[],Ruby-crowned Kinglet > Ruby-crowned Kinglet > Kinglets > Perching Birds > Birds
+841,Wrentit,64,437,[],Wrentit > Wrentit > Old World Warblers > Perching Birds > Birds
+842,Eastern Bluebird,120,262,[],Eastern Bluebird > Eastern Bluebird > Thrushes > Perching Birds > Birds
+843,Western Bluebird,106,279,[],Western Bluebird > Western Bluebird > Thrushes > Perching Birds > Birds
+844,Mountain Bluebird,101,304,[],Mountain Bluebird > Mountain Bluebird > Thrushes > Perching Birds > Birds
+845,Townsend's Solitaire,89,407,[],Townsend's Solitaire > Townsend's Solitaire > Thrushes > Perching Birds > Birds
+846,Veery,87,425,[],Veery > Veery > Thrushes > Perching Birds > Birds
+847,Swainson's Thrush,107,570,[],Swainson's Thrush > Swainson's Thrush > Thrushes > Perching Birds > Birds
+848,Hermit Thrush,120,588,[],Hermit Thrush > Hermit Thrush > Thrushes > Perching Birds > Birds
+849,Wood Thrush,93,693,[],Wood Thrush > Wood Thrush > Thrushes > Perching Birds > Birds
+850,Varied Thrush,116,735,[],Varied Thrush > Varied Thrush > Thrushes > Perching Birds > Birds
+851,Gray Catbird,120,275,"[{""class_id"": 19, ""name"": ""019.Gray_Catbird"", ""matched_nabirds_class_id"": 851}, {""class_id"": 19, ""name"": ""019.Gray_Catbird"", ""matched_nabirds_class_id"": 275}]","Gray Catbird > Gray Catbird > Mockingbirds, Thrashers, and Allies > Perching Birds > Birds"
+852,Northern Mockingbird,120,389,[],"Northern Mockingbird > Northern Mockingbird > Mockingbirds, Thrashers, and Allies > Perching Birds > Birds"
+853,Brown Thrasher,111,438,"[{""class_id"": 149, ""name"": ""149.Brown_Thrasher"", ""matched_nabirds_class_id"": 853}, {""class_id"": 149, ""name"": ""149.Brown_Thrasher"", ""matched_nabirds_class_id"": 438}]","Brown Thrasher > Brown Thrasher > Mockingbirds, Thrashers, and Allies > Perching Birds > Birds"
+854,Curve-billed Thrasher,78,596,[],"Curve-billed Thrasher > Curve-billed Thrasher > Mockingbirds, Thrashers, and Allies > Perching Birds > Birds"
+855,California Thrasher,75,720,[],"California Thrasher > California Thrasher > Mockingbirds, Thrashers, and Allies > Perching Birds > Birds"
+856,European Starling (Nonbreeding Adult),120,439,[],European Starling (Nonbreeding Adult) > European Starling > Starlings and Allies > Perching Birds > Birds
+857,American Pipit,118,440,"[{""class_id"": 104, ""name"": ""104.American_Pipit"", ""matched_nabirds_class_id"": 857}, {""class_id"": 104, ""name"": ""104.American_Pipit"", ""matched_nabirds_class_id"": 440}]",American Pipit > American Pipit > Wagtails and Pipits > Perching Birds > Birds
+858,Bohemian Waxwing,79,390,"[{""class_id"": 185, ""name"": ""185.Bohemian_Waxwing"", ""matched_nabirds_class_id"": 858}, {""class_id"": 185, ""name"": ""185.Bohemian_Waxwing"", ""matched_nabirds_class_id"": 390}]",Bohemian Waxwing > Bohemian Waxwing > Waxwings > Perching Birds > Birds
+859,Cedar Waxwing,97,597,[],Cedar Waxwing > Cedar Waxwing > Waxwings > Perching Birds > Birds
+860,Ovenbird,103,251,[],Ovenbird > Ovenbird > Wood-Warblers > Perching Birds > Birds
+861,Louisiana Waterthrush,86,253,[],Louisiana Waterthrush > Louisiana Waterthrush > Wood-Warblers > Perching Birds > Birds
+862,Northern Waterthrush,111,260,[],Northern Waterthrush > Northern Waterthrush > Wood-Warblers > Perching Birds > Birds
+863,Blue-winged Warbler,74,266,"[{""class_id"": 161, ""name"": ""161.Blue_winged_Warbler"", ""matched_nabirds_class_id"": 863}, {""class_id"": 161, ""name"": ""161.Blue_winged_Warbler"", ""matched_nabirds_class_id"": 266}]",Blue-winged Warbler > Blue-winged Warbler > Wood-Warblers > Perching Birds > Birds
+864,Black-and-white Warbler,120,272,"[{""class_id"": 159, ""name"": ""159.Black_and_white_Warbler"", ""matched_nabirds_class_id"": 864}, {""class_id"": 159, ""name"": ""159.Black_and_white_Warbler"", ""matched_nabirds_class_id"": 272}]",Black-and-white Warbler > Black-and-white Warbler > Wood-Warblers > Perching Birds > Birds
+865,Prothonotary Warbler,103,276,"[{""class_id"": 177, ""name"": ""177.Prothonotary_Warbler"", ""matched_nabirds_class_id"": 865}, {""class_id"": 177, ""name"": ""177.Prothonotary_Warbler"", ""matched_nabirds_class_id"": 276}]",Prothonotary Warbler > Prothonotary Warbler > Wood-Warblers > Perching Birds > Birds
+866,Tennessee Warbler,116,283,[],Tennessee Warbler > Tennessee Warbler > Wood-Warblers > Perching Birds > Birds
+867,Orange-crowned Warbler,114,289,"[{""class_id"": 173, ""name"": ""173.Orange_crowned_Warbler"", ""matched_nabirds_class_id"": 867}, {""class_id"": 173, ""name"": ""173.Orange_crowned_Warbler"", ""matched_nabirds_class_id"": 289}]",Orange-crowned Warbler > Orange-crowned Warbler > Wood-Warblers > Perching Birds > Birds
+868,Nashville Warbler,119,293,"[{""class_id"": 172, ""name"": ""172.Nashville_Warbler"", ""matched_nabirds_class_id"": 868}, {""class_id"": 172, ""name"": ""172.Nashville_Warbler"", ""matched_nabirds_class_id"": 293}]",Nashville Warbler > Nashville Warbler > Wood-Warblers > Perching Birds > Birds
+869,MacGillivray's Warbler,66,305,[],MacGillivray's Warbler > MacGillivray's Warbler > Wood-Warblers > Perching Birds > Birds
+870,Mourning Warbler,77,308,[],Mourning Warbler > Mourning Warbler > Wood-Warblers > Perching Birds > Birds
+871,Hooded Warbler,109,405,[],Hooded Warbler > Hooded Warbler > Wood-Warblers > Perching Birds > Birds
+872,Cape May Warbler,103,417,"[{""class_id"": 163, ""name"": ""163.Cape_May_Warbler"", ""matched_nabirds_class_id"": 872}, {""class_id"": 163, ""name"": ""163.Cape_May_Warbler"", ""matched_nabirds_class_id"": 417}]",Cape May Warbler > Cape May Warbler > Wood-Warblers > Perching Birds > Birds
+873,Northern Parula,120,423,[],Northern Parula > Northern Parula > Wood-Warblers > Perching Birds > Birds
+874,Blackburnian Warbler,111,564,[],Blackburnian Warbler > Blackburnian Warbler > Wood-Warblers > Perching Birds > Birds
+875,Yellow Warbler,120,573,[],Yellow Warbler > Yellow Warbler > Wood-Warblers > Perching Birds > Birds
+876,Palm Warbler,104,598,[],Palm Warbler > Palm Warbler > Wood-Warblers > Perching Birds > Birds
+877,Pine Warbler,108,688,[],Pine Warbler > Pine Warbler > Wood-Warblers > Perching Birds > Birds
+878,Yellow-throated Warbler,103,702,[],Yellow-throated Warbler > Yellow-throated Warbler > Wood-Warblers > Perching Birds > Birds
+879,Prairie Warbler,120,709,"[{""class_id"": 176, ""name"": ""176.Prairie_Warbler"", ""matched_nabirds_class_id"": 879}, {""class_id"": 176, ""name"": ""176.Prairie_Warbler"", ""matched_nabirds_class_id"": 709}]",Prairie Warbler > Prairie Warbler > Wood-Warblers > Perching Birds > Birds
+880,Black-throated Gray Warbler,75,713,[],Black-throated Gray Warbler > Black-throated Gray Warbler > Wood-Warblers > Perching Birds > Birds
+881,Townsend's Warbler,120,721,[],Townsend's Warbler > Townsend's Warbler > Wood-Warblers > Perching Birds > Birds
+882,Hermit Warbler,66,724,[],Hermit Warbler > Hermit Warbler > Wood-Warblers > Perching Birds > Birds
+883,Black-throated Green Warbler,120,732,[],Black-throated Green Warbler > Black-throated Green Warbler > Wood-Warblers > Perching Birds > Birds
+884,Canada Warbler,118,736,"[{""class_id"": 162, ""name"": ""162.Canada_Warbler"", ""matched_nabirds_class_id"": 884}, {""class_id"": 162, ""name"": ""162.Canada_Warbler"", ""matched_nabirds_class_id"": 736}]",Canada Warbler > Canada Warbler > Wood-Warblers > Perching Birds > Birds
+885,Wilson's Warbler,120,743,[],Wilson's Warbler > Wilson's Warbler > Wood-Warblers > Perching Birds > Birds
+886,Yellow-breasted Chat,115,745,"[{""class_id"": 20, ""name"": ""020.Yellow_breasted_Chat"", ""matched_nabirds_class_id"": 886}, {""class_id"": 20, ""name"": ""020.Yellow_breasted_Chat"", ""matched_nabirds_class_id"": 745}]",Yellow-breasted Chat > Yellow-breasted Chat > Wood-Warblers > Perching Birds > Birds
+887,Green-tailed Towhee,62,252,[],Green-tailed Towhee > Green-tailed Towhee > New World Sparrows and Allies > Perching Birds > Birds
+888,Spotted Towhee,120,258,[],Spotted Towhee > Spotted Towhee > New World Sparrows and Allies > Perching Birds > Birds
+889,Eastern Towhee,110,267,[],Eastern Towhee > Eastern Towhee > New World Sparrows and Allies > Perching Birds > Birds
+890,Rufous-crowned Sparrow,80,273,[],Rufous-crowned Sparrow > Rufous-crowned Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+891,Canyon Towhee,84,282,[],Canyon Towhee > Canyon Towhee > New World Sparrows and Allies > Perching Birds > Birds
+892,California Towhee,92,290,[],California Towhee > California Towhee > New World Sparrows and Allies > Perching Birds > Birds
+893,Abert's Towhee,64,302,[],Abert's Towhee > Abert's Towhee > New World Sparrows and Allies > Perching Birds > Birds
+894,American Tree Sparrow,110,309,[],American Tree Sparrow > American Tree Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+895,Clay-colored Sparrow,109,410,[],Clay-colored Sparrow > Clay-colored Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+896,Brewer's Sparrow,78,418,[],Brewer's Sparrow > Brewer's Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+897,Field Sparrow,103,426,"[{""class_id"": 119, ""name"": ""119.Field_Sparrow"", ""matched_nabirds_class_id"": 897}, {""class_id"": 119, ""name"": ""119.Field_Sparrow"", ""matched_nabirds_class_id"": 426}]",Field Sparrow > Field Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+898,Vesper Sparrow,115,431,"[{""class_id"": 131, ""name"": ""131.Vesper_Sparrow"", ""matched_nabirds_class_id"": 898}, {""class_id"": 131, ""name"": ""131.Vesper_Sparrow"", ""matched_nabirds_class_id"": 431}]",Vesper Sparrow > Vesper Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+899,Lark Sparrow,112,567,[],Lark Sparrow > Lark Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+900,Savannah Sparrow,120,583,"[{""class_id"": 127, ""name"": ""127.Savannah_Sparrow"", ""matched_nabirds_class_id"": 900}, {""class_id"": 127, ""name"": ""127.Savannah_Sparrow"", ""matched_nabirds_class_id"": 583}]",Savannah Sparrow > Savannah Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+901,Fox Sparrow (Sooty),79,591,[],Fox Sparrow (Sooty) > Fox Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+902,Song Sparrow,120,686,"[{""class_id"": 129, ""name"": ""129.Song_Sparrow"", ""matched_nabirds_class_id"": 902}, {""class_id"": 129, ""name"": ""129.Song_Sparrow"", ""matched_nabirds_class_id"": 686}]",Song Sparrow > Song Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+903,Lincoln's Sparrow,116,694,[],Lincoln's Sparrow > Lincoln's Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+904,Swamp Sparrow,113,705,[],Swamp Sparrow > Swamp Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+905,Dark-eyed Junco (Pink-sided),59,744,[],Dark-eyed Junco (Pink-sided) > Dark-eyed Junco > New World Sparrows and Allies > Perching Birds > Birds
+906,Summer Tanager (Female),61,259,[],"Summer Tanager (Female) > Summer Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+907,Pyrrhuloxia,90,411,[],"Pyrrhuloxia > Pyrrhuloxia > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+908,Dickcissel,116,738,[],"Dickcissel > Dickcissel > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+909,Eastern Meadowlark,76,277,[],Eastern Meadowlark > Eastern Meadowlark > Blackbirds and Allies > Perching Birds > Birds
+910,Western Meadowlark,120,292,[],Western Meadowlark > Western Meadowlark > Blackbirds and Allies > Perching Birds > Birds
+911,Rusty Blackbird,90,404,"[{""class_id"": 11, ""name"": ""011.Rusty_Blackbird"", ""matched_nabirds_class_id"": 911}, {""class_id"": 11, ""name"": ""011.Rusty_Blackbird"", ""matched_nabirds_class_id"": 404}]",Rusty Blackbird > Rusty Blackbird > Blackbirds and Allies > Perching Birds > Birds
+912,Common Grackle,118,429,[],Common Grackle > Common Grackle > Blackbirds and Allies > Perching Birds > Birds
+913,Boat-tailed Grackle,114,565,[],Boat-tailed Grackle > Boat-tailed Grackle > Blackbirds and Allies > Perching Birds > Birds
+914,Great-tailed Grackle,120,578,[],Great-tailed Grackle > Great-tailed Grackle > Blackbirds and Allies > Perching Birds > Birds
+915,Bronzed Cowbird,71,590,[],Bronzed Cowbird > Bronzed Cowbird > Blackbirds and Allies > Perching Birds > Birds
+916,Orchard Oriole (Immature Male),49,704,[],Orchard Oriole (Immature Male) > Orchard Oriole > Blackbirds and Allies > Perching Birds > Birds
+917,Gray-crowned Rosy-Finch,64,255,"[{""class_id"": 34, ""name"": ""034.Gray_crowned_Rosy_Finch"", ""matched_nabirds_class_id"": 917}, {""class_id"": 34, ""name"": ""034.Gray_crowned_Rosy_Finch"", ""matched_nabirds_class_id"": 255}]",Gray-crowned Rosy-Finch > Gray-crowned Rosy-Finch > Finches and Allies > Perching Birds > Birds
+918,Black Rosy-Finch,59,269,[],Black Rosy-Finch > Black Rosy-Finch > Finches and Allies > Perching Birds > Birds
+919,Brown-capped Rosy-Finch,50,280,[],Brown-capped Rosy-Finch > Brown-capped Rosy-Finch > Finches and Allies > Perching Birds > Birds
+920,Common Redpoll,75,585,[],Common Redpoll > Common Redpoll > Finches and Allies > Perching Birds > Birds
+921,Hoary Redpoll,60,685,[],Hoary Redpoll > Hoary Redpoll > Finches and Allies > Perching Birds > Birds
+922,Pine Siskin,108,703,[],Pine Siskin > Pine Siskin > Finches and Allies > Perching Birds > Birds
+923,Western Wood-Pewee,105,256,"[{""class_id"": 102, ""name"": ""102.Western_Wood_Pewee"", ""matched_nabirds_class_id"": 923}, {""class_id"": 102, ""name"": ""102.Western_Wood_Pewee"", ""matched_nabirds_class_id"": 256}]",Western Wood-Pewee > Western Wood-Pewee > Tyrant Flycatchers > Perching Birds > Birds
+924,Eastern Wood-Pewee,108,270,[],Eastern Wood-Pewee > Eastern Wood-Pewee > Tyrant Flycatchers > Perching Birds > Birds
+925,Least Flycatcher,113,281,"[{""class_id"": 39, ""name"": ""039.Least_Flycatcher"", ""matched_nabirds_class_id"": 925}, {""class_id"": 39, ""name"": ""039.Least_Flycatcher"", ""matched_nabirds_class_id"": 281}]",Least Flycatcher > Least Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+926,Pacific-slope Flycatcher,119,300,[],Pacific-slope Flycatcher > Pacific-slope Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+927,Cordilleran Flycatcher,70,312,[],Cordilleran Flycatcher > Cordilleran Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+928,Black Phoebe,120,409,[],Black Phoebe > Black Phoebe > Tyrant Flycatchers > Perching Birds > Birds
+929,Eastern Phoebe,120,420,[],Eastern Phoebe > Eastern Phoebe > Tyrant Flycatchers > Perching Birds > Birds
+930,Say's Phoebe,118,562,[],Say's Phoebe > Say's Phoebe > Tyrant Flycatchers > Perching Birds > Birds
+931,Ash-throated Flycatcher,82,586,[],Ash-throated Flycatcher > Ash-throated Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+932,Great Crested Flycatcher,113,684,"[{""class_id"": 38, ""name"": ""038.Great_Crested_Flycatcher"", ""matched_nabirds_class_id"": 932}, {""class_id"": 38, ""name"": ""038.Great_Crested_Flycatcher"", ""matched_nabirds_class_id"": 684}]",Great Crested Flycatcher > Great Crested Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+933,Cassin's Kingbird,80,701,[],Cassin's Kingbird > Cassin's Kingbird > Tyrant Flycatchers > Perching Birds > Birds
+934,Western Kingbird,109,716,[],Western Kingbird > Western Kingbird > Tyrant Flycatchers > Perching Birds > Birds
+935,Eastern Kingbird,120,727,[],Eastern Kingbird > Eastern Kingbird > Tyrant Flycatchers > Perching Birds > Birds
+936,Scissor-tailed Flycatcher,77,741,[],Scissor-tailed Flycatcher > Scissor-tailed Flycatcher > Tyrant Flycatchers > Perching Birds > Birds
+937,Loggerhead Shrike,120,383,"[{""class_id"": 111, ""name"": ""111.Loggerhead_Shrike"", ""matched_nabirds_class_id"": 937}, {""class_id"": 111, ""name"": ""111.Loggerhead_Shrike"", ""matched_nabirds_class_id"": 383}]",Loggerhead Shrike > Loggerhead Shrike > Shrikes > Perching Birds > Birds
+938,Northern Shrike,120,682,[],Northern Shrike > Northern Shrike > Shrikes > Perching Birds > Birds
+939,White-eyed Vireo,94,263,"[{""class_id"": 156, ""name"": ""156.White_eyed_Vireo"", ""matched_nabirds_class_id"": 939}, {""class_id"": 156, ""name"": ""156.White_eyed_Vireo"", ""matched_nabirds_class_id"": 263}]",White-eyed Vireo > White-eyed Vireo > Vireos > Perching Birds > Birds
+940,Bell's Vireo,57,285,[],Bell's Vireo > Bell's Vireo > Vireos > Perching Birds > Birds
+941,Yellow-throated Vireo,69,307,"[{""class_id"": 157, ""name"": ""157.Yellow_throated_Vireo"", ""matched_nabirds_class_id"": 941}, {""class_id"": 157, ""name"": ""157.Yellow_throated_Vireo"", ""matched_nabirds_class_id"": 307}]",Yellow-throated Vireo > Yellow-throated Vireo > Vireos > Perching Birds > Birds
+942,Plumbeous Vireo,75,414,[],Plumbeous Vireo > Plumbeous Vireo > Vireos > Perching Birds > Birds
+943,Cassin's Vireo,73,563,[],Cassin's Vireo > Cassin's Vireo > Vireos > Perching Birds > Birds
+944,Blue-headed Vireo,100,580,[],Blue-headed Vireo > Blue-headed Vireo > Vireos > Perching Birds > Birds
+945,Hutton's Vireo,85,689,[],Hutton's Vireo > Hutton's Vireo > Vireos > Perching Birds > Birds
+946,Warbling Vireo,112,712,[],Warbling Vireo > Warbling Vireo > Vireos > Perching Birds > Birds
+947,Red-eyed Vireo,120,733,"[{""class_id"": 154, ""name"": ""154.Red_eyed_Vireo"", ""matched_nabirds_class_id"": 947}, {""class_id"": 154, ""name"": ""154.Red_eyed_Vireo"", ""matched_nabirds_class_id"": 733}]",Red-eyed Vireo > Red-eyed Vireo > Vireos > Perching Birds > Birds
+948,Gray Jay,96,257,[],"Gray Jay > Gray Jay > Jays, Magpies, and Crows > Perching Birds > Birds"
+949,Steller's Jay,120,271,[],"Steller's Jay > Steller's Jay > Jays, Magpies, and Crows > Perching Birds > Birds"
+950,Blue Jay,120,286,"[{""class_id"": 73, ""name"": ""073.Blue_Jay"", ""matched_nabirds_class_id"": 950}, {""class_id"": 73, ""name"": ""073.Blue_Jay"", ""matched_nabirds_class_id"": 286}]","Blue Jay > Blue Jay > Jays, Magpies, and Crows > Perching Birds > Birds"
+951,Florida Scrub-Jay,55,301,[],"Florida Scrub-Jay > Florida Scrub-Jay > Jays, Magpies, and Crows > Perching Birds > Birds"
+952,Western Scrub-Jay,120,384,[],"Western Scrub-Jay > Western Scrub-Jay > Jays, Magpies, and Crows > Perching Birds > Birds"
+953,Mexican Jay,61,415,[],"Mexican Jay > Mexican Jay > Jays, Magpies, and Crows > Perching Birds > Birds"
+954,Clark's Nutcracker,89,428,[],"Clark's Nutcracker > Clark's Nutcracker > Jays, Magpies, and Crows > Perching Birds > Birds"
+955,Black-billed Magpie,98,566,[],"Black-billed Magpie > Black-billed Magpie > Jays, Magpies, and Crows > Perching Birds > Birds"
+956,Yellow-billed Magpie,59,581,[],"Yellow-billed Magpie > Yellow-billed Magpie > Jays, Magpies, and Crows > Perching Birds > Birds"
+957,American Crow,117,683,[],"American Crow > American Crow > Jays, Magpies, and Crows > Perching Birds > Birds"
+958,Yellow-rumped Warbler (Breeding Audubon's),118,691,[],Yellow-rumped Warbler (Breeding Audubon's) > Yellow-rumped Warbler > Wood-Warblers > Perching Birds > Birds
+959,Purple Martin (Female/juvenile),67,264,[],Purple Martin (Female/juvenile) > Purple Martin > Swallows > Perching Birds > Birds
+960,American Robin (Juvenile),115,718,[],American Robin (Juvenile) > American Robin > Thrushes > Perching Birds > Birds
+961,Phainopepla (Male),71,441,[],Phainopepla (Male) > Phainopepla > Silky-Flycatchers > Perching Birds > Birds
+962,Snow Bunting (Nonbreeding),104,442,[],Snow Bunting (Nonbreeding) > Snow Bunting > Longspurs and Snow Buntings > Perching Birds > Birds
+963,Common Yellowthroat (Female/immature male),116,391,[],Common Yellowthroat (Female/immature male) > Common Yellowthroat > Wood-Warblers > Perching Birds > Birds
+964,American Redstart (Female/juvenile),119,412,[],American Redstart (Female/juvenile) > American Redstart > Wood-Warblers > Perching Birds > Birds
+965,Magnolia Warbler (Female/immature male),105,430,[],Magnolia Warbler (Female/immature male) > Magnolia Warbler > Wood-Warblers > Perching Birds > Birds
+966,"Bay-breasted Warbler (Female, Nonbreeding male, Immature)",60,443,[],"Bay-breasted Warbler (Female, Nonbreeding male, Immature) > Bay-breasted Warbler > Wood-Warblers > Perching Birds > Birds"
+967,Chestnut-sided Warbler (Female/immature male),78,577,[],Chestnut-sided Warbler (Female/immature male) > Chestnut-sided Warbler > Wood-Warblers > Perching Birds > Birds
+968,Blackpoll Warbler (Female/juvenile),112,582,[],Blackpoll Warbler (Female/juvenile) > Blackpoll Warbler > Wood-Warblers > Perching Birds > Birds
+969,Black-throated Blue Warbler (Female/Immature male),72,589,"[{""class_id"": 160, ""name"": ""160.Black_throated_Blue_Warbler"", ""matched_nabirds_class_id"": 969}, {""class_id"": 160, ""name"": ""160.Black_throated_Blue_Warbler"", ""matched_nabirds_class_id"": 589}]",Black-throated Blue Warbler (Female/Immature male) > Black-throated Blue Warbler > Wood-Warblers > Perching Birds > Birds
+970,Lark Bunting (Female/Nonbreeding male),67,576,[],Lark Bunting (Female/Nonbreeding male) > Lark Bunting > New World Sparrows and Allies > Perching Birds > Birds
+971,White-throated Sparrow (Tan-striped/immature),83,714,[],White-throated Sparrow (Tan-striped/immature) > White-throated Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+972,Harris's Sparrow (Immature),67,722,[],Harris's Sparrow (Immature) > Harris's Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+973,White-crowned Sparrow (Immature),119,729,[],White-crowned Sparrow (Immature) > White-crowned Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+974,Golden-crowned Sparrow (Immature),113,737,[],Golden-crowned Sparrow (Immature) > Golden-crowned Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+975,Dark-eyed Junco (White-winged),13,744,[],Dark-eyed Junco (White-winged) > Dark-eyed Junco > New World Sparrows and Allies > Perching Birds > Birds
+976,Chipping Sparrow (Immature/nonbreeding adult),98,403,"[{""class_id"": 116, ""name"": ""116.Chipping_Sparrow"", ""matched_nabirds_class_id"": 976}, {""class_id"": 116, ""name"": ""116.Chipping_Sparrow"", ""matched_nabirds_class_id"": 403}]",Chipping Sparrow (Immature/nonbreeding adult) > Chipping Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+977,Scarlet Tanager (Female/Nonbreeding Male),66,274,[],"Scarlet Tanager (Female/Nonbreeding Male) > Scarlet Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+978,Western Tanager (Female/Nonbreeding Male),65,291,[],"Western Tanager (Female/Nonbreeding Male) > Western Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+979,Northern Cardinal (Female/Juvenile),120,310,[],"Northern Cardinal (Female/Juvenile) > Northern Cardinal > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+980,Rose-breasted Grosbeak (Female/immature male),101,427,[],"Rose-breasted Grosbeak (Female/immature male) > Rose-breasted Grosbeak > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+981,Black-headed Grosbeak (Female/immature male),89,568,[],"Black-headed Grosbeak (Female/immature male) > Black-headed Grosbeak > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+982,Blue Grosbeak (Female/juvenile),81,584,[],"Blue Grosbeak (Female/juvenile) > Blue Grosbeak > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+983,Lazuli Bunting (Female/juvenile),44,687,"[{""class_id"": 15, ""name"": ""015.Lazuli_Bunting"", ""matched_nabirds_class_id"": 983}, {""class_id"": 15, ""name"": ""015.Lazuli_Bunting"", ""matched_nabirds_class_id"": 687}]","Lazuli Bunting (Female/juvenile) > Lazuli Bunting > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+984,Indigo Bunting (Female/juvenile),88,706,"[{""class_id"": 14, ""name"": ""014.Indigo_Bunting"", ""matched_nabirds_class_id"": 984}, {""class_id"": 14, ""name"": ""014.Indigo_Bunting"", ""matched_nabirds_class_id"": 706}]","Indigo Bunting (Female/juvenile) > Indigo Bunting > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+985,Painted Bunting (Female/juvenile),87,723,"[{""class_id"": 16, ""name"": ""016.Painted_Bunting"", ""matched_nabirds_class_id"": 985}, {""class_id"": 16, ""name"": ""016.Painted_Bunting"", ""matched_nabirds_class_id"": 723}]","Painted Bunting (Female/juvenile) > Painted Bunting > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+986,Bobolink (Female/juvenile/nonbreeding male),69,254,"[{""class_id"": 13, ""name"": ""013.Bobolink"", ""matched_nabirds_class_id"": 986}, {""class_id"": 13, ""name"": ""013.Bobolink"", ""matched_nabirds_class_id"": 254}]",Bobolink (Female/juvenile/nonbreeding male) > Bobolink > Blackbirds and Allies > Perching Birds > Birds
+987,Red-winged Blackbird (Female/juvenile),120,268,[],Red-winged Blackbird (Female/juvenile) > Red-winged Blackbird > Blackbirds and Allies > Perching Birds > Birds
+988,Yellow-headed Blackbird (Female/Immature Male),72,306,[],Yellow-headed Blackbird (Female/Immature Male) > Yellow-headed Blackbird > Blackbirds and Allies > Perching Birds > Birds
+989,Brewer's Blackbird (Male),120,416,[],Brewer's Blackbird (Male) > Brewer's Blackbird > Blackbirds and Allies > Perching Birds > Birds
+990,Brown-headed Cowbird (Female/Juvenile),103,690,[],Brown-headed Cowbird (Female/Juvenile) > Brown-headed Cowbird > Blackbirds and Allies > Perching Birds > Birds
+991,Hooded Oriole (Female/Immature male),69,719,"[{""class_id"": 96, ""name"": ""096.Hooded_Oriole"", ""matched_nabirds_class_id"": 991}, {""class_id"": 96, ""name"": ""096.Hooded_Oriole"", ""matched_nabirds_class_id"": 719}]",Hooded Oriole (Female/Immature male) > Hooded Oriole > Blackbirds and Allies > Perching Birds > Birds
+992,Bullock's Oriole (Female/Immature male),64,728,[],Bullock's Oriole (Female/Immature male) > Bullock's Oriole > Blackbirds and Allies > Perching Birds > Birds
+993,Baltimore Oriole (Female/Immature male),98,742,[],Baltimore Oriole (Female/Immature male) > Baltimore Oriole > Blackbirds and Allies > Perching Birds > Birds
+994,Pine Grosbeak (Female/juvenile),76,294,[],Pine Grosbeak (Female/juvenile) > Pine Grosbeak > Finches and Allies > Perching Birds > Birds
+995,Purple Finch (Female/immature),91,311,[],Purple Finch (Female/immature) > Purple Finch > Finches and Allies > Perching Birds > Birds
+996,Cassin's Finch (Female/immature),55,408,[],Cassin's Finch (Female/immature) > Cassin's Finch > Finches and Allies > Perching Birds > Birds
+997,House Finch (Female/immature),112,419,[],House Finch (Female/immature) > House Finch > Finches and Allies > Perching Birds > Birds
+998,Red Crossbill (Female/juvenile),67,444,[],Red Crossbill (Female/juvenile) > Red Crossbill > Finches and Allies > Perching Birds > Birds
+999,White-winged Crossbill (Female/juvenile),58,574,[],White-winged Crossbill (Female/juvenile) > White-winged Crossbill > Finches and Allies > Perching Birds > Birds
+1000,Lesser Goldfinch (Female/juvenile),73,715,[],Lesser Goldfinch (Female/juvenile) > Lesser Goldfinch > Finches and Allies > Perching Birds > Birds
+1001,American Goldfinch (Female/Nonbreeding Male),120,726,"[{""class_id"": 47, ""name"": ""047.American_Goldfinch"", ""matched_nabirds_class_id"": 1001}, {""class_id"": 47, ""name"": ""047.American_Goldfinch"", ""matched_nabirds_class_id"": 726}]",American Goldfinch (Female/Nonbreeding Male) > American Goldfinch > Finches and Allies > Perching Birds > Birds
+1002,Evening Grosbeak (Female/Juvenile),93,740,"[{""class_id"": 55, ""name"": ""055.Evening_Grosbeak"", ""matched_nabirds_class_id"": 1002}, {""class_id"": 55, ""name"": ""055.Evening_Grosbeak"", ""matched_nabirds_class_id"": 740}]",Evening Grosbeak (Female/Juvenile) > Evening Grosbeak > Finches and Allies > Perching Birds > Birds
+1003,House Sparrow (Female/Juvenile),117,445,[],House Sparrow (Female/Juvenile) > House Sparrow > Old World Sparrows > Perching Birds > Birds
+1004,"Vermilion Flycatcher (Female, immature)",76,575,[],"Vermilion Flycatcher (Female, immature) > Vermilion Flycatcher > Tyrant Flycatchers > Perching Birds > Birds"
+1005,European Starling (Juvenile),72,439,[],European Starling (Juvenile) > European Starling > Starlings and Allies > Perching Birds > Birds
+1006,Fox Sparrow (Thick-billed/Slate-colored),25,591,[],Fox Sparrow (Thick-billed/Slate-colored) > Fox Sparrow > New World Sparrows and Allies > Perching Birds > Birds
+1007,Summer Tanager (Immature Male),37,259,[],"Summer Tanager (Immature Male) > Summer Tanager > Cardinals, Grosbeaks, and Allies > Perching Birds > Birds"
+1008,Orchard Oriole (Female/Juvenile),55,704,[],Orchard Oriole (Female/Juvenile) > Orchard Oriole > Blackbirds and Allies > Perching Birds > Birds
+1009,Yellow-rumped Warbler (Winter/juvenile Audubon's),88,691,[],Yellow-rumped Warbler (Winter/juvenile Audubon's) > Yellow-rumped Warbler > Wood-Warblers > Perching Birds > Birds
+1010,Dark-eyed Junco (Red-backed/Gray-headed),72,744,[],Dark-eyed Junco (Red-backed/Gray-headed) > Dark-eyed Junco > New World Sparrows and Allies > Perching Birds > Birds

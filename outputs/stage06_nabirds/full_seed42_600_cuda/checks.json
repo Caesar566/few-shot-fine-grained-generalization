@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce MX450",
+  "method_signature": {
+    "local_k": 3,
+    "calibration": "per-query population zscore across five class scores",
+    "calibration_eps": 1e-06,
+    "fusion_weight": 0.5,
+    "global_metric": "cosine",
+    "raw_global_prototype_mean": true,
+    "fp32": true,
+    "implementation_sha256": {
+      "src/pattern_recognition_coursework/models/metrics/representation.py": "66e858533e52f78f9faebd905f4171af6e3b142dae68e283ce97fd6c77f783e2",
+      "src/pattern_recognition_coursework/models/metrics/local.py": "111adf01c1373807c7970587a015fbc225b1a56bb86a7966074ed5716c9a7ef8",
+      "src/pattern_recognition_coursework/models/metrics/episode.py": "549193a1a7896ddd3fec02ec7a8a43e3bf481de8cf7dce9c1ba8ea84986ca435"
+    }
+  },
+  "manifest_sha256": "d0999d870f91acd2ef7864bd2e311893aeb02e1aa5ffaeb5dbcbf84a9dd8a736",
+  "automatic_screening": true,
+  "human_reviewed": false,
+  "episodes_per_shot": 600,
+  "plan_hashes": {
+    "1": "2f6eda056e6404db910c8e0a3b805c4ad8a091c2b3a84dd7c151a5c7eb79707f",
+    "5": "7380ca93e2701c2c6e5994b00be08fb9ebeeedf4cb96668715c9329f7d18ee81"
+  },
+  "checkpoint_sha256": {
+    "imagenet": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4",
+    "random": "0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f",
+    "simclr": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37"
+  },
+  "weights_unchanged": true,
+  "old_results_unchanged": true,
+  "same_episodes_all_methods": true,
+  "support_query_content_disjoint": true,
+  "protocol_unchanged": true,
+  "covariance_or_parameter_fitting": false,
+  "total_method_evaluations": 10800,
+  "total_query_predictions": 270000,
+  "training": false,
+  "seconds": 338.0497237210002,
+  "independent_verification": "PASS",
+  "cuda_regression_tests_passed": 27
+}

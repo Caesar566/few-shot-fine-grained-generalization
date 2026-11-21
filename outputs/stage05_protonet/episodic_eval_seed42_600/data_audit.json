@@ -1,0 +1,9 @@
+{
+  "images": 2947,
+  "classes": 50,
+  "dataset_fingerprint": "be4c454115744b7c943bbfdb4341d6e88dcac8c69414d35245e513480c1a9ea7",
+  "ordered_content_sha256": "b2bb77d766c8680ee9a9ec2c604c4d6c8827d607d3f04a1e66bdc8e0f36ce02e",
+  "val_manifest_sha256": "f5c70c3101b707685afbd2c7828cb293141996a8fe4a1d86d73e2c596cf8a3ac",
+  "train_val_class_id_path_content_disjoint": true,
+  "all_actual_val_bytes_match_clean_index": true
+}

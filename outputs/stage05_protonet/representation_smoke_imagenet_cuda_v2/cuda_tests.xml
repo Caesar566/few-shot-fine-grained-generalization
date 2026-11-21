@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="15" time="3.278" timestamp="2026-11-18T15:18:08.217132+08:00" hostname="archlinux"><testcase classname="tests.test_representation_comparison" name="test_hand_calculated_top3_and_patch_mean" time="0.003" /><testcase classname="tests.test_representation_comparison" name="test_chunked_dn4_equals_existing_full_query_function[1]" time="0.060" /><testcase classname="tests.test_representation_comparison" name="test_chunked_dn4_equals_existing_full_query_function[5]" time="0.148" /><testcase classname="tests.test_representation_comparison" name="test_row_calibration_fixed_scale_and_degenerate_rows" time="0.001" /><testcase classname="tests.test_representation_comparison" name="test_fusion_is_exact_fixed_half_of_calibrated_scores" time="0.014" /><testcase classname="tests.test_representation_comparison" name="test_cuda_cpu_same_matching_and_fusion_logic[1]" time="0.251"><failure message="AssertionError: Tensor-likes are not close!&#10;&#10;Mismatched elements: 2 / 125 (1.6%)&#10;Greatest absolute difference: 0.00010308623313903809 at index (7, 1) (up to 5e-05 allowed)&#10;Greatest relative difference: 0.001852565910667181 at index (12, 1) (up to 0.0001 allowed)">k = 1
+
+    @pytest.mark.skipif(not torch.cuda.is_available(),reason='CUDA inaccessible in current environment')
+    @pytest.mark.parametrize('k',[1,5])
+    def test_cuda_cpu_same_matching_and_fusion_logic(k):
+        torch.manual_seed(11)
+        g=torch.rand(5*k+25,512);s=torch.rand(5*k,512,7,7);q=torch.rand(25,512,7,7)
+        with torch.inference_mode():
+            a=representation_scores(g,s,q,5,k)
+            b=representation_scores(g.cuda(),s,q,5,k)
+        for name in a:
+            assert b[name].device.type=='cuda'
+&gt;           torch.testing.assert_close(a[name],b[name].cpu(),rtol=1e-4,atol=5e-5)
+E           AssertionError: Tensor-likes are not close!
+E           
+E           Mismatched elements: 2 / 125 (1.6%)
+E           Greatest absolute difference: 0.00010308623313903809 at index (7, 1) (up to 5e-05 allowed)
+E           Greatest relative difference: 0.001852565910667181 at index (12, 1) (up to 0.0001 allowed)
+
+tests/test_representation_comparison.py:60: AssertionError</failure></testcase><testcase classname="tests.test_representation_comparison" name="test_cuda_cpu_same_matching_and_fusion_logic[5]" time="0.046"><failure message="AssertionError: Tensor-likes are not close!&#10;&#10;Mismatched elements: 8 / 125 (6.4%)&#10;Greatest absolute difference: 0.00019308924674987793 at index (3, 2) (up to 5e-05 allowed)&#10;Greatest relative difference: 0.004267215263098478 at index (18, 2) (up to 0.0001 allowed)">k = 5
+
+    @pytest.mark.skipif(not torch.cuda.is_available(),reason='CUDA inaccessible in current environment')
+    @pytest.mark.parametrize('k',[1,5])
+    def test_cuda_cpu_same_matching_and_fusion_logic(k):
+        torch.manual_seed(11)
+        g=torch.rand(5*k+25,512);s=torch.rand(5*k,512,7,7);q=torch.rand(25,512,7,7)
+        with torch.inference_mode():
+            a=representation_scores(g,s,q,5,k)
+            b=representation_scores(g.cuda(),s,q,5,k)
+        for name in a:
+            assert b[name].device.type=='cuda'
+&gt;           torch.testing.assert_close(a[name],b[name].cpu(),rtol=1e-4,atol=5e-5)
+E           AssertionError: Tensor-likes are not close!
+E           
+E           Mismatched elements: 8 / 125 (6.4%)
+E           Greatest absolute difference: 0.00019308924674987793 at index (3, 2) (up to 5e-05 allowed)
+E           Greatest relative difference: 0.004267215263098478 at index (18, 2) (up to 0.0001 allowed)
+
+tests/test_representation_comparison.py:60: AssertionError</failure></testcase><testcase classname="tests.test_advanced_models" name="test_local_matching_uses_support_class_descriptors" time="0.001" /><testcase classname="tests.test_advanced_models" name="test_global_local_classifier_and_context_have_finite_gradients" time="0.319" /><testcase classname="tests.test_advanced_models" name="test_linear_adapter_starts_as_identity_and_can_train" time="0.109" /><testcase classname="tests.test_advanced_models" name="test_adapter_scope_trains_fce_context_but_freezes_backbone" time="0.137" /><testcase classname="tests.test_few_shot_baselines" name="test_episode_sampling_is_reproducible_and_disjoint" time="0.001" /><testcase classname="tests.test_few_shot_baselines" name="test_baseline_logits_follow_episode_class_order[protonet]" time="0.106" /><testcase classname="tests.test_few_shot_baselines" name="test_baseline_logits_follow_episode_class_order[matchingnet]" time="0.108" /><testcase classname="tests.test_few_shot_baselines" name="test_sampler_rejects_impossible_episode" time="0.000" /></testsuite></testsuites>

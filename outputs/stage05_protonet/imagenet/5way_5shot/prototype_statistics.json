@@ -1,0 +1,77 @@
+[
+  {
+    "episode_label": 0,
+    "class_name": "153.Philadelphia_Vireo",
+    "l2_norm": 26.707630157470703,
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.044484514743089676,
+    "maximum": 3.882472276687622,
+    "mean": 0.9529274106025696,
+    "std": 0.6964829564094543,
+    "mean_l2_norm": null
+  },
+  {
+    "episode_label": 1,
+    "class_name": "032.Mangrove_Cuckoo",
+    "l2_norm": 24.89598274230957,
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.006413075141608715,
+    "maximum": 4.032233238220215,
+    "mean": 0.9072971940040588,
+    "std": 0.6223970055580139,
+    "mean_l2_norm": null
+  },
+  {
+    "episode_label": 2,
+    "class_name": "010.Red_winged_Blackbird",
+    "l2_norm": 21.50153923034668,
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.00730108330026269,
+    "maximum": 3.7847678661346436,
+    "mean": 0.762291669845581,
+    "std": 0.5673382878303528,
+    "mean_l2_norm": null
+  },
+  {
+    "episode_label": 3,
+    "class_name": "184.Louisiana_Waterthrush",
+    "l2_norm": 22.844345092773438,
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.040518101304769516,
+    "maximum": 3.2255470752716064,
+    "mean": 0.8416187167167664,
+    "std": 0.5576232075691223,
+    "mean_l2_norm": null
+  },
+  {
+    "episode_label": 4,
+    "class_name": "078.Gray_Kingbird",
+    "l2_norm": 23.81010627746582,
+    "shape": [
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.032870229333639145,
+    "maximum": 2.9742486476898193,
+    "mean": 0.8779132962226868,
+    "std": 0.5801174640655518,
+    "mean_l2_norm": null
+  }
+]

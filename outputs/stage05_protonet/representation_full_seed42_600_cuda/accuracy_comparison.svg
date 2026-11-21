@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="820"><rect width="1120" height="820" fill="white"/><g font-family="sans-serif" fill="#222">
+<text x="25" y="30" font-size="20">Global / Local / calibrated Fusion: mean accuracy and 95% CI</text>
+<text x="25" y="90" font-size="18">5-way 1-shot (full)</text>
+<line x1="330" y1="110" x2="330" y2="360" stroke="#ddd"/><text x="318" y="380" font-size="12">0%</text>
+<line x1="470" y1="110" x2="470" y2="360" stroke="#ddd"/><text x="458" y="380" font-size="12">20%</text>
+<line x1="610" y1="110" x2="610" y2="360" stroke="#ddd"/><text x="598" y="380" font-size="12">40%</text>
+<line x1="750" y1="110" x2="750" y2="360" stroke="#ddd"/><text x="738" y="380" font-size="12">60%</text>
+<line x1="890" y1="110" x2="890" y2="360" stroke="#ddd"/><text x="878" y="380" font-size="12">80%</text>
+<line x1="1030" y1="110" x2="1030" y2="360" stroke="#ddd"/><text x="1018" y="380" font-size="12">100%</text>
+<text x="25" y="134" font-size="13">imagenet / global</text><line x1="924.7340914574356" y1="130" x2="935.7192418758979" y2="130" stroke="#2468b4" stroke-width="3"/><circle cx="930.2266666666667" cy="130" r="4" fill="#2468b4"/><text x="1040" y="134" font-size="12">85.75%</text>
+<text x="25" y="161" font-size="13">imagenet / local</text><line x1="885.7738868194023" y1="157" x2="897.5861131805975" y2="157" stroke="#d77a13" stroke-width="3"/><circle cx="891.68" cy="157" r="4" fill="#d77a13"/><text x="1040" y="161" font-size="12">80.24%</text>
+<text x="25" y="188" font-size="13">imagenet / fusion</text><line x1="915.2380404599136" y1="184" x2="926.1752928734196" y2="184" stroke="#16856a" stroke-width="3"/><circle cx="920.7066666666666" cy="184" r="4" fill="#16856a"/><text x="1040" y="188" font-size="12">84.39%</text>
+<text x="25" y="215" font-size="13">random / global</text><line x1="759.7294599514519" y1="211" x2="775.0838733818813" y2="211" stroke="#2468b4" stroke-width="3"/><circle cx="767.4066666666665" cy="211" r="4" fill="#2468b4"/><text x="1040" y="215" font-size="12">62.49%</text>
+<text x="25" y="242" font-size="13">random / local</text><line x1="750.1182097241292" y1="238" x2="764.9084569425374" y2="238" stroke="#d77a13" stroke-width="3"/><circle cx="757.5133333333333" cy="238" r="4" fill="#d77a13"/><text x="1040" y="242" font-size="12">61.07%</text>
+<text x="25" y="269" font-size="13">random / fusion</text><line x1="760.4857682244544" y1="265" x2="775.2608984422121" y2="265" stroke="#16856a" stroke-width="3"/><circle cx="767.8733333333332" cy="265" r="4" fill="#16856a"/><text x="1040" y="269" font-size="12">62.55%</text>
+<text x="25" y="296" font-size="13">simclr / global</text><line x1="826.120435313321" y1="292" x2="840.6662313533457" y2="292" stroke="#2468b4" stroke-width="3"/><circle cx="833.3933333333333" cy="292" r="4" fill="#2468b4"/><text x="1040" y="296" font-size="12">71.91%</text>
+<text x="25" y="323" font-size="13">simclr / local</text><line x1="807.7128956577783" y1="319" x2="821.7404376755551" y2="319" stroke="#d77a13" stroke-width="3"/><circle cx="814.7266666666667" cy="319" r="4" fill="#d77a13"/><text x="1040" y="323" font-size="12">69.25%</text>
+<text x="25" y="350" font-size="13">simclr / fusion</text><line x1="822.6367185476513" y1="346" x2="836.6832814523486" y2="346" stroke="#16856a" stroke-width="3"/><circle cx="829.66" cy="346" r="4" fill="#16856a"/><text x="1040" y="350" font-size="12">71.38%</text>
+<text x="25" y="440" font-size="18">5-way 5-shot (full)</text>
+<line x1="330" y1="460" x2="330" y2="710" stroke="#ddd"/><text x="318" y="730" font-size="12">0%</text>
+<line x1="470" y1="460" x2="470" y2="710" stroke="#ddd"/><text x="458" y="730" font-size="12">20%</text>
+<line x1="610" y1="460" x2="610" y2="710" stroke="#ddd"/><text x="598" y="730" font-size="12">40%</text>
+<line x1="750" y1="460" x2="750" y2="710" stroke="#ddd"/><text x="738" y="730" font-size="12">60%</text>
+<line x1="890" y1="460" x2="890" y2="710" stroke="#ddd"/><text x="878" y="730" font-size="12">80%</text>
+<line x1="1030" y1="460" x2="1030" y2="710" stroke="#ddd"/><text x="1018" y="730" font-size="12">100%</text>
+<text x="25" y="484" font-size="13">imagenet / global</text><line x1="989.7642297670778" y1="480" x2="995.7557702329219" y2="480" stroke="#2468b4" stroke-width="3"/><circle cx="992.76" cy="480" r="4" fill="#2468b4"/><text x="1040" y="484" font-size="12">94.68%</text>
+<text x="25" y="511" font-size="13">imagenet / local</text><line x1="961.7314198526519" y1="507" x2="970.0285801473482" y2="507" stroke="#d77a13" stroke-width="3"/><circle cx="965.88" cy="507" r="4" fill="#d77a13"/><text x="1040" y="511" font-size="12">90.84%</text>
+<text x="25" y="538" font-size="13">imagenet / fusion</text><line x1="983.9983186524546" y1="534" x2="990.6016813475457" y2="534" stroke="#16856a" stroke-width="3"/><circle cx="987.3000000000002" cy="534" r="4" fill="#16856a"/><text x="1040" y="538" font-size="12">93.90%</text>
+<text x="25" y="565" font-size="13">random / global</text><line x1="865.0660414808838" y1="561" x2="877.9739585191161" y2="561" stroke="#2468b4" stroke-width="3"/><circle cx="871.52" cy="561" r="4" fill="#2468b4"/><text x="1040" y="565" font-size="12">77.36%</text>
+<text x="25" y="592" font-size="13">random / local</text><line x1="835.2662897737521" y1="588" x2="848.133710226248" y2="588" stroke="#d77a13" stroke-width="3"/><circle cx="841.6999999999999" cy="588" r="4" fill="#d77a13"/><text x="1040" y="592" font-size="12">73.10%</text>
+<text x="25" y="619" font-size="13">random / fusion</text><line x1="861.3343250080907" y1="615" x2="873.8656749919091" y2="615" stroke="#16856a" stroke-width="3"/><circle cx="867.6" cy="615" r="4" fill="#16856a"/><text x="1040" y="619" font-size="12">76.80%</text>
+<text x="25" y="646" font-size="13">simclr / global</text><line x1="928.572583747796" y1="642" x2="938.6940829188707" y2="642" stroke="#2468b4" stroke-width="3"/><circle cx="933.6333333333333" cy="642" r="4" fill="#2468b4"/><text x="1040" y="646" font-size="12">86.23%</text>
+<text x="25" y="673" font-size="13">simclr / local</text><line x1="898.6154038904474" y1="669" x2="909.3845961095526" y2="669" stroke="#d77a13" stroke-width="3"/><circle cx="904.0" cy="669" r="4" fill="#d77a13"/><text x="1040" y="673" font-size="12">82.00%</text>
+<text x="25" y="700" font-size="13">simclr / fusion</text><line x1="922.6824191162511" y1="696" x2="932.8242475504154" y2="696" stroke="#16856a" stroke-width="3"/><circle cx="927.7533333333332" cy="696" r="4" fill="#16856a"/><text x="1040" y="700" font-size="12">85.39%</text>
+</g></svg>

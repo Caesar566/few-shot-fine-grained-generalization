@@ -1,0 +1,50 @@
+.....FF........                                                          [100%]
+=================================== FAILURES ===================================
+_______________ test_cuda_cpu_same_matching_and_fusion_logic[1] ________________
+
+k = 1
+
+    @pytest.mark.skipif(not torch.cuda.is_available(),reason='CUDA inaccessible in current environment')
+    @pytest.mark.parametrize('k',[1,5])
+    def test_cuda_cpu_same_matching_and_fusion_logic(k):
+        torch.manual_seed(11)
+        g=torch.rand(5*k+25,512);s=torch.rand(5*k,512,7,7);q=torch.rand(25,512,7,7)
+        with torch.inference_mode():
+            a=representation_scores(g,s,q,5,k)
+            b=representation_scores(g.cuda(),s,q,5,k)
+        for name in a:
+            assert b[name].device.type=='cuda'
+>           torch.testing.assert_close(a[name],b[name].cpu(),rtol=1e-4,atol=5e-5)
+E           AssertionError: Tensor-likes are not close!
+E           
+E           Mismatched elements: 2 / 125 (1.6%)
+E           Greatest absolute difference: 0.00010308623313903809 at index (7, 1) (up to 5e-05 allowed)
+E           Greatest relative difference: 0.001852565910667181 at index (12, 1) (up to 0.0001 allowed)
+
+tests/test_representation_comparison.py:60: AssertionError
+_______________ test_cuda_cpu_same_matching_and_fusion_logic[5] ________________
+
+k = 5
+
+    @pytest.mark.skipif(not torch.cuda.is_available(),reason='CUDA inaccessible in current environment')
+    @pytest.mark.parametrize('k',[1,5])
+    def test_cuda_cpu_same_matching_and_fusion_logic(k):
+        torch.manual_seed(11)
+        g=torch.rand(5*k+25,512);s=torch.rand(5*k,512,7,7);q=torch.rand(25,512,7,7)
+        with torch.inference_mode():
+            a=representation_scores(g,s,q,5,k)
+            b=representation_scores(g.cuda(),s,q,5,k)
+        for name in a:
+            assert b[name].device.type=='cuda'
+>           torch.testing.assert_close(a[name],b[name].cpu(),rtol=1e-4,atol=5e-5)
+E           AssertionError: Tensor-likes are not close!
+E           
+E           Mismatched elements: 8 / 125 (6.4%)
+E           Greatest absolute difference: 0.00019308924674987793 at index (3, 2) (up to 5e-05 allowed)
+E           Greatest relative difference: 0.004267215263098478 at index (18, 2) (up to 0.0001 allowed)
+
+tests/test_representation_comparison.py:60: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_representation_comparison.py::test_cuda_cpu_same_matching_and_fusion_logic[1]
+FAILED tests/test_representation_comparison.py::test_cuda_cpu_same_matching_and_fusion_logic[5]
+2 failed, 13 passed in 3.28s

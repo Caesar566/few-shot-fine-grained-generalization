@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "independent_process": true,
+  "new_episodes_verified": 7200,
+  "new_query_predictions_verified": 180000,
+  "reused_baseline_episodes": 3600,
+  "original_euclidean_files_unchanged": true,
+  "covariance_checks": [
+    {
+      "initialization": "imagenet",
+      "independent_numpy_within_class_fit": true,
+      "degrees_of_freedom": 5790,
+      "positive_diagonal": true,
+      "maximum_diagonal_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "initialization": "random",
+      "independent_numpy_within_class_fit": true,
+      "degrees_of_freedom": 5790,
+      "positive_diagonal": true,
+      "maximum_diagonal_absolute_difference": 1.6653345369377348e-16
+    },
+    {
+      "initialization": "simclr",
+      "independent_numpy_within_class_fit": true,
+      "degrees_of_freedom": 5790,
+      "positive_diagonal": true,
+      "maximum_diagonal_absolute_difference": 1.6653345369377348e-16
+    }
+  ],
+  "configurations": [
+    {
+      "initialization": "imagenet",
+      "metric": "cosine",
+      "shot": 1,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 5.680614020286967e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "imagenet",
+      "metric": "cosine",
+      "shot": 5,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 5.963415515841675e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "imagenet",
+      "metric": "mahalanobis",
+      "shot": 1,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 4.6911587858744497e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "imagenet",
+      "metric": "mahalanobis",
+      "shot": 5,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 2.383686474871638e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "random",
+      "metric": "cosine",
+      "shot": 1,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 6.463760603425683e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "random",
+      "metric": "cosine",
+      "shot": 5,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 5.722010330000415e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "random",
+      "metric": "mahalanobis",
+      "shot": 1,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 4.7582909346033375e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "random",
+      "metric": "mahalanobis",
+      "shot": 5,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 4.434381963847045e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "simclr",
+      "metric": "cosine",
+      "shot": 1,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 5.569809589101027e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "simclr",
+      "metric": "cosine",
+      "shot": 5,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 6.454491605634161e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "simclr",
+      "metric": "mahalanobis",
+      "shot": 1,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 4.7673733760689174e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    },
+    {
+      "initialization": "simclr",
+      "metric": "mahalanobis",
+      "shot": 5,
+      "episodes": 600,
+      "query_predictions": 15000,
+      "logits_and_probabilities_bitwise_reproduced": true,
+      "raw_prototype_means_unchanged": true,
+      "independent_formula_max_absolute_difference": 2.3836082174710782e-07,
+      "all_ids_labels_predictions_and_statistics_match": true
+    }
+  ],
+  "paired_comparisons_verified": 18,
+  "tests_passed": 37
+}

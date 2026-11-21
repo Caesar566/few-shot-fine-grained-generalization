@@ -1,0 +1,269 @@
+Stage06 full ACTUAL device=cuda (NVIDIA GeForce MX450), FP32, Batch=8 chunk=4
+/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/models/backbones/resnet.py:122: UserWarning: 显式加载 backbone，排除 2 个前缀外张量和 0 个分类头张量；完整名单见 backbone_load_info['ignored_keys']
+  backbone.backbone_load_info = load_backbone_weights(
+imagenet extracting needed 14352/19307 NABirds images
+Reusing 150 verified Local rows from 8642030a0111b645c1e1cf473a1cb18cebcff3318c7018f11986eafef99da74b.pt
+Layer4 extraction on cuda: 8/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 1800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 2800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 3000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 3200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 3400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 3600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 3800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 4000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 4200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 4400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 4600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 4800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 5000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 5200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 5400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 5600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 5800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 6000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 6200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 6400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 6600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 6800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 7000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 7200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 7400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 7600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 7800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 8000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 8200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 8400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 8600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 8800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 9000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 9200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 9400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 9600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 9800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 10000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 10200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 10400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 10600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 10800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 11000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 11200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 11400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 11600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 11800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 12000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 12200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 12400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 12600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 12800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 13000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 13200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 13400/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 13600/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 13800/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 14000/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 14200/14202 new images, reused=150, batch=8
+Layer4 extraction on cuda: 14202/14202 new images, reused=150, batch=8
+imagenet 1-shot 100/600 scored on cuda
+imagenet 1-shot 200/600 scored on cuda
+imagenet 1-shot 300/600 scored on cuda
+imagenet 1-shot 400/600 scored on cuda
+imagenet 1-shot 500/600 scored on cuda
+imagenet 1-shot 600/600 scored on cuda
+imagenet 1-shot NABirds accuracy Global=0.7775 Local=0.7253 Fusion=0.7667
+imagenet 5-shot 100/600 scored on cuda
+imagenet 5-shot 200/600 scored on cuda
+imagenet 5-shot 300/600 scored on cuda
+imagenet 5-shot 400/600 scored on cuda
+imagenet 5-shot 500/600 scored on cuda
+imagenet 5-shot 600/600 scored on cuda
+imagenet 5-shot NABirds accuracy Global=0.9101 Local=0.8720 Fusion=0.9044
+random extracting needed 14352/19307 NABirds images
+Layer4 extraction on cuda: 8/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 14000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 14200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 14352/14352 new images, reused=0, batch=8
+random 1-shot 100/600 scored on cuda
+random 1-shot 200/600 scored on cuda
+random 1-shot 300/600 scored on cuda
+random 1-shot 400/600 scored on cuda
+random 1-shot 500/600 scored on cuda
+random 1-shot 600/600 scored on cuda
+random 1-shot NABirds accuracy Global=0.5368 Local=0.5213 Fusion=0.5365
+random 5-shot 100/600 scored on cuda
+random 5-shot 200/600 scored on cuda
+random 5-shot 300/600 scored on cuda
+random 5-shot 400/600 scored on cuda
+random 5-shot 500/600 scored on cuda
+random 5-shot 600/600 scored on cuda
+random 5-shot NABirds accuracy Global=0.6951 Local=0.6589 Fusion=0.6977
+simclr extracting needed 14352/19307 NABirds images
+Layer4 extraction on cuda: 8/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 1800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 2800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 3800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 4800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 5800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 6800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 7800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 8800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 9800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 10800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 11800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 12800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13400/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13600/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 13800/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 14000/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 14200/14352 new images, reused=0, batch=8
+Layer4 extraction on cuda: 14352/14352 new images, reused=0, batch=8
+simclr 1-shot 100/600 scored on cuda
+simclr 1-shot 200/600 scored on cuda
+simclr 1-shot 300/600 scored on cuda
+simclr 1-shot 400/600 scored on cuda
+simclr 1-shot 500/600 scored on cuda
+simclr 1-shot 600/600 scored on cuda
+simclr 1-shot NABirds accuracy Global=0.6098 Local=0.5898 Fusion=0.6065
+simclr 5-shot 100/600 scored on cuda
+simclr 5-shot 200/600 scored on cuda
+simclr 5-shot 300/600 scored on cuda
+simclr 5-shot 400/600 scored on cuda
+simclr 5-shot 500/600 scored on cuda
+simclr 5-shot 600/600 scored on cuda
+simclr 5-shot NABirds accuracy Global=0.7791 Local=0.7477 Fusion=0.7805
+PASS Stage06 full. Report: /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage06_nabirds/full_seed42_600_cuda/report.md

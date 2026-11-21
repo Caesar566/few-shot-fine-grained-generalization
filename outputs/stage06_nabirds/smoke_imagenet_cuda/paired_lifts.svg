@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="374"><rect width="1120" height="374" fill="white"/><g font-family="sans-serif" fill="#222">
+<text x="25" y="30" font-size="20">Paired accuracy lift (second minus first), 95% CI</text>
+<line x1="710" y1="60" x2="710" y2="309" stroke="#888" stroke-dasharray="5,4"/>
+<text x="25" y="89" font-size="13">imagenet 1-shot: local - global</text><line x1="498.9635148589897" y1="85" x2="717.6928146200551" y2="85" stroke="#2468b4" stroke-width="3"/><circle cx="608.3281647395224" cy="85" r="4" fill="#2468b4"/><text x="1040" y="89" font-size="12">-5.33 pp</text>
+<text x="25" y="128" font-size="13">imagenet 1-shot: fusion - global</text><line x1="465.8527414238151" y1="124" x2="903.3113409459461" y2="124" stroke="#2468b4" stroke-width="3"/><circle cx="684.5820411848806" cy="124" r="4" fill="#2468b4"/><text x="1040" y="128" font-size="12">-1.33 pp</text>
+<text x="25" y="167" font-size="13">imagenet 1-shot: fusion - local</text><line x1="596.8287463002938" y1="163" x2="975.6790065904227" y2="163" stroke="#2468b4" stroke-width="3"/><circle cx="786.2538764453582" cy="163" r="4" fill="#2468b4"/><text x="1040" y="167" font-size="12">+4.00 pp</text>
+<text x="25" y="206" font-size="13">imagenet 5-shot: local - global</text><line x1="440.4347826086956" y1="202" x2="877.8933821308268" y2="202" stroke="#2468b4" stroke-width="3"/><circle cx="659.1640823697612" cy="202" r="4" fill="#2468b4"/><text x="1040" y="206" font-size="12">-2.67 pp</text>
+<text x="25" y="245" font-size="13">imagenet 5-shot: fusion - global</text><line x1="710.0" y1="241" x2="710.0" y2="241" stroke="#2468b4" stroke-width="3"/><circle cx="710.0" cy="241" r="4" fill="#2468b4"/><text x="1040" y="245" font-size="12">+0.00 pp</text>
+<text x="25" y="284" font-size="13">imagenet 5-shot: fusion - local</text><line x1="542.1066178691732" y1="280" x2="979.5652173913044" y2="280" stroke="#2468b4" stroke-width="3"/><circle cx="760.8359176302388" cy="280" r="4" fill="#2468b4"/><text x="1040" y="284" font-size="12">+2.67 pp</text>
+<text x="385.0" y="339" font-size="12">-16.3 pp</text>
+<text x="540.0" y="339" font-size="12">-8.1 pp</text>
+<text x="695.0" y="339" font-size="12">+0.0 pp</text>
+<text x="850.0" y="339" font-size="12">+8.1 pp</text>
+<text x="1005.0" y="339" font-size="12">+16.3 pp</text>
+</g></svg>

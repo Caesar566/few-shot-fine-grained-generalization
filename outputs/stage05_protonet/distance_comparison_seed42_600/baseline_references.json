@@ -1,0 +1,92 @@
+{
+  "imagenet": {
+    "1": {
+      "episodes.csv": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/imagenet/1shot/episodes.csv",
+        "sha256": "5e026ab092881eb0463e24135e2124370fc46f93133e57949680e3414dea45ad"
+      },
+      "metrics.json": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/imagenet/1shot/metrics.json",
+        "sha256": "1bc0824618b71daaaa87e57cb132f0c77716b1d34f3d3faa3eb91082fb1e7ce8"
+      },
+      "predictions.jsonl": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/imagenet/1shot/predictions.jsonl",
+        "sha256": "6bd9b52de93a9d9bd5811a211b188b6932f453bacd69dde73b346624326a3c1a"
+      }
+    },
+    "5": {
+      "episodes.csv": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/imagenet/5shot/episodes.csv",
+        "sha256": "7d8c61ac9fde0eacac2af6edafcc3abe613ad7f0853da65ab784181f680bb4fc"
+      },
+      "metrics.json": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/imagenet/5shot/metrics.json",
+        "sha256": "f574f201c9c0c1fd1274bd408a416895544eaa968edc2d10af1817ab2024f43f"
+      },
+      "predictions.jsonl": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/imagenet/5shot/predictions.jsonl",
+        "sha256": "2e305795bff4b598de5003839516bc95727de62e7112ea9ac1fdd7949a110441"
+      }
+    }
+  },
+  "random": {
+    "1": {
+      "episodes.csv": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/random/1shot/episodes.csv",
+        "sha256": "3627c97509ab55815b1d0e6be5615672251a19a1427442787af0c94487d3b508"
+      },
+      "metrics.json": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/random/1shot/metrics.json",
+        "sha256": "98c920eefbe6fda2c28c3f1b835a0f99339f2b4fdcf58eb1e489abec9cb16ab1"
+      },
+      "predictions.jsonl": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/random/1shot/predictions.jsonl",
+        "sha256": "68b84476f730645a79d9fbbfda007aa582439ff56d2157f8444cd31d7a9f6faf"
+      }
+    },
+    "5": {
+      "episodes.csv": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/random/5shot/episodes.csv",
+        "sha256": "a87219080c48718d01773c078870cb3e4231c7d556b833d79c27ac6be7ae2acc"
+      },
+      "metrics.json": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/random/5shot/metrics.json",
+        "sha256": "70bae7989709d615d25c27fa75cc3237e2098e67f033a83590cadea933f32d2f"
+      },
+      "predictions.jsonl": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/random/5shot/predictions.jsonl",
+        "sha256": "9dd62357546df332288986da39d3ecf629d9d46c9fd9b1b25cea1001a8cd98c3"
+      }
+    }
+  },
+  "simclr": {
+    "1": {
+      "episodes.csv": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/simclr/1shot/episodes.csv",
+        "sha256": "e3f34cf701076e304afee67df0f45eed9b0910367f06263c683bd61a2e2babf9"
+      },
+      "metrics.json": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/simclr/1shot/metrics.json",
+        "sha256": "43963b265072111a852d637d8a3715e0772d1d0bc6dd93434dbfb6c735606e56"
+      },
+      "predictions.jsonl": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/simclr/1shot/predictions.jsonl",
+        "sha256": "1524793c9c7c082d260057134b4f19b44981f123d8125c0073d6215917e4d08d"
+      }
+    },
+    "5": {
+      "episodes.csv": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/simclr/5shot/episodes.csv",
+        "sha256": "8cf6fdc410a2060819cf431a01f658b8e5c4b2b5bd10433ab63eec841e50c9bd"
+      },
+      "metrics.json": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/simclr/5shot/metrics.json",
+        "sha256": "c1a31b7ddb07398c0d326ade9da210dd1b46782bf9f2546dd28f14b4a4995a37"
+      },
+      "predictions.jsonl": {
+        "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600/simclr/5shot/predictions.jsonl",
+        "sha256": "5ecd2221d653c191fae668cd70f062560977a3924ca8345822ea73844713cacd"
+      }
+    }
+  }
+}

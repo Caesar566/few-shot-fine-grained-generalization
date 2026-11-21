@@ -1,0 +1,50 @@
+{
+  "key": "9f15d34c753262d95c407ab24760fa506414857aa8fed8314d0a879da303ce1e",
+  "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/stage05_metric_train_features/9f15d34c753262d95c407ab24760fa506414857aa8fed8314d0a879da303ce1e.pt",
+  "reused": false,
+  "disk_cache_enabled": true,
+  "binding": {
+    "schema": "frozen-cub-train-features-v1",
+    "checkpoint_sha256": "0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f",
+    "encoder_state_sha256": "b050d29b17305848de314fc0d68cb64c1932beae9f720387442acc71729272ca",
+    "dataset_fingerprint": "3f343833ab86a4d6ce43e6fe111a24506711492a0ad1b9654bbd30d97a925de1",
+    "actual_content_sha256": "36c4ca4f2cbf872611077c9d7a60c0349c1c058de69ef52a22a93e263c584dac",
+    "preprocessing": "Compose(\n    Resize(size=257, interpolation=bilinear, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+    "rgb": true,
+    "mode": "eval",
+    "frozen": true,
+    "dtype": "float32",
+    "feature_dim": 512,
+    "normalization": false,
+    "adapter": false,
+    "source_sha256": {
+      "src/pattern_recognition_coursework/data/cub_dataset.py": "51f780c0726e3bdecd3c99c0d2f9a56dc3fccfb5ab0ab450de01ecabd4a1051d",
+      "src/pattern_recognition_coursework/models/backbones/resnet.py": "7fbade2116f92843e56eaeecbf4f44934930c4260ca6bb3498829190a5522d63",
+      "src/pattern_recognition_coursework/models/few_shot.py": "9f0a5e2194ecfc85a6e07be6d4415cde1c9ba3f0acdf0ec62177edfc3d6c4798"
+    },
+    "environment": {
+      "python": "3.11.18 (main, Oct 26 2026, 14:05:07) [Clang 23.1.3 ]",
+      "torch": "2.5.1+cu121",
+      "device": "cpu",
+      "gpu": null,
+      "threads": 4,
+      "versions": {
+        "torchvision": "0.20.1+cu121",
+        "Pillow": "12.3.0",
+        "numpy": "1.26.4",
+        "scipy": "1.17.1"
+      },
+      "dtype": "float32",
+      "mode": "eval",
+      "deterministic": true,
+      "tf32": false
+    },
+    "encoding_batch_size": 64
+  },
+  "feature_shape": [
+    5890,
+    512
+  ],
+  "feature_sha256": "acd45e72cfe2f0d1255b59d1d3da62f82b45b2181e4b67bf0390b0bf46892b40",
+  "tensor_bytes": 12062720
+}

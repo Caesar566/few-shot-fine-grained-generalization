@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="850" viewBox="0 0 1150 850">
+<rect width="1150" height="850" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#18212b">
+<text x="30" y="30" font-size="21">CUB Val versus NABirds: frozen representation comparison</text>
+<text x="30" y="55">Mean accuracy and 95% CI; independent task pools, descriptive comparison</text>
+<text x="800" y="55" fill="#3666aa">CUB Val</text>
+<text x="925" y="55" fill="#ca6927">NABirds</text>
+<line x1="330.0" y1="80" x2="330.0" y2="790" stroke="#e0e5eb"/>
+<text x="318.0" y="820">40%</text>
+<line x1="455.0" y1="80" x2="455.0" y2="790" stroke="#e0e5eb"/>
+<text x="443.0" y="820">50%</text>
+<line x1="580.0" y1="80" x2="580.0" y2="790" stroke="#e0e5eb"/>
+<text x="568.0" y="820">60%</text>
+<line x1="705.0" y1="80" x2="705.0" y2="790" stroke="#e0e5eb"/>
+<text x="693.0" y="820">70%</text>
+<line x1="830.0" y1="80" x2="830.0" y2="790" stroke="#e0e5eb"/>
+<text x="818.0" y="820">80%</text>
+<line x1="955.0" y1="80" x2="955.0" y2="790" stroke="#e0e5eb"/>
+<text x="943.0" y="820">90%</text>
+<line x1="1080.0" y1="80" x2="1080.0" y2="790" stroke="#e0e5eb"/>
+<text x="1068.0" y="820">100%</text>
+<text x="20" y="105">imagenet / global / 1-shot</text>
+<line x1="892.0251633168493" y1="95" x2="911.6415033498176" y2="95" stroke="#3666aa" stroke-width="2"/>
+<circle cx="901.8333333333334" cy="95" r="3.5" fill="#3666aa"/>
+<line x1="789.8866683230376" y1="105" x2="813.7799983436289" y2="105" stroke="#ca6927" stroke-width="2"/>
+<circle cx="801.8333333333334" cy="105" r="3.5" fill="#ca6927"/>
+<text x="20" y="143">imagenet / global / 5-shot</text>
+<line x1="1008.1504102983533" y1="133" x2="1018.8495897016463" y2="133" stroke="#3666aa" stroke-width="2"/>
+<circle cx="1013.4999999999999" cy="133" r="3.5" fill="#3666aa"/>
+<line x1="960.3911492170365" y1="143" x2="974.7755174496299" y2="143" stroke="#ca6927" stroke-width="2"/>
+<circle cx="967.5833333333333" cy="143" r="3.5" fill="#ca6927"/>
+<text x="20" y="181">imagenet / local / 1-shot</text>
+<line x1="822.4533693203612" y1="171" x2="843.5466306796385" y2="171" stroke="#3666aa" stroke-width="2"/>
+<circle cx="833.0" cy="171" r="3.5" fill="#3666aa"/>
+<line x1="724.4911692972532" y1="181" x2="748.84216403608" y2="181" stroke="#ca6927" stroke-width="2"/>
+<circle cx="736.6666666666666" cy="181" r="3.5" fill="#ca6927"/>
+<text x="20" y="219">imagenet / local / 5-shot</text>
+<line x1="958.0918211654498" y1="209" x2="972.9081788345503" y2="209" stroke="#3666aa" stroke-width="2"/>
+<circle cx="965.5" cy="209" r="3.5" fill="#3666aa"/>
+<line x1="911.9422246986928" y1="219" x2="928.0577753013075" y2="219" stroke="#ca6927" stroke-width="2"/>
+<circle cx="920.0000000000002" cy="219" r="3.5" fill="#ca6927"/>
+<text x="20" y="257">imagenet / fusion / 1-shot</text>
+<line x1="875.0679293927028" y1="247" x2="894.5987372739636" y2="247" stroke="#3666aa" stroke-width="2"/>
+<circle cx="884.8333333333333" cy="247" r="3.5" fill="#3666aa"/>
+<line x1="776.4094398314371" y1="257" x2="800.2572268352295" y2="257" stroke="#ca6927" stroke-width="2"/>
+<circle cx="788.3333333333333" cy="257" r="3.5" fill="#ca6927"/>
+<text x="20" y="295">imagenet / fusion / 5-shot</text>
+<line x1="997.8541404508119" y1="285" x2="1009.6458595491887" y2="285" stroke="#3666aa" stroke-width="2"/>
+<circle cx="1003.7500000000002" cy="285" r="3.5" fill="#3666aa"/>
+<line x1="953.3475767176894" y1="295" x2="967.6524232823106" y2="295" stroke="#ca6927" stroke-width="2"/>
+<circle cx="960.5" cy="295" r="3.5" fill="#ca6927"/>
+<text x="20" y="333">random / global / 1-shot</text>
+<line x1="597.3740356275927" y1="323" x2="624.7926310390737" y2="323" stroke="#3666aa" stroke-width="2"/>
+<circle cx="611.0833333333333" cy="323" r="3.5" fill="#3666aa"/>
+<line x1="487.4412011711581" y1="333" x2="514.5587988288419" y2="333" stroke="#ca6927" stroke-width="2"/>
+<circle cx="501.0000000000001" cy="333" r="3.5" fill="#ca6927"/>
+<text x="20" y="371">random / global / 5-shot</text>
+<line x1="785.4750740730068" y1="361" x2="808.5249259269931" y2="361" stroke="#3666aa" stroke-width="2"/>
+<circle cx="797.0" cy="361" r="3.5" fill="#3666aa"/>
+<line x1="687.0982077095177" y1="371" x2="710.5684589571488" y2="371" stroke="#ca6927" stroke-width="2"/>
+<circle cx="698.8333333333333" cy="371" r="3.5" fill="#ca6927"/>
+<text x="20" y="409">random / local / 1-shot</text>
+<line x1="580.2110887930878" y1="399" x2="606.6222445402454" y2="399" stroke="#3666aa" stroke-width="2"/>
+<circle cx="593.4166666666667" cy="399" r="3.5" fill="#3666aa"/>
+<line x1="468.48321495216203" y1="409" x2="494.6834517145046" y2="409" stroke="#ca6927" stroke-width="2"/>
+<circle cx="481.5833333333333" cy="409" r="3.5" fill="#ca6927"/>
+<text x="20" y="447">random / local / 5-shot</text>
+<line x1="732.261231738843" y1="437" x2="755.2387682611571" y2="437" stroke="#3666aa" stroke-width="2"/>
+<circle cx="743.7499999999999" cy="437" r="3.5" fill="#3666aa"/>
+<line x1="641.9715773600452" y1="447" x2="665.1950893066212" y2="447" stroke="#ca6927" stroke-width="2"/>
+<circle cx="653.5833333333333" cy="447" r="3.5" fill="#ca6927"/>
+<text x="20" y="485">random / fusion / 1-shot</text>
+<line x1="598.7245861150973" y1="475" x2="625.108747218236" y2="475" stroke="#3666aa" stroke-width="2"/>
+<circle cx="611.9166666666665" cy="475" r="3.5" fill="#3666aa"/>
+<line x1="487.263767185301" y1="485" x2="514.0695661480323" y2="485" stroke="#ca6927" stroke-width="2"/>
+<circle cx="500.66666666666663" cy="485" r="3.5" fill="#ca6927"/>
+<text x="20" y="523">random / fusion / 5-shot</text>
+<line x1="778.8112946573049" y1="513" x2="801.1887053426949" y2="513" stroke="#3666aa" stroke-width="2"/>
+<circle cx="790.0" cy="513" r="3.5" fill="#3666aa"/>
+<line x1="690.6493867672284" y1="523" x2="713.6839465661049" y2="523" stroke="#ca6927" stroke-width="2"/>
+<circle cx="702.1666666666665" cy="523" r="3.5" fill="#ca6927"/>
+<text x="20" y="561">simclr / global / 1-shot</text>
+<line x1="715.9293487737875" y1="551" x2="741.903984559546" y2="551" stroke="#3666aa" stroke-width="2"/>
+<circle cx="728.9166666666665" cy="551" r="3.5" fill="#3666aa"/>
+<line x1="578.4880936214834" y1="561" x2="606.0119063785166" y2="561" stroke="#ca6927" stroke-width="2"/>
+<circle cx="592.25" cy="561" r="3.5" fill="#ca6927"/>
+<text x="20" y="599">simclr / global / 5-shot</text>
+<line x1="898.8796138353499" y1="589" x2="916.9537194979835" y2="589" stroke="#3666aa" stroke-width="2"/>
+<circle cx="907.9166666666666" cy="589" r="3.5" fill="#3666aa"/>
+<line x1="793.4846531453213" y1="599" x2="814.1820135213452" y2="599" stroke="#ca6927" stroke-width="2"/>
+<circle cx="803.8333333333331" cy="599" r="3.5" fill="#ca6927"/>
+<text x="20" y="637">simclr / local / 1-shot</text>
+<line x1="683.0587422460327" y1="627" x2="708.1079244206342" y2="627" stroke="#3666aa" stroke-width="2"/>
+<circle cx="695.5833333333334" cy="627" r="3.5" fill="#3666aa"/>
+<line x1="553.8586240437867" y1="637" x2="580.6413759562133" y2="637" stroke="#ca6927" stroke-width="2"/>
+<circle cx="567.25" cy="637" r="3.5" fill="#ca6927"/>
+<text x="20" y="675">simclr / local / 5-shot</text>
+<line x1="845.3846498043704" y1="665" x2="864.6153501956296" y2="665" stroke="#3666aa" stroke-width="2"/>
+<circle cx="855.0" cy="665" r="3.5" fill="#3666aa"/>
+<line x1="754.1918490569718" y1="675" x2="775.1414842763613" y2="675" stroke="#ca6927" stroke-width="2"/>
+<circle cx="764.6666666666666" cy="675" r="3.5" fill="#ca6927"/>
+<text x="20" y="713">simclr / fusion / 1-shot</text>
+<line x1="709.7084259779489" y1="703" x2="734.7915740220512" y2="703" stroke="#3666aa" stroke-width="2"/>
+<circle cx="722.25" cy="703" r="3.5" fill="#3666aa"/>
+<line x1="574.4110737185571" y1="713" x2="601.7555929481098" y2="713" stroke="#ca6927" stroke-width="2"/>
+<circle cx="588.0833333333334" cy="713" r="3.5" fill="#ca6927"/>
+<text x="20" y="751">simclr / fusion / 5-shot</text>
+<line x1="888.3614627075914" y1="741" x2="906.4718706257418" y2="741" stroke="#3666aa" stroke-width="2"/>
+<circle cx="897.4166666666665" cy="741" r="3.5" fill="#3666aa"/>
+<line x1="795.5475822802491" y1="751" x2="815.6190843864176" y2="751" stroke="#ca6927" stroke-width="2"/>
+<circle cx="805.5833333333333" cy="751" r="3.5" fill="#ca6927"/>
+</g></svg>

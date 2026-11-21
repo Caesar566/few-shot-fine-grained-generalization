@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="820"><rect width="1120" height="820" fill="white"/><g font-family="sans-serif" fill="#222">
+<text x="25" y="30" font-size="20">Global / Local / calibrated Fusion: mean accuracy and 95% CI</text>
+<text x="25" y="90" font-size="18">5-way 1-shot (smoke)</text>
+<line x1="330" y1="110" x2="330" y2="360" stroke="#ddd"/><text x="318" y="380" font-size="12">0%</text>
+<line x1="470" y1="110" x2="470" y2="360" stroke="#ddd"/><text x="458" y="380" font-size="12">20%</text>
+<line x1="610" y1="110" x2="610" y2="360" stroke="#ddd"/><text x="598" y="380" font-size="12">40%</text>
+<line x1="750" y1="110" x2="750" y2="360" stroke="#ddd"/><text x="738" y="380" font-size="12">60%</text>
+<line x1="890" y1="110" x2="890" y2="360" stroke="#ddd"/><text x="878" y="380" font-size="12">80%</text>
+<line x1="1030" y1="110" x2="1030" y2="360" stroke="#ddd"/><text x="1018" y="380" font-size="12">100%</text>
+<text x="25" y="134" font-size="13">imagenet / global</text><line x1="830.4183417259574" y1="130" x2="1042.914991607376" y2="130" stroke="#2468b4" stroke-width="3"/><circle cx="936.6666666666667" cy="130" r="4" fill="#2468b4"/><text x="1040" y="134" font-size="12">86.67%</text>
+<text x="25" y="161" font-size="13">imagenet / local</text><line x1="705.972502983604" y1="157" x2="1074.0274970163962" y2="157" stroke="#d77a13" stroke-width="3"/><circle cx="890.0000000000001" cy="157" r="4" fill="#d77a13"/><text x="1040" y="161" font-size="12">80.00%</text>
+<text x="25" y="188" font-size="13">imagenet / fusion</text><line x1="724.1700167852481" y1="184" x2="1149.1633165480853" y2="184" stroke="#16856a" stroke-width="3"/><circle cx="936.6666666666667" cy="184" r="4" fill="#16856a"/><text x="1040" y="188" font-size="12">86.67%</text>
+<text x="25" y="440" font-size="18">5-way 5-shot (smoke)</text>
+<line x1="330" y1="460" x2="330" y2="710" stroke="#ddd"/><text x="318" y="730" font-size="12">0%</text>
+<line x1="470" y1="460" x2="470" y2="710" stroke="#ddd"/><text x="458" y="730" font-size="12">20%</text>
+<line x1="610" y1="460" x2="610" y2="710" stroke="#ddd"/><text x="598" y="730" font-size="12">40%</text>
+<line x1="750" y1="460" x2="750" y2="710" stroke="#ddd"/><text x="738" y="730" font-size="12">60%</text>
+<line x1="890" y1="460" x2="890" y2="710" stroke="#ddd"/><text x="878" y="730" font-size="12">80%</text>
+<line x1="1030" y1="460" x2="1030" y2="710" stroke="#ddd"/><text x="1018" y="730" font-size="12">100%</text>
+<text x="25" y="484" font-size="13">imagenet / global</text><line x1="952.5085745223383" y1="480" x2="1032.8247588109948" y2="480" stroke="#2468b4" stroke-width="3"/><circle cx="992.6666666666667" cy="480" r="4" fill="#2468b4"/><text x="1040" y="484" font-size="12">94.67%</text>
+<text x="25" y="511" font-size="13">imagenet / local</text><line x1="924.5085745223383" y1="507" x2="1004.824758810995" y2="507" stroke="#d77a13" stroke-width="3"/><circle cx="964.6666666666667" cy="507" r="4" fill="#d77a13"/><text x="1040" y="511" font-size="12">90.67%</text>
+<text x="25" y="538" font-size="13">imagenet / fusion</text><line x1="943.175241189005" y1="534" x2="1023.4914254776616" y2="534" stroke="#16856a" stroke-width="3"/><circle cx="983.3333333333333" cy="534" r="4" fill="#16856a"/><text x="1040" y="538" font-size="12">93.33%</text>
+</g></svg>

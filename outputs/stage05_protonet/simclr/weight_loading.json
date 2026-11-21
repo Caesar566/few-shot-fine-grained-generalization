@@ -1,0 +1,180 @@
+{
+  "path": "outputs/stage04_training/supervised_simclr_seed42_bs128/checkpoints/best.pth",
+  "sha256": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37",
+  "epoch": 45,
+  "source_validation_accuracy": 0.7408000000000001,
+  "initialization": "outputs/stage02_backbone/weights_verification/simclr_resnet18_backbone.pt",
+  "loaded_encoder_tensors": 120,
+  "state_matches_checkpoint": true,
+  "weight_file_unchanged": true,
+  "load_info": {
+    "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_simclr_seed42_bs128/checkpoints/best.pth",
+    "sha256": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37",
+    "container": "model",
+    "prefix": "backbone.",
+    "loaded_keys": 120,
+    "initialized_buffers": [],
+    "ignored_keys": [
+      "classifier.bias",
+      "classifier.weight"
+    ]
+  },
+  "runtime_shapes": {
+    "conv1": {
+      "30": [
+        30,
+        64,
+        112,
+        112
+      ],
+      "5": [
+        5,
+        64,
+        112,
+        112
+      ],
+      "25": [
+        25,
+        64,
+        112,
+        112
+      ],
+      "50": [
+        50,
+        64,
+        112,
+        112
+      ]
+    },
+    "layer1": {
+      "30": [
+        30,
+        64,
+        56,
+        56
+      ],
+      "5": [
+        5,
+        64,
+        56,
+        56
+      ],
+      "25": [
+        25,
+        64,
+        56,
+        56
+      ],
+      "50": [
+        50,
+        64,
+        56,
+        56
+      ]
+    },
+    "layer2": {
+      "30": [
+        30,
+        128,
+        28,
+        28
+      ],
+      "5": [
+        5,
+        128,
+        28,
+        28
+      ],
+      "25": [
+        25,
+        128,
+        28,
+        28
+      ],
+      "50": [
+        50,
+        128,
+        28,
+        28
+      ]
+    },
+    "layer3": {
+      "30": [
+        30,
+        256,
+        14,
+        14
+      ],
+      "5": [
+        5,
+        256,
+        14,
+        14
+      ],
+      "25": [
+        25,
+        256,
+        14,
+        14
+      ],
+      "50": [
+        50,
+        256,
+        14,
+        14
+      ]
+    },
+    "layer4": {
+      "30": [
+        30,
+        512,
+        7,
+        7
+      ],
+      "5": [
+        5,
+        512,
+        7,
+        7
+      ],
+      "25": [
+        25,
+        512,
+        7,
+        7
+      ],
+      "50": [
+        50,
+        512,
+        7,
+        7
+      ]
+    },
+    "gap": {
+      "30": [
+        30,
+        512,
+        1,
+        1
+      ],
+      "5": [
+        5,
+        512,
+        1,
+        1
+      ],
+      "25": [
+        25,
+        512,
+        1,
+        1
+      ],
+      "50": [
+        50,
+        512,
+        1,
+        1
+      ]
+    }
+  }
+}

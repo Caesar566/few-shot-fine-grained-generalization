@@ -1,0 +1,62 @@
+[
+  {
+    "position": 5,
+    "role": "query",
+    "dataset_index": 2364,
+    "official_image_id": "8948",
+    "dataset_label": 40,
+    "episode_label": 0,
+    "class_name": "153.Philadelphia_Vireo",
+    "path": "images/153.Philadelphia_Vireo/Philadelphia_Vireo_0085_794757.jpg",
+    "sha256": "fd6d12acf7c99bdcf538bda3742fe3d92f68fcb53ce654d0f6b3dc1b07c7b999",
+    "query_index": 0,
+    "predicted_label": 4,
+    "predicted_class": "078.Gray_Kingbird",
+    "confidence": 0.23044542968273163
+  },
+  {
+    "position": 6,
+    "role": "query",
+    "dataset_index": 2358,
+    "official_image_id": "8942",
+    "dataset_label": 40,
+    "episode_label": 0,
+    "class_name": "153.Philadelphia_Vireo",
+    "path": "images/153.Philadelphia_Vireo/Philadelphia_Vireo_0057_156525.jpg",
+    "sha256": "2df09f807590a1c6861cd0d75f85597ea05844501c0379b6f928f31da38882b3",
+    "query_index": 1,
+    "predicted_label": 3,
+    "predicted_class": "184.Louisiana_Waterthrush",
+    "confidence": 0.21852867305278778
+  },
+  {
+    "position": 12,
+    "role": "query",
+    "dataset_index": 422,
+    "official_image_id": "1799",
+    "dataset_label": 7,
+    "episode_label": 1,
+    "class_name": "032.Mangrove_Cuckoo",
+    "path": "images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0047_794604.jpg",
+    "sha256": "9a6de10419e5ac6b36120a5f1078162b98d4ecd15bf8040ea95fcf4f5404ecd9",
+    "query_index": 7,
+    "predicted_label": 3,
+    "predicted_class": "184.Louisiana_Waterthrush",
+    "confidence": 0.24449990689754486
+  },
+  {
+    "position": 14,
+    "role": "query",
+    "dataset_index": 387,
+    "official_image_id": "1764",
+    "dataset_label": 7,
+    "episode_label": 1,
+    "class_name": "032.Mangrove_Cuckoo",
+    "path": "images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0041_26370.jpg",
+    "sha256": "1092b8194d2d0c8dc8af213257730e1e15dd3602e46bdad273b3f3129f5663ad",
+    "query_index": 9,
+    "predicted_label": 2,
+    "predicted_class": "010.Red_winged_Blackbird",
+    "confidence": 0.2379661649465561
+  }
+]

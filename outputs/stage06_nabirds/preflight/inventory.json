@@ -1,0 +1,17 @@
+{
+  "images": 48562,
+  "visual_categories": 555,
+  "hierarchy_nodes": 1011,
+  "min_visual_images": 13,
+  "max_visual_images": 120,
+  "visual_classes_with_fewer_than_10_images": 0,
+  "all_reviews_pending": true,
+  "obvious_cub_train_candidate_visual_classes": 72,
+  "metadata_sha256": {
+    "classes.txt": "b47d130d03ecfaf82d61b430beb77107486370cfb50b4fe6500829c3eb3a5db2",
+    "images.txt": "6de34affac41ca0158acf57b9f10cf5ac67209636cc70f4c9af31e954ecb95da",
+    "image_class_labels.txt": "720d7b9cb75e83abd7f5b5c6bb1f9537bd311477814d5adbcad1f6844abe57d9",
+    "hierarchy.txt": "0f81be45476b60bc0b081947aa301ceed96d76dd854193ccc953257dd533b9df"
+  },
+  "protocol_choice_pending": true
+}

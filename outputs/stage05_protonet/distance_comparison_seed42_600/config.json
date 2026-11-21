@@ -1,0 +1,48 @@
+{
+  "baseline_dir": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600",
+  "seed": 42,
+  "episodes": 600,
+  "shots": [
+    1,
+    5
+  ],
+  "n_way": 5,
+  "n_query": 5,
+  "distances": [
+    "euclidean",
+    "cosine",
+    "mahalanobis"
+  ],
+  "raw_features": true,
+  "prototype": "raw support mean",
+  "feature_l2_normalization": false,
+  "cosine": "norm division only inside existing cosine formula, after raw prototype mean",
+  "mahalanobis": "Train-only shared shrunk diagonal covariance",
+  "shrinkage": 0.1,
+  "relative_jitter": 0.0001,
+  "absolute_jitter": 1e-08,
+  "temperature": 1,
+  "training": false,
+  "new_episode_evaluations": 7200,
+  "reused_episode_evaluations": 3600,
+  "total_episode_evaluations": 10800,
+  "environment": {
+    "python": "3.11.18 (main, Oct 26 2026, 14:05:07) [Clang 23.1.3 ]",
+    "torch": "2.5.1+cu121",
+    "device": "cpu",
+    "gpu": null,
+    "threads": 4,
+    "versions": {
+      "torchvision": "0.20.1+cu121",
+      "Pillow": "12.3.0",
+      "numpy": "1.26.4",
+      "scipy": "1.17.1"
+    },
+    "dtype": "float32",
+    "mode": "eval",
+    "deterministic": true,
+    "tf32": false
+  },
+  "batch_size": 64,
+  "workers": 0
+}

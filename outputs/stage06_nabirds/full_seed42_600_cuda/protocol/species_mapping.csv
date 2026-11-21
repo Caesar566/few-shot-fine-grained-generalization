@@ -1,0 +1,318 @@
+local_label,species_code,name,scientific_name,official_test_images,visual_class_ids
+0,abetow,Abert's Towhee,Melozone aberti,29,[893]
+1,acowoo,Acorn Woodpecker,Melanerpes formicivorus,58,[550]
+2,allhum,Allen's Hummingbird,Selasphorus sasin,101,"[380, 679]"
+3,ambduc,American Black Duck,Anas rubripes,37,[461]
+4,ameavo,American Avocet,Recurvirostra americana,54,[508]
+5,amecro,American Crow,Corvus brachyrhynchos,57,[957]
+6,amedip,American Dipper,Cinclus mexicanus,31,[838]
+7,amekes,American Kestrel,Falco sparverius,115,"[363, 662]"
+8,ameoys,American Oystercatcher,Haematopus palliatus,49,[505]
+9,amered,American Redstart,Setophaga ruticilla,119,"[757, 964]"
+10,amerob,American Robin,Turdus migratorius,119,"[753, 960]"
+11,amewig,American Wigeon,Mareca americana,64,"[316, 615]"
+12,amewoo,American Woodcock,Scolopax minor,30,[524]
+13,amtspa,American Tree Sparrow,Spizelloides arborea,59,[894]
+14,anhing,Anhinga,Anhinga anhinga,60,[477]
+15,astfly,Ash-throated Flycatcher,Myiarchus cinerascens,41,[931]
+16,babwar,Bay-breasted Warbler,Setophaga castanea,62,"[759, 966]"
+17,baleag,Bald Eagle,Haliaeetus leucocephalus,103,"[355, 654]"
+18,balori,Baltimore Oriole,Icterus galbula,107,"[786, 993]"
+19,banswa,Bank Swallow,Riparia riparia,27,[807]
+20,bargol,Barrow's Goldeneye,Bucephala islandica,60,"[334, 633]"
+21,batpig1,Band-tailed Pigeon,Patagioenas fasciata,40,[526]
+22,bbwduc,Black-bellied Whistling-Duck,Dendrocygna autumnalis,20,[610]
+23,bcnher,Black-crowned Night Heron,Nycticorax nycticorax,114,"[352, 651]"
+24,bcrfin,Brown-capped Rosy-Finch,Leucosticte australis,34,[919]
+25,belvir,Bell's Vireo,Vireo bellii,29,[940]
+26,bkbmag1,Black-billed Magpie,Pica hudsonia,38,[955]
+27,bkbplo,Black-bellied Plover,Pluvialis squatarola,77,"[367, 666]"
+28,bkbwar,Blackburnian Warbler,Setophaga fusca,51,[874]
+29,bkcchi,Black-capped Chickadee,Poecile atricapillus,60,[812]
+30,bkchum,Black-chinned Hummingbird,Archilochus alexandri,109,"[374, 673]"
+31,bkhgro,Black-headed Grosbeak,Pheucticus melanocephalus,106,"[774, 981]"
+32,bklkit,Black-legged Kittiwake,Rissa tridactyla,42,"[394, 601]"
+33,bknsti,Black-necked Stilt,Himantopus mexicanus,33,[507]
+34,bkpwar,Blackpoll Warbler,Setophaga striata,103,"[761, 968]"
+35,bkrfin,Black Rosy-Finch,Leucosticte atrata,26,[918]
+36,bktgna,Black-tailed Gnatcatcher,Polioptila melanura,22,[837]
+37,blctit4,Black-crested Titmouse,Baeolophus atricristatus,33,[820]
+38,blkgui,Black Guillemot,Cepphus grylle,32,"[392, 599]"
+39,blkoys,Black Oystercatcher,Haematopus bachmani,49,[506]
+40,blksco2,Black Scoter,Melanitta americana,41,"[331, 630]"
+41,blkski,Black Skimmer,Rynchops niger,53,[453]
+42,blkter,Black Tern,Chlidonias niger,35,[449]
+43,blktur,Black Turnstone,Arenaria melanocephala,47,[517]
+44,blkvul,Black Vulture,Coragyps atratus,48,[489]
+45,blugrb1,Blue Grosbeak,Passerina caerulea,100,"[775, 982]"
+46,bnhcow,Brown-headed Cowbird,Molothrus ater,109,"[783, 990]"
+47,bnhnut,Brown-headed Nuthatch,Sitta pusilla,38,[826]
+48,bongul,Bonaparte's Gull,Chroicocephalus philadelphia,58,[446]
+49,borchi2,Boreal Chickadee,Poecile hudsonicus,42,[815]
+50,botgra,Boat-tailed Grackle,Quiscalus major,60,[913]
+51,bracor,Brandt's Cormorant,Urile penicillatus,33,[474]
+52,brant,Brant,Branta bernicla,32,[455]
+53,brbhum,Broad-billed Hummingbird,Cynanthus latirostris,71,"[372, 671]"
+54,brdowl,Barred Owl,Strix varia,60,[543]
+55,brebla,Brewer's Blackbird,Euphagus cyanocephalus,91,"[782, 989]"
+56,brespa,Brewer's Sparrow,Spizella breweri,35,[896]
+57,britit,Bridled Titmouse,Baeolophus wollweberi,31,[816]
+58,brnpel,Brown Pelican,Pelecanus occidentalis,34,[479]
+59,brocow,Bronzed Cowbird,Molothrus aeneus,32,[915]
+60,brthum,Broad-tailed Hummingbird,Selasphorus platycercus,73,"[378, 677]"
+61,brwhaw,Broad-winged Hawk,Buteo platypterus,55,"[360, 659]"
+62,btnwar,Black-throated Green Warbler,Setophaga virens,60,[883]
+63,btywar,Black-throated Gray Warbler,Setophaga nigrescens,41,[880]
+64,buffle,Bufflehead,Bucephala albeola,93,"[332, 631]"
+65,buggna,Blue-gray Gnatcatcher,Polioptila caerulea,60,[836]
+66,buhvir,Blue-headed Vireo,Vireo solitarius,52,[944]
+67,bulori,Bullock's Oriole,Icterus bullockii,87,"[785, 992]"
+68,burowl,Burrowing Owl,Athene cunicularia,43,[542]
+69,bushti,Bushtit,Psaltriparus minimus,60,[822]
+70,buwtea,Blue-winged Teal,Spatula discors,59,"[318, 617]"
+71,cacgoo1,Cackling Goose,Branta hutchinsii,14,[456]
+72,calgul,California Gull,Larus californicus,66,"[399, 606]"
+73,calhum,Calliope Hummingbird,Selasphorus calliope,89,"[377, 676]"
+74,calqua,California Quail,Callipepla californica,78,"[338, 637]"
+75,calthr,California Thrasher,Toxostoma redivivum,32,[855]
+76,caltow,California Towhee,Melozone crissalis,44,[892]
+77,cangoo,Canada Goose,Branta canadensis,31,[457]
+78,cantow,Canyon Towhee,Melozone fusca,46,[891]
+79,canvas,Canvasback,Aythya valisineria,72,"[323, 622]"
+80,canwre,Canyon Wren,Catherpes mexicanus,26,[829]
+81,carchi,Carolina Chickadee,Poecile carolinensis,58,[811]
+82,casfin,Cassin's Finch,Haemorhous cassinii,62,"[789, 996]"
+83,caskin,Cassin's Kingbird,Tyrannus vociferans,35,[933]
+84,casvir,Cassin's Vireo,Vireo cassinii,36,[943]
+85,cavswa,Cave Swallow,Petrochelidon fulva,34,[809]
+86,cedwax,Cedar Waxwing,Bombycilla cedrorum,54,[859]
+87,chbchi,Chestnut-backed Chickadee,Poecile rufescens,54,[814]
+88,chirav,Chihuahuan Raven,Corvus cryptoleucus,27,[801]
+89,chiswi,Chimney Swift,Chaetura pelagica,33,[546]
+90,chswar,Chestnut-sided Warbler,Setophaga pensylvanica,95,"[760, 967]"
+91,cintea,Cinnamon Teal,Spatula cyanoptera,75,"[319, 618]"
+92,clagre,Clark's Grebe,Aechmophorus clarkii,38,[472]
+93,clanut,Clark's Nutcracker,Nucifraga columbiana,46,[954]
+94,clcspa,Clay-colored Sparrow,Spizella pallida,60,[895]
+95,cogdov,Common Ground Dove,Columbina passerina,35,[531]
+96,comeid,Common Eider,Somateria mollissima,73,"[295, 463, 696]"
+97,comgal1,Common Gallinule,Gallinula galeata,64,"[366, 665]"
+98,comgol,Common Goldeneye,Bucephala clangula,84,"[333, 632]"
+99,comgra,Common Grackle,Quiscalus quiscula,58,[912]
+100,comloo,Common Loon,Gavia immer,120,"[343, 642]"
+101,commer,Common Merganser,Mergus merganser,74,"[336, 635]"
+102,comnig,Common Nighthawk,Chordeiles minor,39,[545]
+103,comter,Common Tern,Sterna hirundo,60,[450]
+104,comyel,Common Yellowthroat,Geothlypis trichas,120,"[756, 963]"
+105,coohaw,Cooper's Hawk,Astur cooperii,117,"[358, 657]"
+106,coshum,Costa's Hummingbird,Calypte costae,58,"[376, 675]"
+107,cubthr,Curve-billed Thrasher,Toxostoma curvirostre,46,[854]
+108,daejun,Dark-eyed Junco,Junco hyemalis,192,"[746, 768, 905, 975, 1010]"
+109,dickci,Dickcissel,Spiza americana,60,[908]
+110,doccor,Double-crested Cormorant,Nannopterum auritum,106,"[348, 647]"
+111,dowwoo,Downy Woodpecker,Dryobates pubescens,60,[559]
+112,dunlin,Dunlin,Calidris alpina,93,"[370, 669]"
+113,eargre,Eared Grebe,Podiceps nigricollis,80,"[346, 645]"
+114,easblu,Eastern Bluebird,Sialia sialis,60,[842]
+115,easkin,Eastern Kingbird,Tyrannus tyrannus,60,[935]
+116,easmea,Eastern Meadowlark,Sturnella magna,40,[909]
+117,easowl1,Eastern Screech-Owl,Megascops asio,50,[538]
+118,eastow,Eastern Towhee,Pipilo erythrophthalmus,54,[889]
+119,eawpew,Eastern Wood-Pewee,Contopus virens,49,[924]
+120,eucdov,Eurasian Collared-Dove,Streptopelia decaocto,59,[527]
+121,eursta,European Starling,Sturnus vulgaris,154,"[748, 856, 1005]"
+122,fiscro,Fish Crow,Corvus ossifragus,30,[800]
+123,foxspa,Fox Sparrow,Passerella iliaca,119,"[749, 901, 1006]"
+124,gamqua,Gambel's Quail,Callipepla gambelii,52,"[339, 638]"
+125,gbbgul,Great Black-backed Gull,Larus marinus,73,"[402, 609]"
+126,gilwoo,Gila Woodpecker,Melanerpes uropygialis,50,[551]
+127,gloibi,Glossy Ibis,Plegadis falcinellus,44,[486]
+128,glwgul,Glaucous-winged Gull,Larus glaucescens,60,"[401, 608]"
+129,gnttow,Green-tailed Towhee,Pipilo chlorurus,28,[887]
+130,gnwtea,Green-winged Teal,Anas crecca,71,"[322, 621]"
+131,gockin,Golden-crowned Kinglet,Regulus satrapa,51,[839]
+132,gocspa,Golden-crowned Sparrow,Zonotrichia atricapilla,102,"[767, 974]"
+133,gofwoo,Golden-fronted Woodpecker,Melanerpes aurifrons,33,[552]
+134,goleag,Golden Eagle,Aquila chrysaetos,72,"[362, 661]"
+135,grbher3,Great Blue Heron,Ardea herodias,60,[480]
+136,grecor,Great Cormorant,Phalacrocorax carbo,64,"[349, 648]"
+137,greegr,Great Egret,Ardea alba,60,[481]
+138,gresca,Greater Scaup,Aythya marila,73,"[326, 625]"
+139,greyel,Greater Yellowlegs,Tringa melanoleuca,59,[510]
+140,grhowl,Great Horned Owl,Bubo virginianus,46,[539]
+141,grnher,Green Heron,Butorides virescens,60,[485]
+142,grtgra,Great-tailed Grackle,Quiscalus mexicanus,60,[914]
+143,gwfgoo,Greater White-fronted Goose,Anser albifrons,33,[454]
+144,haiwoo,Hairy Woodpecker,Leuconotopicus villosus,60,[560]
+145,harduc,Harlequin Duck,Histrionicus histrionicus,65,"[328, 627]"
+146,herthr,Hermit Thrush,Catharus guttatus,60,[848]
+147,herwar,Hermit Warbler,Setophaga occidentalis,37,[882]
+148,hoomer,Hooded Merganser,Lophodytes cucullatus,86,"[335, 634]"
+149,hoowar,Hooded Warbler,Setophaga citrina,49,[871]
+150,horgre,Horned Grebe,Podiceps auritus,95,"[344, 643]"
+151,houfin,House Finch,Haemorhous mexicanus,112,"[790, 997]"
+152,houspa,House Sparrow,Passer domesticus,116,"[796, 1003]"
+153,hrshaw,Harris's Hawk,Parabuteo unicinctus,43,[495]
+154,hutvir,Hutton's Vireo,Vireo huttoni,39,[945]
+155,incdov,Inca Dove,Columbina inca,50,[530]
+156,juntit1,Juniper Titmouse,Baeolophus ridgwayi,25,[818]
+157,killde,Killdeer,Charadrius vociferus,60,[504]
+158,labwoo,Ladder-backed Woodpecker,Dryobates scalaris,50,[557]
+159,larbun,Lark Bunting,Calamospiza melanocorys,51,"[763, 970]"
+160,larspa,Lark Sparrow,Chondestes grammacus,59,[899]
+161,laugul,Laughing Gull,Leucophaeus atricilla,104,"[395, 602]"
+162,leasan,Least Sandpiper,Calidris minutilla,60,[521]
+163,lesgol,Lesser Goldfinch,Spinus psaltria,95,"[793, 1000]"
+164,lessca,Lesser Scaup,Aythya affinis,79,"[327, 626]"
+165,lesyel,Lesser Yellowlegs,Tringa flavipes,60,[512]
+166,libher,Little Blue Heron,Egretta caerulea,97,"[350, 649]"
+167,linspa,Lincoln's Sparrow,Melospiza lincolnii,60,[903]
+168,lobcur,Long-billed Curlew,Numenius americanus,53,[514]
+169,lotduc,Long-tailed Duck,Clangula hyemalis,65,"[296, 464, 697]"
+170,louwat,Louisiana Waterthrush,Parkesia motacilla,42,[861]
+171,macwar,MacGillivray's Warbler,Geothlypis tolmiei,46,[869]
+172,magwar,Magnolia Warbler,Setophaga magnolia,105,"[758, 965]"
+173,mallar3,Mallard,Anas platyrhynchos,120,"[317, 616]"
+174,margod,Marbled Godwit,Limosa fedoa,60,[515]
+175,merlin,Merlin,Falco columbarius,58,[499]
+176,mexjay4,Mexican Jay,Aphelocoma wollweberi,26,[953]
+177,miskit,Mississippi Kite,Ictinia mississippiensis,50,[494]
+178,monpar,Monk Parakeet,Myiopsitta monachus,28,[532]
+179,motduc,Mottled Duck,Anas fulvigula,29,[462]
+180,moublu,Mountain Bluebird,Sialia currucoides,49,[844]
+181,mouchi,Mountain Chickadee,Poecile gambeli,53,[813]
+182,moudov,Mourning Dove,Zenaida macroura,60,[529]
+183,mouwar,Mourning Warbler,Geothlypis philadelphia,52,[870]
+184,mutswa,Mute Swan,Cygnus olor,60,[458]
+185,neocor,Neotropic Cormorant,Nannopterum brasilianum,38,[475]
+186,nopowl,Northern Pygmy-Owl,Glaucidium gnoma,50,[541]
+187,norbob,Northern Bobwhite,Colinus virginianus,32,[467]
+188,norfli,Northern Flicker,Colaptes auratus,118,"[382, 681]"
+189,norgan,Northern Gannet,Morus bassanus,80,"[347, 646]"
+190,norhar2,Northern Harrier,Circus hudsonius,120,"[356, 655]"
+191,normoc,Northern Mockingbird,Mimus polyglottos,60,[852]
+192,norpar,Northern Parula,Setophaga americana,60,[873]
+193,norpin,Northern Pintail,Anas acuta,66,"[321, 620]"
+194,norsho,Northern Shoveler,Spatula clypeata,100,"[320, 619]"
+195,norwat,Northern Waterthrush,Parkesia noveboracensis,56,[862]
+196,nrwswa,Northern Rough-winged Swallow,Stelgidopteryx serripennis,42,[806]
+197,nswowl,Northern Saw-whet Owl,Aegolius acadicus,45,[544]
+198,nutwoo,Nuttall's Woodpecker,Dryobates nuttallii,45,[558]
+199,oaktit,Oak Titmouse,Baeolophus inornatus,37,[817]
+200,orcori,Orchard Oriole,Icterus spurius,93,"[751, 916, 1008]"
+201,osprey,Osprey,Pandion haliaetus,52,[491]
+202,ovenbi1,Ovenbird,Seiurus aurocapilla,60,[860]
+203,pacwre1,Pacific Wren,Nannus pacificus,21,[833]
+204,palwar,Palm Warbler,Setophaga palmarum,44,[876]
+205,pelcor,Pelagic Cormorant,Urile pelagicus,26,[476]
+206,perfal,Peregrine Falcon,Falco peregrinus,77,"[364, 663]"
+207,phaino,Phainopepla,Phainopepla nitens,53,"[754, 961]"
+208,piggui,Pigeon Guillemot,Cepphus columba,59,"[393, 600]"
+209,pingro,Pine Grosbeak,Pinicola enucleator,74,"[787, 994]"
+210,pinsis,Pine Siskin,Spinus pinus,60,[922]
+211,pinwar,Pine Warbler,Setophaga pinus,48,[877]
+212,plsvir,Plumbeous Vireo,Vireo plumbeus,41,[942]
+213,prafal,Prairie Falcon,Falco mexicanus,42,[500]
+214,purfin,Purple Finch,Haemorhous purpureus,97,"[788, 995]"
+215,purgal2,Purple Gallinule,Porphyrio martinica,51,"[365, 664]"
+216,purmar,Purple Martin,Progne subis,71,"[752, 959]"
+217,pygnut,Pygmy Nuthatch,Sitta pygmaea,38,[825]
+218,rebmer,Red-breasted Merganser,Mergus serrator,85,"[337, 636]"
+219,rebnut,Red-breasted Nuthatch,Sitta canadensis,60,[823]
+220,rebsap,Red-breasted Sapsucker,Sphyrapicus ruber,42,[556]
+221,rebwoo,Red-bellied Woodpecker,Melanerpes carolinus,60,[553]
+222,redcro,Red Crossbill,Loxia curvirostra,59,"[791, 998]"
+223,redegr,Reddish Egret,Egretta rufescens,75,"[351, 650]"
+224,redhea,Redhead,Aythya americana,44,"[324, 623]"
+225,rehwoo,Red-headed Woodpecker,Melanerpes erythrocephalus,94,"[381, 680]"
+226,rengre,Red-necked Grebe,Podiceps grisegena,60,"[345, 644]"
+227,rensap,Red-naped Sapsucker,Sphyrapicus nuchalis,54,[555]
+228,reshaw,Red-shouldered Hawk,Buteo lineatus,76,"[359, 658]"
+229,rethaw,Red-tailed Hawk,Buteo jamaicensis,150,"[299, 497, 700]"
+230,retloo,Red-throated Loon,Gavia stellata,59,"[341, 640]"
+231,rewbla,Red-winged Blackbird,Agelaius phoeniceus,119,"[780, 987]"
+232,rinduc,Ring-necked Duck,Aythya collaris,68,"[325, 624]"
+233,rinphe1,Ring-necked Pheasant,Phasianus colchicus,61,"[340, 639]"
+234,robgro,Rose-breasted Grosbeak,Pheucticus ludovicianus,108,"[773, 980]"
+235,rocpig,Rock Pigeon,Columba livia,58,[525]
+236,rolhaw,Rough-legged Hawk,Buteo lagopus,64,"[361, 660]"
+237,rosgoo,Ross's Goose,Anser rossii,23,[612]
+238,rosspo1,Roseate Spoonbill,Platalea ajaja,29,[488]
+239,royter1,Royal Tern,Thalasseus maximus,38,[452]
+240,rthhum,Ruby-throated Hummingbird,Archilochus colubris,114,"[373, 672]"
+241,ruckin,Ruby-crowned Kinglet,Corthylio calendula,60,[840]
+242,rucspa,Rufous-crowned Sparrow,Aimophila ruficeps,41,[890]
+243,rudduc,Ruddy Duck,Oxyura jamaicensis,106,"[297, 465, 698]"
+244,rudtur,Ruddy Turnstone,Arenaria interpres,55,[516]
+245,rufgro,Ruffed Grouse,Bonasa umbellus,40,[468]
+246,rufhum,Rufous Hummingbird,Selasphorus rufus,87,"[379, 678]"
+247,sancra,Sandhill Crane,Antigone canadensis,25,[502]
+248,sander,Sanderling,Calidris alba,68,"[369, 668]"
+249,scaqua,Scaled Quail,Callipepla squamata,19,[466]
+250,scatan,Scarlet Tanager,Piranga olivacea,77,"[770, 977]"
+251,sctfly,Scissor-tailed Flycatcher,Tyrannus forficatus,37,[936]
+252,semplo,Semipalmated Plover,Charadrius semipalmatus,54,[503]
+253,semsan,Semipalmated Sandpiper,Calidris pusilla,60,[519]
+254,shbdow,Short-billed Dowitcher,Limnodromus griseus,60,[522]
+255,shshaw,Sharp-shinned Hawk,Accipiter striatus,116,"[357, 656]"
+256,snobun,Snow Bunting,Plectrophenax nivalis,64,"[755, 962]"
+257,snoegr,Snowy Egret,Egretta thula,49,[482]
+258,snogoo,Snow Goose,Anser caerulescens,54,"[313, 611]"
+259,snoowl1,Snowy Owl,Bubo scandiacus,46,[540]
+260,solsan,Solitary Sandpiper,Tringa solitaria,56,[509]
+261,sposan,Spotted Sandpiper,Actitis macularius,98,"[368, 667]"
+262,spotow,Spotted Towhee,Pipilo maculatus,60,[888]
+263,stejay,Steller's Jay,Cyanocitta stelleri,60,[949]
+264,sumtan,Summer Tanager,Piranga rubra,100,"[750, 906, 1007]"
+265,surfbi,Surfbird,Calidris virgata,40,[518]
+266,sursco,Surf Scoter,Melanitta perspicillata,61,"[329, 628]"
+267,swahaw,Swainson's Hawk,Buteo swainsoni,93,"[298, 496, 699]"
+268,swaspa,Swamp Sparrow,Melospiza georgiana,60,[904]
+269,swathr,Swainson's Thrush,Catharus ustulatus,58,[847]
+270,swtkit,Swallow-tailed Kite,Elanoides forficatus,29,[492]
+271,tenwar,Tennessee Warbler,Leiothlypis peregrina,60,[866]
+272,towsol,Townsend's Solitaire,Myadestes townsendi,37,[845]
+273,towwar,Townsend's Warbler,Setophaga townsendi,60,[881]
+274,treswa,Tree Swallow,Tachycineta bicolor,56,[804]
+275,triher,Tricolored Heron,Egretta tricolor,60,[483]
+276,truswa,Trumpeter Swan,Cygnus buccinator,37,[459]
+277,tuftit,Tufted Titmouse,Baeolophus bicolor,60,[819]
+278,tunswa,Tundra Swan,Cygnus columbianus,28,[460]
+279,turvul,Turkey Vulture,Cathartes aura,59,[490]
+280,varthr,Varied Thrush,Ixoreus naevius,56,[850]
+281,vauswi,Vaux's Swift,Chaetura vauxi,28,[547]
+282,veery,Veery,Catharus fuscescens,41,[846]
+283,verdin,Verdin,Auriparus flaviceps,32,[821]
+284,verfly,Vermilion Flycatcher,Pyrocephalus rubinus,89,"[797, 1004]"
+285,vigswa,Violet-green Swallow,Tachycineta thalassina,37,[805]
+286,wesblu,Western Bluebird,Sialia mexicana,59,[843]
+287,weskin,Western Kingbird,Tyrannus verticalis,52,[934]
+288,wesmea,Western Meadowlark,Sturnella neglecta,60,[910]
+289,wesowl1,Western Screech-Owl,Megascops kennicottii,34,[537]
+290,wessan,Western Sandpiper,Calidris mauri,51,[520]
+291,westan,Western Tanager,Piranga ludoviciana,86,"[771, 978]"
+292,whbnut,White-breasted Nuthatch,Sitta carolinensis,60,[824]
+293,whcspa,White-crowned Sparrow,Zonotrichia leucophrys,120,"[766, 973]"
+294,whfibi,White-faced Ibis,Plegadis chihi,34,[487]
+295,whiibi,White Ibis,Eudocimus albus,91,"[354, 653]"
+296,whtkit,White-tailed Kite,Elanus leucurus,13,[493]
+297,whtspa,White-throated Sparrow,Zonotrichia albicollis,104,"[764, 971]"
+298,whtswi,White-throated Swift,Aeronautes saxatalis,40,[548]
+299,whwcro,White-winged Crossbill,Loxia leucoptera,52,"[792, 999]"
+300,whwdov,White-winged Dove,Zenaida asiatica,57,[528]
+301,whwsco2,White-winged Scoter,Melanitta deglandi,57,"[330, 629]"
+302,wilpha,Wilson's Phalarope,Phalaropus tricolor,81,"[371, 670]"
+303,wilsni1,Wilson's Snipe,Gallinago delicata,55,[523]
+304,wiltur,Wild Turkey,Meleagris gallopavo,60,[469]
+305,winwre3,Winter Wren,Nannus hiemalis,54,[834]
+306,wooduc,Wood Duck,Aix sponsa,106,"[314, 613]"
+307,woosto,Wood Stork,Mycteria americana,56,[473]
+308,woothr,Wood Thrush,Hylocichla mustelina,46,[849]
+309,wrenti,Wrentit,Chamaea fasciata,37,[841]
+310,y00475,American Coot,Fulica americana,60,[501]
+311,y00678,Crested Caracara,Caracara plancus,54,[498]
+312,ycnher,Yellow-crowned Night Heron,Nyctanassa violacea,99,"[353, 652]"
+313,yebmag,Yellow-billed Magpie,Pica nuttalli,27,[956]
+314,yebsap,Yellow-bellied Sapsucker,Sphyrapicus varius,59,[554]
+315,yehbla,Yellow-headed Blackbird,Xanthocephalus xanthocephalus,83,"[781, 988]"
+316,yetwar,Yellow-throated Warbler,Setophaga dominica,60,[878]

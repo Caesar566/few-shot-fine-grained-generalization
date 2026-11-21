@@ -1,0 +1,8 @@
+{
+  "authorization": "User explicitly selected automatic conservative screening",
+  "human_reviewed": false,
+  "uncertain_target_species_excluded": true,
+  "taxonomy_authority_version": 2026,
+  "source": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=csv&locale=en&version=2026",
+  "frozen_before_model_evaluation": true
+}

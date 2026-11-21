@@ -1,0 +1,1562 @@
+[
+  {
+    "cub_class_id": 1,
+    "cub_name": "001.Black_footed_Albatross",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "bkfalb",
+        "common_name": "Black-footed Albatross",
+        "scientific_name": "Phoebastria nigripes"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 3,
+    "cub_name": "003.Sooty_Albatross",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "sooalb1",
+        "common_name": "Sooty Albatross",
+        "scientific_name": "Phoebetria fusca"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 4,
+    "cub_name": "004.Groove_billed_Ani",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "grbani",
+        "common_name": "Groove-billed Ani",
+        "scientific_name": "Crotophaga sulcirostris"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 6,
+    "cub_name": "006.Least_Auklet",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "leaauk",
+        "common_name": "Least Auklet",
+        "scientific_name": "Aethia pusilla"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 11,
+    "cub_name": "011.Rusty_Blackbird",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "rusbla",
+        "common_name": "Rusty Blackbird",
+        "scientific_name": "Euphagus carolinus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 13,
+    "cub_name": "013.Bobolink",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "boboli",
+        "common_name": "Bobolink",
+        "scientific_name": "Dolichonyx oryzivorus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 14,
+    "cub_name": "014.Indigo_Bunting",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "indbun",
+        "common_name": "Indigo Bunting",
+        "scientific_name": "Passerina cyanea"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 15,
+    "cub_name": "015.Lazuli_Bunting",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "lazbun",
+        "common_name": "Lazuli Bunting",
+        "scientific_name": "Passerina amoena"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 16,
+    "cub_name": "016.Painted_Bunting",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "paibun",
+        "common_name": "Painted Bunting",
+        "scientific_name": "Passerina ciris"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 17,
+    "cub_name": "017.Cardinal",
+    "reason": "conservative generic cardinal name and all matching genera",
+    "excluded_species": [
+      {
+        "species_code": "crfcar1",
+        "common_name": "Crimson-fronted Cardinal",
+        "scientific_name": "Paroaria baeri"
+      },
+      {
+        "species_code": "norcar",
+        "common_name": "Northern Cardinal",
+        "scientific_name": "Cardinalis cardinalis"
+      },
+      {
+        "species_code": "pyrrhu",
+        "common_name": "Pyrrhuloxia",
+        "scientific_name": "Cardinalis sinuatus"
+      },
+      {
+        "species_code": "reccar",
+        "common_name": "Red-crested Cardinal",
+        "scientific_name": "Paroaria coronata"
+      },
+      {
+        "species_code": "reccar2",
+        "common_name": "Red-cowled Cardinal",
+        "scientific_name": "Paroaria dominicana"
+      },
+      {
+        "species_code": "reccar3",
+        "common_name": "Masked Cardinal",
+        "scientific_name": "Paroaria nigrogenis"
+      },
+      {
+        "species_code": "reccar4",
+        "common_name": "Red-capped Cardinal",
+        "scientific_name": "Paroaria gularis"
+      },
+      {
+        "species_code": "vercar1",
+        "common_name": "Vermilion Cardinal",
+        "scientific_name": "Cardinalis phoeniceus"
+      },
+      {
+        "species_code": "yebcar",
+        "common_name": "Yellow-billed Cardinal",
+        "scientific_name": "Paroaria capitata"
+      },
+      {
+        "species_code": "yelcar1",
+        "common_name": "Yellow Cardinal",
+        "scientific_name": "Gubernatrix cristata"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 19,
+    "cub_name": "019.Gray_Catbird",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "grycat",
+        "common_name": "Gray Catbird",
+        "scientific_name": "Dumetella carolinensis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 20,
+    "cub_name": "020.Yellow_breasted_Chat",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "yebcha",
+        "common_name": "Yellow-breasted Chat",
+        "scientific_name": "Icteria virens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 28,
+    "cub_name": "028.Brown_Creeper",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "brncre",
+        "common_name": "Brown Creeper",
+        "scientific_name": "Certhia americana"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 31,
+    "cub_name": "031.Black_billed_Cuckoo",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "bkbcuc",
+        "common_name": "Black-billed Cuckoo",
+        "scientific_name": "Coccyzus erythropthalmus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 33,
+    "cub_name": "033.Yellow_billed_Cuckoo",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "yebcuc",
+        "common_name": "Yellow-billed Cuckoo",
+        "scientific_name": "Coccyzus americanus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 34,
+    "cub_name": "034.Gray_crowned_Rosy_Finch",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "gcrfin",
+        "common_name": "Gray-crowned Rosy-Finch",
+        "scientific_name": "Leucosticte tephrocotis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 37,
+    "cub_name": "037.Acadian_Flycatcher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "acafly",
+        "common_name": "Acadian Flycatcher",
+        "scientific_name": "Empidonax virescens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 38,
+    "cub_name": "038.Great_Crested_Flycatcher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "grcfly",
+        "common_name": "Great Crested Flycatcher",
+        "scientific_name": "Myiarchus crinitus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 39,
+    "cub_name": "039.Least_Flycatcher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "leafly",
+        "common_name": "Least Flycatcher",
+        "scientific_name": "Empidonax minimus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 43,
+    "cub_name": "043.Yellow_bellied_Flycatcher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "yebfly",
+        "common_name": "Yellow-bellied Flycatcher",
+        "scientific_name": "Empidonax flaviventris"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 44,
+    "cub_name": "044.Frigatebird",
+    "reason": "conservative all species with generic/historical name suffix",
+    "excluded_species": [
+      {
+        "species_code": "asifri1",
+        "common_name": "Ascension Frigatebird",
+        "scientific_name": "Fregata aquila"
+      },
+      {
+        "species_code": "chifri1",
+        "common_name": "Christmas Island Frigatebird",
+        "scientific_name": "Fregata andrewsi"
+      },
+      {
+        "species_code": "grefri",
+        "common_name": "Great Frigatebird",
+        "scientific_name": "Fregata minor"
+      },
+      {
+        "species_code": "lesfri",
+        "common_name": "Lesser Frigatebird",
+        "scientific_name": "Fregata ariel"
+      },
+      {
+        "species_code": "magfri",
+        "common_name": "Magnificent Frigatebird",
+        "scientific_name": "Fregata magnificens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 45,
+    "cub_name": "045.Northern_Fulmar",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "norful",
+        "common_name": "Northern Fulmar",
+        "scientific_name": "Fulmarus glacialis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 46,
+    "cub_name": "046.Gadwall",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "gadwal",
+        "common_name": "Gadwall",
+        "scientific_name": "Mareca strepera"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 47,
+    "cub_name": "047.American_Goldfinch",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "amegfi",
+        "common_name": "American Goldfinch",
+        "scientific_name": "Spinus tristis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 48,
+    "cub_name": "048.European_Goldfinch",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "eurgol",
+        "common_name": "European Goldfinch",
+        "scientific_name": "Carduelis carduelis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 52,
+    "cub_name": "052.Pied_billed_Grebe",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "pibgre",
+        "common_name": "Pied-billed Grebe",
+        "scientific_name": "Podilymbus podiceps"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 53,
+    "cub_name": "053.Western_Grebe",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "wesgre",
+        "common_name": "Western Grebe",
+        "scientific_name": "Aechmophorus occidentalis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 55,
+    "cub_name": "055.Evening_Grosbeak",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "evegro",
+        "common_name": "Evening Grosbeak",
+        "scientific_name": "Hesperiphona vespertina"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 61,
+    "cub_name": "061.Heermann_Gull",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "heegul",
+        "common_name": "Heermann's Gull",
+        "scientific_name": "Larus heermanni"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 62,
+    "cub_name": "062.Herring_Gull",
+    "reason": "conservative all species with generic/historical name suffix",
+    "excluded_species": [
+      {
+        "species_code": "amhgul1",
+        "common_name": "American Herring Gull",
+        "scientific_name": "Larus smithsonianus"
+      },
+      {
+        "species_code": "euhgul1",
+        "common_name": "European Herring Gull",
+        "scientific_name": "Larus argentatus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 64,
+    "cub_name": "064.Ring_billed_Gull",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "ribgul",
+        "common_name": "Ring-billed Gull",
+        "scientific_name": "Larus delawarensis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 65,
+    "cub_name": "065.Slaty_backed_Gull",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "slbgul",
+        "common_name": "Slaty-backed Gull",
+        "scientific_name": "Larus schistisagus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 66,
+    "cub_name": "066.Western_Gull",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "wesgul",
+        "common_name": "Western Gull",
+        "scientific_name": "Larus occidentalis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 67,
+    "cub_name": "067.Anna_Hummingbird",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "annhum",
+        "common_name": "Anna's Hummingbird",
+        "scientific_name": "Calypte anna"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 70,
+    "cub_name": "070.Green_Violetear",
+    "reason": "conservative entire genus Colibri: historical name/split uncertainty",
+    "excluded_species": [
+      {
+        "species_code": "brvear1",
+        "common_name": "Brown Violetear",
+        "scientific_name": "Colibri delphinae"
+      },
+      {
+        "species_code": "grnvie1",
+        "common_name": "Mexican Violetear",
+        "scientific_name": "Colibri thalassinus"
+      },
+      {
+        "species_code": "lesvio1",
+        "common_name": "Lesser Violetear",
+        "scientific_name": "Colibri cyanotus"
+      },
+      {
+        "species_code": "spvear1",
+        "common_name": "Sparkling Violetear",
+        "scientific_name": "Colibri coruscans"
+      },
+      {
+        "species_code": "wvvear1",
+        "common_name": "White-vented Violetear",
+        "scientific_name": "Colibri serrirostris"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 73,
+    "cub_name": "073.Blue_Jay",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "blujay",
+        "common_name": "Blue Jay",
+        "scientific_name": "Cyanocitta cristata"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 74,
+    "cub_name": "074.Florida_Jay",
+    "reason": "explicit historical/spelling alias: Florida Scrub-Jay",
+    "excluded_species": [
+      {
+        "species_code": "flsjay",
+        "common_name": "Florida Scrub-Jay",
+        "scientific_name": "Aphelocoma coerulescens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 77,
+    "cub_name": "077.Tropical_Kingbird",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "trokin",
+        "common_name": "Tropical Kingbird",
+        "scientific_name": "Tyrannus melancholicus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 79,
+    "cub_name": "079.Belted_Kingfisher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "belkin1",
+        "common_name": "Belted Kingfisher",
+        "scientific_name": "Megaceryle alcyon"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 80,
+    "cub_name": "080.Green_Kingfisher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "grnkin",
+        "common_name": "Green Kingfisher",
+        "scientific_name": "Chloroceryle americana"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 81,
+    "cub_name": "081.Pied_Kingfisher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "piekin1",
+        "common_name": "Pied Kingfisher",
+        "scientific_name": "Ceryle rudis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 84,
+    "cub_name": "084.Red_legged_Kittiwake",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "relkit",
+        "common_name": "Red-legged Kittiwake",
+        "scientific_name": "Rissa brevirostris"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 85,
+    "cub_name": "085.Horned_Lark",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "horlar",
+        "common_name": "Horned Lark",
+        "scientific_name": "Eremophila alpestris"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 86,
+    "cub_name": "086.Pacific_Loon",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "pacloo",
+        "common_name": "Pacific Loon",
+        "scientific_name": "Gavia pacifica"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 96,
+    "cub_name": "096.Hooded_Oriole",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "hooori",
+        "common_name": "Hooded Oriole",
+        "scientific_name": "Icterus cucullatus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 101,
+    "cub_name": "101.White_Pelican",
+    "reason": "conservative all species with generic/historical name suffix",
+    "excluded_species": [
+      {
+        "species_code": "amwpel",
+        "common_name": "American White Pelican",
+        "scientific_name": "Pelecanus erythrorhynchos"
+      },
+      {
+        "species_code": "grwpel1",
+        "common_name": "Great White Pelican",
+        "scientific_name": "Pelecanus onocrotalus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 102,
+    "cub_name": "102.Western_Wood_Pewee",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "wewpew",
+        "common_name": "Western Wood-Pewee",
+        "scientific_name": "Contopus sordidulus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 103,
+    "cub_name": "103.Sayornis",
+    "reason": "conservative scientific-genus exclusion",
+    "excluded_species": [
+      {
+        "species_code": "blkpho",
+        "common_name": "Black Phoebe",
+        "scientific_name": "Sayornis nigricans"
+      },
+      {
+        "species_code": "easpho",
+        "common_name": "Eastern Phoebe",
+        "scientific_name": "Sayornis phoebe"
+      },
+      {
+        "species_code": "saypho",
+        "common_name": "Say's Phoebe",
+        "scientific_name": "Sayornis saya"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 104,
+    "cub_name": "104.American_Pipit",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "amepip",
+        "common_name": "American Pipit",
+        "scientific_name": "Anthus rubescens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 105,
+    "cub_name": "105.Whip_poor_Will",
+    "reason": "conservative all species with generic/historical name suffix",
+    "excluded_species": [
+      {
+        "species_code": "easwpw1",
+        "common_name": "Eastern Whip-poor-will",
+        "scientific_name": "Antrostomus vociferus"
+      },
+      {
+        "species_code": "souwpw1",
+        "common_name": "Mexican Whip-poor-will",
+        "scientific_name": "Antrostomus arizonae"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 106,
+    "cub_name": "106.Horned_Puffin",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "horpuf",
+        "common_name": "Horned Puffin",
+        "scientific_name": "Fratercula corniculata"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 107,
+    "cub_name": "107.Common_Raven",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "comrav",
+        "common_name": "Common Raven",
+        "scientific_name": "Corvus corax"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 110,
+    "cub_name": "110.Geococcyx",
+    "reason": "conservative scientific-genus exclusion",
+    "excluded_species": [
+      {
+        "species_code": "greroa",
+        "common_name": "Greater Roadrunner",
+        "scientific_name": "Geococcyx californianus"
+      },
+      {
+        "species_code": "lesroa1",
+        "common_name": "Lesser Roadrunner",
+        "scientific_name": "Geococcyx velox"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 111,
+    "cub_name": "111.Loggerhead_Shrike",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "logshr",
+        "common_name": "Loggerhead Shrike",
+        "scientific_name": "Lanius ludovicianus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 112,
+    "cub_name": "112.Great_Grey_Shrike",
+    "reason": "conservative entire genus Lanius: historical name/split uncertainty",
+    "excluded_species": [
+      {
+        "species_code": "babshr1",
+        "common_name": "Bay-backed Shrike",
+        "scientific_name": "Lanius vittatus"
+      },
+      {
+        "species_code": "brnshr",
+        "common_name": "Brown Shrike",
+        "scientific_name": "Lanius cristatus"
+      },
+      {
+        "species_code": "buhshr1",
+        "common_name": "Bull-headed Shrike",
+        "scientific_name": "Lanius bucephalus"
+      },
+      {
+        "species_code": "burshr1",
+        "common_name": "Burmese Shrike",
+        "scientific_name": "Lanius collurioides"
+      },
+      {
+        "species_code": "chgshr1",
+        "common_name": "Chinese Gray Shrike",
+        "scientific_name": "Lanius sphenocercus"
+      },
+      {
+        "species_code": "chgshr3",
+        "common_name": "Giant Gray Shrike",
+        "scientific_name": "Lanius giganteus"
+      },
+      {
+        "species_code": "emishr1",
+        "common_name": "Emin's Shrike",
+        "scientific_name": "Lanius gubernator"
+      },
+      {
+        "species_code": "gybfis1",
+        "common_name": "Gray-backed Fiscal",
+        "scientific_name": "Lanius excubitoroides"
+      },
+      {
+        "species_code": "gybshr1",
+        "common_name": "Gray-backed Shrike",
+        "scientific_name": "Lanius tephronotus"
+      },
+      {
+        "species_code": "gycshr1",
+        "common_name": "Mountain Shrike",
+        "scientific_name": "Lanius validirostris"
+      },
+      {
+        "species_code": "ibgshr1",
+        "common_name": "Iberian Gray Shrike",
+        "scientific_name": "Lanius meridionalis"
+      },
+      {
+        "species_code": "isashr1",
+        "common_name": "Isabelline Shrike",
+        "scientific_name": "Lanius isabellinus"
+      },
+      {
+        "species_code": "legshr2",
+        "common_name": "Lesser Gray Shrike",
+        "scientific_name": "Lanius minor"
+      },
+      {
+        "species_code": "logshr",
+        "common_name": "Loggerhead Shrike",
+        "scientific_name": "Lanius ludovicianus"
+      },
+      {
+        "species_code": "lotfis1",
+        "common_name": "Long-tailed Fiscal",
+        "scientific_name": "Lanius cabanisi"
+      },
+      {
+        "species_code": "lotshr1",
+        "common_name": "Long-tailed Shrike",
+        "scientific_name": "Lanius schach"
+      },
+      {
+        "species_code": "macshr1",
+        "common_name": "Mackinnon's Shrike",
+        "scientific_name": "Lanius mackinnoni"
+      },
+      {
+        "species_code": "masshr1",
+        "common_name": "Masked Shrike",
+        "scientific_name": "Lanius nubicus"
+      },
+      {
+        "species_code": "newfis1",
+        "common_name": "Newton's Fiscal",
+        "scientific_name": "Lanius newtoni"
+      },
+      {
+        "species_code": "norfis1",
+        "common_name": "Northern Fiscal",
+        "scientific_name": "Lanius humeralis"
+      },
+      {
+        "species_code": "norshr1",
+        "common_name": "Great Gray Shrike",
+        "scientific_name": "Lanius excubitor"
+      },
+      {
+        "species_code": "norshr4",
+        "common_name": "Northern Shrike",
+        "scientific_name": "Lanius borealis"
+      },
+      {
+        "species_code": "rebshr1",
+        "common_name": "Red-backed Shrike",
+        "scientific_name": "Lanius collurio"
+      },
+      {
+        "species_code": "rutshr2",
+        "common_name": "Red-tailed Shrike",
+        "scientific_name": "Lanius phoenicuroides"
+      },
+      {
+        "species_code": "somfis1",
+        "common_name": "Somali Fiscal",
+        "scientific_name": "Lanius somalicus"
+      },
+      {
+        "species_code": "soufis1",
+        "common_name": "Southern Fiscal",
+        "scientific_name": "Lanius collaris"
+      },
+      {
+        "species_code": "soushr3",
+        "common_name": "Souza's Shrike",
+        "scientific_name": "Lanius souzae"
+      },
+      {
+        "species_code": "taifis1",
+        "common_name": "Taita Fiscal",
+        "scientific_name": "Lanius dorsalis"
+      },
+      {
+        "species_code": "tigshr1",
+        "common_name": "Tiger Shrike",
+        "scientific_name": "Lanius tigrinus"
+      },
+      {
+        "species_code": "wooshr1",
+        "common_name": "Woodchat Shrike",
+        "scientific_name": "Lanius senator"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 113,
+    "cub_name": "113.Baird_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "baispa",
+        "common_name": "Baird's Sparrow",
+        "scientific_name": "Centronyx bairdii"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 114,
+    "cub_name": "114.Black_throated_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "bktspa",
+        "common_name": "Black-throated Sparrow",
+        "scientific_name": "Amphispiza bilineata"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 116,
+    "cub_name": "116.Chipping_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "chispa",
+        "common_name": "Chipping Sparrow",
+        "scientific_name": "Spizella passerina"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 119,
+    "cub_name": "119.Field_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "fiespa",
+        "common_name": "Field Sparrow",
+        "scientific_name": "Spizella pusilla"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 122,
+    "cub_name": "122.Harris_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "harspa",
+        "common_name": "Harris's Sparrow",
+        "scientific_name": "Zonotrichia querula"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 123,
+    "cub_name": "123.Henslow_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "henspa",
+        "common_name": "Henslow's Sparrow",
+        "scientific_name": "Centronyx henslowii"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 124,
+    "cub_name": "124.Le_Conte_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "lecspa",
+        "common_name": "LeConte's Sparrow",
+        "scientific_name": "Ammospiza leconteii"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 126,
+    "cub_name": "126.Nelson_Sharp_tailed_Sparrow",
+    "reason": "explicit historical/spelling alias: Nelson's Sparrow",
+    "excluded_species": [
+      {
+        "species_code": "nstspa",
+        "common_name": "Nelson's Sparrow",
+        "scientific_name": "Ammospiza nelsoni"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 127,
+    "cub_name": "127.Savannah_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "savspa",
+        "common_name": "Savannah Sparrow",
+        "scientific_name": "Passerculus sandwichensis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 129,
+    "cub_name": "129.Song_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "sonspa",
+        "common_name": "Song Sparrow",
+        "scientific_name": "Melospiza melodia"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 131,
+    "cub_name": "131.Vesper_Sparrow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "vesspa",
+        "common_name": "Vesper Sparrow",
+        "scientific_name": "Pooecetes gramineus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 134,
+    "cub_name": "134.Cape_Glossy_Starling",
+    "reason": "explicit historical/spelling alias: Cape Starling",
+    "excluded_species": [
+      {
+        "species_code": "capgls1",
+        "common_name": "Cape Starling",
+        "scientific_name": "Lamprotornis nitens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 136,
+    "cub_name": "136.Barn_Swallow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "barswa",
+        "common_name": "Barn Swallow",
+        "scientific_name": "Hirundo rustica"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 137,
+    "cub_name": "137.Cliff_Swallow",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "cliswa",
+        "common_name": "Cliff Swallow",
+        "scientific_name": "Petrochelidon pyrrhonota"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 141,
+    "cub_name": "141.Artic_Tern",
+    "reason": "explicit historical/spelling alias: Arctic Tern",
+    "excluded_species": [
+      {
+        "species_code": "arcter",
+        "common_name": "Arctic Tern",
+        "scientific_name": "Sterna paradisaea"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 143,
+    "cub_name": "143.Caspian_Tern",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "caster1",
+        "common_name": "Caspian Tern",
+        "scientific_name": "Hydroprogne caspia"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 145,
+    "cub_name": "145.Elegant_Tern",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "eleter1",
+        "common_name": "Elegant Tern",
+        "scientific_name": "Thalasseus elegans"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 146,
+    "cub_name": "146.Forsters_Tern",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "forter",
+        "common_name": "Forster's Tern",
+        "scientific_name": "Sterna forsteri"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 147,
+    "cub_name": "147.Least_Tern",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "leater1",
+        "common_name": "Least Tern",
+        "scientific_name": "Sternula antillarum"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 149,
+    "cub_name": "149.Brown_Thrasher",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "brnthr",
+        "common_name": "Brown Thrasher",
+        "scientific_name": "Toxostoma rufum"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 154,
+    "cub_name": "154.Red_eyed_Vireo",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "reevir1",
+        "common_name": "Red-eyed Vireo",
+        "scientific_name": "Vireo olivaceus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 156,
+    "cub_name": "156.White_eyed_Vireo",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "whevir",
+        "common_name": "White-eyed Vireo",
+        "scientific_name": "Vireo griseus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 157,
+    "cub_name": "157.Yellow_throated_Vireo",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "yetvir",
+        "common_name": "Yellow-throated Vireo",
+        "scientific_name": "Vireo flavifrons"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 159,
+    "cub_name": "159.Black_and_white_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "bawwar",
+        "common_name": "Black-and-white Warbler",
+        "scientific_name": "Mniotilta varia"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 160,
+    "cub_name": "160.Black_throated_Blue_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "btbwar",
+        "common_name": "Black-throated Blue Warbler",
+        "scientific_name": "Setophaga caerulescens"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 161,
+    "cub_name": "161.Blue_winged_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "buwwar",
+        "common_name": "Blue-winged Warbler",
+        "scientific_name": "Vermivora cyanoptera"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 162,
+    "cub_name": "162.Canada_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "canwar",
+        "common_name": "Canada Warbler",
+        "scientific_name": "Cardellina canadensis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 163,
+    "cub_name": "163.Cape_May_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "camwar",
+        "common_name": "Cape May Warbler",
+        "scientific_name": "Setophaga tigrina"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 166,
+    "cub_name": "166.Golden_winged_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "gowwar",
+        "common_name": "Golden-winged Warbler",
+        "scientific_name": "Vermivora chrysoptera"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 168,
+    "cub_name": "168.Kentucky_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "kenwar",
+        "common_name": "Kentucky Warbler",
+        "scientific_name": "Geothlypis formosa"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 171,
+    "cub_name": "171.Myrtle_Warbler",
+    "reason": "infraspecific name mapped to REPORT_AS species; whole species excluded",
+    "excluded_species": [
+      {
+        "species_code": "yerwar",
+        "common_name": "Yellow-rumped Warbler",
+        "scientific_name": "Setophaga coronata"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 172,
+    "cub_name": "172.Nashville_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "naswar",
+        "common_name": "Nashville Warbler",
+        "scientific_name": "Leiothlypis ruficapilla"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 173,
+    "cub_name": "173.Orange_crowned_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "orcwar",
+        "common_name": "Orange-crowned Warbler",
+        "scientific_name": "Leiothlypis celata"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 176,
+    "cub_name": "176.Prairie_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "prawar",
+        "common_name": "Prairie Warbler",
+        "scientific_name": "Setophaga discolor"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 177,
+    "cub_name": "177.Prothonotary_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "prowar",
+        "common_name": "Prothonotary Warbler",
+        "scientific_name": "Protonotaria citrea"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 178,
+    "cub_name": "178.Swainson_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "swawar",
+        "common_name": "Swainson's Warbler",
+        "scientific_name": "Limnothlypis swainsonii"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 180,
+    "cub_name": "180.Wilson_Warbler",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "wlswar",
+        "common_name": "Wilson's Warbler",
+        "scientific_name": "Cardellina pusilla"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 185,
+    "cub_name": "185.Bohemian_Waxwing",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "bohwax",
+        "common_name": "Bohemian Waxwing",
+        "scientific_name": "Bombycilla garrulus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 187,
+    "cub_name": "187.American_Three_toed_Woodpecker",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "attwoo1",
+        "common_name": "American Three-toed Woodpecker",
+        "scientific_name": "Picoides dorsalis"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 188,
+    "cub_name": "188.Pileated_Woodpecker",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "pilwoo",
+        "common_name": "Pileated Woodpecker",
+        "scientific_name": "Dryocopus pileatus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 193,
+    "cub_name": "193.Bewick_Wren",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "bewwre",
+        "common_name": "Bewick's Wren",
+        "scientific_name": "Thryomanes bewickii"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 194,
+    "cub_name": "194.Cactus_Wren",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "cacwre",
+        "common_name": "Cactus Wren",
+        "scientific_name": "Campylorhynchus brunneicapillus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 195,
+    "cub_name": "195.Carolina_Wren",
+    "reason": "exact/possessive common-name species mapping",
+    "excluded_species": [
+      {
+        "species_code": "carwre",
+        "common_name": "Carolina Wren",
+        "scientific_name": "Thryothorus ludovicianus"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 196,
+    "cub_name": "196.House_Wren",
+    "reason": "conservative entire genus Troglodytes: historical name/split uncertainty",
+    "excluded_species": [
+      {
+        "species_code": "cinwre1",
+        "common_name": "Kalinago Wren",
+        "scientific_name": "Troglodytes martinicensis"
+      },
+      {
+        "species_code": "clawre1",
+        "common_name": "Clarion Wren",
+        "scientific_name": "Troglodytes tanneri"
+      },
+      {
+        "species_code": "houwre",
+        "common_name": "Northern House Wren",
+        "scientific_name": "Troglodytes aedon"
+      },
+      {
+        "species_code": "houwre10",
+        "common_name": "St. Vincent Wren",
+        "scientific_name": "Troglodytes musicus"
+      },
+      {
+        "species_code": "houwre11",
+        "common_name": "Grenada Wren",
+        "scientific_name": "Troglodytes grenadensis"
+      },
+      {
+        "species_code": "houwre3",
+        "common_name": "Cozumel Wren",
+        "scientific_name": "Troglodytes beani"
+      },
+      {
+        "species_code": "houwre4",
+        "common_name": "Southern House Wren",
+        "scientific_name": "Troglodytes musculus"
+      },
+      {
+        "species_code": "houwre5",
+        "common_name": "Cobb's Wren",
+        "scientific_name": "Troglodytes cobbi"
+      },
+      {
+        "species_code": "houwre8",
+        "common_name": "St. Lucia Wren",
+        "scientific_name": "Troglodytes mesoleucus"
+      },
+      {
+        "species_code": "mouwre1",
+        "common_name": "Mountain Wren",
+        "scientific_name": "Troglodytes solstitialis"
+      },
+      {
+        "species_code": "ochwre1",
+        "common_name": "Ochraceous Wren",
+        "scientific_name": "Troglodytes ochraceus"
+      },
+      {
+        "species_code": "rubwre2",
+        "common_name": "Rufous-browed Wren",
+        "scientific_name": "Troglodytes rufociliatus"
+      },
+      {
+        "species_code": "samwre1",
+        "common_name": "Santa Marta Wren",
+        "scientific_name": "Troglodytes monticola"
+      },
+      {
+        "species_code": "socwre2",
+        "common_name": "Socorro Wren",
+        "scientific_name": "Troglodytes sissonii"
+      },
+      {
+        "species_code": "tepwre1",
+        "common_name": "Tepui Wren",
+        "scientific_name": "Troglodytes rufulus"
+      },
+      {
+        "species_code": "timwre1",
+        "common_name": "Timberline Wren",
+        "scientific_name": "Troglodytes browni"
+      }
+    ]
+  },
+  {
+    "cub_class_id": 197,
+    "cub_name": "197.Marsh_Wren",
+    "reason": "conservative entire genus Cistothorus: historical name/split uncertainty",
+    "excluded_species": [
+      {
+        "species_code": "apowre1",
+        "common_name": "Apolinar's Wren",
+        "scientific_name": "Cistothorus apolinari"
+      },
+      {
+        "species_code": "eamwre1",
+        "common_name": "Eastern Marsh Wren",
+        "scientific_name": "Cistothorus palustris"
+      },
+      {
+        "species_code": "marwre1",
+        "common_name": "Western Marsh Wren",
+        "scientific_name": "Cistothorus paludicola"
+      },
+      {
+        "species_code": "merwre1",
+        "common_name": "Merida Wren",
+        "scientific_name": "Cistothorus meridae"
+      },
+      {
+        "species_code": "sedwre",
+        "common_name": "Grass Wren",
+        "scientific_name": "Cistothorus platensis"
+      },
+      {
+        "species_code": "sedwre1",
+        "common_name": "Sedge Wren",
+        "scientific_name": "Cistothorus stellaris"
+      }
+    ]
+  }
+]

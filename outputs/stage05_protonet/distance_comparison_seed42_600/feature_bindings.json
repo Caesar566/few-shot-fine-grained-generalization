@@ -1,0 +1,41 @@
+{
+  "imagenet": {
+    "checkpoint": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_imagenet_seed42_server_bs128_fresh/checkpoints/best.pth",
+    "checkpoint_sha256": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4",
+    "checkpoint_epoch": 17,
+    "val_cache_path": "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/stage05_features/5c02e1259f1f92033f2e7b915870f84bee7afb4f4649cf30d607ac93d84f27d8.pt",
+    "val_feature_sha256": "6f449a2ed2fffa4f4c5f7af6037f821467aeadfedbe26e24cc50e968a6c878bb",
+    "raw_prototype_hashes": {
+      "1": "ce073b2fbd9ed502ef7ac1d14457b4870544db9ab9c219e939c964b2aae4ce15",
+      "5": "0390056fb770c674821fb533df2e8b03197be34fba08b30215ff999cc9c40860"
+    },
+    "encoder_unchanged": true,
+    "original_val_cache_unchanged": true
+  },
+  "random": {
+    "checkpoint": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_random_seed42_bs128/checkpoints/best.pth",
+    "checkpoint_sha256": "0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f",
+    "checkpoint_epoch": 45,
+    "val_cache_path": "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/stage05_features/4c764db8e2548f6e59d40c348f980b73136772a61701e2eb8c497e9d6c6d1847.pt",
+    "val_feature_sha256": "2fe9979318dcb7a77b569fef577ac7e6d13db18c15f536bbb4e819e55e95773f",
+    "raw_prototype_hashes": {
+      "1": "0293625f29d836f190a988232174908121d8a3be3c202ebb4e21f2b58744c69c",
+      "5": "e17b0b455e289a0d703a10c33785b41bffa7c7e48f7615466a61fd1b627e4f39"
+    },
+    "encoder_unchanged": true,
+    "original_val_cache_unchanged": true
+  },
+  "simclr": {
+    "checkpoint": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_simclr_seed42_bs128/checkpoints/best.pth",
+    "checkpoint_sha256": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37",
+    "checkpoint_epoch": 45,
+    "val_cache_path": "/home/caesar/Projects/few-shot-fine-grained-generalization/data/cache/stage05_features/753a45124af8c82d8a94e79b8274526b5b722c828bb5b93c68545be1c23b8a5a.pt",
+    "val_feature_sha256": "9479a796d2938b1f087097e9968cf97e3a1ba1943f268854cdf2955bee54eb1f",
+    "raw_prototype_hashes": {
+      "1": "0ee7c94a69f93b7d0396ce26f9580baabdea219db2524e01dc994530533e89a2",
+      "5": "696a75a3033984e51ee32dc80e62ce305cbf99b0c119b22c4534183790871585"
+    },
+    "encoder_unchanged": true,
+    "original_val_cache_unchanged": true
+  }
+}

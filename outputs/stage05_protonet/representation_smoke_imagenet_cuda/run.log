@@ -1,0 +1,5 @@
+Requested=cuda; ACTUAL device=cuda (NVIDIA GeForce MX450); FP32, no AMP/TF32; feature batch=8 query chunk=4
+Validated all 2947 actual Val image hashes, 50 unseen classes
+imagenet checkpoint=c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4; extracting/caching only 150 needed images
+Layer4 extraction on cuda: 8/150 images, batch=8
+Layer4 extraction on cuda: 150/150 images, batch=8

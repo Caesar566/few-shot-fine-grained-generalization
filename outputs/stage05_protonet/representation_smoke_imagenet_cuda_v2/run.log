@@ -1,0 +1,6 @@
+Requested=cuda; ACTUAL device=cuda (NVIDIA GeForce MX450); FP32, no AMP/TF32; feature batch=8 query chunk=4
+Validated all 2947 actual Val image hashes, 50 unseen classes
+imagenet checkpoint=c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4; extracting/caching only 150 needed images
+imagenet 1-shot: Global=0.8667 Local=0.8000 Fusion=0.8667
+imagenet 5-shot: Global=0.9467 Local=0.9067 Fusion=0.9333
+PASS: smoke validation on cuda (NVIDIA GeForce MX450). Report /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/representation_smoke_imagenet_cuda_v2/report.md

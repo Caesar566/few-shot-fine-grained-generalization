@@ -1,0 +1,70 @@
+/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/models/backbones/resnet.py:122: UserWarning: 显式加载 backbone，排除 2 个前缀外张量和 0 个分类头张量；完整名单见 backbone_load_info['ignored_keys']
+  backbone.backbone_load_info = load_backbone_weights(
+{
+  "status": "PASS",
+  "independent_process": true,
+  "device": "cpu",
+  "seed": 42,
+  "episodes": [
+    {
+      "initialization": "imagenet",
+      "k_shot": 1,
+      "plan_equal": true,
+      "features_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "predictions_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "initialization": "imagenet",
+      "k_shot": 5,
+      "plan_equal": true,
+      "features_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "predictions_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "initialization": "random",
+      "k_shot": 1,
+      "plan_equal": true,
+      "features_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "predictions_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "initialization": "random",
+      "k_shot": 5,
+      "plan_equal": true,
+      "features_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "predictions_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "initialization": "simclr",
+      "k_shot": 1,
+      "plan_equal": true,
+      "features_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "predictions_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "initialization": "simclr",
+      "k_shot": 5,
+      "plan_equal": true,
+      "features_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "predictions_equal": true,
+      "maximum_absolute_difference": 0.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Stage06 smoke ACTUAL device=cuda (NVIDIA GeForce MX450), FP32, Batch=8 chunk=4
+/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/models/backbones/resnet.py:122: UserWarning: 显式加载 backbone，排除 2 个前缀外张量和 0 个分类头张量；完整名单见 backbone_load_info['ignored_keys']
+  backbone.backbone_load_info = load_backbone_weights(
+imagenet extracting needed 150/19307 NABirds images
+Layer4 extraction on cuda: 8/150 new images, reused=0, batch=8
+Layer4 extraction on cuda: 150/150 new images, reused=0, batch=8
+imagenet 1-shot NABirds accuracy Global=0.8400 Local=0.7867 Fusion=0.8267
+imagenet 5-shot NABirds accuracy Global=0.9600 Local=0.9333 Fusion=0.9600
+PASS Stage06 smoke. Report: /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage06_nabirds/smoke_imagenet_cuda/report.md

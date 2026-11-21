@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "original_baseline_files_unchanged": true,
+  "checkpoints_and_encoder_states_unchanged": true,
+  "exact_original_val_features_reused": true,
+  "original_plans_copied_byte_for_byte": true,
+  "mean_raw_support_prototypes_unchanged": true,
+  "no_extra_feature_normalization": true,
+  "covariance_fit_split": "CUB Train only",
+  "covariance_uses_query_labels": false,
+  "covariance_uses_query_features": false,
+  "covariance_diagonal_positive": true,
+  "no_matrix_inverse": true,
+  "new_evaluations": 7200,
+  "reused_evaluations": 3600,
+  "total_evaluations": 10800,
+  "new_query_predictions": 180000,
+  "total_query_predictions": 270000,
+  "training_performed": false,
+  "seconds": 473.34557962100007,
+  "independent_replay": "PASS",
+  "tests_passed": 37
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="870"><rect width="1120" height="870" fill="white"/><g font-family="sans-serif" fill="#222">
+<text x="35" y="30" font-size="21">Mean episode accuracy (%) with 95% Student-t CI</text>
+<rect x="700" y="14" width="13" height="13" fill="#2468b4"/><text x="718" y="26" font-size="13">global</text>
+<rect x="830" y="14" width="13" height="13" fill="#d77a13"/><text x="848" y="26" font-size="13">local</text>
+<rect x="960" y="14" width="13" height="13" fill="#16856a"/><text x="978" y="26" font-size="13">fusion</text>
+<text x="70" y="68" font-size="18">5-way 1-shot</text>
+<line x1="85" y1="355.0" x2="1060" y2="355.0" stroke="#ddd"/><text x="35" y="359.0" font-size="12">0%</text>
+<line x1="85" y1="302.0" x2="1060" y2="302.0" stroke="#ddd"/><text x="35" y="306.0" font-size="12">20%</text>
+<line x1="85" y1="249.0" x2="1060" y2="249.0" stroke="#ddd"/><text x="35" y="253.0" font-size="12">40%</text>
+<line x1="85" y1="196.0" x2="1060" y2="196.0" stroke="#ddd"/><text x="35" y="200.0" font-size="12">60%</text>
+<line x1="85" y1="143.0" x2="1060" y2="143.0" stroke="#ddd"/><text x="35" y="147.0" font-size="12">80%</text>
+<line x1="85" y1="90.0" x2="1060" y2="90.0" stroke="#ddd"/><text x="35" y="94.0" font-size="12">100%</text>
+<rect x="150" y="132.4" width="58" height="222.6" fill="#2468b4"/><path d="M179,158.73185974455347 V106.06814025544654 M172,158.73185974455347 H186 M172,106.06814025544654 H186" stroke="#222" fill="none"/><text x="154" y="123.4" font-size="11">84.00</text>
+<rect x="226" y="146.53333333333333" width="58" height="208.46666666666667" fill="#d77a13"/><path d="M255,176.93874595689616 V116.12792070977048 M248,176.93874595689616 H262 M248,116.12792070977048 H262" stroke="#222" fill="none"/><text x="230" y="137.53333333333333" font-size="11">78.67</text>
+<rect x="302" y="135.9333333333333" width="58" height="219.0666666666667" fill="#16856a"/><path d="M331,151.13603964511475 V120.73062702155192 M324,151.13603964511475 H338 M324,120.73062702155192 H338" stroke="#222" fill="none"/><text x="306" y="126.93333333333331" font-size="11">82.67</text>
+<text x="170" y="382" font-size="15">imagenet</text>
+<text x="70" y="453" font-size="18">5-way 5-shot</text>
+<line x1="85" y1="740.0" x2="1060" y2="740.0" stroke="#ddd"/><text x="35" y="744.0" font-size="12">0%</text>
+<line x1="85" y1="687.0" x2="1060" y2="687.0" stroke="#ddd"/><text x="35" y="691.0" font-size="12">20%</text>
+<line x1="85" y1="634.0" x2="1060" y2="634.0" stroke="#ddd"/><text x="35" y="638.0" font-size="12">40%</text>
+<line x1="85" y1="581.0" x2="1060" y2="581.0" stroke="#ddd"/><text x="35" y="585.0" font-size="12">60%</text>
+<line x1="85" y1="528.0" x2="1060" y2="528.0" stroke="#ddd"/><text x="35" y="532.0" font-size="12">80%</text>
+<line x1="85" y1="475.0" x2="1060" y2="475.0" stroke="#ddd"/><text x="35" y="479.0" font-size="12">100%</text>
+<rect x="150" y="485.6" width="58" height="254.39999999999998" fill="#2468b4"/><path d="M179,485.6 V485.6 M172,485.6 H186 M172,485.6 H186" stroke="#222" fill="none"/><text x="154" y="476.6" font-size="11">96.00</text>
+<rect x="226" y="492.6666666666667" width="58" height="247.33333333333331" fill="#d77a13"/><path d="M255,523.0720792902296 V462.26125404310386 M248,523.0720792902296 H262 M248,462.26125404310386 H262" stroke="#222" fill="none"/><text x="230" y="483.6666666666667" font-size="11">93.33</text>
+<rect x="302" y="485.6" width="58" height="254.39999999999998" fill="#16856a"/><path d="M331,485.6 V485.6 M324,485.6 H338 M324,485.6 H338" stroke="#222" fill="none"/><text x="306" y="476.6" font-size="11">96.00</text>
+<text x="170" y="767" font-size="15">imagenet</text>
+</g></svg>

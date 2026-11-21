@@ -1,0 +1,25 @@
+Requested=cuda; ACTUAL device=cuda (NVIDIA GeForce MX450); FP32, no AMP/TF32; feature batch=8 query chunk=4
+Validated all 2947 actual Val image hashes, 50 unseen classes
+/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/models/backbones/resnet.py:122: UserWarning: 显式加载 backbone，排除 2 个前缀外张量和 0 个分类头张量；完整名单见 backbone_load_info['ignored_keys']
+  backbone.backbone_load_info = load_backbone_weights(
+imagenet checkpoint=c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4; extracting/caching only 150 needed images
+Layer4 extraction on cuda: 8/150 images, batch=8
+Layer4 extraction on cuda: 150/150 images, batch=8
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/engine/representation_comparison.py", line 347, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/engine/representation_comparison.py", line 313, in main
+    if args.mode=='smoke':reference_checks[name][str(k)]=cpu_reference(model,dataset,batch,k,original_global,s,q,scores,device,args)
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/caesar/Projects/few-shot-fine-grained-generalization/src/pattern_recognition_coursework/engine/representation_comparison.py", line 120, in cpu_reference
+    torch.testing.assert_close(maps,cached,rtol=1e-4,atol=5e-5)
+  File "/home/caesar/Projects/few-shot-fine-grained-generalization/.venv/lib/python3.11/site-packages/torch/testing/_comparison.py", line 1530, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 20 / 752640 (0.0%)
+Greatest absolute difference: 0.00010915100574493408 at index (7, 473, 0, 0) (up to 5e-05 allowed)
+Greatest relative difference: 0.007417215965688229 at index (18, 225, 0, 1) (up to 0.0001 allowed)

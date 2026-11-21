@@ -40,6 +40,27 @@ events.out.tfevents.*
 /outputs/**/logs/tensorboard/
 /outputs/**/local_torch_cache/
 
+# Bulky per-query predictions stay in local experiment archives.
+# Keep per-episode CSVs, summary statistics, verification and configuration.
+/outputs/**/predictions.jsonl
+
+# Repeated CUB episode exports are byte-identical to the canonical baseline.
+# Keep the canonical episode IDs, paths, hashes and label mapping for replay.
+/outputs/stage05_protonet/*/paired_episodes.jsonl
+!/outputs/stage05_protonet/episodic_eval_seed42_600/paired_episodes.jsonl
+/outputs/stage05_protonet/*/image_catalog.csv
+!/outputs/stage05_protonet/episodic_eval_seed42_600/image_catalog.csv
+
+# NABirds run-local protocol copies; canonical files remain in
+# outputs/stage06_nabirds/protocol/. Restore copies from there if auditing
+# a cloned historical run; full prediction replay also needs local archives.
+/outputs/stage06_nabirds/*/protocol/manifest.json
+/outputs/stage06_nabirds/*/protocol/paired_episodes.jsonl
+/outputs/stage06_nabirds/*/protocol/image_catalog.csv
+
+# Duplicate taxonomy download; preserve the pinned v2026 CSV and provenance.
+/outputs/stage06_nabirds/preflight/ebird_taxonomy_api.csv
+
 # Generated test fixtures and temporary checkpoints (including nested audit runs)
 pytest_tmp/
 /outputs/**/*_tmp/

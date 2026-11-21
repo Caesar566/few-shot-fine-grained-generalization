@@ -1,0 +1,2 @@
+Stage06 CUDA smoke passed. Starting all three frozen backbones on the same 600 paired plans.
+Stage06 full evaluation complete: /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage06_nabirds/full_seed42_600_cuda/report.md

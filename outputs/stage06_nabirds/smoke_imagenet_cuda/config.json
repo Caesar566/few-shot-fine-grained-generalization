@@ -1,0 +1,47 @@
+{
+  "mode": "smoke",
+  "episodes": 3,
+  "backbones": [
+    "imagenet"
+  ],
+  "seed": 42,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce MX450",
+  "requested_device": "cuda",
+  "method_signature": {
+    "local_k": 3,
+    "calibration": "per-query population zscore across five class scores",
+    "calibration_eps": 1e-06,
+    "fusion_weight": 0.5,
+    "global_metric": "cosine",
+    "raw_global_prototype_mean": true,
+    "fp32": true,
+    "implementation_sha256": {
+      "src/pattern_recognition_coursework/models/metrics/representation.py": "66e858533e52f78f9faebd905f4171af6e3b142dae68e283ce97fd6c77f783e2",
+      "src/pattern_recognition_coursework/models/metrics/local.py": "111adf01c1373807c7970587a015fbc225b1a56bb86a7966074ed5716c9a7ef8",
+      "src/pattern_recognition_coursework/models/metrics/episode.py": "549193a1a7896ddd3fec02ec7a8a43e3bf481de8cf7dce9c1ba8ea84986ca435"
+    }
+  },
+  "manifest_sha256": "d0999d870f91acd2ef7864bd2e311893aeb02e1aa5ffaeb5dbcbf84a9dd8a736",
+  "target_protocol": "nabirds-auto-conservative-ebird2026-officialtest-v1",
+  "automatic_screening": true,
+  "human_reviewed": false,
+  "image_split": "official_test_only",
+  "target_species": 317,
+  "target_images": 19307,
+  "feature_batch_size": 8,
+  "query_chunk": 4,
+  "workers": 0,
+  "used_episode_ids": [
+    0,
+    1,
+    2
+  ],
+  "plan_hashes": {
+    "1": "2f6eda056e6404db910c8e0a3b805c4ad8a091c2b3a84dd7c151a5c7eb79707f",
+    "5": "7380ca93e2701c2c6e5994b00be08fb9ebeeedf4cb96668715c9329f7d18ee81"
+  },
+  "cub_reference": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/representation_full_seed42_600_cuda",
+  "taxonomy_sha256": "93a8c9c94cfd541715d9847e38ec8e82afd29630ad21316bde55e6bd167a23ee",
+  "validation_report": null
+}

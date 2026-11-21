@@ -1,0 +1,28 @@
+{
+  "protocol": "nabirds-auto-conservative-ebird2026-officialtest-v1",
+  "human_reviewed": false,
+  "image_split": "official_test_only",
+  "species": 317,
+  "images": 19307,
+  "minimum_images_per_species": 13,
+  "maximum_images_per_species": 192,
+  "semantic_visual_decisions": {
+    "candidate_nonoverlap": 447,
+    "exclude_cub_train_semantic_overlap": 90,
+    "exclude_unknown_or_ambiguous_species": 18
+  },
+  "resolved_cub_train_classes": 100,
+  "excluded_taxon_superset_size": 171,
+  "actual_selected_bytes_verified": true,
+  "content_exclusions": 0,
+  "manifest_sha256": "d0999d870f91acd2ef7864bd2e311893aeb02e1aa5ffaeb5dbcbf84a9dd8a736",
+  "taxonomy_sha256": "93a8c9c94cfd541715d9847e38ec8e82afd29630ad21316bde55e6bd167a23ee",
+  "dataset_content_sha256": "955d0b8925607090f46fee1c935bddc3e8f60852a0ed05a0971c786c50f2cd13",
+  "protocol_frozen_before_target_performance": true,
+  "seed": 42,
+  "episodes_per_shot": 600,
+  "plan_hashes": {
+    "1": "2f6eda056e6404db910c8e0a3b805c4ad8a091c2b3a84dd7c151a5c7eb79707f",
+    "5": "7380ca93e2701c2c6e5994b00be08fb9ebeeedf4cb96668715c9329f7d18ee81"
+  }
+}

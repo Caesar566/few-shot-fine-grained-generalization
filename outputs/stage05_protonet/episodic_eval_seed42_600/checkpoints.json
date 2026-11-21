@@ -1,0 +1,62 @@
+{
+  "imagenet": {
+    "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_imagenet_seed42_server_bs128_fresh/checkpoints/best.pth",
+    "sha256": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4",
+    "epoch": 17,
+    "initialization": "resnet18-f37072fd.pth",
+    "loader": {
+      "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_imagenet_seed42_server_bs128_fresh/checkpoints/best.pth",
+      "sha256": "c9872bf26342f4c96a2d9dbb43d35fce4ab5f7ccb56db7430fcd85b2b0a951c4",
+      "container": "model",
+      "prefix": "backbone.",
+      "loaded_keys": 120,
+      "initialized_buffers": [],
+      "ignored_keys": [
+        "classifier.bias",
+        "classifier.weight"
+      ]
+    },
+    "encoder_state_unchanged": true,
+    "checkpoint_file_unchanged": true
+  },
+  "random": {
+    "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_random_seed42_bs128/checkpoints/best.pth",
+    "sha256": "0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f",
+    "epoch": 45,
+    "initialization": null,
+    "loader": {
+      "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_random_seed42_bs128/checkpoints/best.pth",
+      "sha256": "0a657b6e03060e6c987cbd0462127e9d0f07cf0d1e7ec692341119a5248dac1f",
+      "container": "model",
+      "prefix": "backbone.",
+      "loaded_keys": 120,
+      "initialized_buffers": [],
+      "ignored_keys": [
+        "classifier.bias",
+        "classifier.weight"
+      ]
+    },
+    "encoder_state_unchanged": true,
+    "checkpoint_file_unchanged": true
+  },
+  "simclr": {
+    "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_simclr_seed42_bs128/checkpoints/best.pth",
+    "sha256": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37",
+    "epoch": 45,
+    "initialization": "outputs/stage02_backbone/weights_verification/simclr_resnet18_backbone.pt",
+    "loader": {
+      "path": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage04_training/supervised_simclr_seed42_bs128/checkpoints/best.pth",
+      "sha256": "bc8d8ca49fcc1deeb1157915cdad19418dea546a700d38cf637d051d0c1abe37",
+      "container": "model",
+      "prefix": "backbone.",
+      "loaded_keys": 120,
+      "initialized_buffers": [],
+      "ignored_keys": [
+        "classifier.bias",
+        "classifier.weight"
+      ]
+    },
+    "encoder_state_unchanged": true,
+    "checkpoint_file_unchanged": true
+  }
+}

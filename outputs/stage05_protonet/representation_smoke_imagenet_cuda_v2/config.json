@@ -1,0 +1,40 @@
+{
+  "mode": "smoke",
+  "episodes": 3,
+  "backbones": [
+    "imagenet"
+  ],
+  "seed": 42,
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce MX450",
+  "requested_device": "cuda",
+  "method_signature": {
+    "local_k": 3,
+    "calibration": "per-query population zscore across five class scores",
+    "calibration_eps": 1e-06,
+    "fusion_weight": 0.5,
+    "global_metric": "cosine",
+    "raw_global_prototype_mean": true,
+    "fp32": true,
+    "implementation_sha256": {
+      "src/pattern_recognition_coursework/models/metrics/representation.py": "66e858533e52f78f9faebd905f4171af6e3b142dae68e283ce97fd6c77f783e2",
+      "src/pattern_recognition_coursework/models/metrics/local.py": "111adf01c1373807c7970587a015fbc225b1a56bb86a7966074ed5716c9a7ef8",
+      "src/pattern_recognition_coursework/models/metrics/episode.py": "549193a1a7896ddd3fec02ec7a8a43e3bf481de8cf7dce9c1ba8ea84986ca435"
+    }
+  },
+  "feature_batch_size": 8,
+  "query_chunk": 4,
+  "source_dir": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/episodic_eval_seed42_600",
+  "global_baseline_dir": "/home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/distance_comparison_seed42_600",
+  "workers": 0,
+  "plan_hashes": {
+    "1": "9e1d11ecd5fb98137859d68fa6d5183ff399b3e26f520f5d1a93bfb6f55c1bfc",
+    "5": "00d0417acfefd3c201468b5ffb1ddedc40b3cb2fb01f980cbfd22168cce00e60"
+  },
+  "used_episode_ids": [
+    0,
+    1,
+    2
+  ],
+  "validation_report": null
+}

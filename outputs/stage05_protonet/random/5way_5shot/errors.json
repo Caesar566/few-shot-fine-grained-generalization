@@ -1,0 +1,62 @@
+[
+  {
+    "position": 27,
+    "role": "query",
+    "dataset_index": 2384,
+    "official_image_id": "8968",
+    "dataset_label": 40,
+    "episode_label": 0,
+    "class_name": "153.Philadelphia_Vireo",
+    "path": "images/153.Philadelphia_Vireo/Philadelphia_Vireo_0082_156574.jpg",
+    "sha256": "2649ca5b16de3615803238ac3815795bce7c99b8de02e6fdfb7fd11276767349",
+    "query_index": 2,
+    "predicted_label": 1,
+    "predicted_class": "032.Mangrove_Cuckoo",
+    "confidence": 0.23345448076725006
+  },
+  {
+    "position": 30,
+    "role": "query",
+    "dataset_index": 399,
+    "official_image_id": "1776",
+    "dataset_label": 7,
+    "episode_label": 1,
+    "class_name": "032.Mangrove_Cuckoo",
+    "path": "images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0037_26389.jpg",
+    "sha256": "b73304cfd4045b217a45e8e28ea05001ab6fdc3a5673e217db4fff256a305bd0",
+    "query_index": 5,
+    "predicted_label": 2,
+    "predicted_class": "010.Red_winged_Blackbird",
+    "confidence": 0.3084181845188141
+  },
+  {
+    "position": 34,
+    "role": "query",
+    "dataset_index": 420,
+    "official_image_id": "1797",
+    "dataset_label": 7,
+    "episode_label": 1,
+    "class_name": "032.Mangrove_Cuckoo",
+    "path": "images/032.Mangrove_Cuckoo/Mangrove_Cuckoo_0021_794602.jpg",
+    "sha256": "6f0732fd928c267bdf90bfb90071616d1ede2f7c8c52d7bcc7e97b09ddad6b25",
+    "query_index": 9,
+    "predicted_label": 2,
+    "predicted_class": "010.Red_winged_Blackbird",
+    "confidence": 0.27152615785598755
+  },
+  {
+    "position": 47,
+    "role": "query",
+    "dataset_index": 1029,
+    "official_image_id": "4548",
+    "dataset_label": 17,
+    "episode_label": 4,
+    "class_name": "078.Gray_Kingbird",
+    "path": "images/078.Gray_Kingbird/Gray_Kingbird_0038_70118.jpg",
+    "sha256": "31483ff9f315b2adca32ba2b75fb556eea971e3994a15e1d88c716c3481cf797",
+    "query_index": 22,
+    "predicted_label": 1,
+    "predicted_class": "032.Mangrove_Cuckoo",
+    "confidence": 0.25408798456192017
+  }
+]

@@ -1,0 +1,556 @@
+visual_class_id,name,raw_images,official_test_images,retained_images,species_code,decision
+295,Common Eider (Adult male),53,29,29,comeid,candidate_nonoverlap
+296,Long-tailed Duck (Winter male),64,30,30,lotduc,candidate_nonoverlap
+297,Ruddy Duck (Breeding male),87,38,38,rudduc,candidate_nonoverlap
+298,Swainson's Hawk (Dark morph ),67,30,30,swahaw,candidate_nonoverlap
+299,Red-tailed Hawk (Light morph adult),120,60,60,rethaw,candidate_nonoverlap
+313,Snow Goose (White morph),47,26,26,snogoo,candidate_nonoverlap
+314,Wood Duck (Breeding male),120,60,60,wooduc,candidate_nonoverlap
+315,Gadwall (Breeding male),116,56,0,gadwal,exclude_cub_train_semantic_overlap
+316,American Wigeon (Breeding male),96,45,45,amewig,candidate_nonoverlap
+317,Mallard (Breeding male),120,60,60,mallar3,candidate_nonoverlap
+318,Blue-winged Teal  (Male),83,42,42,buwtea,candidate_nonoverlap
+319,Cinnamon Teal (Male),106,55,55,cintea,candidate_nonoverlap
+320,Northern Shoveler (Breeding male),120,60,60,norsho,candidate_nonoverlap
+321,Northern Pintail (Breeding male),87,42,42,norpin,candidate_nonoverlap
+322,Green-winged Teal (Male),97,41,41,gnwtea,candidate_nonoverlap
+323,Canvasback (Breeding male),89,43,43,canvas,candidate_nonoverlap
+324,Redhead (Breeding male),66,27,27,redhea,candidate_nonoverlap
+325,Ring-necked Duck (Breeding male),82,44,44,rinduc,candidate_nonoverlap
+326,Greater Scaup (Breeding male),72,43,43,gresca,candidate_nonoverlap
+327,Lesser Scaup (Breeding male),85,44,44,lessca,candidate_nonoverlap
+328,Harlequin Duck (Male),92,43,43,harduc,candidate_nonoverlap
+329,Surf Scoter (Male),70,37,37,sursco,candidate_nonoverlap
+330,White-winged Scoter (Male),44,27,27,whwsco2,candidate_nonoverlap
+331,Black Scoter (Male),41,19,19,blksco2,candidate_nonoverlap
+332,Bufflehead (Breeding male),106,60,60,buffle,candidate_nonoverlap
+333,Common Goldeneye (Breeding male),105,51,51,comgol,candidate_nonoverlap
+334,Barrow's Goldeneye (Breeding male),45,35,35,bargol,candidate_nonoverlap
+335,Hooded Merganser (Breeding male),106,53,53,hoomer,candidate_nonoverlap
+336,Common Merganser (Breeding male),63,32,32,commer,candidate_nonoverlap
+337,Red-breasted Merganser (Breeding male),77,41,41,rebmer,candidate_nonoverlap
+338,California Quail (Male),116,56,56,calqua,candidate_nonoverlap
+339,Gambel's Quail (Male),71,35,35,gamqua,candidate_nonoverlap
+340,Ring-necked Pheasant (Male),93,47,47,rinphe1,candidate_nonoverlap
+341,Red-throated Loon (Breeding),23,12,12,retloo,candidate_nonoverlap
+342,Pacific Loon (Breeding),31,20,0,pacloo,exclude_cub_train_semantic_overlap
+343,Common Loon (Breeding),94,60,60,comloo,candidate_nonoverlap
+344,Horned Grebe (Breeding),76,35,35,horgre,candidate_nonoverlap
+345,Red-necked Grebe (Breeding),54,29,29,rengre,candidate_nonoverlap
+346,Eared Grebe (Breeding),73,42,42,eargre,candidate_nonoverlap
+347,"Northern Gannet (Adult, Subadult)",106,60,60,norgan,candidate_nonoverlap
+348,Double-crested Cormorant (Immature),109,52,52,doccor,candidate_nonoverlap
+349,Great Cormorant (Adult),75,40,40,grecor,candidate_nonoverlap
+350,Little Blue Heron (Adult),120,60,60,libher,candidate_nonoverlap
+351,Reddish Egret (Dark morph),110,52,52,redegr,candidate_nonoverlap
+352,Black-crowned Night-Heron (Adult),120,60,60,bcnher,candidate_nonoverlap
+353,Yellow-crowned Night-Heron (Adult),98,60,60,ycnher,candidate_nonoverlap
+354,White Ibis (Adult),118,58,58,whiibi,candidate_nonoverlap
+355,"Bald Eagle (Adult, subadult)",120,60,60,baleag,candidate_nonoverlap
+356,Northern Harrier (Adult male),95,60,60,norhar2,candidate_nonoverlap
+357,Sharp-shinned Hawk (Adult ),118,58,58,shshaw,candidate_nonoverlap
+358,Cooper's Hawk (Adult),117,57,57,coohaw,candidate_nonoverlap
+359,Red-shouldered Hawk (Adult ),70,38,38,reshaw,candidate_nonoverlap
+360,Broad-winged Hawk (Adult),58,26,26,brwhaw,candidate_nonoverlap
+361,Rough-legged Hawk (Dark morph),50,24,24,rolhaw,candidate_nonoverlap
+362,Golden Eagle (Adult),81,42,42,goleag,candidate_nonoverlap
+363,American Kestrel (Adult male),120,60,60,amekes,candidate_nonoverlap
+364,Peregrine Falcon (Adult),77,46,46,perfal,candidate_nonoverlap
+365,Purple Gallinule (Adult),74,40,40,purgal2,candidate_nonoverlap
+366,Common Gallinule (Adult),101,49,49,comgal1,candidate_nonoverlap
+367,Black-bellied Plover (Breeding),82,35,35,bkbplo,candidate_nonoverlap
+368,Spotted Sandpiper (Breeding),108,51,51,sposan,candidate_nonoverlap
+369,Sanderling (Breeding),31,19,19,sander,candidate_nonoverlap
+370,Dunlin (Breeding),76,35,35,dunlin,candidate_nonoverlap
+371,Wilson's Phalarope (Breeding),90,53,53,wilpha,candidate_nonoverlap
+372,Broad-billed Hummingbird (Adult Male),89,49,49,brbhum,candidate_nonoverlap
+373,Ruby-throated Hummingbird (Adult Male),100,54,54,rthhum,candidate_nonoverlap
+374,Black-chinned Hummingbird (Adult Male),101,50,50,bkchum,candidate_nonoverlap
+375,Anna's Hummingbird (Adult Male),113,54,0,annhum,exclude_cub_train_semantic_overlap
+376,Costa's Hummingbird (Adult Male),74,37,37,coshum,candidate_nonoverlap
+377,Calliope Hummingbird (Adult Male),78,41,41,calhum,candidate_nonoverlap
+378,Broad-tailed Hummingbird (Adult Male),81,44,44,brthum,candidate_nonoverlap
+379,Rufous Hummingbird (Adult Male),93,50,50,rufhum,candidate_nonoverlap
+380,Allen's Hummingbird (Adult Male),107,60,60,allhum,candidate_nonoverlap
+381,Red-headed Woodpecker (Adult),119,59,59,rehwoo,candidate_nonoverlap
+382,Northern Flicker (Yellow-shafted),119,59,59,norfli,candidate_nonoverlap
+392,Black Guillemot (Breeding),45,20,20,blkgui,candidate_nonoverlap
+393,Pigeon Guillemot (Breeding),81,42,42,piggui,candidate_nonoverlap
+394,Black-legged Kittiwake (Adult),53,23,23,bklkit,candidate_nonoverlap
+395,Laughing Gull (Breeding),119,59,59,laugul,candidate_nonoverlap
+396,Heermann's Gull (Adult),87,39,0,heegul,exclude_cub_train_semantic_overlap
+397,Ring-billed Gull (Adult),120,60,0,ribgul,exclude_cub_train_semantic_overlap
+398,Western Gull (Adult),70,33,0,wesgul,exclude_cub_train_semantic_overlap
+399,California Gull (Adult),76,41,41,calgul,candidate_nonoverlap
+400,Herring Gull (Adult),117,57,0,,exclude_unknown_or_ambiguous_species
+401,Glaucous-winged Gull (Adult),78,38,38,glwgul,candidate_nonoverlap
+402,Great Black-backed Gull (Adult),84,41,41,gbbgul,candidate_nonoverlap
+446,Bonaparte's Gull,118,58,58,bongul,candidate_nonoverlap
+447,Mew Gull,55,23,0,,exclude_unknown_or_ambiguous_species
+448,Caspian Tern,93,49,0,caster1,exclude_cub_train_semantic_overlap
+449,Black Tern,63,35,35,blkter,candidate_nonoverlap
+450,Common Tern,120,60,60,comter,candidate_nonoverlap
+451,Forster's Tern,120,60,0,forter,exclude_cub_train_semantic_overlap
+452,Royal Tern,76,38,38,royter1,candidate_nonoverlap
+453,Black Skimmer,92,53,53,blkski,candidate_nonoverlap
+454,Greater White-fronted Goose,71,33,33,gwfgoo,candidate_nonoverlap
+455,Brant,52,32,32,brant,candidate_nonoverlap
+456,Cackling Goose,31,14,14,cacgoo1,candidate_nonoverlap
+457,Canada Goose,61,31,31,cangoo,candidate_nonoverlap
+458,Mute Swan,117,60,60,mutswa,candidate_nonoverlap
+459,Trumpeter Swan,80,37,37,truswa,candidate_nonoverlap
+460,Tundra Swan,55,28,28,tunswa,candidate_nonoverlap
+461,American Black Duck,65,37,37,ambduc,candidate_nonoverlap
+462,Mottled Duck,60,29,29,motduc,candidate_nonoverlap
+463,Common Eider (Female/juvenile),41,22,22,comeid,candidate_nonoverlap
+464,Long-tailed Duck (Summer male),28,12,12,lotduc,candidate_nonoverlap
+465,Ruddy Duck (Winter male),48,28,28,rudduc,candidate_nonoverlap
+466,Scaled Quail,39,19,19,scaqua,candidate_nonoverlap
+467,Northern Bobwhite,59,32,32,norbob,candidate_nonoverlap
+468,Ruffed Grouse,75,40,40,rufgro,candidate_nonoverlap
+469,Wild Turkey,120,60,60,wiltur,candidate_nonoverlap
+470,Pied-billed Grebe,116,60,0,pibgre,exclude_cub_train_semantic_overlap
+471,Western Grebe,75,42,0,wesgre,exclude_cub_train_semantic_overlap
+472,Clark's Grebe,82,38,38,clagre,candidate_nonoverlap
+473,Wood Stork,104,56,56,woosto,candidate_nonoverlap
+474,Brandt's Cormorant,66,33,33,bracor,candidate_nonoverlap
+475,Neotropic Cormorant,65,38,38,neocor,candidate_nonoverlap
+476,Pelagic Cormorant,62,26,26,pelcor,candidate_nonoverlap
+477,Anhinga,120,60,60,anhing,candidate_nonoverlap
+478,American White Pelican,64,28,0,amwpel,exclude_cub_train_semantic_overlap
+479,Brown Pelican,65,34,34,brnpel,candidate_nonoverlap
+480,Great Blue Heron,102,60,60,grbher3,candidate_nonoverlap
+481,Great Egret,111,60,60,greegr,candidate_nonoverlap
+482,Snowy Egret,104,49,49,snoegr,candidate_nonoverlap
+483,Tricolored Heron,120,60,60,triher,candidate_nonoverlap
+484,Cattle Egret,108,49,0,,exclude_unknown_or_ambiguous_species
+485,Green Heron,120,60,60,grnher,candidate_nonoverlap
+486,Glossy Ibis,98,44,44,gloibi,candidate_nonoverlap
+487,White-faced Ibis,66,34,34,whfibi,candidate_nonoverlap
+488,Roseate Spoonbill,60,29,29,rosspo1,candidate_nonoverlap
+489,Black Vulture,97,48,48,blkvul,candidate_nonoverlap
+490,Turkey Vulture,108,59,59,turvul,candidate_nonoverlap
+491,Osprey,106,52,52,osprey,candidate_nonoverlap
+492,Swallow-tailed Kite,53,29,29,swtkit,candidate_nonoverlap
+493,White-tailed Kite,72,13,13,whtkit,candidate_nonoverlap
+494,Mississippi Kite,80,50,50,miskit,candidate_nonoverlap
+495,Harris's Hawk,95,43,43,hrshaw,candidate_nonoverlap
+496,Swainson's Hawk (Light morph ),77,39,39,swahaw,candidate_nonoverlap
+497,Red-tailed Hawk (Dark morph),58,30,30,rethaw,candidate_nonoverlap
+498,Crested Caracara,112,54,54,y00678,candidate_nonoverlap
+499,Merlin,118,58,58,merlin,candidate_nonoverlap
+500,Prairie Falcon,86,42,42,prafal,candidate_nonoverlap
+501,American Coot,120,60,60,y00475,candidate_nonoverlap
+502,Sandhill Crane,50,25,25,sancra,candidate_nonoverlap
+503,Semipalmated Plover,111,54,54,semplo,candidate_nonoverlap
+504,Killdeer,120,60,60,killde,candidate_nonoverlap
+505,American Oystercatcher,80,49,49,ameoys,candidate_nonoverlap
+506,Black Oystercatcher,65,49,49,blkoys,candidate_nonoverlap
+507,Black-necked Stilt,74,33,33,bknsti,candidate_nonoverlap
+508,American Avocet,102,54,54,ameavo,candidate_nonoverlap
+509,Solitary Sandpiper,116,56,56,solsan,candidate_nonoverlap
+510,Greater Yellowlegs,113,59,59,greyel,candidate_nonoverlap
+511,Willet,120,60,0,,exclude_unknown_or_ambiguous_species
+512,Lesser Yellowlegs,120,60,60,lesyel,candidate_nonoverlap
+513,Whimbrel,101,51,0,,exclude_unknown_or_ambiguous_species
+514,Long-billed Curlew,96,53,53,lobcur,candidate_nonoverlap
+515,Marbled Godwit,116,60,60,margod,candidate_nonoverlap
+516,Ruddy Turnstone,108,55,55,rudtur,candidate_nonoverlap
+517,Black Turnstone,86,47,47,blktur,candidate_nonoverlap
+518,Surfbird,63,40,40,surfbi,candidate_nonoverlap
+519,Semipalmated Sandpiper,105,60,60,semsan,candidate_nonoverlap
+520,Western Sandpiper,92,51,51,wessan,candidate_nonoverlap
+521,Least Sandpiper,120,60,60,leasan,candidate_nonoverlap
+522,Short-billed Dowitcher,120,60,60,shbdow,candidate_nonoverlap
+523,Wilson's Snipe,110,55,55,wilsni1,candidate_nonoverlap
+524,American Woodcock,54,30,30,amewoo,candidate_nonoverlap
+525,Rock Pigeon,105,58,58,rocpig,candidate_nonoverlap
+526,Band-tailed Pigeon,75,40,40,batpig1,candidate_nonoverlap
+527,Eurasian Collared-Dove,117,59,59,eucdov,candidate_nonoverlap
+528,White-winged Dove,117,57,57,whwdov,candidate_nonoverlap
+529,Mourning Dove,120,60,60,moudov,candidate_nonoverlap
+530,Inca Dove,103,50,50,incdov,candidate_nonoverlap
+531,Common Ground-Dove,75,35,35,cogdov,candidate_nonoverlap
+532,Monk Parakeet,46,28,28,monpar,candidate_nonoverlap
+533,Yellow-billed Cuckoo,94,47,0,yebcuc,exclude_cub_train_semantic_overlap
+534,Black-billed Cuckoo,71,32,0,bkbcuc,exclude_cub_train_semantic_overlap
+535,Greater Roadrunner,65,34,0,greroa,exclude_cub_train_semantic_overlap
+536,Barn Owl,109,52,0,,exclude_unknown_or_ambiguous_species
+537,Western Screech-Owl,74,34,34,wesowl1,candidate_nonoverlap
+538,Eastern Screech-Owl,94,50,50,easowl1,candidate_nonoverlap
+539,Great Horned Owl,103,46,46,grhowl,candidate_nonoverlap
+540,Snowy Owl,72,46,46,snoowl1,candidate_nonoverlap
+541,Northern Pygmy-Owl,103,50,50,nopowl,candidate_nonoverlap
+542,Burrowing Owl,99,43,43,burowl,candidate_nonoverlap
+543,Barred Owl,120,60,60,brdowl,candidate_nonoverlap
+544,Northern Saw-whet Owl,98,45,45,nswowl,candidate_nonoverlap
+545,Common Nighthawk,86,39,39,comnig,candidate_nonoverlap
+546,Chimney Swift,57,33,33,chiswi,candidate_nonoverlap
+547,Vaux's Swift,53,28,28,vauswi,candidate_nonoverlap
+548,White-throated Swift,66,40,40,whtswi,candidate_nonoverlap
+549,Belted Kingfisher,109,60,0,belkin1,exclude_cub_train_semantic_overlap
+550,Acorn Woodpecker,99,58,58,acowoo,candidate_nonoverlap
+551,Gila Woodpecker,97,50,50,gilwoo,candidate_nonoverlap
+552,Golden-fronted Woodpecker,77,33,33,gofwoo,candidate_nonoverlap
+553,Red-bellied Woodpecker,120,60,60,rebwoo,candidate_nonoverlap
+554,Yellow-bellied Sapsucker,119,59,59,yebsap,candidate_nonoverlap
+555,Red-naped Sapsucker,98,54,54,rensap,candidate_nonoverlap
+556,Red-breasted Sapsucker,85,42,42,rebsap,candidate_nonoverlap
+557,Ladder-backed Woodpecker,99,50,50,labwoo,candidate_nonoverlap
+558,Nuttall's Woodpecker,92,45,45,nutwoo,candidate_nonoverlap
+559,Downy Woodpecker,120,60,60,dowwoo,candidate_nonoverlap
+560,Hairy Woodpecker,118,60,60,haiwoo,candidate_nonoverlap
+561,Pileated Woodpecker,119,60,0,pilwoo,exclude_cub_train_semantic_overlap
+599,"Black Guillemot (Nonbreeding, juvenile)",33,12,12,blkgui,candidate_nonoverlap
+600,"Pigeon Guillemot (Nonbreeding, juvenile)",37,17,17,piggui,candidate_nonoverlap
+601,Black-legged Kittiwake (Immature),54,19,19,bklkit,candidate_nonoverlap
+602,Laughing Gull (Nonbreeding/Immature),86,45,45,laugul,candidate_nonoverlap
+603,Heermann's Gull (Immature),47,22,0,heegul,exclude_cub_train_semantic_overlap
+604,Ring-billed Gull (Immature),80,36,0,ribgul,exclude_cub_train_semantic_overlap
+605,Western Gull (Immature),54,26,0,wesgul,exclude_cub_train_semantic_overlap
+606,California Gull (Immature),54,25,25,calgul,candidate_nonoverlap
+607,Herring Gull (Immature),101,44,0,,exclude_unknown_or_ambiguous_species
+608,Glaucous-winged Gull (Immature),49,22,22,glwgul,candidate_nonoverlap
+609,Great Black-backed Gull (Immature),63,32,32,gbbgul,candidate_nonoverlap
+610,Black-bellied Whistling-Duck,51,20,20,bbwduc,candidate_nonoverlap
+611,Snow Goose (Blue morph),49,28,28,snogoo,candidate_nonoverlap
+612,Ross's Goose,46,23,23,rosgoo,candidate_nonoverlap
+613,Wood Duck (Female/Eclipse male),96,46,46,wooduc,candidate_nonoverlap
+614,Gadwall (Female/Eclipse male),39,19,0,gadwal,exclude_cub_train_semantic_overlap
+615,American Wigeon (Female/Eclipse male),41,19,19,amewig,candidate_nonoverlap
+616,Mallard (Female/Eclipse male),118,60,60,mallar3,candidate_nonoverlap
+617,Blue-winged Teal  (Female/juvenile),33,17,17,buwtea,candidate_nonoverlap
+618,Cinnamon Teal (Female/juvenile),32,20,20,cintea,candidate_nonoverlap
+619,Northern Shoveler (Female/Eclipse male),79,40,40,norsho,candidate_nonoverlap
+620,Northern Pintail (Female/Eclipse male),47,24,24,norpin,candidate_nonoverlap
+621,Green-winged Teal  (Female/juvenile),47,30,30,gnwtea,candidate_nonoverlap
+622,Canvasback (Female/Eclipse male),41,29,29,canvas,candidate_nonoverlap
+623,Redhead (Female/Eclipse male),34,17,17,redhea,candidate_nonoverlap
+624,Ring-necked Duck (Female/Eclipse male),50,24,24,rinduc,candidate_nonoverlap
+625,Greater Scaup (Female/Eclipse male),39,30,30,gresca,candidate_nonoverlap
+626,Lesser Scaup (Female/Eclipse male),62,35,35,lessca,candidate_nonoverlap
+627,Harlequin Duck (Female/juvenile),27,22,22,harduc,candidate_nonoverlap
+628,Surf Scoter (Female/immature),44,24,24,sursco,candidate_nonoverlap
+629,White-winged Scoter (Female/juvenile),48,30,30,whwsco2,candidate_nonoverlap
+630,Black Scoter (Female/juvenile),40,22,22,blksco2,candidate_nonoverlap
+631,Bufflehead (Female/immature male),65,33,33,buffle,candidate_nonoverlap
+632,Common Goldeneye (Female/Eclipse male),58,33,33,comgol,candidate_nonoverlap
+633,Barrow's Goldeneye (Female/Eclipse male),32,25,25,bargol,candidate_nonoverlap
+634,Hooded Merganser (Female/immature male),66,33,33,hoomer,candidate_nonoverlap
+635,Common Merganser (Female/immature male),87,42,42,commer,candidate_nonoverlap
+636,Red-breasted Merganser (Female/immature male),78,44,44,rebmer,candidate_nonoverlap
+637,California Quail (Female/juvenile),51,22,22,calqua,candidate_nonoverlap
+638,Gambel's Quail (Female/juvenile),36,17,17,gamqua,candidate_nonoverlap
+639,Ring-necked Pheasant (Female/juvenile),32,14,14,rinphe1,candidate_nonoverlap
+640,Red-throated Loon (Nonbreeding/juvenile),94,47,47,retloo,candidate_nonoverlap
+641,Pacific Loon (Nonbreeding/juvenile),54,27,0,pacloo,exclude_cub_train_semantic_overlap
+642,Common Loon (Nonbreeding/juvenile),120,60,60,comloo,candidate_nonoverlap
+643,Horned Grebe (Nonbreeding/juvenile),120,60,60,horgre,candidate_nonoverlap
+644,Red-necked Grebe (Nonbreeding/juvenile),62,31,31,rengre,candidate_nonoverlap
+645,Eared Grebe (Nonbreeding/juvenile),64,38,38,eargre,candidate_nonoverlap
+646,Northern Gannet (Immature/Juvenile),39,20,20,norgan,candidate_nonoverlap
+647,Double-crested Cormorant (Adult),101,54,54,doccor,candidate_nonoverlap
+648,Great Cormorant (Immature),42,24,24,grecor,candidate_nonoverlap
+649,Little Blue Heron (Immature),87,37,37,libher,candidate_nonoverlap
+650,Reddish Egret (White morph),46,23,23,redegr,candidate_nonoverlap
+651,Black-crowned Night-Heron (Immature),99,54,54,bcnher,candidate_nonoverlap
+652,Yellow-crowned Night-Heron (Immature),82,39,39,ycnher,candidate_nonoverlap
+653,White Ibis (Immature),63,33,33,whiibi,candidate_nonoverlap
+654,"Bald Eagle (Immature, juvenile)",103,43,43,baleag,candidate_nonoverlap
+655,"Northern Harrier (Female, immature)",120,60,60,norhar2,candidate_nonoverlap
+656,Sharp-shinned Hawk (Immature),109,58,58,shshaw,candidate_nonoverlap
+657,Cooper's Hawk (Immature),120,60,60,coohaw,candidate_nonoverlap
+658,Red-shouldered Hawk (Immature),81,38,38,reshaw,candidate_nonoverlap
+659,Broad-winged Hawk (Immature),47,29,29,brwhaw,candidate_nonoverlap
+660,Rough-legged Hawk (Light morph),86,40,40,rolhaw,candidate_nonoverlap
+661,Golden Eagle (Immature),56,30,30,goleag,candidate_nonoverlap
+662,"American Kestrel (Female, immature)",110,55,55,amekes,candidate_nonoverlap
+663,Peregrine Falcon (Immature),53,31,31,perfal,candidate_nonoverlap
+664,Purple Gallinule (Immature),21,11,11,purgal2,candidate_nonoverlap
+665,Common Gallinule (Immature),31,15,15,comgal1,candidate_nonoverlap
+666,Black-bellied Plover (Nonbreeding/juvenile),83,42,42,bkbplo,candidate_nonoverlap
+667,Spotted Sandpiper (Nonbreeding/juvenile),98,47,47,sposan,candidate_nonoverlap
+668,Sanderling (Nonbreeding/juvenile),95,49,49,sander,candidate_nonoverlap
+669,Dunlin (Nonbreeding/juvenile),118,58,58,dunlin,candidate_nonoverlap
+670,"Wilson's Phalarope (Nonbreeding, juvenile)",59,28,28,wilpha,candidate_nonoverlap
+671,"Broad-billed Hummingbird (Female, immature)",42,22,22,brbhum,candidate_nonoverlap
+672,"Ruby-throated Hummingbird (Female, immature)",120,60,60,rthhum,candidate_nonoverlap
+673,"Black-chinned Hummingbird (Female, immature)",119,59,59,bkchum,candidate_nonoverlap
+674,"Anna's Hummingbird (Female, immature)",109,52,0,annhum,exclude_cub_train_semantic_overlap
+675,"Costa's Hummingbird (Female, immature)",42,21,21,coshum,candidate_nonoverlap
+676,"Calliope Hummingbird (Female, immature)",108,48,48,calhum,candidate_nonoverlap
+677,"Broad-tailed Hummingbird (Female, immature)",56,29,29,brthum,candidate_nonoverlap
+678,"Rufous Hummingbird (Female, immature)",70,37,37,rufhum,candidate_nonoverlap
+679,"Allen's Hummingbird (Female, immature)",70,41,41,allhum,candidate_nonoverlap
+680,Red-headed Woodpecker (Immature),72,35,35,rehwoo,candidate_nonoverlap
+681,Northern Flicker (Red-shafted),119,59,59,norfli,candidate_nonoverlap
+696,Common Eider (Immature/Eclipse male),45,22,22,comeid,candidate_nonoverlap
+697,Long-tailed Duck (Female/juvenile),44,23,23,lotduc,candidate_nonoverlap
+698,Ruddy Duck (Female/juvenile),76,40,40,rudduc,candidate_nonoverlap
+699,Swainson's Hawk (Immature),44,24,24,swahaw,candidate_nonoverlap
+700,Red-tailed Hawk (Light morph immature),120,60,60,rethaw,candidate_nonoverlap
+746,Dark-eyed Junco (Slate-colored),120,60,60,daejun,candidate_nonoverlap
+747,Yellow-rumped Warbler (Breeding Myrtle),116,59,0,yerwar,exclude_cub_train_semantic_overlap
+748,European Starling (Breeding Adult),116,59,59,eursta,candidate_nonoverlap
+749,Fox Sparrow (Red),111,60,60,foxspa,candidate_nonoverlap
+750,Summer Tanager (Adult Male),91,50,50,sumtan,candidate_nonoverlap
+751,Orchard Oriole (Adult Male),88,42,42,orcori,candidate_nonoverlap
+752,Purple Martin (Adult male),70,35,35,purmar,candidate_nonoverlap
+753,American Robin (Adult),119,59,59,amerob,candidate_nonoverlap
+754,Phainopepla (Female/juvenile),35,18,18,phaino,candidate_nonoverlap
+755,Snow Bunting (Breeding adult),24,12,12,snobun,candidate_nonoverlap
+756,Common Yellowthroat (Adult Male),120,60,60,comyel,candidate_nonoverlap
+757,American Redstart (Adult Male),103,60,60,amered,candidate_nonoverlap
+758,Magnolia Warbler (Breeding male),99,60,60,magwar,candidate_nonoverlap
+759,Bay-breasted Warbler (Breeding male),48,33,33,babwar,candidate_nonoverlap
+760,Chestnut-sided Warbler (Breeding male),116,60,60,chswar,candidate_nonoverlap
+761,Blackpoll Warbler (Breeding male),90,43,43,bkpwar,candidate_nonoverlap
+762,Black-throated Blue Warbler (Adult Male),119,59,0,btbwar,exclude_cub_train_semantic_overlap
+763,Lark Bunting (Breeding male),30,19,19,larbun,candidate_nonoverlap
+764,White-throated Sparrow (White-striped),119,59,59,whtspa,candidate_nonoverlap
+765,Harris's Sparrow (Adult),64,27,0,harspa,exclude_cub_train_semantic_overlap
+766,White-crowned Sparrow (Adult),120,60,60,whcspa,candidate_nonoverlap
+767,Golden-crowned Sparrow (Adult),88,42,42,gocspa,candidate_nonoverlap
+768,Dark-eyed Junco (Oregon),98,49,49,daejun,candidate_nonoverlap
+769,Chipping Sparrow (Breeding),120,60,0,chispa,exclude_cub_train_semantic_overlap
+770,Scarlet Tanager (Breeding Male),97,49,49,scatan,candidate_nonoverlap
+771,Western Tanager (Breeding Male),94,53,53,westan,candidate_nonoverlap
+772,Northern Cardinal (Adult Male),120,60,0,norcar,exclude_cub_train_semantic_overlap
+773,Rose-breasted Grosbeak (Adult Male),120,60,60,robgro,candidate_nonoverlap
+774,Black-headed Grosbeak (Adult Male),109,58,58,bkhgro,candidate_nonoverlap
+775,Blue Grosbeak (Adult Male),111,58,58,blugrb1,candidate_nonoverlap
+776,Lazuli Bunting (Adult Male),102,46,0,lazbun,exclude_cub_train_semantic_overlap
+777,Indigo Bunting (Adult Male),120,60,0,indbun,exclude_cub_train_semantic_overlap
+778,Painted Bunting (Adult Male),119,59,0,paibun,exclude_cub_train_semantic_overlap
+779,Bobolink (Breeding male),115,55,0,boboli,exclude_cub_train_semantic_overlap
+780,Red-winged Blackbird (Male),119,59,59,rewbla,candidate_nonoverlap
+781,Yellow-headed Blackbird (Adult Male),91,49,49,yehbla,candidate_nonoverlap
+782,Brewer's Blackbird (Female/Juvenile),66,31,31,brebla,candidate_nonoverlap
+783,Brown-headed Cowbird (Male),120,60,60,bnhcow,candidate_nonoverlap
+784,Hooded Oriole (Adult male),93,43,0,hooori,exclude_cub_train_semantic_overlap
+785,Bullock's Oriole (Adult male),98,51,51,bulori,candidate_nonoverlap
+786,Baltimore Oriole (Adult male),109,59,59,balori,candidate_nonoverlap
+787,Pine Grosbeak (Adult Male),57,33,33,pingro,candidate_nonoverlap
+788,Purple Finch (Adult Male),103,52,52,purfin,candidate_nonoverlap
+789,Cassin's Finch (Adult Male),80,38,38,casfin,candidate_nonoverlap
+790,House Finch (Adult Male),120,60,60,houfin,candidate_nonoverlap
+791,Red Crossbill (Adult Male),65,25,25,redcro,candidate_nonoverlap
+792,White-winged Crossbill (Adult Male),53,20,20,whwcro,candidate_nonoverlap
+793,Lesser Goldfinch (Adult Male),119,59,59,lesgol,candidate_nonoverlap
+794,American Goldfinch (Breeding Male),120,60,0,amegfi,exclude_cub_train_semantic_overlap
+795,Evening Grosbeak (Adult Male),107,60,0,evegro,exclude_cub_train_semantic_overlap
+796,House Sparrow (Male),119,59,59,houspa,candidate_nonoverlap
+797,Vermilion Flycatcher (Adult male),113,53,53,verfly,candidate_nonoverlap
+798,Yellow-rumped Warbler (Winter/juvenile Myrtle),113,53,0,yerwar,exclude_cub_train_semantic_overlap
+799,Northwestern Crow,36,19,0,,exclude_unknown_or_ambiguous_species
+800,Fish Crow,61,30,30,fiscro,candidate_nonoverlap
+801,Chihuahuan Raven,49,27,27,chirav,candidate_nonoverlap
+802,Common Raven,116,57,0,comrav,exclude_cub_train_semantic_overlap
+803,Horned Lark,113,60,0,horlar,exclude_cub_train_semantic_overlap
+804,Tree Swallow,116,56,56,treswa,candidate_nonoverlap
+805,Violet-green Swallow,75,37,37,vigswa,candidate_nonoverlap
+806,Northern Rough-winged Swallow,77,42,42,nrwswa,candidate_nonoverlap
+807,Bank Swallow,35,27,27,banswa,candidate_nonoverlap
+808,Cliff Swallow,74,30,0,cliswa,exclude_cub_train_semantic_overlap
+809,Cave Swallow,62,34,34,cavswa,candidate_nonoverlap
+810,Barn Swallow,106,57,0,barswa,exclude_cub_train_semantic_overlap
+811,Carolina Chickadee,118,58,58,carchi,candidate_nonoverlap
+812,Black-capped Chickadee,96,60,60,bkcchi,candidate_nonoverlap
+813,Mountain Chickadee,109,53,53,mouchi,candidate_nonoverlap
+814,Chestnut-backed Chickadee,114,54,54,chbchi,candidate_nonoverlap
+815,Boreal Chickadee,48,42,42,borchi2,candidate_nonoverlap
+816,Bridled Titmouse,59,31,31,britit,candidate_nonoverlap
+817,Oak Titmouse,82,37,37,oaktit,candidate_nonoverlap
+818,Juniper Titmouse,47,25,25,juntit1,candidate_nonoverlap
+819,Tufted Titmouse,120,60,60,tuftit,candidate_nonoverlap
+820,Black-crested Titmouse,70,33,33,blctit4,candidate_nonoverlap
+821,Verdin,83,32,32,verdin,candidate_nonoverlap
+822,Bushtit,120,60,60,bushti,candidate_nonoverlap
+823,Red-breasted Nuthatch,120,60,60,rebnut,candidate_nonoverlap
+824,White-breasted Nuthatch,120,60,60,whbnut,candidate_nonoverlap
+825,Pygmy Nuthatch,80,38,38,pygnut,candidate_nonoverlap
+826,Brown-headed Nuthatch,72,38,38,bnhnut,candidate_nonoverlap
+827,Brown Creeper,117,58,0,brncre,exclude_cub_train_semantic_overlap
+828,Cactus Wren,86,43,0,cacwre,exclude_cub_train_semantic_overlap
+829,Canyon Wren,64,26,26,canwre,candidate_nonoverlap
+830,Carolina Wren,120,60,0,carwre,exclude_cub_train_semantic_overlap
+831,Bewick's Wren,118,58,0,bewwre,exclude_cub_train_semantic_overlap
+832,House Wren,114,54,0,,exclude_unknown_or_ambiguous_species
+833,Pacific Wren,37,21,21,pacwre1,candidate_nonoverlap
+834,Winter Wren,104,54,54,winwre3,candidate_nonoverlap
+835,Marsh Wren,120,60,0,,exclude_unknown_or_ambiguous_species
+836,Blue-gray Gnatcatcher,120,60,60,buggna,candidate_nonoverlap
+837,Black-tailed Gnatcatcher,54,22,22,bktgna,candidate_nonoverlap
+838,American Dipper,82,31,31,amedip,candidate_nonoverlap
+839,Golden-crowned Kinglet,74,51,51,gockin,candidate_nonoverlap
+840,Ruby-crowned Kinglet,120,60,60,ruckin,candidate_nonoverlap
+841,Wrentit,64,37,37,wrenti,candidate_nonoverlap
+842,Eastern Bluebird,120,60,60,easblu,candidate_nonoverlap
+843,Western Bluebird,106,59,59,wesblu,candidate_nonoverlap
+844,Mountain Bluebird,101,49,49,moublu,candidate_nonoverlap
+845,Townsend's Solitaire,89,37,37,towsol,candidate_nonoverlap
+846,Veery,87,41,41,veery,candidate_nonoverlap
+847,Swainson's Thrush,107,58,58,swathr,candidate_nonoverlap
+848,Hermit Thrush,120,60,60,herthr,candidate_nonoverlap
+849,Wood Thrush,93,46,46,woothr,candidate_nonoverlap
+850,Varied Thrush,116,56,56,varthr,candidate_nonoverlap
+851,Gray Catbird,120,60,0,grycat,exclude_cub_train_semantic_overlap
+852,Northern Mockingbird,120,60,60,normoc,candidate_nonoverlap
+853,Brown Thrasher,111,57,0,brnthr,exclude_cub_train_semantic_overlap
+854,Curve-billed Thrasher,78,46,46,cubthr,candidate_nonoverlap
+855,California Thrasher,75,32,32,calthr,candidate_nonoverlap
+856,European Starling (Nonbreeding Adult),120,60,60,eursta,candidate_nonoverlap
+857,American Pipit,118,58,0,amepip,exclude_cub_train_semantic_overlap
+858,Bohemian Waxwing,79,60,0,bohwax,exclude_cub_train_semantic_overlap
+859,Cedar Waxwing,97,54,54,cedwax,candidate_nonoverlap
+860,Ovenbird,103,60,60,ovenbi1,candidate_nonoverlap
+861,Louisiana Waterthrush,86,42,42,louwat,candidate_nonoverlap
+862,Northern Waterthrush,111,56,56,norwat,candidate_nonoverlap
+863,Blue-winged Warbler,74,38,0,buwwar,exclude_cub_train_semantic_overlap
+864,Black-and-white Warbler,120,60,0,bawwar,exclude_cub_train_semantic_overlap
+865,Prothonotary Warbler,103,46,0,prowar,exclude_cub_train_semantic_overlap
+866,Tennessee Warbler,116,60,60,tenwar,candidate_nonoverlap
+867,Orange-crowned Warbler,114,58,0,orcwar,exclude_cub_train_semantic_overlap
+868,Nashville Warbler,119,60,0,naswar,exclude_cub_train_semantic_overlap
+869,MacGillivray's Warbler,66,46,46,macwar,candidate_nonoverlap
+870,Mourning Warbler,77,52,52,mouwar,candidate_nonoverlap
+871,Hooded Warbler,109,49,49,hoowar,candidate_nonoverlap
+872,Cape May Warbler,103,60,0,camwar,exclude_cub_train_semantic_overlap
+873,Northern Parula,120,60,60,norpar,candidate_nonoverlap
+874,Blackburnian Warbler,111,51,51,bkbwar,candidate_nonoverlap
+875,Yellow Warbler,120,60,0,,exclude_unknown_or_ambiguous_species
+876,Palm Warbler,104,44,44,palwar,candidate_nonoverlap
+877,Pine Warbler,108,48,48,pinwar,candidate_nonoverlap
+878,Yellow-throated Warbler,103,60,60,yetwar,candidate_nonoverlap
+879,Prairie Warbler,120,60,0,prawar,exclude_cub_train_semantic_overlap
+880,Black-throated Gray Warbler,75,41,41,btywar,candidate_nonoverlap
+881,Townsend's Warbler,120,60,60,towwar,candidate_nonoverlap
+882,Hermit Warbler,66,37,37,herwar,candidate_nonoverlap
+883,Black-throated Green Warbler,120,60,60,btnwar,candidate_nonoverlap
+884,Canada Warbler,118,60,0,canwar,exclude_cub_train_semantic_overlap
+885,Wilson's Warbler,120,60,0,wlswar,exclude_cub_train_semantic_overlap
+886,Yellow-breasted Chat,115,60,0,yebcha,exclude_cub_train_semantic_overlap
+887,Green-tailed Towhee,62,28,28,gnttow,candidate_nonoverlap
+888,Spotted Towhee,120,60,60,spotow,candidate_nonoverlap
+889,Eastern Towhee,110,54,54,eastow,candidate_nonoverlap
+890,Rufous-crowned Sparrow,80,41,41,rucspa,candidate_nonoverlap
+891,Canyon Towhee,84,46,46,cantow,candidate_nonoverlap
+892,California Towhee,92,44,44,caltow,candidate_nonoverlap
+893,Abert's Towhee,64,29,29,abetow,candidate_nonoverlap
+894,American Tree Sparrow,110,59,59,amtspa,candidate_nonoverlap
+895,Clay-colored Sparrow,109,60,60,clcspa,candidate_nonoverlap
+896,Brewer's Sparrow,78,35,35,brespa,candidate_nonoverlap
+897,Field Sparrow,103,51,0,fiespa,exclude_cub_train_semantic_overlap
+898,Vesper Sparrow,115,60,0,vesspa,exclude_cub_train_semantic_overlap
+899,Lark Sparrow,112,59,59,larspa,candidate_nonoverlap
+900,Savannah Sparrow,120,60,0,savspa,exclude_cub_train_semantic_overlap
+901,Fox Sparrow (Sooty),79,43,43,foxspa,candidate_nonoverlap
+902,Song Sparrow,120,60,0,sonspa,exclude_cub_train_semantic_overlap
+903,Lincoln's Sparrow,116,60,60,linspa,candidate_nonoverlap
+904,Swamp Sparrow,113,60,60,swaspa,candidate_nonoverlap
+905,Dark-eyed Junco (Pink-sided),59,31,31,daejun,candidate_nonoverlap
+906,Summer Tanager (Female),61,33,33,sumtan,candidate_nonoverlap
+907,Pyrrhuloxia,90,48,0,pyrrhu,exclude_cub_train_semantic_overlap
+908,Dickcissel,116,60,60,dickci,candidate_nonoverlap
+909,Eastern Meadowlark,76,40,40,easmea,candidate_nonoverlap
+910,Western Meadowlark,120,60,60,wesmea,candidate_nonoverlap
+911,Rusty Blackbird,90,48,0,rusbla,exclude_cub_train_semantic_overlap
+912,Common Grackle,118,58,58,comgra,candidate_nonoverlap
+913,Boat-tailed Grackle,114,60,60,botgra,candidate_nonoverlap
+914,Great-tailed Grackle,120,60,60,grtgra,candidate_nonoverlap
+915,Bronzed Cowbird,71,32,32,brocow,candidate_nonoverlap
+916,Orchard Oriole (Immature Male),49,25,25,orcori,candidate_nonoverlap
+917,Gray-crowned Rosy-Finch,64,37,0,gcrfin,exclude_cub_train_semantic_overlap
+918,Black Rosy-Finch,59,26,26,bkrfin,candidate_nonoverlap
+919,Brown-capped Rosy-Finch,50,34,34,bcrfin,candidate_nonoverlap
+920,Common Redpoll,75,40,0,,exclude_unknown_or_ambiguous_species
+921,Hoary Redpoll,60,29,0,,exclude_unknown_or_ambiguous_species
+922,Pine Siskin,108,60,60,pinsis,candidate_nonoverlap
+923,Western Wood-Pewee,105,49,0,wewpew,exclude_cub_train_semantic_overlap
+924,Eastern Wood-Pewee,108,49,49,eawpew,candidate_nonoverlap
+925,Least Flycatcher,113,60,0,leafly,exclude_cub_train_semantic_overlap
+926,Pacific-slope Flycatcher,119,59,0,,exclude_unknown_or_ambiguous_species
+927,Cordilleran Flycatcher,70,31,0,,exclude_unknown_or_ambiguous_species
+928,Black Phoebe,120,60,0,blkpho,exclude_cub_train_semantic_overlap
+929,Eastern Phoebe,120,60,0,easpho,exclude_cub_train_semantic_overlap
+930,Say's Phoebe,118,58,0,saypho,exclude_cub_train_semantic_overlap
+931,Ash-throated Flycatcher,82,41,41,astfly,candidate_nonoverlap
+932,Great Crested Flycatcher,113,53,0,grcfly,exclude_cub_train_semantic_overlap
+933,Cassin's Kingbird,80,35,35,caskin,candidate_nonoverlap
+934,Western Kingbird,109,52,52,weskin,candidate_nonoverlap
+935,Eastern Kingbird,120,60,60,easkin,candidate_nonoverlap
+936,Scissor-tailed Flycatcher,77,37,37,sctfly,candidate_nonoverlap
+937,Loggerhead Shrike,120,60,0,logshr,exclude_cub_train_semantic_overlap
+938,Northern Shrike,120,60,0,norshr4,exclude_cub_train_semantic_overlap
+939,White-eyed Vireo,94,57,0,whevir,exclude_cub_train_semantic_overlap
+940,Bell's Vireo,57,29,29,belvir,candidate_nonoverlap
+941,Yellow-throated Vireo,69,38,0,yetvir,exclude_cub_train_semantic_overlap
+942,Plumbeous Vireo,75,41,41,plsvir,candidate_nonoverlap
+943,Cassin's Vireo,73,36,36,casvir,candidate_nonoverlap
+944,Blue-headed Vireo,100,52,52,buhvir,candidate_nonoverlap
+945,Hutton's Vireo,85,39,39,hutvir,candidate_nonoverlap
+946,Warbling Vireo,112,60,0,,exclude_unknown_or_ambiguous_species
+947,Red-eyed Vireo,120,60,0,reevir1,exclude_cub_train_semantic_overlap
+948,Gray Jay,96,54,0,,exclude_unknown_or_ambiguous_species
+949,Steller's Jay,120,60,60,stejay,candidate_nonoverlap
+950,Blue Jay,120,60,0,blujay,exclude_cub_train_semantic_overlap
+951,Florida Scrub-Jay,55,26,0,flsjay,exclude_cub_train_semantic_overlap
+952,Western Scrub-Jay,120,60,0,,exclude_unknown_or_ambiguous_species
+953,Mexican Jay,61,26,26,mexjay4,candidate_nonoverlap
+954,Clark's Nutcracker,89,46,46,clanut,candidate_nonoverlap
+955,Black-billed Magpie,98,38,38,bkbmag1,candidate_nonoverlap
+956,Yellow-billed Magpie,59,27,27,yebmag,candidate_nonoverlap
+957,American Crow,117,57,57,amecro,candidate_nonoverlap
+958,Yellow-rumped Warbler (Breeding Audubon's),118,58,0,yerwar,exclude_cub_train_semantic_overlap
+959,Purple Martin (Female/juvenile),67,36,36,purmar,candidate_nonoverlap
+960,American Robin (Juvenile),115,60,60,amerob,candidate_nonoverlap
+961,Phainopepla (Male),71,35,35,phaino,candidate_nonoverlap
+962,Snow Bunting (Nonbreeding),104,52,52,snobun,candidate_nonoverlap
+963,Common Yellowthroat (Female/immature male),116,60,60,comyel,candidate_nonoverlap
+964,American Redstart (Female/juvenile),119,59,59,amered,candidate_nonoverlap
+965,Magnolia Warbler (Female/immature male),105,45,45,magwar,candidate_nonoverlap
+966,"Bay-breasted Warbler (Female, Nonbreeding male, Immature)",60,29,29,babwar,candidate_nonoverlap
+967,Chestnut-sided Warbler (Female/immature male),78,35,35,chswar,candidate_nonoverlap
+968,Blackpoll Warbler (Female/juvenile),112,60,60,bkpwar,candidate_nonoverlap
+969,Black-throated Blue Warbler (Female/Immature male),72,32,0,btbwar,exclude_cub_train_semantic_overlap
+970,Lark Bunting (Female/Nonbreeding male),67,32,32,larbun,candidate_nonoverlap
+971,White-throated Sparrow (Tan-striped/immature),83,45,45,whtspa,candidate_nonoverlap
+972,Harris's Sparrow (Immature),67,34,0,harspa,exclude_cub_train_semantic_overlap
+973,White-crowned Sparrow (Immature),119,60,60,whcspa,candidate_nonoverlap
+974,Golden-crowned Sparrow (Immature),113,60,60,gocspa,candidate_nonoverlap
+975,Dark-eyed Junco (White-winged),13,9,9,daejun,candidate_nonoverlap
+976,Chipping Sparrow (Immature/nonbreeding adult),98,46,0,chispa,exclude_cub_train_semantic_overlap
+977,Scarlet Tanager (Female/Nonbreeding Male),66,28,28,scatan,candidate_nonoverlap
+978,Western Tanager (Female/Nonbreeding Male),65,33,33,westan,candidate_nonoverlap
+979,Northern Cardinal (Female/Juvenile),120,60,0,norcar,exclude_cub_train_semantic_overlap
+980,Rose-breasted Grosbeak (Female/immature male),101,48,48,robgro,candidate_nonoverlap
+981,Black-headed Grosbeak (Female/immature male),89,48,48,bkhgro,candidate_nonoverlap
+982,Blue Grosbeak (Female/juvenile),81,42,42,blugrb1,candidate_nonoverlap
+983,Lazuli Bunting (Female/juvenile),44,22,0,lazbun,exclude_cub_train_semantic_overlap
+984,Indigo Bunting (Female/juvenile),88,39,0,indbun,exclude_cub_train_semantic_overlap
+985,Painted Bunting (Female/juvenile),87,39,0,paibun,exclude_cub_train_semantic_overlap
+986,Bobolink (Female/juvenile/nonbreeding male),69,33,0,boboli,exclude_cub_train_semantic_overlap
+987,Red-winged Blackbird (Female/juvenile),120,60,60,rewbla,candidate_nonoverlap
+988,Yellow-headed Blackbird (Female/Immature Male),72,34,34,yehbla,candidate_nonoverlap
+989,Brewer's Blackbird (Male),120,60,60,brebla,candidate_nonoverlap
+990,Brown-headed Cowbird (Female/Juvenile),103,49,49,bnhcow,candidate_nonoverlap
+991,Hooded Oriole (Female/Immature male),69,35,0,hooori,exclude_cub_train_semantic_overlap
+992,Bullock's Oriole (Female/Immature male),64,36,36,bulori,candidate_nonoverlap
+993,Baltimore Oriole (Female/Immature male),98,48,48,balori,candidate_nonoverlap
+994,Pine Grosbeak (Female/juvenile),76,41,41,pingro,candidate_nonoverlap
+995,Purple Finch (Female/immature),91,45,45,purfin,candidate_nonoverlap
+996,Cassin's Finch (Female/immature),55,24,24,casfin,candidate_nonoverlap
+997,House Finch (Female/immature),112,52,52,houfin,candidate_nonoverlap
+998,Red Crossbill (Female/juvenile),67,34,34,redcro,candidate_nonoverlap
+999,White-winged Crossbill (Female/juvenile),58,32,32,whwcro,candidate_nonoverlap
+1000,Lesser Goldfinch (Female/juvenile),73,36,36,lesgol,candidate_nonoverlap
+1001,American Goldfinch (Female/Nonbreeding Male),120,60,0,amegfi,exclude_cub_train_semantic_overlap
+1002,Evening Grosbeak (Female/Juvenile),93,60,0,evegro,exclude_cub_train_semantic_overlap
+1003,House Sparrow (Female/Juvenile),117,57,57,houspa,candidate_nonoverlap
+1004,"Vermilion Flycatcher (Female, immature)",76,36,36,verfly,candidate_nonoverlap
+1005,European Starling (Juvenile),72,35,35,eursta,candidate_nonoverlap
+1006,Fox Sparrow (Thick-billed/Slate-colored),25,16,16,foxspa,candidate_nonoverlap
+1007,Summer Tanager (Immature Male),37,17,17,sumtan,candidate_nonoverlap
+1008,Orchard Oriole (Female/Juvenile),55,26,26,orcori,candidate_nonoverlap
+1009,Yellow-rumped Warbler (Winter/juvenile Audubon's),88,44,0,yerwar,exclude_cub_train_semantic_overlap
+1010,Dark-eyed Junco (Red-backed/Gray-headed),72,43,43,daejun,candidate_nonoverlap

@@ -1,0 +1,206 @@
+{
+  "k_shot": 1,
+  "n_way": 5,
+  "n_query": 5,
+  "classes": [
+    "153.Philadelphia_Vireo",
+    "032.Mangrove_Cuckoo",
+    "010.Red_winged_Blackbird",
+    "184.Louisiana_Waterthrush",
+    "078.Gray_Kingbird"
+  ],
+  "plan_sha256": "2d0e1023909a1cffe7a3a80afdde1d6dceb8fa7ebf480a2e3dd994020a6c0694",
+  "images": {
+    "shape": [
+      30,
+      3,
+      224,
+      224
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": -2.1179039478302,
+    "maximum": 2.640000104904175,
+    "mean": 0.15920265018939972,
+    "std": 1.1029610633850098,
+    "mean_l2_norm": 421.6424255371094
+  },
+  "support": {
+    "shape": [
+      5,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.0,
+    "maximum": 4.853921413421631,
+    "mean": 0.7229080200195312,
+    "std": 0.7015793323516846,
+    "mean_l2_norm": 22.688329696655273
+  },
+  "query": {
+    "shape": [
+      25,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.0,
+    "maximum": 4.946315765380859,
+    "mean": 0.767270028591156,
+    "std": 0.7029572129249573,
+    "mean_l2_norm": 23.453449249267578
+  },
+  "prototypes": {
+    "shape": [
+      5,
+      512
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.0,
+    "maximum": 4.853921413421631,
+    "mean": 0.7229080200195312,
+    "std": 0.7015793323516846,
+    "mean_l2_norm": 22.688329696655273
+  },
+  "logits": {
+    "shape": [
+      25,
+      5
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": -1.7150278091430664,
+    "maximum": -0.24833758175373077,
+    "mean": -0.9212987422943115,
+    "std": 0.29354310035705566,
+    "mean_l2_norm": 2.140843629837036
+  },
+  "squared_distance": {
+    "shape": [
+      25,
+      5
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 127.14884185791016,
+    "maximum": 878.09423828125,
+    "mean": 471.7049560546875,
+    "std": 150.2940673828125,
+    "mean_l2_norm": 1096.1119384765625
+  },
+  "probabilities": {
+    "shape": [
+      25,
+      5
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "minimum": 0.10096736997365952,
+    "maximum": 0.37348422408103943,
+    "mean": 0.20000000298023224,
+    "std": 0.0535537451505661,
+    "mean_l2_norm": 0.46284958720207214
+  },
+  "original_dataset_labels": [
+    40,
+    7,
+    1,
+    47,
+    17,
+    40,
+    40,
+    40,
+    40,
+    40,
+    7,
+    7,
+    7,
+    7,
+    7,
+    1,
+    1,
+    1,
+    1,
+    1,
+    47,
+    47,
+    47,
+    47,
+    47,
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "episode_query_labels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "accuracy": 0.8399999737739563,
+  "loss": 1.3064721822738647,
+  "independent_reference_loss": 1.3064721822738647,
+  "unscaled_negative_distance_loss": 18.40526580810547,
+  "repeats": [
+    {
+      "repetition": 1,
+      "indices_equal": true,
+      "inputs_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "predictions_equal": true,
+      "max_logit_abs_diff": 0.0
+    },
+    {
+      "repetition": 2,
+      "indices_equal": true,
+      "inputs_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "predictions_equal": true,
+      "max_logit_abs_diff": 0.0
+    },
+    {
+      "repetition": 3,
+      "indices_equal": true,
+      "inputs_bitwise_equal": true,
+      "logits_bitwise_equal": true,
+      "predictions_equal": true,
+      "max_logit_abs_diff": 0.0
+    }
+  ],
+  "engine_loss": 1.3064722196704854,
+  "separate_encoding_max_abs_diff": 0.0,
+  "checks": {
+    "support_query_ids_paths_and_bytes_disjoint": true,
+    "counts_and_local_labels": true,
+    "means_distances_logits_softmax_ce": true,
+    "one_shared_frozen_encoder": true,
+    "backbone_parameters_and_bn_buffers_unchanged": true,
+    "engine_agrees": true,
+    "repeated_sampling_transform_and_predictions_identical": true
+  }
+}

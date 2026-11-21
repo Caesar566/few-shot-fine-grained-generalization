@@ -1,0 +1,132 @@
+Validated all 2947 actual Val image hashes, 50 unseen classes
+Verified Train covariance source: 5890 images, 100 classes; original Val caches will be reused exactly
+imagenet: loading exact Val features and extracting Train features for covariance
+Encoding frozen backbone: 640/5890 images
+Encoding frozen backbone: 1280/5890 images
+Encoding frozen backbone: 1920/5890 images
+Encoding frozen backbone: 2560/5890 images
+Encoding frozen backbone: 3200/5890 images
+Encoding frozen backbone: 3840/5890 images
+Encoding frozen backbone: 4480/5890 images
+Encoding frozen backbone: 5120/5890 images
+Encoding frozen backbone: 5760/5890 images
+Encoding frozen backbone: 5890/5890 images
+Scoring imagenet / cosine / 1-shot: same saved raw features and plans
+1-shot scored 100/600 episodes
+1-shot scored 200/600 episodes
+1-shot scored 300/600 episodes
+1-shot scored 400/600 episodes
+1-shot scored 500/600 episodes
+1-shot scored 600/600 episodes
+imagenet cosine 1-shot: 85.7467% +/- 0.7847 pp (95% CI)
+Scoring imagenet / cosine / 5-shot: same saved raw features and plans
+5-shot scored 100/600 episodes
+5-shot scored 200/600 episodes
+5-shot scored 300/600 episodes
+5-shot scored 400/600 episodes
+5-shot scored 500/600 episodes
+5-shot scored 600/600 episodes
+imagenet cosine 5-shot: 94.6800% +/- 0.4280 pp (95% CI)
+Scoring imagenet / mahalanobis / 1-shot: same saved raw features and plans
+1-shot scored 100/600 episodes
+1-shot scored 200/600 episodes
+1-shot scored 300/600 episodes
+1-shot scored 400/600 episodes
+1-shot scored 500/600 episodes
+1-shot scored 600/600 episodes
+imagenet mahalanobis 1-shot: 79.2333% +/- 0.9339 pp (95% CI)
+Scoring imagenet / mahalanobis / 5-shot: same saved raw features and plans
+5-shot scored 100/600 episodes
+5-shot scored 200/600 episodes
+5-shot scored 300/600 episodes
+5-shot scored 400/600 episodes
+5-shot scored 500/600 episodes
+5-shot scored 600/600 episodes
+imagenet mahalanobis 5-shot: 94.4200% +/- 0.4345 pp (95% CI)
+random: loading exact Val features and extracting Train features for covariance
+Encoding frozen backbone: 640/5890 images
+Encoding frozen backbone: 1280/5890 images
+Encoding frozen backbone: 1920/5890 images
+Encoding frozen backbone: 2560/5890 images
+Encoding frozen backbone: 3200/5890 images
+Encoding frozen backbone: 3840/5890 images
+Encoding frozen backbone: 4480/5890 images
+Encoding frozen backbone: 5120/5890 images
+Encoding frozen backbone: 5760/5890 images
+Encoding frozen backbone: 5890/5890 images
+Scoring random / cosine / 1-shot: same saved raw features and plans
+1-shot scored 100/600 episodes
+1-shot scored 200/600 episodes
+1-shot scored 300/600 episodes
+1-shot scored 400/600 episodes
+1-shot scored 500/600 episodes
+1-shot scored 600/600 episodes
+random cosine 1-shot: 62.4867% +/- 1.0967 pp (95% CI)
+Scoring random / cosine / 5-shot: same saved raw features and plans
+5-shot scored 100/600 episodes
+5-shot scored 200/600 episodes
+5-shot scored 300/600 episodes
+5-shot scored 400/600 episodes
+5-shot scored 500/600 episodes
+5-shot scored 600/600 episodes
+random cosine 5-shot: 77.3600% +/- 0.9220 pp (95% CI)
+Scoring random / mahalanobis / 1-shot: same saved raw features and plans
+1-shot scored 100/600 episodes
+1-shot scored 200/600 episodes
+1-shot scored 300/600 episodes
+1-shot scored 400/600 episodes
+1-shot scored 500/600 episodes
+1-shot scored 600/600 episodes
+random mahalanobis 1-shot: 59.3200% +/- 1.0664 pp (95% CI)
+Scoring random / mahalanobis / 5-shot: same saved raw features and plans
+5-shot scored 100/600 episodes
+5-shot scored 200/600 episodes
+5-shot scored 300/600 episodes
+5-shot scored 400/600 episodes
+5-shot scored 500/600 episodes
+5-shot scored 600/600 episodes
+random mahalanobis 5-shot: 76.3000% +/- 0.9308 pp (95% CI)
+simclr: loading exact Val features and extracting Train features for covariance
+Encoding frozen backbone: 640/5890 images
+Encoding frozen backbone: 1280/5890 images
+Encoding frozen backbone: 1920/5890 images
+Encoding frozen backbone: 2560/5890 images
+Encoding frozen backbone: 3200/5890 images
+Encoding frozen backbone: 3840/5890 images
+Encoding frozen backbone: 4480/5890 images
+Encoding frozen backbone: 5120/5890 images
+Encoding frozen backbone: 5760/5890 images
+Encoding frozen backbone: 5890/5890 images
+Scoring simclr / cosine / 1-shot: same saved raw features and plans
+1-shot scored 100/600 episodes
+1-shot scored 200/600 episodes
+1-shot scored 300/600 episodes
+1-shot scored 400/600 episodes
+1-shot scored 500/600 episodes
+1-shot scored 600/600 episodes
+simclr cosine 1-shot: 71.9133% +/- 1.0390 pp (95% CI)
+Scoring simclr / cosine / 5-shot: same saved raw features and plans
+5-shot scored 100/600 episodes
+5-shot scored 200/600 episodes
+5-shot scored 300/600 episodes
+5-shot scored 400/600 episodes
+5-shot scored 500/600 episodes
+5-shot scored 600/600 episodes
+simclr cosine 5-shot: 86.2333% +/- 0.7230 pp (95% CI)
+Scoring simclr / mahalanobis / 1-shot: same saved raw features and plans
+1-shot scored 100/600 episodes
+1-shot scored 200/600 episodes
+1-shot scored 300/600 episodes
+1-shot scored 400/600 episodes
+1-shot scored 500/600 episodes
+1-shot scored 600/600 episodes
+simclr mahalanobis 1-shot: 69.4200% +/- 1.0082 pp (95% CI)
+Scoring simclr / mahalanobis / 5-shot: same saved raw features and plans
+5-shot scored 100/600 episodes
+5-shot scored 200/600 episodes
+5-shot scored 300/600 episodes
+5-shot scored 400/600 episodes
+5-shot scored 500/600 episodes
+5-shot scored 600/600 episodes
+simclr mahalanobis 5-shot: 85.8133% +/- 0.7306 pp (95% CI)
+PASS. 7200 new episodes, 3600 reused; report: /home/caesar/Projects/few-shot-fine-grained-generalization/outputs/stage05_protonet/distance_comparison_seed42_600/report.md

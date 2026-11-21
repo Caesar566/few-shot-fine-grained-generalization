@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "finalization_seconds": 16.80202717800057,
+  "evaluation_seconds": 116.76645345199904,
+  "main_process_device": "NVIDIA GeForce MX450",
+  "verification_device": "cuda"
+}
